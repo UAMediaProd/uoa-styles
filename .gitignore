@@ -1,4 +1,4 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Ignore installed npm modules
+node_modules/
+
+package-lock.json
