@@ -1,0 +1,35 @@
+.adx-markup {
+  &-caps {
+    text-transform: uppercase;
+  }
+  
+  &-highlight {
+    background: $ui-warning;
+    padding: 0 $xxs; 
+  }
+  
+  &-small {
+    font-size: $s;
+  }
+  
+  &-label {
+    font-size: $xs;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    width: calc(100%+10vw);
+    margin: $xl 0 $s -3vw;
+    padding: $xs;
+    color: $ui-neutral-darkest;
+    background: $ui-neutral-lighter;
+    border: 1px solid $ui-neutral-light;
+  }
+  
+  &-header {
+    width: 100%;
+    background: $brand-darkblue;
+    color: $ui-rev;
+    margin: -2vh 0 $m -5vw;
+    padding: $l 5vw;
+  }
+}

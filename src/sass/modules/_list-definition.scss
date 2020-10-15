@@ -1,0 +1,21 @@
+dl {
+  margin: $s $m;
+  font-size: $m;
+}
+
+dt {
+  font-size: $l;
+  font-weight: 300; 
+  margin: $xl 0 0 0;
+  padding: 0 $xxs;
+  color: $accent;
+  border-bottom: 2px solid $accent-lightest;
+}
+
+dd {
+  background: $accent-tint;
+  padding: $s $s;
+  border-bottom: 2px solid $accent-lightest;
+  border-right: 2px solid $accent-lightest;
+  border-radius: 0 0 4px 4px;
+}

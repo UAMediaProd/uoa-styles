@@ -1,0 +1,14 @@
+ul.icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      padding: $xs;
+    }
+    
+    li::marker {
+      content: "✅"
+  }
+}
+      

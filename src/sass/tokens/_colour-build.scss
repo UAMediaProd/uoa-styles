@@ -1,0 +1,45 @@
+$brand-colors: (
+  brand-darkblue: $brand-darkblue,
+  brand-midblue: $brand-midblue,
+  brand-lightblue: $brand-lightblue, 
+  brand-gold: $brand-gold,
+  brand-red: $brand-red,
+);
+
+@each $color, $value in $brand-colors {
+  .#{$color}-lightest {color: mix(white, $value, 90%) !important;}
+  .#{$color}-lighter {color: lighten($value, 35%) !important;}
+  .#{$color}-light {color: lighten($value, 25%) !important;}
+  .#{$color} {color: $value !important;}
+  .#{$color}-dark {color: mix(black, $value, 30%) !important;}
+  .#{$color}-darker {color: mix(black, $value, 40%) !important;}
+  .#{$color}-tint {color: mix(white, $value, 92%) !important;}
+}
+
+@each $color, $value in $brand-colors {
+  .bg-#{$color}-tint {background: mix(white, $value, 80%) !important; color: $ui-blk;}
+  .bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; color: $ui-blk;}
+  .bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; color: $ui-blk;}
+  .bg-#{$color}-light {background: mix(white, $value, 20%) !important;}
+  .bg-#{$color} {background: $value !important;}
+  .bg-#{$color}-dark {background: mix(black, $value, 20%) !important;}
+  .bg-#{$color}-darker {background: mix(black, $value, 40%) !important;}
+}
+
+$program-colors: (
+  primary: $primary,
+  accent: $accent,
+  complimentary: $complimentary,
+  neutral: $ui-neutral,
+);
+
+@each $color, $value in $program-colors {
+  .bg-#{$color}-tint {background: mix(white, $value, 80%) !important; color: $ui-blk;}
+  .bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; color: $ui-blk;}
+  .bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; color: $ui-blk;}
+  .bg-#{$color}-light {background: mix(white, $value, 20%) !important; color: $ui-blk;}
+  .bg-#{$color} {background: $value !important;}
+  .bg-#{$color}-dark {background: mix(black, $value, 20%) !important;}
+  .bg-#{$color}-darker {background: mix(black, $value, 40%) !important;}
+  .stroke-#{$color} {stroke: $value !important;}
+}

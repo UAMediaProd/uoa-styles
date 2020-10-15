@@ -1,0 +1,17 @@
+$font-text: 'Open Sans', 'Arial', sans-serif;
+$font-heading:  'Arial Black', 'Open Sans', 'Arial', sans-serif;
+$font-alternative: 'Book Antiqua Regular', 'Georgia', 'Times New Roman', serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+}
+
+// SCALE
+
+p {font-size: $m; line-height: 1.5; margin: $m 0; font-family: $font-text;}
+h6 {font-size: $s; line-height: 1.4; margin: $m 0 $xs;}
+h5 {font-size: $m;line-height: 1.3; margin: $m 0 $xs;}
+h4 {font-size: $l; line-height: 1.2; margin: $m 0 $xs; font-family: $font-text;}
+h3 {font-size: $xl; line-height: 1.05; margin: $m 0 $xs;}
+h2 {font-size: $xxl; line-height: 1.05; margin: $m 0 $xs;}
+h1 {font-size: $xxxl; line-height: 1.05; margin: $m 0 $xs;}

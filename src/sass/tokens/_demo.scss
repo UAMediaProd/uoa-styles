@@ -1,0 +1,35 @@
+.adx-show{
+  
+  &-xxs {width: $xxs; height: $xxs; background: $brand-red; margin: $s;}
+  &-xs {width: $xs; height: $xs; background: $brand-red; margin: $s;}
+  &-s {width: $s; height: $s; background: $brand-red; margin: $s;}
+  &-m {width: $m; height: $m; background: $brand-red; margin: $s;}
+  &-l {width: $l; height: $l; background: $brand-red; margin: $s;}
+  &-xl {width: $xl; height: $xl; background: $brand-red; margin: $s;}
+  &-xxl{width: $xxl; height: $xxl; background: $brand-red; margin: $s;}
+  &-xxxl{width: $xxxl; height: $xxxl; background: $brand-red; margin: $s;}
+  
+  &-xxs:hover, &-xs:hover, &-s:hover, &-m:hover, &-l:hover, &-xl:hover, &-xxl:hover, &-xxxl:hover {
+    background: $brand-midblue;
+    transition: all .5s;
+  }
+}
+
+.colour-samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.colour-items {
+  display: flex;
+  flex-direction: column;
+  color: $ui-rev;
+}
+
+.colour-block {
+  min-width: 20ch;
+  height: $l;
+  padding: $m;
+}

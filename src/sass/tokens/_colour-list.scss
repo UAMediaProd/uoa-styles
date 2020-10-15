@@ -1,0 +1,64 @@
+// BRAND
+$brand-darkblue: #102535;
+$brand-midblue: #005a9c;
+$brand-lightblue: #b8dceb;
+$brand-gold: #b38808;
+$brand-red: #d40000;
+
+$brand-colors: (
+  darkblue: $brand-darkblue,
+  midblue: $brand-midblue,
+  lightblue: $brand-lightblue,
+  gold: $brand-gold,
+  red: $brand-red,
+);
+
+// UI
+$ui-rev: #fff;
+$ui-blk: #000;
+$ui-positive: green;
+$ui-negative: red;
+$ui-warning: yellow;
+$ui-information: blue;
+$ui-neutral: #B9C0C6;
+$ui-neutral-lightest: mix(white, $ui-neutral, 85%);
+$ui-neutral-lighter: mix(white, $ui-neutral, 75%);
+$ui-neutral-light:  mix(white, $ui-neutral, 40%);
+$ui-neutral-dark:  mix(black, $ui-neutral, 10%);
+$ui-neutral-darker: mix(black, $ui-neutral, 20%);
+$ui-neutral-darkest: mix(black, $ui-neutral, 30%);
+
+// PROGRAM STYLE
+
+$primary: #454E9E;
+$accent: #0C7C59 ;
+$complimentary: #F0A202;
+
+$primary-tint: mix(white, $primary, 80%);
+$primary-lightest: mix(white, $primary, 60%);
+$primary-lighter: mix(white, $primary, 40%);
+$primary-light:  mix(white, $primary, 20%);
+$primary-dark:  mix(black, $primary, 20%);
+$primary-darker:  mix(black, $primary, 40%);
+$primary-tint:  mix(white, $primary, 95%);
+$primary-trans-50: transparentize($primary, .5);
+$primary-trans-70: transparentize($primary, .7);
+$primary-trans-80: transparentize($primary, .8);
+
+$accent-tint: mix(white, $accent, 80%);
+$accent-lightest: mix(white, $accent, 60%);
+$accent-lighter: lighten($accent, 15%);
+$accent-light:  lighten($accent, 10%);
+$accent-dark:  mix(black, $accent, 25%);
+$accent-darker:  mix(black, $accent, 35%);
+$accent-tint:  mix(white, $accent, 95%);
+$accent-trans-50: transparentize($accent, .5);
+$accent-trans-70: transparentize($accent, .7);
+$accent-trans-80: transparentize($accent, .8);
+
+
+// VISUALISATION
+
+// Categories - about 8-10 unique colours
+// Sequential - Hot-Cold, Positive-Negative, Heatmap
+// Diverging - 

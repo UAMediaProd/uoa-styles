@@ -1,0 +1,32 @@
+ol.fancy-ol {
+  background: $primary-tint;
+  padding: 1em 2em !important;
+  border-radius: $xxs;
+  font-size: $m;
+
+  &.inside {
+    background: none !important;
+  }
+
+  & li {
+    padding: .5em 0;
+    border-bottom: 1px solid $ui-neutral;
+    margin: $s 0;
+    margin-left: $m !important;
+
+  &:last-child {
+      border-bottom: none;
+  }
+
+  &::marker {
+  font-size: $l;
+  color: $accent-darker !important;
+  font-weight: bold;
+  padding: $m;
+
+  p {
+    margin-left: $m;
+  }
+}
+}
+}

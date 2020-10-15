@@ -1,0 +1,24 @@
+.adx-cue {
+  background: mix(white, $ui-neutral, 90%);
+  border: 1px solid $ui-neutral;
+  border-radius: $xxs;
+  padding: $m $xl;
+  max-width: 75ch;
+  margin: $m;
+  
+  @each $color, $value in $brand-colors{
+        &.adx-#{$color} {
+          background: mix(white, $value, 90%); 
+          border: 1px solid $value;
+          border-top: $m solid $value;
+        }
+  }
+  
+  @each $color, $value in $program-colors{
+        &.adx-#{$color} {
+          background: mix(white, $value, 90%); 
+          border: 0;
+          border-left: $m solid $value;
+        }
+  }
+}

@@ -1,0 +1,23 @@
+ul.block-list {
+  list-style-type: none !important;
+  margin: 1em 0;
+  background: $primary-tint;
+  padding: 1em;
+  border: 1px solid $ui-neutral;
+  border-radius: $xxs;
+  font-size: $m;
+
+  & li {
+  padding: 1em;
+  border-bottom: 1px solid $ui-neutral;
+  counter-increment: step-counter;
+  margin-left: 1em;
+  line-height: 1.4;
+
+  p {padding: .1em 0;}
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+}
