@@ -1069,12 +1069,6 @@ hr.adx-gradient-accent {
   height: 3px;
   background-image: linear-gradient(to right, #fff, #F0A202, #0C7C59, #F0A202, #fff);
 }
-hr.adx-vertical-accent {
-  height: 0.64rem;
-  background-image: linear-gradient(90deg, #0C7C59, #0C7C59 33.33%, transparent 33.33%, transparent 100%);
-  background-size: 3px 100%;
-  width: 40%;
-}
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;
