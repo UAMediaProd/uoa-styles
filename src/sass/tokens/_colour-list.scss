@@ -21,6 +21,7 @@ $ui-negative: red;
 $ui-warning: yellow;
 $ui-information: blue;
 $ui-neutral: #B9C0C6;
+$ui-neutral-tint: mix(white, $ui-neutral, 92%);
 $ui-neutral-lightest: mix(white, $ui-neutral, 85%);
 $ui-neutral-lighter: mix(white, $ui-neutral, 75%);
 $ui-neutral-light:  mix(white, $ui-neutral, 40%);
@@ -55,6 +56,17 @@ $accent-tint:  mix(white, $accent, 95%);
 $accent-trans-50: transparentize($accent, .5);
 $accent-trans-70: transparentize($accent, .7);
 $accent-trans-80: transparentize($accent, .8);
+
+$complimentary-tint: mix(white, $complimentary, 80%);
+$complimentary-lightest: mix(white, $complimentary, 60%);
+$complimentary-lighter: lighten($complimentary, 15%);
+$complimentary-light:  lighten($complimentary, 10%);
+$complimentary-dark:  mix(black, $complimentary, 25%);
+$complimentary-darker:  mix(black, $complimentary, 35%);
+$complimentary-tint:  mix(white, $complimentary, 95%);
+$complimentary-trans-50: transparentize($complimentary, .5);
+$complimentary-trans-70: transparentize($complimentary, .7);
+$complimentary-trans-80: transparentize($complimentary, .8);
 
 
 // VISUALISATION

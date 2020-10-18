@@ -1,0 +1,48 @@
+aside {
+  font-size: $m;
+  float: right;
+  margin: $xs $m 0;
+  padding: 0;
+  background: $ui-neutral-tint;
+  border-radius: $xxs;
+  display: flex;
+  flex-flow: column;
+  max-width: 40ch;
+  
+  &.keypoints {
+    background: $accent-tint;
+    
+    & header {
+      background: $accent-darker;
+      margin: 0 0 $s 0;
+      padding: 0 $xs;
+      border-radius: $xxs $xxs 0 0;
+      text-align: center;
+    }
+    h3 {
+      padding: 0 $xs;
+      font-size: $m;
+      width: 100%;
+      text-transform: uppercase;
+      color: $ui-rev;
+    }
+    
+    p {
+      padding: 0 $xs;
+      margin: $xs 0;
+    }
+    
+   ul {
+       margin: 0;
+     
+    li {
+     list-style-type: '\2605';
+     padding-inline-start: 1ch;
+     margin: $xs;
+     }
+     li::marker {
+        color: $accent;
+    }
+    } 
+  }
+}
