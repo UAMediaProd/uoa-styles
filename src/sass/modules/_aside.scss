@@ -7,7 +7,8 @@ aside {
   border-radius: $xxs;
   display: flex;
   flex-flow: column;
-  max-width: 40ch;
+  max-width: 40%;
+  min-width: 25ch;
   
   &.keypoints {
     background: $accent-tint;
@@ -34,15 +35,21 @@ aside {
     
    ul {
        margin: 0;
+       padding: $xs;
+       
+    &:last-child {
+      padding-bottom: $s;
+    }
      
     li {
      list-style-type: '\2605';
      padding-inline-start: 1ch;
      margin: $xs;
-     }
-     li::marker {
+     
+     &::marker {
         color: $accent;
     }
-    } 
   }
+  }
+}
 }

@@ -61,8 +61,16 @@ palette:
 
 <h4 class="adx-markup-caps adx-primary">Caps + Primary Colour</h4>
 <h4 class="adx-markup-guide">Guide Heading</h4>
-<h3 class="adx-markup-section adx-complimentary">Heading Section</h3>
+<h6 class="adx-markup-guide">Guide Heading</h6>
+<h2 class="adx-markup-guide">Guide Heading</h2>
+
+<h1 class="adx-markup-section adx-complimentary">Heading Section</h1>
 <h2 class="adx-markup-section-caps adx-brand-midblue">Caps Section</h2>
+<h6 class="adx-markup-section-caps adx-accent">Heading Section</h6>
+<h1 class="adx-markup-guide adx-markup-section-caps adx-primary">Guide Section</h1>
+
+<h4 class="adx-markup-block-complimentary">Guide Heading</h4>
+
 
 <h4 class="adx-markup-label">Paragraph</h4>
 
@@ -242,7 +250,7 @@ Hi there <span class="adx-markup-highlight">whats happening</span> hope things a
   <p class="adx-button">Click Me</p>
 </div>
 
-<p>Button groups can be made from lists: </p>
+<p>Button groups can be made from an <code>ul</code> and <code>li</code> elements,</p>
 
 <ul class="adx-button-group">
   <li class="adx-button-brand-midblue">Click Me</li>
@@ -250,12 +258,20 @@ Hi there <span class="adx-markup-highlight">whats happening</span> hope things a
   <li class="adx-button-brand-midblue">Click Me</li>
 </ul>
 
-<p>Or from divs and p tags</p>
+<p>Or from <code>divs</code> and <code>p</code> tags,</p>
 
 <div class="adx-button-group">
-  <p class="adx-button-brand-midblue">Click Me</p>
-  <p class="adx-button-brand-midblue">Click Me</p>
-  <p class="adx-button-brand-midblue">Click Me</p>
+  <button class="adx-button-accent">Click Me</button>
+  <button disabled class="adx-button-complimentary">Click Me</button>
+  <button class="adx-button-primary">Click Me</button>
+</div>
+
+<p>And you can arrange them in a stack using <code>.adx-button-stack</code>.</p>
+
+<div class="adx-button-stack">
+  <p class="adx-button-brand-red">Click Me</p>
+  <p class="adx-button-brand-red">Click Me</p>
+  <p class="adx-button-brand-red">Click Me</p>
 </div>
 
 <h4 class="adx-markup-label">Horizonal Rule</h4>

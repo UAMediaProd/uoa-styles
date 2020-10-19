@@ -31,6 +31,8 @@
     background: $ui-neutral-lighter;
     border: 1px solid $ui-neutral-light;
     clear: both;
+    font-family: $font-text;
+    font-weight: bold;
   }
   
   &-header {
@@ -53,14 +55,31 @@
   &-guide {
     font-family: $font-text;
     text-transform: uppercase;
-    font-size: $s;
     letter-spacing: .2rem;
     padding-left: $s;
   }  
+
+  @each $color, $value in $brand-colors{
+      &-block-#{$color} {  
+      padding: .4em;
+      background-color: $value;
+      border-radius: $xxs;
+      @include text-contrast($value);
+    }
+  }
+  
+  @each $color, $value in $program-colors {
+      &-block-#{$color} {  
+      padding: .4em;
+      background-color: $value;
+      border-radius: .08em;
+      @include text-contrast($value);
+    }
+  }
   
   &-section {
-    padding-bottom: $xxs;
-    border-bottom: 1px solid CurrentColor;
+    padding-bottom: .15em;
+    border-bottom: .1em solid CurrentColor;
   }
   &-section-caps {
     @extend .adx-markup-section;

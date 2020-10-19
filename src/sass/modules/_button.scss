@@ -48,6 +48,12 @@
         }
       }
 }
+.adx-button-disabled, button[disabled] {
+  @extend .adx-button;
+   pointer-events: none;
+   color: $ui-neutral;
+   border-radius: 0;
+}
 
 .adx-button-group {
   list-style: none;
@@ -59,6 +65,7 @@
   & > * {
   border-radius: 0;
   padding: $xs $l;
+  margin: 0;
   
   &:first-child {
     border-radius: $xxs 0 0 $xxs;
@@ -68,6 +75,32 @@
   }
   &:not(:last-child){
     border-right: none;
+    }
+  }
+}
+
+.adx-button-stack {
+  list-style: none;
+  margin: $xs;
+  padding: $xxs;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  
+  & > * {
+  border-radius: 0;
+  padding: $xs $l;
+  width: 40ch;
+  margin: 0; 
+  
+  &:first-child {
+    border-radius: $xxs $xxs 0 0 ;
+  }
+  &:last-child {
+    border-radius: 0 0 $xxs $xxs;
+  }
+  &:not(:last-child){
+    border-bottom: none;
     }
   }
 }

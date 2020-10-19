@@ -1608,6 +1608,8 @@ h1 {
   background: #eeeff1;
   border: 1px solid #d5d9dd;
   clear: both;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: bold;
 }
 .adx-markup-header {
   width: 100%;
@@ -1626,13 +1628,90 @@ h1 {
 .adx-markup-guide {
   font-family: "Open Sans", "Arial", sans-serif;
   text-transform: uppercase;
-  font-size: 0.8rem;
   letter-spacing: 0.2rem;
   padding-left: 0.8rem;
 }
+.adx-markup-block-brand-darkblue {
+  padding: 0.4em;
+  background-color: #102535;
+  border-radius: 0.41rem;
+  color: #fff;
+}
+.adx-markup-block-brand-midblue {
+  padding: 0.4em;
+  background-color: #005a9c;
+  border-radius: 0.41rem;
+  color: #fff;
+}
+.adx-markup-block-brand-lightblue {
+  padding: 0.4em;
+  background-color: #b8dceb;
+  border-radius: 0.41rem;
+  color: #000;
+}
+.adx-markup-block-brand-gold {
+  padding: 0.4em;
+  background-color: #b38808;
+  border-radius: 0.41rem;
+  color: #000;
+}
+.adx-markup-block-brand-red {
+  padding: 0.4em;
+  background-color: #d40000;
+  border-radius: 0.41rem;
+  color: #fff;
+}
+.adx-markup-block-neutral {
+  padding: 0.4em;
+  background-color: #B9C0C6;
+  border-radius: 0.41rem;
+  color: #000;
+}
+.adx-markup-block-positive {
+  padding: 0.4em;
+  background-color: green;
+  border-radius: 0.41rem;
+  color: #fff;
+}
+.adx-markup-block-negative {
+  padding: 0.4em;
+  background-color: red;
+  border-radius: 0.41rem;
+  color: #fff;
+}
+.adx-markup-block-warning {
+  padding: 0.4em;
+  background-color: yellow;
+  border-radius: 0.41rem;
+  color: #000;
+}
+.adx-markup-block-information {
+  padding: 0.4em;
+  background-color: blue;
+  border-radius: 0.41rem;
+  color: #fff;
+}
+.adx-markup-block-primary {
+  padding: 0.4em;
+  background-color: #454E9E;
+  border-radius: 0.08em;
+  color: #fff;
+}
+.adx-markup-block-accent {
+  padding: 0.4em;
+  background-color: #0C7C59;
+  border-radius: 0.08em;
+  color: #fff;
+}
+.adx-markup-block-complimentary {
+  padding: 0.4em;
+  background-color: #F0A202;
+  border-radius: 0.08em;
+  color: #000;
+}
 .adx-markup-section, .adx-markup-section-caps {
-  padding-bottom: 0.41rem;
-  border-bottom: 1px solid CurrentColor;
+  padding-bottom: 0.15em;
+  border-bottom: 0.1em solid CurrentColor;
 }
 .adx-markup-section-caps {
   text-transform: uppercase;
@@ -1887,7 +1966,8 @@ aside {
   border-radius: 0.41rem;
   display: flex;
   flex-flow: column;
-  max-width: 40ch;
+  max-width: 40%;
+  min-width: 25ch;
 }
 aside.keypoints {
   background: #f3f8f7;
@@ -1912,6 +1992,10 @@ aside.keypoints p {
 }
 aside.keypoints ul {
   margin: 0;
+  padding: 0.64rem;
+}
+aside.keypoints ul:last-child {
+  padding-bottom: 0.8rem;
 }
 aside.keypoints ul li {
   list-style-type: "★";
@@ -1922,7 +2006,7 @@ aside.keypoints ul li::marker {
   color: #0C7C59;
 }
 
-.adx-button, .adx-button-complimentary, .adx-button-accent, .adx-button-primary, .adx-button-information, .adx-button-warning, .adx-button-negative, .adx-button-positive, .adx-button-neutral, .adx-button-brand-red, .adx-button-brand-gold, .adx-button-brand-lightblue, .adx-button-brand-midblue, .adx-button-brand-darkblue {
+.adx-button, .adx-button-disabled, button[disabled], .adx-button-complimentary, .adx-button-accent, .adx-button-primary, .adx-button-information, .adx-button-warning, .adx-button-negative, .adx-button-positive, .adx-button-neutral, .adx-button-brand-red, .adx-button-brand-gold, .adx-button-brand-lightblue, .adx-button-brand-midblue, .adx-button-brand-darkblue {
   border: 1px solid #82868b;
   padding: 0.64rem;
   font-size: 0.8rem;
@@ -1934,10 +2018,10 @@ aside.keypoints ul li::marker {
   letter-spacing: 0.1rem;
   cursor: pointer;
 }
-.adx-button a, .adx-button-complimentary a, .adx-button-accent a, .adx-button-primary a, .adx-button-information a, .adx-button-warning a, .adx-button-negative a, .adx-button-positive a, .adx-button-neutral a, .adx-button-brand-red a, .adx-button-brand-gold a, .adx-button-brand-lightblue a, .adx-button-brand-midblue a, .adx-button-brand-darkblue a {
+.adx-button a, .adx-button-disabled a, button[disabled] a, .adx-button-complimentary a, .adx-button-accent a, .adx-button-primary a, .adx-button-information a, .adx-button-warning a, .adx-button-negative a, .adx-button-positive a, .adx-button-neutral a, .adx-button-brand-red a, .adx-button-brand-gold a, .adx-button-brand-lightblue a, .adx-button-brand-midblue a, .adx-button-brand-darkblue a {
   text-decoration: none;
 }
-.adx-button:hover, .adx-button-complimentary:hover, .adx-button-accent:hover, .adx-button-primary:hover, .adx-button-information:hover, .adx-button-warning:hover, .adx-button-negative:hover, .adx-button-positive:hover, .adx-button-neutral:hover, .adx-button-brand-red:hover, .adx-button-brand-gold:hover, .adx-button-brand-lightblue:hover, .adx-button-brand-midblue:hover, .adx-button-brand-darkblue:hover {
+.adx-button:hover, .adx-button-disabled:hover, button[disabled]:hover, .adx-button-complimentary:hover, .adx-button-accent:hover, .adx-button-primary:hover, .adx-button-information:hover, .adx-button-warning:hover, .adx-button-negative:hover, .adx-button-positive:hover, .adx-button-neutral:hover, .adx-button-brand-red:hover, .adx-button-brand-gold:hover, .adx-button-brand-lightblue:hover, .adx-button-brand-midblue:hover, .adx-button-brand-darkblue:hover {
   background: #82868b;
   color: #fff;
 }
@@ -2072,6 +2156,12 @@ aside.keypoints ul li::marker {
   color: #fff;
 }
 
+.adx-button-disabled, button[disabled] {
+  pointer-events: none;
+  color: #B9C0C6;
+  border-radius: 0;
+}
+
 .adx-button-group {
   list-style: none;
   margin: 0.64rem;
@@ -2082,6 +2172,7 @@ aside.keypoints ul li::marker {
 .adx-button-group > * {
   border-radius: 0;
   padding: 0.64rem 1.25rem;
+  margin: 0;
 }
 .adx-button-group > *:first-child {
   border-radius: 0.41rem 0 0 0.41rem;
@@ -2091,6 +2182,30 @@ aside.keypoints ul li::marker {
 }
 .adx-button-group > *:not(:last-child) {
   border-right: none;
+}
+
+.adx-button-stack {
+  list-style: none;
+  margin: 0.64rem;
+  padding: 0.41rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.adx-button-stack > * {
+  border-radius: 0;
+  padding: 0.64rem 1.25rem;
+  width: 40ch;
+  margin: 0;
+}
+.adx-button-stack > *:first-child {
+  border-radius: 0.41rem 0.41rem 0 0;
+}
+.adx-button-stack > *:last-child {
+  border-radius: 0 0 0.41rem 0.41rem;
+}
+.adx-button-stack > *:not(:last-child) {
+  border-bottom: none;
 }
 
 hr.adx-gradient-primary {
