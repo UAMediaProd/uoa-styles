@@ -2295,6 +2295,99 @@ hr.adx-gradient-accent {
   background-image: linear-gradient(to right, #fff, #F0A202, #0C7C59, #F0A202, #fff);
 }
 
+nav ul.adx-subsection {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #B9C0C6;
+}
+nav ul.adx-subsection a {
+  text-decoration: none;
+  color: #a7adb2;
+  transition: 0.3 all;
+}
+nav ul.adx-subsection a:hover {
+  color: #0C7C59;
+}
+nav ul.adx-subsection li {
+  padding-right: 0.64rem;
+  margin: 0.41rem 0;
+}
+nav ul.adx-subsection li:last-child a {
+  color: #949a9e;
+}
+nav ul.adx-subsection li:last-child a:hover {
+  color: #0C7C59;
+}
+nav ul.adx-subsection li:nth-child(1):after {
+  padding-left: 0.41rem;
+  content: " /";
+  color: #a7adb2;
+}
+
+nav.adx-sequence {
+  width: 100%;
+  border-bottom: 1px solid #B9C0C6;
+}
+nav.adx-sequence ul {
+  list-style: none;
+  counter-reset: step;
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+}
+nav.adx-sequence ul li {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  position: relative;
+  color: #949a9e;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+nav.adx-sequence ul li:before {
+  width: 2.441rem;
+  height: 2.441rem;
+  content: counter(step);
+  counter-increment: step;
+  align-self: center;
+  background: #B9C0C6;
+  color: #fff;
+  border-radius: 100%;
+  line-height: 2.441rem;
+  margin-bottom: 0.64rem;
+}
+nav.adx-sequence ul li:after {
+  width: 100%;
+  border: 2px solid #B9C0C6;
+  content: "";
+  position: absolute;
+  top: 1.25rem;
+  left: -50%;
+  z-index: -1;
+}
+nav.adx-sequence ul li:first-child:after {
+  border: none;
+}
+nav.adx-sequence ul li.progress {
+  color: #0C7C59;
+}
+nav.adx-sequence ul li.progress:before, nav.adx-sequence ul li.progress:after {
+  background: #0C7C59 !important;
+  border-color: #0C7C59;
+}
+nav.adx-sequence ul li.complete {
+  color: #0C7C59;
+}
+nav.adx-sequence ul li.complete:before {
+  content: "✔";
+  color: #fff;
+  background: #0C7C59 !important;
+  border-color: #0C7C59;
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;

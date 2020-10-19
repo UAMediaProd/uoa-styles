@@ -1,0 +1,33 @@
+nav ul.adx-subsection {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid $ui-neutral;
+  
+  
+  a {
+    text-decoration: none;
+    color: $ui-neutral-dark;
+    transition: .3 all;
+    
+    &:hover {
+      color: $accent;
+    }
+  }
+  
+  li {
+    padding-right: $xs;
+    margin: $xxs 0;
+  }
+    li:last-child {
+      a { color: $ui-neutral-darker;
+      &:hover {color: $accent;}}
+    }
+    
+    li:nth-child(1):after {
+      padding-left: $xxs;
+      content: ' /';
+      color: $ui-neutral-dark;
+    }
+}
