@@ -1622,157 +1622,157 @@ h1 {
   padding-left: 0.8rem;
 }
 .adx-markup-block-brand-darkblue-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #102535 0%, #0b1a25 80%, #0a1620 100%);
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-brand-midblue-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #005a9c 0%, #003f6d 80%, #00365e 100%);
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-brand-lightblue-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #b8dceb 0%, #819aa5 80%, #6e848d 100%);
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-brand-gold-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #b38808 0%, #7d5f06 80%, #6b5205 100%);
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-brand-red-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #d40000 0%, #940000 80%, #7f0000 100%);
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-neutral-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #B9C0C6 0%, #82868b 80%, #6f7377 100%);
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-positive-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, green 0%, #005a00 80%, #004d00 100%);
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-negative-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, red 0%, #b30000 80%, #990000 100%);
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-warning-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, yellow 0%, #b3b300 80%, #999900 100%);
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-information-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, blue 0%, #0000b3 80%, #000099 100%);
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-primary-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #454E9E 0%, #30376f 80%, #292f5f 100%);
   border-radius: 0.08em;
   color: #fff;
 }
 .adx-markup-block-accent-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #0C7C59 0%, #08573e 80%, #074a35 100%);
   border-radius: 0.08em;
   color: #fff;
 }
 .adx-markup-block-complimentary-gradient {
-  padding: 0.4em;
+  padding: 0.5em;
   background: linear-gradient(-90deg, #F0A202 0%, #a87101 80%, #906101 100%);
   border-radius: 0.08em;
   color: #000;
 }
 .adx-markup-block-brand-darkblue {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #102535;
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-brand-midblue {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #005a9c;
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-brand-lightblue {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #b8dceb;
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-brand-gold {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #b38808;
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-brand-red {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #d40000;
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-neutral {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #B9C0C6;
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-positive {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: green;
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-negative {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: red;
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-warning {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: yellow;
   border-radius: 0.41rem;
   color: #000;
 }
 .adx-markup-block-information {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: blue;
   border-radius: 0.41rem;
   color: #fff;
 }
 .adx-markup-block-primary {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #454E9E;
   border-radius: 0.08em;
   color: #fff;
 }
 .adx-markup-block-accent {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #0C7C59;
   border-radius: 0.08em;
   color: #fff;
 }
 .adx-markup-block-complimentary {
-  padding: 0.4em;
+  padding: 0.5em;
   background-color: #F0A202;
   border-radius: 0.08em;
   color: #000;
