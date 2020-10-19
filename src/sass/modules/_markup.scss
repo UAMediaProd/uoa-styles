@@ -60,6 +60,24 @@
   }  
 
   @each $color, $value in $brand-colors{
+      &-block-#{$color}-gradient {  
+      padding: .4em;
+      background: linear-gradient(-90deg, $value 0%, mix(black, $value, 30%) 80%, mix(black, $value, 40%) 100%);
+      border-radius: $xxs;
+      @include text-contrast($value);
+    }
+  }
+  
+  @each $color, $value in $program-colors {
+      &-block-#{$color}-gradient {  
+      padding: .4em;
+      background: linear-gradient(-90deg, $value 0%, mix(black, $value, 30%) 80%, mix(black, $value, 40%) 100%);
+      border-radius: .08em;
+      @include text-contrast($value);
+    }
+  }
+  
+  @each $color, $value in $brand-colors{
       &-block-#{$color} {  
       padding: .4em;
       background-color: $value;
@@ -76,6 +94,7 @@
       @include text-contrast($value);
     }
   }
+  
   
   &-section {
     padding-bottom: .15em;

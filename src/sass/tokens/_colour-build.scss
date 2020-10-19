@@ -39,7 +39,7 @@ $brand-colors: (
   .adx-bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; @include text-contrast(mix(white, $value, 60%));}
   .adx-bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; @include text-contrast(mix(white, $value, 40%));}
   .adx-bg-#{$color}-light {background: mix(white, $value, 20%) !important; @include text-contrast(mix(white, $value, 20%));}
-  .adx-bg-#{$color} {background: $value !important; @include text-contrast($value); @include text-contrast($value);}
+  .adx-bg-#{$color} {background: $value !important; @include text-contrast($value);}
   .adx-bg-#{$color}-dark {background: mix(black, $value, 30%) !important; @include text-contrast(mix(black, $value, 30%));}
   .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; @include text-contrast(mix(black, $value, 40%));}
   .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
