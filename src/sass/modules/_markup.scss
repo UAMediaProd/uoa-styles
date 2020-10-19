@@ -8,9 +8,14 @@
     padding: 0 $xxs; 
   }
   
-  &-small {
-    font-size: $s;
-  }
+  &-size-xxs {font-size: $xxs !important;}
+  &-size-xs {font-size: $xs !important;}
+  &-size-s {font-size: $s !important;}
+  &-size-m {font-size: $m !important;}
+  &-size-l {font-size: $l !important;}
+  &-size-xl {font-size: $xl !important;}
+  &-size-xxl {font-size: $xxl !important;}
+  &-size-xxxl {font-size: $xxxl !important;}
   
   &-label {
     font-size: $xs;
@@ -32,5 +37,14 @@
     color: $ui-rev;
     margin: -2vh 0 $m -5vw;
     padding: $l 5vw;
+  }
+  
+  &-boldupper {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  &-font-text {
+    font-family: $font-text
   }
 }
