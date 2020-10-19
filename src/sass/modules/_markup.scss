@@ -1,13 +1,11 @@
 .adx-markup {
-  &-caps {
-    text-transform: uppercase;
-  }
   
-  &-highlight {
-    background: $ui-warning;
-    padding: 0 $xxs; 
-  }
+  // Change font 
+  &-font-text {font-family: $font-text}
+  &-font-heading {font-family: $font-heading}
+  &-font-alternative {font-family: $font-alternative}
   
+  // Change Size
   &-size-xxs {font-size: $xxs !important;}
   &-size-xs {font-size: $xs !important;}
   &-size-s {font-size: $s !important;}
@@ -17,6 +15,10 @@
   &-size-xxl {font-size: $xxl !important;}
   &-size-xxxl {font-size: $xxxl !important;}
   
+  // Text Transform
+  &-caps {text-transform: uppercase; }
+
+  // Text Types
   &-label {
     font-size: $xs;
     font-weight: 400;
@@ -39,12 +41,8 @@
     padding: $l 5vw;
   }
   
-  &-boldupper {
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  &-font-text {
-    font-family: $font-text
-  }
+  &-highlight {
+    background: $ui-warning;
+    padding: 0 $xxs; 
+  }  
 }
