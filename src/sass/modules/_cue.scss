@@ -54,7 +54,8 @@
           @extend .adx-cue;
           background: mix(white, $value, 90%); 
           border: 0;
-                &-top {
+                
+        &-top {
           @extend .adx-cue-#{$color};
           border-top: $m solid $value;
         }

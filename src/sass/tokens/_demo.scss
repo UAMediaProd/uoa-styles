@@ -23,7 +23,14 @@
 }
 
 .colour-block {
-  min-width: 20ch;
+  min-width: 15ch;
   height: $l;
   padding: $m;
+}
+
+.grid-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: auto;
+  grid-gap: $xxs;
 }

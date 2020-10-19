@@ -1,3 +1,16 @@
+@mixin text-contrast($n) {
+  $color-brightness: round((red($n) * 299) + (green($n) * 587) + (blue($n) * 114) / 1000);
+  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + (blue(#ffffff) * 114) / 1000);
+  
+  @if abs($color-brightness) < ($light-color/2){
+    color: $ui-rev;
+  }
+
+  @else {
+    color: $ui-blk;
+  }
+}
+
 $brand-colors: (
   brand-darkblue: $brand-darkblue,
   brand-midblue: $brand-midblue,
@@ -22,19 +35,16 @@ $brand-colors: (
   .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
   .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
   .adx-#{$color}-trans-80 {color: transparentize($value, .8) !important;}
-}
-
-@each $color, $value in $brand-colors {
-  .adx-bg-#{$color}-tint {background: mix(white, $value, 80%) !important; color: $ui-blk;}
-  .adx-bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; color: $ui-blk;}
-  .adx-bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; color: $ui-blk;}
-  .adx-bg-#{$color}-light {background: mix(white, $value, 20%) !important;}
-  .adx-bg-#{$color} {background: $value !important; color: $ui-rev;}
-  .adx-bg-#{$color}-dark {background: mix(black, $value, 20%) !important; color: $ui-rev;}
-  .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; color: $ui-rev;}
-  .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important;}
-  .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important;}
-  .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important;}
+  .adx-bg-#{$color}-tint {background: mix(white, $value, 92%) !important; @include text-contrast(mix(white, $value, 92%));}
+  .adx-bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; @include text-contrast(mix(white, $value, 60%));}
+  .adx-bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; @include text-contrast(mix(white, $value, 40%));}
+  .adx-bg-#{$color}-light {background: mix(white, $value, 20%) !important; @include text-contrast(mix(white, $value, 20%));}
+  .adx-bg-#{$color} {background: $value !important; @include text-contrast($value); @include text-contrast($value);}
+  .adx-bg-#{$color}-dark {background: mix(black, $value, 30%) !important; @include text-contrast(mix(black, $value, 30%));}
+  .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; @include text-contrast(mix(black, $value, 40%));}
+  .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important; color: $ui-blk;}
 }
 
 $program-colors: (
@@ -44,14 +54,24 @@ $program-colors: (
 );
 
 @each $color, $value in $program-colors {
-  .adx-bg-#{$color}-tint {background: mix(white, $value, 80%) !important; color: $ui-blk;}
-  .adx-bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; color: $ui-blk;}
-  .adx-bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; color: $ui-blk;}
-  .adx-bg-#{$color}-light {background: mix(white, $value, 20%) !important; color: $ui-blk;}
-  .adx-bg-#{$color} {background: $value !important; color: $ui-rev}
-  .adx-bg-#{$color}-dark {background: mix(black, $value, 20%) !important; color: $ui-rev;}
-  .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; color: $ui-rev;}
-  .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important;}
-  .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important;}
-  .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important;}
+  .adx-#{$color}-lightest {color: mix(white, $value, 90%) !important;}
+  .adx-#{$color}-lighter {color: lighten($value, 35%) !important;}
+  .adx-#{$color}-light {color: lighten($value, 25%) !important;}
+  .adx-#{$color} {color: $value !important;}
+  .adx-#{$color}-dark {color: mix(black, $value, 30%) !important;}
+  .adx-#{$color}-darker {color: mix(black, $value, 40%) !important;}
+  .adx-#{$color}-tint {color: mix(white, $value, 92%) !important;}
+  .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
+  .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
+  .adx-#{$color}-trans-80 {color: transparentize($value, .8) !important;}
+  .adx-bg-#{$color}-tint {background: mix(white, $value, 92%) !important; @include text-contrast(mix(white, $value, 92%));}
+  .adx-bg-#{$color}-lightest {background: mix(white, $value, 60%) !important; @include text-contrast(mix(white, $value, 60%));}
+  .adx-bg-#{$color}-lighter {background: mix(white, $value, 40%) !important; @include text-contrast(mix(white, $value, 40%));}
+  .adx-bg-#{$color}-light {background: mix(white, $value, 20%) !important; @include text-contrast(mix(white, $value, 20%));}
+  .adx-bg-#{$color} {background: $value !important; @include text-contrast($value); @include text-contrast($value);}
+  .adx-bg-#{$color}-dark {background: mix(black, $value, 30%) !important; @include text-contrast(mix(black, $value, 30%));}
+  .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; @include text-contrast(mix(black, $value, 40%));}
+  .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important; color: $ui-blk;}
 }
