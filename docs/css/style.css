@@ -2025,6 +2025,189 @@ ul.icon-list-sun-red li {
   padding: 0.64rem;
 }
 
+.todoList {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  width: 80%;
+  margin: 2.441rem auto;
+  border-top: solid 2.441rem #0C7C59;
+  border-radius: 0.41rem;
+}
+
+.todoList > * {
+  padding: 1rem 1.25rem;
+}
+
+.todoList h2 {
+  margin: 0;
+  line-height: 1;
+}
+
+.todoList .items {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  counter-reset: done-items pending-items;
+}
+
+.todoList h3 {
+  margin: 0.64rem 0;
+  padding: 0.64rem 0.8rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  background: #f3f8f7;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -0.8rem;
+}
+
+.todoList h3::after {
+  display: inline-block;
+  float: right;
+  background: #0C7C59;
+  color: #fff;
+  padding: 0.64rem;
+  top: 0%;
+  min-width: 1.5em;
+  text-align: center;
+  align-self: flex-end;
+  border-radius: 0.41rem;
+}
+
+.todoList .done {
+  order: 1;
+}
+
+.todoList .done::after {
+  content: counter(done-items);
+}
+
+.todoList .pending {
+  order: 3;
+}
+
+.todoList .pending::after {
+  content: counter(pending-items);
+}
+
+.todoList input {
+  position: absolute;
+  left: -999px;
+}
+
+.todoList input:focus + label {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.todoList input:checked + label {
+  order: 2;
+  animation: done 0.6s;
+  counter-increment: done-items;
+}
+
+.todoList input:checked + label::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%230C7C59' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 11.08V12a10 10 0 1 1-5.93-9.14'%3E%3C/path%3E%3Cpolyline points='22 4 12 14.01 9 11.01'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+.todoList label {
+  order: 4;
+  animation: pending 0.6s;
+  display: block;
+  position: relative;
+  padding: 0.8rem 0 0.8rem 2.441rem;
+  cursor: pointer;
+  counter-increment: pending-items;
+}
+
+.todoList label:hover {
+  background: rgba(12, 124, 89, 0.1);
+}
+
+.todoList label::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23949a9e' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3C/svg%3E");
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0.8rem;
+}
+
+@-moz-keyframes done {
+  0% {
+    -moz-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+@-webkit-keyframes done {
+  0% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+@keyframes done {
+  0% {
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+@-moz-keyframes pending {
+  0% {
+    -moz-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+@-webkit-keyframes pending {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+@keyframes pending {
+  0% {
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
 aside {
   font-size: 1rem;
   float: right;

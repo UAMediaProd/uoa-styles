@@ -23,6 +23,19 @@ $sun-red: svg-sun($brand-red);
 $thumb-accent: svg-thumb($accent);
 $thumb-compliment: svg-thumb($complimentary);
 
+
+
+@function svg-empty($colour) {
+  @return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="' + $colour + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>';
+}
+
+@function svg-done($colour) {
+  @return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="' + $colour + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>';
+}
+
+$task-empty: svg-empty($ui-neutral-darker);
+$task-done: svg-done($accent);
+
 // Thanks to Hugo Giraudel for his str-replace function (http://www.sassmeister.com/gist/1b4f2da5527830088e4d)
 @function str-replace($string, $search, $replace: '') {
   $index: str-index($string, $search);
