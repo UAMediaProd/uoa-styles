@@ -1,0 +1,195 @@
+$vis-categories: (
+  vis-cat1: $vis-cat1,
+  vis-cat2: $vis-cat2,
+  vis-cat3: $vis-cat3,
+  vis-cat4: $vis-cat4,
+  vis-cat5: $vis-cat5,
+  vis-cat6: $vis-cat6,
+  vis-cat7: $vis-cat7,
+  vis-cat8: $vis-cat8,
+  vis-cat9: $vis-cat9,
+  vis-cat10: $vis-cat10,
+  vis-cat11: $vis-cat11,
+);
+
+@each $color, $value in $vis-categories {
+  .adx-#{$color}-lightest {color: mix(white, $value, 90%) !important;}
+  .adx-#{$color}-lighter {color: lighten($value, 35%) !important;}
+  .adx-#{$color}-light {color: lighten($value, 25%) !important;}
+  .adx-#{$color} {color: $value !important;}
+  .adx-#{$color}-dark {color: mix(black, $value, 30%) !important;}
+  .adx-#{$color}-darker {color: mix(black, $value, 40%) !important;}
+  .adx-#{$color}-tint {color: mix(white, $value, 92%) !important;}
+  .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
+  .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
+  .adx-#{$color}-trans-80 {color: transparentize($value, .8) !important;}
+  .adx-bg-#{$color} {background: $value !important; @include text-contrast($value);}
+  .adx-bg-#{$color}-light {background: lighten($value, 10%) !important; @include text-contrast(lighten($value, 10%));}
+  .adx-bg-#{$color}-lighter {background: lighten($value, 20%) !important; @include text-contrast(lighten($value, 20%));}
+  .adx-bg-#{$color}-lightest {background: lighten($value, 30%) !important; @include text-contrast(lighten($value, 30%));}
+  .adx-bg-#{$color}-dark {background: darken($value, 10%) !important; @include text-contrast(darken($value, 10%));}
+  .adx-bg-#{$color}-darker {background: darken($value, 20%) !important; @include text-contrast(darken($value, 20%));}
+  .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important; color: $ui-blk;}
+  .adx-bg-#{$color}-tint {background: mix(white, $value, 92%) !important; @include text-contrast(mix(white, $value, 92%));}
+}
+
+// Viridis 
+  $vis-viridis: (
+    start: $vis-vir-start,
+    s1: $vis-vir-s1,
+    s2: $vis-vir-s2,
+    s3: $vis-vir-s3,
+    mid: $vis-vir-mid,
+    m1: $vis-vir-m1,
+    m2: $vis-vir-m2,
+    m3: $vis-vir-m3,
+    end: $vis-vir-end,
+  );
+
+  @each $color, $value in $vis-viridis {
+    .adx-bg-vis-vir-#{$color} {background: $value !important; @include text-contrast($value);}
+    .adx-vis-vir-#{$color} {color: $value !important;}
+  }
+
+  .adx-bg-vis-vir-gradient-top {
+    background: linear-gradient(180deg, $vis-vir-start 0%, $vis-vir-s1 12.5%, $vis-vir-s2 25%, $vis-vir-s3 37.5%, $vis-vir-mid 50%, $vis-vir-m1 62.5%, $vis-vir-m2 75%, $vis-vir-m3 87.5%, $vis-vir-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-vir-gradient-bottom {
+    background: linear-gradient(0deg, $vis-vir-start 0%, $vis-vir-s1 12.5%, $vis-vir-s2 25%, $vis-vir-s3 37.5%, $vis-vir-mid 50%, $vis-vir-m1 62.5%, $vis-vir-m2 75%, $vis-vir-m3 87.5%, $vis-vir-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-vir-gradient-left {
+    background: linear-gradient(90deg, $vis-vir-start 0%, $vis-vir-s1 12.5%, $vis-vir-s2 25%, $vis-vir-s3 37.5%, $vis-vir-mid 50%, $vis-vir-m1 62.5%, $vis-vir-m2 75%, $vis-vir-m3 87.5%, $vis-vir-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-vir-gradient-right {
+    background: linear-gradient(-90deg, $vis-vir-start 0%, $vis-vir-s1 12.5%, $vis-vir-s2 25%, $vis-vir-s3 37.5%, $vis-vir-mid 50%, $vis-vir-m1 62.5%, $vis-vir-m2 75%, $vis-vir-m3 87.5%, $vis-vir-end 100%); 
+    color: $ui-rev !important;}
+
+// Magama 
+
+  $vis-magma: (
+    start: $vis-mag-start,
+    s1: $vis-mag-s1,
+    s2: $vis-mag-s2,
+    s3: $vis-mag-s3,
+    mid: $vis-mag-mid,
+    m1: $vis-mag-m1,
+    m2: $vis-mag-m2,
+    m3: $vis-mag-m3,
+    end: $vis-mag-end,
+  );
+
+  @each $color, $value in $vis-magma {
+    .adx-bg-vis-mag-#{$color} {background: $value !important; @include text-contrast($value);}
+    .adx-vis-mag-#{$color} {color: $value !important;}
+  }
+  
+  .adx-bg-vis-mag-gradient-top {
+    background: linear-gradient(180deg, $vis-mag-start 0%, $vis-mag-s1 12.5%, $vis-mag-s2 25%, $vis-mag-s3 37.5%, $vis-mag-mid 50%, $vis-mag-m1 62.5%, $vis-mag-m2 75%, $vis-mag-m3 87.5%, $vis-mag-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-mag-gradient-bottom {
+    background: linear-gradient(0deg, $vis-mag-start 0%, $vis-mag-s1 12.5%, $vis-mag-s2 25%, $vis-mag-s3 37.5%, $vis-mag-mid 50%, $vis-mag-m1 62.5%, $vis-mag-m2 75%, $vis-mag-m3 87.5%, $vis-mag-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-mag-gradient-left {
+    background: linear-gradient(90deg, $vis-mag-start 0%, $vis-mag-s1 12.5%, $vis-mag-s2 25%, $vis-mag-s3 37.5%, $vis-mag-mid 50%, $vis-mag-m1 62.5%, $vis-mag-m2 75%, $vis-mag-m3 87.5%, $vis-mag-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-mag-gradient-right {
+    background: linear-gradient(-90deg, $vis-mag-start 0%, $vis-mag-s1 12.5%, $vis-mag-s2 25%, $vis-mag-s3 37.5%, $vis-mag-mid 50%, $vis-mag-m1 62.5%, $vis-mag-m2 75%, $vis-mag-m3 87.5%, $vis-mag-end 100%); 
+    color: $ui-rev !important;}
+
+// Turbo 
+
+  $vis-turbo: (
+    start: $vis-turbo-start,
+    s1: $vis-turbo-s1,
+    s2: $vis-turbo-s2,
+    s3: $vis-turbo-s3,
+    mid: $vis-turbo-mid,
+    m1: $vis-turbo-m1,
+    m2: $vis-turbo-m2,
+    m3: $vis-turbo-m3,
+    end: $vis-turbo-end,
+  );
+
+  @each $color, $value in $vis-turbo {
+    .adx-bg-vis-turbo-#{$color} {background: $value !important; @include text-contrast($value);}
+    .adx-vis-turbo-#{$color} {color: $value !important;}
+  }
+  
+  .adx-bg-vis-turbo-gradient-top {
+    background: linear-gradient(180deg, $vis-turbo-start 0%, $vis-turbo-s1 12.5%, $vis-turbo-s2 25%, $vis-turbo-s3 37.5%, $vis-turbo-mid 50%, $vis-turbo-m1 62.5%, $vis-turbo-m2 75%, $vis-turbo-m3 87.5%, $vis-turbo-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-turbo-gradient-bottom {
+    background: linear-gradient(0deg, $vis-turbo-start 0%, $vis-turbo-s1 12.5%, $vis-turbo-s2 25%, $vis-turbo-s3 37.5%, $vis-turbo-mid 50%, $vis-turbo-m1 62.5%, $vis-turbo-m2 75%, $vis-turbo-m3 87.5%, $vis-turbo-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-turbo-gradient-left {
+    background: linear-gradient(90deg, $vis-turbo-start 0%, $vis-turbo-s1 12.5%, $vis-turbo-s2 25%, $vis-turbo-s3 37.5%, $vis-turbo-mid 50%, $vis-turbo-m1 62.5%, $vis-turbo-m2 75%, $vis-turbo-m3 87.5%, $vis-turbo-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-turbo-gradient-right {
+    background: linear-gradient(-90deg, $vis-turbo-start 0%, $vis-turbo-s1 12.5%, $vis-turbo-s2 25%, $vis-turbo-s3 37.5%, $vis-turbo-mid 50%, $vis-turbo-m1 62.5%, $vis-turbo-m2 75%, $vis-turbo-m3 87.5%, $vis-turbo-end 100%); 
+    color: $ui-rev !important;}
+
+// Red to Blue
+
+  $vis-redblue: (
+    start: $vis-rb-start,
+    s1: $vis-rb-s1,
+    s2: $vis-rb-s2,
+    s3: $vis-rb-s3,
+    mid: $vis-rb-mid,
+    m1: $vis-rb-m1,
+    m2: $vis-rb-m2,
+    m3: $vis-rb-m3,
+    end: $vis-rb-end,
+  );
+
+  @each $color, $value in $vis-redblue {
+    .adx-bg-vis-rb-#{$color} {background: $value !important; @include text-contrast($value);}
+    .adx-vis-rb-#{$color} {color: $value !important;}
+  }
+  
+  .adx-bg-vis-rb-gradient-top {
+    background: linear-gradient(180deg, $vis-rb-start 0%, $vis-rb-s1 12.5%, $vis-rb-s2 25%, $vis-rb-s3 37.5%, $vis-rb-mid 50%, $vis-rb-m1 62.5%, $vis-rb-m2 75%, $vis-rb-m3 87.5%, $vis-rb-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-rb-gradient-bottom {
+    background: linear-gradient(0deg, $vis-rb-start 0%, $vis-rb-s1 12.5%, $vis-rb-s2 25%, $vis-rb-s3 37.5%, $vis-rb-mid 50%, $vis-rb-m1 62.5%, $vis-rb-m2 75%, $vis-rb-m3 87.5%, $vis-rb-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-rb-gradient-left {
+    background: linear-gradient(90deg, $vis-rb-start 0%, $vis-rb-s1 12.5%, $vis-rb-s2 25%, $vis-rb-s3 37.5%, $vis-rb-mid 50%, $vis-rb-m1 62.5%, $vis-rb-m2 75%, $vis-rb-m3 87.5%, $vis-rb-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-rb-gradient-right {
+    background: linear-gradient(-90deg, $vis-rb-start 0%, $vis-rb-s1 12.5%, $vis-rb-s2 25%, $vis-rb-s3 37.5%, $vis-rb-mid 50%, $vis-rb-m1 62.5%, $vis-rb-m2 75%, $vis-rb-m3 87.5%, $vis-rb-end 100%); 
+    color: $ui-rev !important;}
+
+// Red-Yellow-Green
+
+  $vis-redyellowgreen: (
+    start: $vis-ryg-start,
+    s1: $vis-ryg-s1,
+    s2: $vis-ryg-s2,
+    s3: $vis-ryg-s3,
+    mid: $vis-ryg-mid,
+    m1: $vis-ryg-m1,
+    m2: $vis-ryg-m2,
+    m3: $vis-ryg-m3,
+    end: $vis-ryg-end,
+  );
+
+  @each $color, $value in $vis-redyellowgreen {
+    .adx-bg-vis-ryg-#{$color} {background: $value !important; @include text-contrast($value);}
+    .adx-vis-ryb-#{$color} {color: $value !important;}
+  }
+
+  .adx-bg-vis-ryg-gradient-top {
+    background: linear-gradient(180deg, $vis-ryg-start 0%, $vis-ryg-s1 12.5%, $vis-ryg-s2 25%, $vis-ryg-s3 37.5%, $vis-ryg-mid 50%, $vis-ryg-m1 62.5%, $vis-ryg-m2 75%, $vis-ryg-m3 87.5%, $vis-ryg-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-ryg-gradient-bottom {
+    background: linear-gradient(0deg, $vis-ryg-start 0%, $vis-ryg-s1 12.5%, $vis-ryg-s2 25%, $vis-ryg-s3 37.5%, $vis-ryg-mid 50%, $vis-ryg-m1 62.5%, $vis-ryg-m2 75%, $vis-ryg-m3 87.5%, $vis-ryg-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-ryg-gradient-left {
+    background: linear-gradient(90deg, $vis-ryg-start 0%, $vis-ryg-s1 12.5%, $vis-ryg-s2 25%, $vis-ryg-s3 37.5%, $vis-ryg-mid 50%, $vis-ryg-m1 62.5%, $vis-ryg-m2 75%, $vis-ryg-m3 87.5%, $vis-ryg-end 100%); 
+    color: $ui-rev !important;}
+  .adx-bg-vis-ryg-gradient-right {
+    background: linear-gradient(-90deg, $vis-ryg-start 0%, $vis-ryg-s1 12.5%, $vis-ryg-s2 25%, $vis-ryg-s3 37.5%, $vis-ryg-mid 50%, $vis-ryg-m1 62.5%, $vis-ryg-m2 75%, $vis-ryg-m3 87.5%, $vis-ryg-end 100%); 
+    color: $ui-rev !important;}

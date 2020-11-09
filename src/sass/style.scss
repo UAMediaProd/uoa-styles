@@ -2,6 +2,7 @@
 @import "tokens/_scale";
 @import "tokens/_colour-list";
 @import "tokens/_colour-build";
+@import "tokens/_colour-visualisation-build";
 @import "tokens/_depth";
 
 @import "utilities/_svg-factory";
@@ -9,6 +10,7 @@
 @import "tokens/_text";
 @import "tokens/_demo";
 @import "modules/_cue";
+@import "modules/_direction";
 @import "modules/_markup";
 @import "modules/_quote";
 @import "modules/_list-block";

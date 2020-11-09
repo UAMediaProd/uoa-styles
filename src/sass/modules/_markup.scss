@@ -24,8 +24,8 @@
     font-weight: 400;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    width: calc(100%+10vw);
-    margin: $xl 0 $s -3vw;
+    width: 100%;
+    margin: $xxl 0 $xl 0;
     padding: $xs;
     color: $ui-neutral-darkest;
     background: $ui-neutral-lighter;
@@ -43,8 +43,28 @@
     padding: $l 5vw;
   }
   
-  &-highlight {
-    background: $ui-warning;
+  &-highlight-yellow {
+    background: $ui-highlight-yellow;
+    padding: 0 $xxs; 
+  }
+  
+  &-highlight-green {
+    background: $ui-highlight-green;
+    padding: 0 $xxs; 
+  }
+  
+  &-highlight-orange {
+    background: $ui-highlight-orange;
+    padding: 0 $xxs; 
+  }
+  
+  &-highlight-blue {
+    background: $ui-highlight-blue;
+    padding: 0 $xxs; 
+  }
+  
+  &-highlight-pink {
+    background: $ui-highlight-pink;
     padding: 0 $xxs; 
   }
   

@@ -1,7 +1,7 @@
 aside {
   font-size: $m;
   float: right;
-  margin: $xs $m 0;
+  margin: $xs $m;
   padding: 0;
   background: $ui-neutral-tint;
   border-radius: $xxs;
@@ -30,11 +30,11 @@ aside {
     
     p {
       padding: 0 $xs;
-      margin: $xs 0;
+      margin: 0;
     }
     
    ul {
-       margin: 0;
+       margin: 0 $xs;
        padding: $xs;
        
     &:last-child {

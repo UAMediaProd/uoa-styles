@@ -1,0 +1,109 @@
+div.adx-direction {
+  position: relative;
+  padding: $s;
+  margin: $m $xl;
+  // max-width: 75ch;
+  
+  &-info {
+    @extend .adx-direction;
+    background: mix(white, $ui-information, 90%);
+
+  &:before {
+    position: absolute;
+    top: 0;
+    margin-left: -$xxl;
+    content: url(svg-encode($info-rev));
+    background: $ui-information;
+    padding: $xxs;
+    padding-top: $l;
+    height: calc(100% - #{$xxs} - #{$l});
+    }
+  }
+  
+  &-question {
+    @extend .adx-direction;
+    background: mix(white, $complimentary, 90%);
+
+  &:before {
+    position: absolute;
+    top: 0;
+    margin-left: -$xxl;
+    content: url(svg-encode($question-rev));
+    background: $complimentary;
+    padding: $xxs;
+    padding-top: $l;
+    height: calc(100% - #{$xxs} - #{$l});
+    }
+  }
+    
+  & > * {
+    margin-left: $s;
+  }
+  
+  &-top {
+    @extend .adx-cue;
+    border-top: $m solid $ui-neutral;
+  }
+  &-right {
+    @extend .adx-cue;
+    border-right: $m solid $ui-neutral;
+  }
+  &-bottom {
+    @extend .adx-cue;
+    border-bottom: $m solid $ui-neutral;
+  }
+  &-left {
+    @extend .adx-cue;
+    border-left: $m solid $ui-neutral;
+  }
+}
+// 
+//   @each $color, $value in $brand-colors{
+//         .adx-cue-#{$color} {
+//           @extend .adx-cue;
+//           background: mix(white, $value, 90%); 
+//           border: 1px solid $value;
+// 
+//         &-top {
+//           @extend .adx-cue-#{$color};
+//           border-top: $m solid $value;
+//         }
+//         &-right {
+//           @extend .adx-cue-#{$color};
+//           border-right: $m solid $value;
+//         }
+//         &-bottom {
+//           @extend .adx-cue-#{$color};
+//           border-bottom: $m solid $value;
+//         }
+//         &-left {
+//           @extend .adx-cue-#{$color};
+//           border-left: $m solid $value;
+//         }
+//   }
+// }
+// 
+//   @each $color, $value in $program-colors{
+//         .adx-cue-#{$color} {
+//           @extend .adx-cue;
+//           background: mix(white, $value, 90%); 
+//           border: 0;
+// 
+//         &-top {
+//           @extend .adx-cue-#{$color};
+//           border-top: $m solid $value;
+//         }
+//         &-right {
+//           @extend .adx-cue-#{$color};
+//           border-right: $m solid $value;
+//         }
+//         &-bottom {
+//           @extend .adx-cue-#{$color};
+//           border-bottom: $m solid $value;
+//         }
+//         &-left {
+//           @extend .adx-cue-#{$color};
+//           border-left: $m solid $value;
+//         }
+//   }
+// }

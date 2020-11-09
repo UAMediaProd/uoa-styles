@@ -8,10 +8,10 @@ $brand-red: #d40000;
 // UI
 $ui-rev: #fff;
 $ui-blk: #000;
-$ui-positive: green;
-$ui-negative: red;
-$ui-warning: yellow;
-$ui-information: blue;
+$ui-positive: #22964f;
+$ui-negative: #d4322c;
+$ui-warning: #ffa423;
+$ui-information: #052A8A;
 $ui-neutral: #B9C0C6;
 $ui-neutral-tint: mix(white, $ui-neutral, 92%);
 $ui-neutral-lightest: mix(white, $ui-neutral, 85%);
@@ -20,12 +20,17 @@ $ui-neutral-light:  mix(white, $ui-neutral, 40%);
 $ui-neutral-dark:  mix(black, $ui-neutral, 10%);
 $ui-neutral-darker: mix(black, $ui-neutral, 20%);
 $ui-neutral-darkest: mix(black, $ui-neutral, 30%);
+$ui-highlight-yellow: transparentize(#ffde20, .7);
+$ui-highlight-green: transparentize(#20ff6e, .7);
+$ui-highlight-orange: transparentize(#ff6600, .7);
+$ui-highlight-pink: transparentize(#ff20b0, .7);
+$ui-highlight-blue: transparentize(#ff20b0, .7);
 
 // PROGRAM STYLE
 
-$primary: #454E9E;
-$accent: #0C7C59 ;
-$complimentary: #F0A202;
+$primary: $brand-darkblue;
+$accent: $brand-midblue;
+$complimentary: $brand-red;
 
 $primary-tint: mix(white, $primary, 80%);
 $primary-lightest: mix(white, $primary, 60%);
@@ -63,6 +68,78 @@ $complimentary-trans-80: transparentize($complimentary, .8);
 
 // VISUALISATION
 
-// Categories - about 8-10 unique colours
-// Sequential - Hot-Cold, Positive-Negative, Heatmap
-// Diverging - 
+// Categories
+
+$vis-cat1: #064FBB; 
+$vis-cat2: #3706BB; 
+$vis-cat3: #9106BB; 
+$vis-cat4: #BB068B; 
+$vis-cat5: #BB3706; 
+$vis-cat6: #BB9106; 
+$vis-cat7: #96BB06; 
+$vis-cat8: #3EBB06; 
+$vis-cat9: #058869; 
+$vis-cat10: #046E8B; 
+$vis-cat11: #052A8A; 
+
+// Viridis
+$vis-vir-start: #bcdf27;
+$vis-vir-s1: #7ad151;
+$vis-vir-s2: #43bf71;
+$vis-vir-s3: #22a884;
+$vis-vir-mid: #21918d;
+$vis-vir-m1: #2a788e;
+$vis-vir-m2: #35608d;
+$vis-vir-m3: #414487;
+$vis-vir-end: #482575;
+
+
+
+// Magma
+
+$vis-mag-start: #fece91;
+$vis-mag-s1: #fe9f6d;
+$vis-mag-s2: #f76f5c;
+$vis-mag-s3: #de4968;
+$vis-mag-mid: #b6377a;
+$vis-mag-m1: #8c2981;
+$vis-mag-m2: #651a80;
+$vis-mag-m3: #3b0f70;
+$vis-mag-end: #150e37;
+
+
+// Turbo
+
+$vis-turbo-start: #ba2208;
+$vis-turbo-s1: #f65f18;
+$vis-turbo-s2: #ffa423;
+$vis-turbo-s3: #dedd32;
+$vis-turbo-mid: #95fb51;
+$vis-turbo-m1: #4df884;
+$vis-turbo-m2: #27d7c4;
+$vis-turbo-m3: #2f9df5;
+$vis-turbo-end: #4a58dd;
+
+// Diverging
+
+// Blue-Red
+$vis-rb-start: #bf363a;
+$vis-rb-s1: #df745e;
+$vis-rb-s2: #f4ae91;
+$vis-rb-s3: #fbdbc9; 
+$vis-rb-mid: #f2efee; 
+$vis-rb-m1: #d2e5ef;
+$vis-rb-m2: #9dcae1;
+$vis-rb-m3: #5da2cb; 
+$vis-rb-end: #2f78b3;
+
+// Red-Yellow-Green
+$vis-ryg-start: #d4322c;
+$vis-ryg-s1: #f16e43;
+$vis-ryg-s2: #fcac63;
+$vis-ryg-s3: #fedd8d; 
+$vis-ryg-mid: #f9f7ae; 
+$vis-ryg-m1: #d7ee8e;
+$vis-ryg-m2: #a4d86e;
+$vis-ryg-m3: #64bc61; 
+$vis-ryg-end: #22964f;
