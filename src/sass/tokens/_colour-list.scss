@@ -68,7 +68,7 @@ $complimentary-trans-80: transparentize($complimentary, .8);
 
 // VISUALISATION
 
-// Categories
+// Categories - used http://colorizer.org/ and $brand-gold & $brand-red as base for these
 
 $vis-cat1: #064FBB; 
 $vis-cat2: #3706BB; 
@@ -82,7 +82,8 @@ $vis-cat9: #058869;
 $vis-cat10: #046E8B; 
 $vis-cat11: #052A8A; 
 
-// Viridis
+// Viridis used the 9 colours from https://vega.github.io/vega/docs/schemes/
+
 $vis-vir-start: #bcdf27;
 $vis-vir-s1: #7ad151;
 $vis-vir-s2: #43bf71;
@@ -95,7 +96,7 @@ $vis-vir-end: #482575;
 
 
 
-// Magma
+// Magma used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
 $vis-mag-start: #fece91;
 $vis-mag-s1: #fe9f6d;
@@ -108,7 +109,7 @@ $vis-mag-m3: #3b0f70;
 $vis-mag-end: #150e37;
 
 
-// Turbo
+// Turbo used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
 $vis-turbo-start: #ba2208;
 $vis-turbo-s1: #f65f18;
@@ -122,7 +123,7 @@ $vis-turbo-end: #4a58dd;
 
 // Diverging
 
-// Blue-Red
+// Blue-Red used the 9 colours from https://vega.github.io/vega/docs/schemes/
 $vis-rb-start: #bf363a;
 $vis-rb-s1: #df745e;
 $vis-rb-s2: #f4ae91;
@@ -133,7 +134,7 @@ $vis-rb-m2: #9dcae1;
 $vis-rb-m3: #5da2cb; 
 $vis-rb-end: #2f78b3;
 
-// Red-Yellow-Green
+// Red-Yellow-Green used the 9 colours from https://vega.github.io/vega/docs/schemes/
 $vis-ryg-start: #d4322c;
 $vis-ryg-s1: #f16e43;
 $vis-ryg-s2: #fcac63;
