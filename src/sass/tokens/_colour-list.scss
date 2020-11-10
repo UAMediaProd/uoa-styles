@@ -85,29 +85,27 @@ $vis-cat11: #052A8A;
 // Viridis used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
 $vis-vir-start: #bcdf27;
-$vis-vir-s1: #7ad151;
-$vis-vir-s2: #43bf71;
-$vis-vir-s3: #22a884;
 $vis-vir-mid: #21918d;
-$vis-vir-m1: #2a788e;
-$vis-vir-m2: #35608d;
-$vis-vir-m3: #414487;
 $vis-vir-end: #482575;
-
+$vis-vir-s1: mix($vis-vir-start, $vis-vir-mid, 75%);
+$vis-vir-s2: mix($vis-vir-start, $vis-vir-mid, 50%);
+$vis-vir-s3: mix($vis-vir-start, $vis-vir-mid, 25%); 
+$vis-vir-m1: mix($vis-vir-end, $vis-vir-mid, 25%);
+$vis-vir-m2: mix($vis-vir-end, $vis-vir-mid, 50%);
+$vis-vir-m3: mix($vis-vir-end, $vis-vir-mid, 75%); 
 
 
 // Magma used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
 $vis-mag-start: #fece91;
-$vis-mag-s1: #fe9f6d;
-$vis-mag-s2: #f76f5c;
-$vis-mag-s3: #de4968;
 $vis-mag-mid: #b6377a;
-$vis-mag-m1: #8c2981;
-$vis-mag-m2: #651a80;
-$vis-mag-m3: #3b0f70;
 $vis-mag-end: #150e37;
-
+$vis-mag-s1: mix($vis-mag-start, $vis-mag-mid, 75%);
+$vis-mag-s2: mix($vis-mag-start, $vis-mag-mid, 50%);
+$vis-mag-s3: mix($vis-mag-start, $vis-mag-mid, 25%); 
+$vis-mag-m1: mix($vis-mag-end, $vis-mag-mid, 25%);
+$vis-mag-m2: mix($vis-mag-end, $vis-mag-mid, 50%);
+$vis-mag-m3: mix($vis-mag-end, $vis-mag-mid, 75%); 
 
 // Turbo used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
@@ -126,23 +124,34 @@ $vis-turbo-end: #4a58dd;
 // Blue-Red used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
 $vis-rb-start: #bf363a;
-$vis-rb-s1: #df745e;
-$vis-rb-s2: #f4ae91;
-$vis-rb-s3: #fbdbc9; 
 $vis-rb-mid: #f2efee; 
-$vis-rb-m1: #d2e5ef;
-$vis-rb-m2: #9dcae1;
-$vis-rb-m3: #5da2cb; 
 $vis-rb-end: #2f78b3;
+$vis-rb-s1: mix($vis-rb-start, $vis-rb-mid, 75%);
+$vis-rb-s2: mix($vis-rb-start, $vis-rb-mid, 50%);
+$vis-rb-s3: mix($vis-rb-start, $vis-rb-mid, 25%); 
+$vis-rb-m1: mix($vis-rb-end, $vis-rb-mid, 25%);
+$vis-rb-m2: mix($vis-rb-end, $vis-rb-mid, 50%);
+$vis-rb-m3: mix($vis-rb-end, $vis-rb-mid, 75%); 
 
 // Red-Yellow-Green used the 9 colours from https://vega.github.io/vega/docs/schemes/
 
 $vis-ryg-start: #d4322c;
-$vis-ryg-s1: #f16e43;
-$vis-ryg-s2: #fcac63;
-$vis-ryg-s3: #fedd8d; 
 $vis-ryg-mid: #f9f7ae; 
-$vis-ryg-m1: #d7ee8e;
-$vis-ryg-m2: #a4d86e;
-$vis-ryg-m3: #64bc61; 
 $vis-ryg-end: #22964f;
+$vis-ryg-s1: mix($vis-ryg-start, $vis-ryg-mid, 75%);
+$vis-ryg-s2: mix($vis-ryg-start, $vis-ryg-mid, 50%);
+$vis-ryg-s3: mix($vis-ryg-start, $vis-ryg-mid, 25%); 
+$vis-ryg-m1: mix($vis-ryg-end, $vis-ryg-mid, 25%);
+$vis-ryg-m2: mix($vis-ryg-end, $vis-ryg-mid, 50%);
+$vis-ryg-m3: mix($vis-ryg-end, $vis-ryg-mid, 75%); 
+
+// Earth 
+$vis-earth-start: #A16928;
+$vis-earth-mid: #edeac2; 
+$vis-earth-end: #2887a1;
+$vis-earth-s1: mix($vis-earth-start, $vis-earth-mid, 75%);
+$vis-earth-s2: mix($vis-earth-start, $vis-earth-mid, 50%);
+$vis-earth-s3: mix($vis-earth-start, $vis-earth-mid, 25%); 
+$vis-earth-m1: mix($vis-earth-end, $vis-earth-mid, 25%);
+$vis-earth-m2: mix($vis-earth-end, $vis-earth-mid, 50%);
+$vis-earth-m3: mix($vis-earth-end, $vis-earth-mid, 75%); 

@@ -193,3 +193,22 @@ $vis-categories: (
   .adx-bg-vis-ryg-gradient-right {
     background: linear-gradient(-90deg, $vis-ryg-start 0%, $vis-ryg-s1 12.5%, $vis-ryg-s2 25%, $vis-ryg-s3 37.5%, $vis-ryg-mid 50%, $vis-ryg-m1 62.5%, $vis-ryg-m2 75%, $vis-ryg-m3 87.5%, $vis-ryg-end 100%); 
     color: $ui-rev !important;}
+    
+    // Earth
+
+      $vis-earth: (
+        start: $vis-earth-start,
+        s1: $vis-earth-s1,
+        s2: $vis-earth-s2,
+        s3: $vis-earth-s3,
+        mid: $vis-earth-mid,
+        m1: $vis-earth-m1,
+        m2: $vis-earth-m2,
+        m3: $vis-earth-m3,
+        end: $vis-earth-end,
+      );
+
+      @each $color, $value in $vis-earth {
+        .adx-bg-vis-earth-#{$color} {background: $value !important; @include text-contrast($value);}
+        .adx-vis-ryb-#{$color} {color: $value !important;}
+      }
