@@ -14,8 +14,32 @@ dt {
 
 dd {
   background: $accent-tint;
-  padding: $s $s;
+  padding: $s;
   border-bottom: 2px solid $accent-lightest;
   border-right: 2px solid $accent-lightest;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 0;
+}
+
+dl.description {
+  display: flex;
+  flex-direction: column;
+  margin: $s;
+  padding: $s;
+  background: $ui-neutral-tint;
+  border-radius: $xs;
+
+  
+  dt {
+    font-weight: bold;
+    font-size: $m;
+    border: none;
+    letter-spacing: normal;
+  }
+  
+  dd {
+    margin: 0;
+    padding: $xxs $s 0;
+    border: none;
+    background: none;
+  }
 }

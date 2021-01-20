@@ -1,7 +1,7 @@
 aside {
   font-size: $m;
   float: right;
-  margin: $xs $m;
+  margin:0 $m $s;
   padding: 0;
   background: $ui-neutral-tint;
   border-radius: $xxs;
@@ -9,6 +9,12 @@ aside {
   flex-flow: column;
   max-width: 40%;
   min-width: 25ch;
+  
+  
+  
+  &.left {
+    float: left;
+  }
   
   &.keypoints {
     background: $accent-tint;

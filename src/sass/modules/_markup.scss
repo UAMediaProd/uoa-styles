@@ -35,14 +35,6 @@
     font-weight: bold;
   }
   
-  &-header {
-    width: 100%;
-    background: $brand-darkblue;
-    color: $ui-rev;
-    margin: -2vh 0 $m -5vw;
-    padding: $l 5vw;
-  }
-  
   &-highlight-yellow {
     background: $ui-highlight-yellow;
     padding: 0 $xxs; 
@@ -76,7 +68,6 @@
     font-family: $font-text;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    padding-left: $s;
   }  
 
   @each $color, $value in $brand-colors{
