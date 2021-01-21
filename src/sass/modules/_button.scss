@@ -1,11 +1,10 @@
 .adx-button {
-  border: 1px solid $ui-neutral-darkest;
+  border: 2px solid $ui-neutral-darkest;
   padding: $xs;
   font-size: $s;
   text-transform: uppercase;  
   background: $ui-neutral-tint;
   transition: .3s all;
-  border-radius: $xxs;
   text-align: center;
   letter-spacing: .1rem;
   cursor: pointer;
@@ -68,10 +67,10 @@
   margin: 0;
   
   &:first-child {
-    border-radius: $xxs 0 0 $xxs;
+    border-radius: $xxxs 0 0 $xxxs;
   }
   &:last-child {
-    border-radius: 0 $xxs $xxs 0;
+    border-radius: 0 $xxxs $xxxs 0;
   }
   &:not(:last-child){
     border-right: none;
@@ -94,10 +93,10 @@
   margin: 0; 
   
   &:first-child {
-    border-radius: $xxs $xxs 0 0 ;
+    border-radius: $xxxs $xxxs 0 0 ;
   }
   &:last-child {
-    border-radius: 0 0 $xxs $xxs;
+    border-radius: 0 0 $xxxs $xxxs;
   }
   &:not(:last-child){
     border-bottom: none;

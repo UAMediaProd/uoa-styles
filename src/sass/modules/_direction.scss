@@ -4,10 +4,13 @@ div.adx-direction {
   margin: $m $xl;
   background: mix(white, $ui-neutral, 90%);
   
+
+  
   &:before {
     position: absolute;
     top: 0;
     margin-left: -$xxl;
+    margin-right: $xl;
     content: url(svg-encode($task-empty));
     background: $ui-neutral-darker;
     padding: $xxs;
@@ -96,7 +99,7 @@ div.adx-direction {
   }
     
   & > * {
-    margin-left: $s;
+    margin-left: $l;
   }
   
   &-top {

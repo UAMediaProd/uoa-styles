@@ -37,27 +37,28 @@
   
   &-highlight-yellow {
     background: $ui-highlight-yellow;
-    padding: 0 $xxs; 
+    padding: 0 .25ch;
+     
   }
   
   &-highlight-green {
     background: $ui-highlight-green;
-    padding: 0 $xxs; 
+    padding: 0 .25ch;
   }
   
   &-highlight-orange {
     background: $ui-highlight-orange;
-    padding: 0 $xxs; 
+    padding: 0 .25ch;
   }
   
   &-highlight-blue {
     background: $ui-highlight-blue;
-    padding: 0 $xxs; 
+    padding: 0 .25ch;
   }
   
   &-highlight-pink {
     background: $ui-highlight-pink;
-    padding: 0 $xxs; 
+    padding: 0 .25ch;
   }
   
   &-strike {
@@ -82,7 +83,7 @@
   @each $color, $value in $program-colors {
       &-block-#{$color}-gradient {  
       padding: .5em;
-      background: linear-gradient(-90deg, $value 0%, mix(black, $value, 30%) 80%, mix(black, $value, 40%) 100%);
+      background: linear-gradient(90deg, $value 0%, mix(black, $value, 30%) 95%, mix(black, $value, 40%) 100%);
       border-radius: .08em;
       @include text-contrast($value);
     }

@@ -4,8 +4,8 @@
   box-shadow: $shadow-xxs;
   width: 80%;
   margin: $xxl auto;
-  border-top: solid $xxl $accent;
-  border-radius: $xxs; 
+  border-top: solid $xxl $primary;
+  border-radius: $xxxs; 
 }
 .todoList > * {
   padding: $m $l;
@@ -26,7 +26,7 @@
   font-size: $m;
   text-transform: uppercase;
   position: relative;
-  background: $accent-tint;
+  background: $primary-tint;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -36,14 +36,13 @@
 .todoList h3::after {
   display: inline-block;
   float: right;
-  background: $accent;
+  background: $primary;
   color: $ui-rev;
   padding: $xs;
   top: 0%;
   min-width: 1.5em;
   text-align: center;
   align-self: flex-end;
-  border-radius: $xxs;
 }
 .todoList .done {
   order: 1;
@@ -82,7 +81,7 @@
   counter-increment: pending-items;
 }
 .todoList label:hover {
-  background: rgba($accent, 0.1);
+  background: rgba($primary, 0.1);
 }
 .todoList label::before {
   content: url(svg-encode($task-empty));

@@ -5,7 +5,7 @@ blockquote {
   font-family: $font-text;
   padding: $m;
   line-height: 1.4;
-  border-width: 0 0 0 8px !important;
+  border-width: 0 0 0 $xs !important;
   border-style: solid;
   border-color: $ui-neutral-light;
   
@@ -36,7 +36,6 @@ blockquote {
     max-width: 30ch;
     background: $brand-darkblue;
     color: $ui-rev;
-    border-radius: $xxs;
     border: 0;
     
     cite {
@@ -50,7 +49,6 @@ blockquote {
     max-width: 30ch;
     background: $brand-darkblue;
     color: $ui-rev;
-    border-radius: $xxs;
     border: 0;
     
     cite {

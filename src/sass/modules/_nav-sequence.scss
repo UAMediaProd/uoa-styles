@@ -38,7 +38,7 @@ nav.adx-sequence {
       border: 2px solid $ui-neutral;
       content: '';
       position: absolute;
-      top: $l;
+      top: $m;
       left: -50%;
       z-index: -1;
     }
@@ -50,20 +50,22 @@ nav.adx-sequence {
     }
 
     &.progress {
-      color: $accent; 
+      color: $primary; 
+      
       &:before, &:after {
-        background: $accent !important;
-        border-color: $accent;
+        background: $primary !important;
+        border-color: $primary;
       }
     }
     
     &.complete {
-      color: $accent; 
+      color: $primary; 
+      
       &:before {
         content: '✔';
         color: $ui-rev;
-        background: $accent !important;
-        border-color: $accent;
+        background: $primary !important;
+        border-color: $primary;
       }
     }
   }

@@ -12,6 +12,8 @@
     padding: $m;
     border-bottom: 1px solid $ui-neutral-light;
     counter-increment: step-counter;
+    text-indent: -5em;
+    padding-left: 5em;
 
     &.step-2 { counter-reset: step-counter 1;}
     &.step-3 { counter-reset: step-counter 2;}
@@ -41,9 +43,8 @@
   content: 'step ' counter(step-counter);
   text-transform: uppercase;
   font-size: $xs;
-  background: $accent-darker;
-  color: #fff;
+  background: $primary-darker;
+  color: $ui-rev;
   padding: $xs;
-  margin-right: $xl;
-  border-radius: $xxs;
+  margin-right: 2em;
 }

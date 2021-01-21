@@ -2,38 +2,108 @@
 layout: base.njk
 title: Style Demo
 palette:
-- brand-red
-- brand-midblue
-- brand-darkblue
-- brand-gold
-- neutral
-- accent
-- primary
-- complimentary
-- positive
-- negative
-- warning
-- information 
-- vis-cat1
-- vis-cat2
-- vis-cat3
-- vis-cat4
-- vis-cat5
-- vis-cat6
-- vis-cat7
-- vis-cat8
-- vis-cat9
-- vis-cat10 
-- vis-cat11 
-visualisation:
-- vir
-- mag
-- turbo
-- rb
-- ryg
-- earth 
+  brand: [brand-red, brand-midblue, brand-darkblue, brand-gold]
+  ui: [neutral, positive, negative, warning, information, blk, rev]
+  program: [primary, accent, complimentary]
+  categories: [vis-cat1, vis-cat2, vis-cat3, vis-cat4, vis-cat5, vis-cat6, vis-cat7, vis-cat8, vis-cat9, vis-cat10, vis-cat11]
+  visualisation: [vir, mag, turbo, rb, ryg, earth]
 
 ---
+
+<h4 class="adx-markup-label">Brand Colours</h4>
+
+<div class="colour-samples">
+  {% for colour in palette.brand %}
+  <div class="colour-items">
+    <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
+    <div class="colour-block adx-bg-{{ colour }}-lightest">lightest</div>
+    <div class="colour-block adx-bg-{{ colour }}-lighter">lighter</div>
+    <div class="colour-block adx-bg-{{ colour }}-light">light</div>
+    <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
+    <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
+    <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h4 class="adx-markup-label">Program Colours</h4>
+
+<p>Program colours can be adjust to suit each program. </p>
+<div class="colour-samples">
+  {% for colour in palette.program %}
+  <div class="colour-items">
+    <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
+    <div class="colour-block adx-bg-{{ colour }}-lightest">lightest</div>
+    <div class="colour-block adx-bg-{{ colour }}-lighter">lighter</div>
+    <div class="colour-block adx-bg-{{ colour }}-light">light</div>
+    <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
+    <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
+    <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h4 class="adx-markup-label">UI Colours</h4>
+
+<div class="colour-samples">
+  {% for colour in palette.ui %}
+  <div class="colour-items">
+    <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
+    <div class="colour-block adx-bg-{{ colour }}-lightest">lightest</div>
+    <div class="colour-block adx-bg-{{ colour }}-lighter">lighter</div>
+    <div class="colour-block adx-bg-{{ colour }}-light">light</div>
+    <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
+    <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
+    <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h4 class="adx-markup-label">Category Colours</h4>
+
+<div class="colour-samples">
+  {% for colour in palette.categories %}
+  <div class="colour-items">
+    <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
+    <div class="colour-block adx-bg-{{ colour }}-lightest">lightest</div>
+    <div class="colour-block adx-bg-{{ colour }}-lighter">lighter</div>
+    <div class="colour-block adx-bg-{{ colour }}-light">light</div>
+    <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
+    <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
+    <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
+    <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h4 class="adx-markup-label">Visualisation Samples</h4>
+
+<div class="colour-samples">
+{% for colour in palette.visualisation %}
+<div class="colour-items">
+  <div class="colour-block adx-bg-vis-{{ colour }}-start">start</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-s1">{{ colour }}-s1</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-s2">{{ colour }}-s2</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-s3">{{ colour }}-s3</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-mid">{{ colour }}-mid</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-m1">{{ colour }}-m1</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-m2">{{ colour }}-m2</div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-m3">{{ colour }}-m3 </div>
+  <div class="colour-block adx-bg-vis-{{ colour }}-end">{{ colour }}-end</div>
+</div>
+{% endfor %}
+</div>
 
 <h4 class="adx-markup-label">Scale Demo</h4>
 
@@ -48,7 +118,7 @@ visualisation:
   <div class="adx-show-xxxl adx-bg-vis-3" title="xxxl">&nbsp;</div>
 </div>
 
-<p>The scale is based on a 1.25 Major Third Scale, and referred to in t-shirt sizes - xxs-xxxl. The idea is that thes values are relative and so the same scale can be used across media and applications. </p>
+<p>The scale is based on a 1.25 Minor Third Scale, and referred to in t-shirt sizes - xxs-xxxl. The idea is that thes values are relative and so the same scale can be used across media and applications. </p>
 
 <h4 class="adx-markup-label">Heading 1</h4>
 
@@ -287,6 +357,7 @@ visualisation:
   <li>Stir and mix together</li>
   <li>Place into the over to cook</li>
   <li>Remove from the oven and eat</li>
+  <li>Meditation cray snackwave raw denim thundercats banh mi. XOXO pour-over unicorn bushwick YOLO brunch. Flexitarian direct trade hammock cloud bread art party occupy. Slow-carb glossier literally thundercats truffaut, church-key quinoa tousled. Pour-over asymmetrical brooklyn narwhal, hell of waistcoat 8-bit irony.</li>
 </ol>
 
 <h4 class="adx-markup-label">Step List</h4>
@@ -297,6 +368,7 @@ visualisation:
   <li>Stir and mix together</li>
   <li>Place into the over to cook</li>
   <li>Remove from the oven and eat</li>
+  <li>Meditation cray snackwave raw denim thundercats banh mi. XOXO pour-over unicorn bushwick YOLO brunch. Flexitarian direct trade hammock cloud bread art party occupy. Slow-carb glossier literally thundercats truffaut, church-key quinoa tousled. Pour-over asymmetrical brooklyn narwhal, hell of waistcoat 8-bit irony.</li>
 </ul>
 
 <h4 class="adx-markup-label">Definition List</h4>
@@ -395,7 +467,7 @@ visualisation:
   <button class="adx-button-brand-red">Click Me</button>
   <button class="adx-button-primary">Click Me</button>
   <button class="adx-button-accent">Click Me</button>
-  <button class="adx-button">Click Me</button>
+  <button class="adx-button-complimentary">Click Me</button>
   <p class="adx-button-brand-midblue">Click Me</p>
   <p class="adx-button">Click Me</p>
 </div>

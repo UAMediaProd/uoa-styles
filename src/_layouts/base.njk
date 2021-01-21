@@ -11,41 +11,9 @@
 		<h1 class="adx-markup-header adx-markup-caps">{{ title }}</h1>
 	</header>
 	<main>
-		
-	<h4 class="adx-markup-label">Colour Samples</h4>
-	
-	<div class="colour-samples">
-		{% for colour in palette %}
-		<div class="colour-items">
-			<div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
-			<div class="colour-block adx-bg-{{ colour }}-lightest">lightest</div>
-			<div class="colour-block adx-bg-{{ colour }}-lighter">lighter</div>
-			<div class="colour-block adx-bg-{{ colour }}-light">light</div>
-			<div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
-			<div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
-			<div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
-			<div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
-			<div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
-			<div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
-		</div>
-		{% endfor %}
-		</div>
-		<div class="colour-samples">
-			{% for colour in visualisation %}
-			<div class="colour-items">
-				<div class="colour-block adx-bg-vis-{{ colour }}-start">start</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-s1">s1</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-s2">s2</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-s3">s3</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-mid">{{ colour }}-mid</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-m1">m1</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-m2">m2</div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-m3">m3 </div>
-				<div class="colour-block adx-bg-vis-{{ colour }}-end">end</div>
-			</div>
-			{% endfor %}
-			</div>
-	{{ content | safe }}
+
+		{{ content | safe }}
+
 	</main>
 </body>
 </html>

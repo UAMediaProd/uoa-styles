@@ -3,13 +3,21 @@ aside {
   float: right;
   margin:0 $m $s;
   padding: 0;
-  background: $ui-neutral-tint;
-  border-radius: $xxs;
+  background: $primary-tint;
+  border-radius: 0;
   display: flex;
   flex-flow: column;
   max-width: 40%;
   min-width: 25ch;
+  padding: $xxs;
   
+  & > * {
+    margin: 0;
+  }
+  
+  ul li {
+    margin: $xxs 0;
+  }
   
   
   &.left {
@@ -17,13 +25,13 @@ aside {
   }
   
   &.keypoints {
-    background: $accent-tint;
+    background: $primary-tint;
+    padding: 0;
     
     & header {
-      background: $accent-darker;
+      background: $primary-darker;
       margin: 0 0 $s 0;
       padding: 0 $xs;
-      border-radius: $xxs $xxs 0 0;
       text-align: center;
     }
     h3 {
@@ -53,7 +61,7 @@ aside {
      margin: $xs;
      
      &::marker {
-        color: $accent;
+        color: $primary;
     }
   }
   }

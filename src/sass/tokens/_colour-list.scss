@@ -29,8 +29,8 @@ $ui-highlight-blue: transparentize(#2f9df5, .7);
 // PROGRAM STYLE
 
 $primary: $brand-darkblue;
-$accent: $brand-midblue;
-$complimentary: $brand-red;
+$accent: #63E33B;
+$complimentary: #7356C5;
 
 $primary-tint: mix(white, $primary, 80%);
 $primary-lightest: mix(white, $primary, 60%);
