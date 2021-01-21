@@ -3959,7 +3959,7 @@ ul.icon-list-sun-red li {
     background: rgba(255, 255, 255, 0.4);
   }
 }
-aside {
+aside.adx {
   font-size: 1rem;
   float: right;
   margin: 0 1rem 0.833rem;
@@ -3972,49 +3972,49 @@ aside {
   min-width: 25ch;
   padding: 0.579rem;
 }
-aside > * {
+aside.adx > * {
   margin: 0;
 }
-aside ul li {
+aside.adx ul li {
   margin: 0.579rem 0;
 }
-aside.left {
+aside.adx.left {
   float: left;
 }
-aside.keypoints {
+aside.adx.keypoints {
   background: #f3f4f5;
   padding: 0;
 }
-aside.keypoints header {
+aside.adx.keypoints header {
   background: #0a1620;
   margin: 0 0 0.833rem 0;
   padding: 0 0.694rem;
   text-align: center;
 }
-aside.keypoints h3 {
+aside.adx.keypoints h3 {
   padding: 0 0.694rem;
   font-size: 1rem;
   width: 100%;
   text-transform: uppercase;
   color: #fff;
 }
-aside.keypoints p {
+aside.adx.keypoints p {
   padding: 0 0.694rem;
   margin: 0;
 }
-aside.keypoints ul {
+aside.adx.keypoints ul {
   margin: 0 0.694rem;
   padding: 0.694rem;
 }
-aside.keypoints ul:last-child {
+aside.adx.keypoints ul:last-child {
   padding-bottom: 0.833rem;
 }
-aside.keypoints ul li {
+aside.adx.keypoints ul li {
   list-style-type: "★";
   padding-inline-start: 1ch;
   margin: 0.694rem;
 }
-aside.keypoints ul li::marker {
+aside.adx.keypoints ul li::marker {
   color: #102535;
 }
 
