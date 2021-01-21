@@ -12,7 +12,7 @@ palette:
 
 <h4 class="adx-markup-label">Brand Colours</h4>
 
-<div class="colour-samples">
+<div class="colour-samples grid-4">
   {% for colour in palette.brand %}
   <div class="colour-items">
     <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
@@ -22,6 +22,7 @@ palette:
     <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
     <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
     <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-darkest">darkest</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
@@ -32,7 +33,7 @@ palette:
 <h4 class="adx-markup-label">Program Colours</h4>
 
 <p>Program colours can be adjust to suit each program. </p>
-<div class="colour-samples">
+<div class="colour-samples grid-4">
   {% for colour in palette.program %}
   <div class="colour-items">
     <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
@@ -42,6 +43,7 @@ palette:
     <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
     <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
     <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-darkest">darkest</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
@@ -51,7 +53,7 @@ palette:
 
 <h4 class="adx-markup-label">UI Colours</h4>
 
-<div class="colour-samples">
+<div class="colour-samples grid-4">
   {% for colour in palette.ui %}
   <div class="colour-items">
     <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
@@ -61,6 +63,7 @@ palette:
     <div class="colour-block adx-bg-{{ colour }} adx-markup-section-caps adx-markup-font-heading">{{ colour }}</div>
     <div class="colour-block adx-bg-{{ colour }}-dark">dark</div>
     <div class="colour-block adx-bg-{{ colour }}-darker">darker</div>
+    <div class="colour-block adx-bg-{{ colour }}-darkest">darkest</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-50">Transparent 50</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-70">Transparent 70</div>
     <div class="colour-block adx-bg-{{ colour }}-trans-80">Transparent 80</div>
@@ -70,7 +73,7 @@ palette:
 
 <h4 class="adx-markup-label">Category Colours</h4>
 
-<div class="colour-samples">
+<div class="colour-samples grid-4">
   {% for colour in palette.categories %}
   <div class="colour-items">
     <div class="colour-block adx-bg-{{ colour }}-tint">tint</div>
@@ -89,7 +92,7 @@ palette:
 
 <h4 class="adx-markup-label">Visualisation Samples</h4>
 
-<div class="colour-samples">
+<div class="colour-samples grid-4">
 {% for colour in palette.visualisation %}
 <div class="colour-items">
   <div class="colour-block adx-bg-vis-{{ colour }}-start">start</div>
@@ -107,7 +110,7 @@ palette:
 
 <h4 class="adx-markup-label">Scale Demo</h4>
 
-<div class="colour-samples">
+<div class="colour-samples ">
   <div class="adx-show-xxs adx-bg-vis-6" title="xxs">&nbsp;</div>
   <div class="adx-show-xs adx-bg-vis-4" title="xs">&nbsp;</div>
   <div class="adx-show-s adx-bg-vis-2" title="s">&nbsp;</div>
@@ -464,36 +467,36 @@ palette:
 
 <p>Buttons can be <code>buttons</code> or tags with the <code>.adx-button</code> class. To add colour, suffix with the <code>-colour</code> refference.</p>
 <div class="grid-4">
-  <button class="adx-button-brand-red">Click Me</button>
-  <button class="adx-button-primary">Click Me</button>
-  <button class="adx-button-accent">Click Me</button>
-  <button class="adx-button-complimentary">Click Me</button>
-  <p class="adx-button-brand-midblue">Click Me</p>
+  <button class="adx-button brand-red">Click Me</button>
+  <button class="adx-button primary">Click Me</button>
+  <button class="adx-button accent">Click Me</button>
+  <button class="adx-button complimentary">Click Me</button>
+  <p class="adx-button brand-midblue">Click Me</p>
   <p class="adx-button">Click Me</p>
 </div>
 
 <p>Button groups can be made from an <code>ul</code> and <code>li</code> elements,</p>
 
 <ul class="adx-button-group">
-  <li class="adx-button-brand-midblue">Click Me</li>
-  <li class="adx-button-brand-midblue">Click Me</li>
-  <li class="adx-button-brand-midblue">Click Me</li>
+  <li class="adx-button brand-midblue">Click Me</li>
+  <li class="adx-button brand-midblue">Click Me</li>
+  <li class="adx-button brand-midblue">Click Me</li>
 </ul>
 
 <p>Or from <code>divs</code> and <code>p</code> tags,</p>
 
 <div class="adx-button-group">
-  <button class="adx-button-accent">Click Me</button>
-  <button disabled class="adx-button-complimentary">You can't Click Me</button>
-  <button class="adx-button-primary">Click Me</button>
+  <button class="adx-button accent">Click Me</button>
+  <button disabled class="adx-button complimentary">You can't Click Me</button>
+  <button class="adx-button primary">Click Me</button>
 </div>
 
 <p>And you can arrange them in a stack using <code>.adx-button-stack</code>.</p>
 
 <div class="adx-button-stack">
-  <p class="adx-button-brand-red">Click Me</p>
-  <p class="adx-button-brand-red">Click Me</p>
-  <p class="adx-button-brand-red">Click Me</p>
+  <p class="adx-button brand-red">Click Me</p>
+  <p class="adx-button brand-red">Click Me</p>
+  <p class="adx-button brand-red">Click Me</p>
 </div>
 
 <h4 class="adx-markup-label">Horizonal Rule</h4>
@@ -535,7 +538,7 @@ palette:
       <p>text</p>
     </article> 
     <footer>
-      <p class="adx-button-complimentary">ButtonText</p>
+      <p class="adx-button complimentary">ButtonText</p>
     </footer>
   </li>
   <li>
@@ -547,7 +550,7 @@ palette:
       <p>text</p>
     </article> 
     <footer>
-      <p class="adx-button-primary">ButtonText</p>
+      <p class="adx-button primary">ButtonText</p>
     </footer>
   </li>
   <li>
@@ -559,7 +562,107 @@ palette:
       <p>text</p>
     </article> 
     <footer>
-      <p class="adx-button-primary">Button Text Button Text Button Text Button Text </p>
+      <p class="adx-button primary">Button Text Button Text Button Text Button Text </p>
     </footer>
   </li>
 </ul>
+
+<h4 class="adx-markup-label">Figures</h4>
+
+<figure class="adx">
+  <img src="css/poly-pattern-horizontal.jpg" alt="" class="top">
+  <figcaption>Default is 100% width. <cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</figure>
+
+<figure class="adx w80">
+  <img src="css/poly-pattern-horizontal.jpg" alt="" class="top">
+  <figcaption>This one uses the w80 task to set the width to 80%.<cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</figure>
+
+<figure class="adx w60">
+  <img src="css/poly-pattern-horizontal.jpg" alt="" class="top">
+  <figcaption>Uses the w60 task to set the width to 60%. <cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</figure>
+
+<figure class="adx w40">
+  <img src="css/poly-pattern-horizontal.jpg" alt="" class="top">
+  <figcaption>Uses the w40 task to set the width to 40%. <cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</figure>
+
+<p>Two Up</p>
+
+<section class="adx-gallery two-up">
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figcaption>Adding in some kind of description <cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</section>
+
+<p>Three Up</p>
+
+<section class="adx-gallery three-up">
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/2.jpg" alt="" class="top">
+  </figure>
+  <figcaption>Adding in some kind of description <cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</section>
+
+<p>Four Up</p>
+
+<section class="adx-gallery four-up">
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+  </figure>
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+  </figure>
+  <figcaption>Adding in some kind of description <cite><a href="#">Insert a citation if needed</a></cite></figcaption>
+</section>
+
+<p>You can still have individual captions inside.</p>
+
+<section class="adx-gallery two-up">
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+    <figcaption>Individual captions <cite><a href="#">With link.</a></cite></figcaption>
+  </figure>
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+    <figcaption>Individual captions <cite><a href="#">With link.</a></cite></figcaption>
+  </figure>
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+    <figcaption>Individual captions <cite><a href="#">With link.</a></cite></figcaption>
+  </figure>
+  <figure class="adx">
+    <img src="css/diff-square.jpg" alt="" class="top">
+    <figcaption>Individual captions <cite><a href="#">With link.</a></cite></figcaption>
+  </figure>
+  </section>

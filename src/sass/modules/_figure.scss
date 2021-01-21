@@ -1,0 +1,106 @@
+figure.adx {
+  margin: $l 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: $xs;
+  overflow: hidden;
+  align-content: center;
+  justify-content: center;
+  border-radius: $xxxs;
+  border: 1px solid $ui-neutral;
+  
+  &.w80 {width: 80%; margin-left: auto; margin-right: auto;}
+  &.w60 {width: 60%; margin-left: auto; margin-right: auto;}
+  &.w40 {width: 40%; margin-left: auto; margin-right: auto;}
+  
+  & img {
+    max-width: 100%;
+  }
+  
+  figcaption {
+    color: $ui-neutral-darkest;
+    padding: $xxs;
+    font-size: $m;
+    text-align: center;
+  }
+  
+  cite a {
+    display: inline-block;
+    background: $ui-neutral-lightest;
+    color: $ui-neutral-darker;
+    padding: .5ch;
+    
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.adx-gallery {
+  margin: $l 0;
+  display: flex;
+  flex-wrap: wrap;                  /*  allow items to wrap  */
+  justify-content: center;   
+  border-radius: $xxxs;
+  border: 1px solid $ui-neutral;
+  // display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  // grid-gap: 1ch;
+  // margin: $l 0;
+  
+  & figcaption {
+    color: $ui-neutral-darkest;
+    padding: $xxs;
+    font-size: $m;
+    flex-basis: 100%;
+    text-align: center;
+    border-top: 1px solid $ui-neutral;
+  }
+  cite a {
+    display: inline-block;
+    background: $ui-neutral-lightest;
+    color: $ui-neutral-darker;
+    padding: .5ch;
+    
+    &:hover {
+      color: $primary;
+    }
+  }
+  
+  &.two-up > figure {
+    margin: 0;
+    flex-basis: calc(50% - (2 * #{$xxxs}));
+    margin: $xxxs;
+    border: none;
+    border-radius: 0
+  }
+  
+  &.three-up > figure {
+    margin: 0;
+    flex-basis: calc(30% - (2 * #{$xxxs}));
+    margin: $xxxs;
+    border: none;
+    border-radius: 0
+  }
+  
+  &.four-up > figure {
+    margin: 0;
+    flex-basis: calc(25% - (2 * #{$xxxs}));
+    margin: $xxxs;
+    border: none;
+  }
+}
+
+@media (max-width: 700px) {
+  
+  figure.adx {
+    &.w80 {width: 90%; }
+    &.w60 {width: 90%; }
+    &.w40 {width: 90%; }
+  }
+.adx-gallery {
+  &.four-up > figure, &.three-up > figure {
+    flex-basis: calc(50% - (2 * #{$xxxs}));
+}
+}
+}

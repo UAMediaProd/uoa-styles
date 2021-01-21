@@ -1,4 +1,4 @@
-.adx-button {
+.adx-button {  
   border: 2px solid $ui-neutral-darkest;
   padding: $xs;
   font-size: $s;
@@ -8,6 +8,7 @@
   text-align: center;
   letter-spacing: .1rem;
   cursor: pointer;
+  margin: $xxxs;
   
   a {
     text-decoration: none;
@@ -21,7 +22,7 @@
 }
   
 @each $color, $value in $brand-colors{
-        .adx-button-#{$color} {
+        .#{$color} {
           @extend .adx-button;
           background: mix(white, $value, 92%);
           border-color: $value;
@@ -35,14 +36,14 @@
 }
   
 @each $color, $value in $program-colors{
-      .adx-button-#{$color} {
+      .#{$color} {
         @extend .adx-button;
         background: mix(white, $value, 92%);
-        border-color: $value;
+        border-color: mix(black, $value, 30%);
         color: mix(black, $value, 30%);
         
         &:hover {
-          background: $value;
+          background: mix(black, $value, 30%);
           color: $ui-rev;
         }
       }
@@ -60,6 +61,10 @@
   padding: $xxs;
   display: flex;
   justify-content: center;
+  
+  .adx-button {
+    margin: 0;
+  }
   
   & > * {
   border-radius: 0;

@@ -26,6 +26,7 @@ $brand-colors: (
   .adx-#{$color} {color: $value !important;}
   .adx-#{$color}-dark {color: mix(black, $value, 30%) !important;}
   .adx-#{$color}-darker {color: mix(black, $value, 40%) !important;}
+  .adx-#{$color}-darkest {color: mix(black, $value, 50%) !important;}
   .adx-#{$color}-tint {color: mix(white, $value, 92%) !important;}
   .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
   .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
@@ -37,6 +38,7 @@ $brand-colors: (
   .adx-bg-#{$color} {background: $value !important; @include text-contrast($value);}
   .adx-bg-#{$color}-dark {background: mix(black, $value, 30%) !important; @include text-contrast(mix(black, $value, 30%));}
   .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; @include text-contrast(mix(black, $value, 40%));}
+    .adx-bg-#{$color}-darkest {background: mix(black, $value, 50%) !important; @include text-contrast(mix(black, $value, 40%));}
   .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
   .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important; color: $ui-blk;}
   .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important; color: $ui-blk;}
@@ -55,6 +57,7 @@ $program-colors: (
   .adx-#{$color} {color: $value !important;}
   .adx-#{$color}-dark {color: mix(black, $value, 30%) !important;}
   .adx-#{$color}-darker {color: mix(black, $value, 40%) !important;}
+  .adx-#{$color}-darkest {color: mix(black, $value, 50%) !important;}
   .adx-#{$color}-tint {color: mix(white, $value, 92%) !important;}
   .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
   .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
@@ -66,6 +69,7 @@ $program-colors: (
   .adx-bg-#{$color} {background: $value !important; @include text-contrast($value); @include text-contrast($value);}
   .adx-bg-#{$color}-dark {background: mix(black, $value, 30%) !important; @include text-contrast(mix(black, $value, 30%));}
   .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; @include text-contrast(mix(black, $value, 40%));}
+  .adx-bg-#{$color}-darkest {background: mix(black, $value, 50%) !important; @include text-contrast(mix(black, $value, 40%));}
   .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
   .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important; color: $ui-blk;}
   .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important; color: $ui-blk;}
@@ -79,7 +83,6 @@ $ui-colors: (
   information: $ui-information,
   rev: $ui-rev,
   blk: $ui-blk,
-  
 );
 
 @each $color, $value in $ui-colors {
@@ -89,6 +92,7 @@ $ui-colors: (
   .adx-#{$color} {color: $value !important;}
   .adx-#{$color}-dark {color: mix(black, $value, 30%) !important;}
   .adx-#{$color}-darker {color: mix(black, $value, 40%) !important;}
+  .adx-#{$color}-darkest {color: mix(black, $value, 50%) !important;}
   .adx-#{$color}-tint {color: mix(white, $value, 92%) !important;}
   .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
   .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
@@ -100,6 +104,7 @@ $ui-colors: (
   .adx-bg-#{$color} {background: $value !important; @include text-contrast($value);}
   .adx-bg-#{$color}-dark {background: mix(black, $value, 30%) !important; @include text-contrast(mix(black, $value, 30%));}
   .adx-bg-#{$color}-darker {background: mix(black, $value, 40%) !important; @include text-contrast(mix(black, $value, 40%));}
+  .adx-bg-#{$color}-darkest {background: mix(black, $value, 50%) !important; @include text-contrast(mix(black, $value, 40%));}
   .adx-bg-#{$color}-trans-50 {background: transparentize($value, .5) !important; color: $ui-blk;}
   .adx-bg-#{$color}-trans-70 {background: transparentize($value, .7) !important; color: $ui-blk;}
   .adx-bg-#{$color}-trans-80 {background: transparentize($value, .8) !important; color: $ui-blk;}
