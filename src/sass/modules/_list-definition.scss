@@ -11,6 +11,8 @@ dt {
   padding: 0 $xxs;
   color: $primary;
   border-bottom: 1px solid $primary-lightest;
+  line-height: 1.2; 
+  letter-spacing: -0.02rem;
   
   &:first-of-type {margin-top: 0}
 }
@@ -20,6 +22,7 @@ dd {
   padding: $s;
   border-bottom: 1px solid $primary-lightest;
   border-right: 1px solid $primary-lightest;
+  line-height: 1.6; 
 }
 
 dl.description {
@@ -37,6 +40,8 @@ dl.description {
     border: none;
     letter-spacing: normal;
     padding-left: 0;
+    line-height: 1.2; 
+    letter-spacing: -0.02rem;
   }
   
   dd {
@@ -47,5 +52,7 @@ dl.description {
     border-bottom: 1px solid $ui-neutral;
     background: none;
     padding-left: 0;
+    font-size: $m; 
+    line-height: 1.6; 
   }
 }

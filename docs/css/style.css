@@ -3713,6 +3713,8 @@ dt {
   padding: 0 0.579rem;
   color: #102535;
   border-bottom: 1px solid #9fa8ae;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
 }
 dt:first-of-type {
   margin-top: 0;
@@ -3723,6 +3725,7 @@ dd {
   padding: 0.833rem;
   border-bottom: 1px solid #9fa8ae;
   border-right: 1px solid #9fa8ae;
+  line-height: 1.6;
 }
 
 dl.description {
@@ -3739,6 +3742,8 @@ dl.description dt {
   border: none;
   letter-spacing: normal;
   padding-left: 0;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
 }
 dl.description dd {
   margin: 0;
@@ -3748,6 +3753,8 @@ dl.description dd {
   border-bottom: 1px solid #B9C0C6;
   background: none;
   padding-left: 0;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 ul.icon-list {
