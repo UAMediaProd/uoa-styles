@@ -4,6 +4,8 @@
 @import "tokens/_colour-build";
 @import "tokens/_colour-visualisation-build";
 @import "tokens/_depth";
+@import "tokens/_border";
+
 
 @import "utilities/_svg-factory";
 
@@ -20,12 +22,13 @@
 @import "modules/_list-icons";
 @import "modules/_list-task";
 @import "modules/_aside";
-@import "modules/_button";
+@import "modules/_buttons";
 @import "modules/_divide";
 @import "modules/_nav-subsection";
 @import "modules/_nav-sequence";
 @import "modules/_cards";
 @import "modules/_figure";
+@import "modules/_tables";
 
 body {
   font-family: $font-text;

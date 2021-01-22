@@ -1,0 +1,205 @@
+$table-border: 1px solid $ui-neutral;
+
+table.adx  {
+  font-size: $m;
+  min-width: 80%;
+  max-width: 100%;
+  margin: $l 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  
+  &.text-small {font-size: 80% !important;}
+  &.text-smaller {font-size: 70% !important;}
+  .w20 {width: 20%;}
+  .w25 {width: 25%;}
+  .w30 {width: 30%;}
+  .w40 {width: 40%;}
+  .w50 {width: 50%;}
+  .w60 {width: 60%;}
+
+  &.zebra-even {
+    tbody tr:nth-child(even) {
+      background: $ui-neutral-tint;
+    }
+  }
+  
+  &.zebra-odd {
+    tbody tr:nth-child(odd) {
+      background: $ui-neutral-tint;
+    }
+  }
+  
+  &.column-head {
+    tr {
+      td:first-child, th:first-child {
+      border-right: 3px solid $ui-neutral;
+      font-weight: bold;
+    }
+  }
+}
+  
+  &.column-all {
+      border: $table-border;
+      // border-width: 2px;
+      caption{
+        margin: 0;
+        padding-bottom: $l;
+      }
+      
+    tr {
+      td, th {
+      border-right: $table-border;
+      border-left: $table-border;
+    }
+    }
+  }
+  
+
+  &.column-1 {
+    tr {
+      td:first-child, th:first-child {
+      border-right: $table-border;
+    }
+    }
+  }
+  
+  &.column-even {
+    tr {
+      td:nth-child(even), th:nth-child(even) {
+      border-left: $table-border;
+    }
+    }
+  }
+  
+  &.column-odd {
+    tr {
+      td:nth-child(odd), th:nth-child(odd) {
+      border-left: $table-border;
+    }
+    }
+  }
+  
+  &.column-last {
+    tr {
+      td:last-child, th:last-child {
+      border-left: $table-border;
+    }
+    }
+  }
+  
+  th, td {
+    text-align: left;
+    border-bottom: $table-border;
+    padding: $xxxs $xxxs;
+  }
+  
+  th {
+    border-bottom: 3px solid $ui-neutral;
+  }
+  
+  tr.accent {
+    background: $accent-lightest;
+  }
+  
+  tr.primary {
+    background: $primary-lightest;
+  }
+  
+  tr.accent {
+    background: $accent-lightest;
+  }
+  
+  @each $color, $value in $program-colors {
+      tr.#{$color} {
+        background: mix(white, $value, 80%) !important
+    }
+  }
+  
+  @each $color, $value in $ui-colors {
+      tr.#{$color} {
+        background: mix(white, $value, 80%) !important
+    }
+  }
+  
+  caption {
+    font-size: $s;
+    caption-side: top;
+    margin-bottom: $m;
+    padding: $s $m $s;
+    background: $ui-neutral-tint;
+    font-style: italic;
+    border: $table-border;
+    
+    & > * {
+      font-style: normal;
+    }
+    
+    &.caption-bottom {
+      caption-side: bottom !important;
+    }
+  }
+  
+  &.styled {
+    caption {
+      caption-side: bottom;
+      padding: $l $m $xxxs;
+      border: $table-border;
+      color: $primary;
+    }
+    
+    & tr {
+      border: 1px solid $accent;
+    }
+    
+    td:first-child {
+     border-left: $table-border;
+    }
+    
+    td:last-child {
+     border-right: $table-border;
+    }
+    
+    & tr:first-child {
+        td:first-child {
+          border-radius: $top-left;
+        }
+        td:last-child {
+          border-radius: $top-right;
+        }
+    }
+    
+    & tr:last-child {
+        td {
+          border-bottom: 3px solid $ui-neutral;
+        }
+    }
+  
+    thead tr {
+      text-align: left;
+      text-transform: uppercase;
+      font-size: $xs;
+      color: $primary;
+      font-weight: lighter;
+    
+      th {
+        padding: 0 $s $xxxs $s;
+        border: 0;
+      }
+    }
+    
+    tbody {
+    
+      tr {
+      background: $ui-neutral-tint;
+      } 
+    
+      td {
+        padding: $s $s;
+        border-top: 1px solid $ui-neutral;
+        
+      }
+    }
+  }
+}

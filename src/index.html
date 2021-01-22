@@ -467,36 +467,36 @@ palette:
 
 <p>Buttons can be <code>buttons</code> or tags with the <code>.adx-button</code> class. To add colour, suffix with the <code>-colour</code> refference.</p>
 <div class="grid-4">
-  <button class="adx-button brand-red">Click Me</button>
-  <button class="adx-button primary">Click Me</button>
-  <button class="adx-button accent">Click Me</button>
-  <button class="adx-button complimentary">Click Me</button>
-  <p class="adx-button brand-midblue">Click Me</p>
+  <button class="adx-button button-brand-red">Click Me</button>
+  <button class="adx-button button-primary">Click Me</button>
+  <button class="adx-button button-accent">Click Me</button>
+  <button class="adx-button button-complimentary">Click Me</button>
+  <p class="adx-button button-brand-midblue">Click Me</p>
   <p class="adx-button">Click Me</p>
 </div>
 
 <p>Button groups can be made from an <code>ul</code> and <code>li</code> elements,</p>
 
 <ul class="adx-button-group">
-  <li class="adx-button brand-midblue">Click Me</li>
-  <li class="adx-button brand-midblue">Click Me</li>
-  <li class="adx-button brand-midblue">Click Me</li>
+  <li class="adx-button button-brand-midblue">Click Me</li>
+  <li class="adx-button button-brand-midblue">Click Me</li>
+  <li class="adx-button button-brand-midblue">Click Me</li>
 </ul>
 
 <p>Or from <code>divs</code> and <code>p</code> tags,</p>
 
 <div class="adx-button-group">
-  <button class="adx-button accent">Click Me</button>
-  <button disabled class="adx-button complimentary">You can't Click Me</button>
-  <button class="adx-button primary">Click Me</button>
+  <button class="adx-button button-accent">Click Me</button>
+  <button disabled class="adx-button button-complimentary">You can't Click Me</button>
+  <button class="adx-button button-primary">Click Me</button>
 </div>
 
 <p>And you can arrange them in a stack using <code>.adx-button-stack</code>.</p>
 
 <div class="adx-button-stack">
-  <p class="adx-button brand-red">Click Me</p>
-  <p class="adx-button brand-red">Click Me</p>
-  <p class="adx-button brand-red">Click Me</p>
+  <p class="adx-button button-brand-red">Click Me</p>
+  <p class="adx-button button-brand-red">Click Me</p>
+  <p class="adx-button button-brand-red">Click Me</p>
 </div>
 
 <h4 class="adx-markup-label">Horizonal Rule</h4>
@@ -666,3 +666,102 @@ palette:
     <figcaption>Individual captions <cite><a href="#">With link.</a></cite></figcaption>
   </figure>
   </section>
+  
+  <h4 class="adx-markup-label">Tables</h4>
+
+  <table class="adx styled ">
+      <caption class="top">Here's an example styled table caption.</caption>
+      <thead>
+          <tr>
+              <th class="">Name</th>
+              <th>Contact</th>
+              <th>Team</th>
+              <th class="">Section</th>
+              <th>Points</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Dom</td>
+              <td>6000</td>
+              <td>Detroit</td>
+              <td>Back to front</td>
+              <td>40</td>
+          </tr>
+          <tr class="active-row">
+              <td>Melissa</td>
+              <td>5150</td>
+              <td>Paris</td>
+              <td>Midfield</td>
+              <td>31</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table id="customers" class="adx text-smaller column-last zebra-even ">
+    <caption class="">
+       
+      <h4>Customer database</h4>
+      <p>You can add some styled text here in the caption in here.</p>
+      Or just some text here.
+    </caption>
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr class="">
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr class="">
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+  </tbody>
+</table>
