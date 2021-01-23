@@ -1,0 +1,24 @@
+.adx pre {
+  border: $ui-border;
+  border-radius: $radius;
+  background: $ui-neutral-tint;
+  padding: $m;
+  min-width: 60%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  code {
+    background: none;
+    border: none;
+  }
+}
+
+
+.adx code {
+  border: $ui-border;
+  border-radius: $radius;
+  padding: .15ch .5ch;
+  font-size: 85%;
+  letter-spacing: .05ch;
+}

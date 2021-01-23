@@ -4574,6 +4574,29 @@ ul.cards-images li footer [class^=adx-button] {
   margin-left: auto;
 }
 
+.adx pre {
+  border: 1px solid #B9C0C6;
+  border-radius: 0.5ch;
+  background: #f9fafa;
+  padding: 1rem;
+  min-width: 60%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adx pre code {
+  background: none;
+  border: none;
+}
+
+.adx code {
+  border: 1px solid #B9C0C6;
+  border-radius: 0.5ch;
+  padding: 0.15ch 0.5ch;
+  font-size: 85%;
+  letter-spacing: 0.05ch;
+}
+
 figure.adx {
   margin: 1.44rem 0;
   display: flex;
@@ -4735,6 +4758,12 @@ table.adx.column-all caption {
 table.adx.column-all tr td, table.adx.column-all tr th {
   border-right: 1px solid #B9C0C6;
   border-left: 1px solid #B9C0C6;
+}
+table.adx td.column-left, table.adx th.column-left {
+  border-left: 1px solid #B9C0C6;
+}
+table.adx td.column-right, table.adx th.column-right {
+  border-right: 1px solid #B9C0C6;
 }
 table.adx.column-1 tr td:first-child, table.adx.column-1 tr th:first-child {
   border-right: 1px solid #B9C0C6;

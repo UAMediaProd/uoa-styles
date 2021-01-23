@@ -707,7 +707,7 @@ palette:
     </caption>
   <thead>
     <tr>
-      <th>Company</th>
+      <th class="column-right">Company</th>
       <th>Contact</th>
       <th>Country</th>
     </tr>
@@ -734,17 +734,17 @@ palette:
     <td>Austria</td>
   </tr>
   <tr class="">
-    <td>Island Trading</td>
+    <td class="column-right">Island Trading</td>
     <td>Helen Bennett</td>
     <td>UK</td>
   </tr>
   <tr>
-    <td>Königlich Essen</td>
+    <td class="column-right" >Königlich Essen</td>
     <td>Philip Cramer</td>
     <td>Germany</td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
+    <td class="column-right">Laughing Bacchus Winecellars</td>
     <td>Yoshi Tannamuri</td>
     <td>Canada</td>
   </tr>
@@ -765,3 +765,43 @@ palette:
   </tr>
   </tbody>
 </table>
+
+<h4 class="adx-markup-label">Code Samples</h4>
+
+<p class="">To semantically mark text as code in HTML, insert the <code>&lt;code&gt;</code> tag. This displays the text inline, unlike the <code>&lt;pre&gt;</code> tag which has a block display.</p>
+
+<p class="">You may find the browser default for this tag pretty dull. If, like me, you're using <a href="http://prismjs.com/">Prism</a> to style code blocks on your site, then you might want your inline &lt;code&gt; blocks to have a similar style to your main &lt;pre&gt; blocks.</p>
+
+<p>This is the style I use, that matches the Okaidia style.</p>
+
+<pre class="">
+<code>
+$color-code-background: #272822;
+$color-code-color: #f8f8f2;
+
+code {
+    background-color: $color-code-background;
+    color: $color-code-color;
+    border-radius: 0.3rem;
+    padding: 4px 5px 5px;
+    white-space: nowrap;
+}
+
+pre {
+  background-color: $color-code-background;
+  padding: 5px;
+  border-radius: 0.3em;
+}
+
+pre code {
+  white-space: inherit;
+}
+</code>
+</pre>
+
+<ul>
+  <li>I've added the white-space rule in to stop text within <code>&lt;code&gt;</code> from splitting on spaces.</li>
+  <li>However, word wrap within <code>&lt;pre&gt;</code> might be broken by this, so you might need to reset (see my CSS <code>pre code { }</code> style)</li>
+  <li>Padding is dependent on the font-size and line-height of your body text - amend as required</li>
+  <li>This is accessible - nice colour contrast <code>&lt;pre&gt;</code>between site background and the text. Use colour contrast checkers like WebAIM's <code>&lt;pre&gt;</code>to verify your colours are accessible.</li>
+</ul>
