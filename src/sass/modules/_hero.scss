@@ -1,0 +1,56 @@
+header.adx-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(250px, 50vh);
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  overflow: clip;
+  
+  & .image {
+    grid-area: 1 / 1 / 2 / 2;
+    
+    & img {
+    display: grid;
+    min-width: 400px; // Do not resize to smaller than this.
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    &.center-center {object-position: center center;}
+    &.left-center {object-position: left center;}
+    &.right-center {object-position: right center;}
+    &.center-top {object-position: center top;}
+    &.left-top {object-position: left top;}
+    &.right-top {object-position: right top;}
+    &.center-bottom {object-position: center bottom;}
+    &.left-bottom {object-position: left bottom;}
+    &.right-bottom {object-position: right bottom;}
+    }
+  }
+  & .overlay {
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    width: 100%;
+    height: 100%;
+  }
+  
+  & .text {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    margin: 2vw;
+    
+    &.right {text-align: right;}
+    
+    & > * {
+      margin: 0;
+      padding-bottom: $xxs;
+      color: $ui-rev;
+    }
+
+  }
+}
