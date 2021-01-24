@@ -4575,6 +4575,59 @@ nav.adx-sequence ul li.complete:before {
   border-color: #102535;
 }
 
+ul.adx-nav-table, ol.adx-nav-table {
+  list-style: none;
+  min-width: 80%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22ch, 1fr));
+  grid-gap: 0.5ch;
+  grid-auto-flow: dense;
+  border: 1px solid #B9C0C6;
+  border-radius: 0.5ch;
+  overflow: hidden;
+  padding: 1ch;
+}
+ul.adx-nav-table li, ol.adx-nav-table li {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0;
+  padding: 1rem 0.694rem;
+  background: #f9fafa;
+  text-align: center;
+  border: 1px solid #B9C0C6;
+  position: relative;
+}
+ul.adx-nav-table li > *, ol.adx-nav-table li > * {
+  margin: 0;
+  line-height: 1.2;
+}
+ul.adx-nav-table li a, ol.adx-nav-table li a {
+  text-decoration: none;
+  color: #102535;
+}
+ul.adx-nav-table li a:hover, ol.adx-nav-table li a:hover {
+  color: #fff;
+  transition: all 0.2s;
+}
+ul.adx-nav-table li a::after, ol.adx-nav-table li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+ul.adx-nav-table li:hover, ol.adx-nav-table li:hover {
+  background: #102535;
+  color: #fff;
+  transition: all 0.2s;
+}
+ul.adx-nav-table li.full, ol.adx-nav-table li.full {
+  grid-column: 1/-1;
+}
+
 ul.cards-images {
   list-style: none;
   display: grid;
@@ -4653,6 +4706,7 @@ ul.cards-images li footer [class^=adx-button] {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+  white-space: pre-wrap;
 }
 .adx pre code {
   background: none;

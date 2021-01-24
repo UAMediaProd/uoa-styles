@@ -1,0 +1,59 @@
+ul.adx-nav-table, ol.adx-nav-table {
+  list-style: none;
+  min-width: 80%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22ch,1fr));
+  grid-gap: .5ch;
+  grid-auto-flow: dense;
+  border: $ui-border;
+  border-radius: $radius;
+  overflow: hidden;
+  padding: 1ch;
+  
+  & li {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0;
+    padding: $m $xs;
+    background: $ui-neutral-tint;
+    text-align: center;
+    border: $ui-border;
+    position: relative;
+    
+    & > * {
+      margin: 0;
+      line-height: 1.2;
+    }
+    
+    a {
+      text-decoration: none;
+      color: $primary;
+    }
+    
+    a:hover {
+      color: $ui-rev;
+      transition: all .2s;
+    }
+    
+    a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    } // clickable area trick  - https://inclusive-components.design/cards/
+    
+    &:hover {
+      background: $primary;
+      color: $ui-rev;
+      transition: all .2s;
+    }
+    
+    &.full {
+      grid-column: 1 / -1
+    }
+  }
+}
