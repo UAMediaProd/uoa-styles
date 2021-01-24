@@ -1,6 +1,6 @@
 ol.apa, ul.apa {
   list-style: none;
-  margin: $m 0 !important;
+  margin: $xl 0 !important;
   padding: 0;
   
   li {
@@ -14,8 +14,8 @@ ol.apa, ul.apa {
     display: block;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: $ui-border;
-    padding-bottom: $xxxs;
+    border-top: $ui-border;
+    padding-top: $xxxs;
     color: $primary-light;
     border-color: $primary-light;
   }

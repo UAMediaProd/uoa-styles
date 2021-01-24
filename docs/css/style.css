@@ -5024,7 +5024,7 @@ header.adx-hero .text > * {
 
 ol.apa, ul.apa {
   list-style: none;
-  margin: 1rem 0 !important;
+  margin: 1.728rem 0 !important;
   padding: 0;
 }
 ol.apa li, ul.apa li {
@@ -5037,8 +5037,8 @@ ol.apa.ref-list::before, ul.apa.ref-list::before {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid #B9C0C6;
-  padding-bottom: 0.402rem;
+  border-top: 1px solid #B9C0C6;
+  padding-top: 0.402rem;
   color: #40515d;
   border-color: #40515d;
 }
