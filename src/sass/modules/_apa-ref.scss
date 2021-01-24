@@ -1,0 +1,22 @@
+ol.apa, ul.apa {
+  list-style: none;
+  margin: $m 0 !important;
+  padding: 0;
+  
+  li {
+    margin-left: $s;
+    padding-left: 2em;
+    text-indent: -2em;
+  }
+  
+  &.ref-list::before {
+    content: "References";
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: $ui-border;
+    padding-bottom: $xxxs;
+    color: $primary-light;
+    border-color: $primary-light;
+  }
+}

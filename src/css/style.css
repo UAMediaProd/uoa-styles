@@ -5022,6 +5022,27 @@ header.adx-hero .text > * {
   color: #fff;
 }
 
+ol.apa, ul.apa {
+  list-style: none;
+  margin: 1rem 0 !important;
+  padding: 0;
+}
+ol.apa li, ul.apa li {
+  margin-left: 0.833rem;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+ol.apa.ref-list::before, ul.apa.ref-list::before {
+  content: "References";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #B9C0C6;
+  padding-bottom: 0.402rem;
+  color: #40515d;
+  border-color: #40515d;
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
