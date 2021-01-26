@@ -1,0 +1,73 @@
+ul.adx-nav-cards, ol.adx-nav-cards {
+  list-style: none;
+  min-width: 80%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25ch,1fr));
+  grid-gap: 1ch;
+  grid-auto-flow: dense;
+  overflow: hidden;
+  padding: 1ch;
+  
+  & > * {margin: 0; padding: 0;}
+  
+  li {
+    border: $ui-border;
+    padding: 0 $xs;
+    border-radius: $radius $radius 0 0;
+    overflow: hidden;
+    position: relative;
+    transition: all ease .2s;
+
+    
+    &:focus-within, &:hover {
+      box-shadow: $shadow-m;
+      transform: scale(1.025);
+    }
+    
+    div.slab {
+      content: " ";
+      height: 3em;
+      background: $primary;
+      margin: 0 -$xs 0 -$xs;
+    }
+    
+    a {
+      text-decoration: none;
+      color: $primary;
+    }
+    
+    a:hover {
+      transition: all .2s;
+    }
+    
+    a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    } // clickable area trick  - https://inclusive-components.design/cards/
+    
+    &:hover {
+      background: $ui-neutral-tint;
+    }
+    
+    & > * { padding: 0; margin: $xxxs 0;}
+    
+    & p.label {
+      text-transform: uppercase;
+      font-size: $s;
+      margin: $s 0;
+    }
+    
+    & p.description {
+      color: $primary;
+      line-height: 1.1;
+      font-size: $s;
+      
+    }
+
+  }
+}

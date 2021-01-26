@@ -21,6 +21,8 @@ ul.adx-nav-table, ol.adx-nav-table {
     text-align: center;
     border: $ui-border;
     position: relative;
+    transition: all ease .2s;
+
     
     & > * {
       margin: 0;
@@ -30,11 +32,11 @@ ul.adx-nav-table, ol.adx-nav-table {
     a {
       text-decoration: none;
       color: $primary;
+      transition: all ease .2s;
     }
     
     a:hover {
       color: $ui-rev;
-      transition: all .2s;
     }
     
     a::after {
@@ -49,7 +51,8 @@ ul.adx-nav-table, ol.adx-nav-table {
     &:hover {
       background: $primary;
       color: $ui-rev;
-      transition: all .2s;
+      transform: scale(1.025);
+
     }
     
     &.full {

@@ -3991,7 +3991,7 @@ ul.icon-list-sun-red li {
 }
 
 .todoList {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   width: 80%;
   margin: 2.074rem auto;
   border-top: solid 2.074rem #102535;
@@ -4598,6 +4598,7 @@ ul.adx-nav-table li, ol.adx-nav-table li {
   text-align: center;
   border: 1px solid #B9C0C6;
   position: relative;
+  transition: all ease 0.2s;
 }
 ul.adx-nav-table li > *, ol.adx-nav-table li > * {
   margin: 0;
@@ -4606,10 +4607,10 @@ ul.adx-nav-table li > *, ol.adx-nav-table li > * {
 ul.adx-nav-table li a, ol.adx-nav-table li a {
   text-decoration: none;
   color: #102535;
+  transition: all ease 0.2s;
 }
 ul.adx-nav-table li a:hover, ol.adx-nav-table li a:hover {
   color: #fff;
-  transition: all 0.2s;
 }
 ul.adx-nav-table li a::after, ol.adx-nav-table li a::after {
   content: "";
@@ -4622,10 +4623,76 @@ ul.adx-nav-table li a::after, ol.adx-nav-table li a::after {
 ul.adx-nav-table li:hover, ol.adx-nav-table li:hover {
   background: #102535;
   color: #fff;
-  transition: all 0.2s;
+  transform: scale(1.025);
 }
 ul.adx-nav-table li.full, ol.adx-nav-table li.full {
   grid-column: 1/-1;
+}
+
+ul.adx-nav-cards, ol.adx-nav-cards {
+  list-style: none;
+  min-width: 80%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
+  grid-gap: 1ch;
+  grid-auto-flow: dense;
+  overflow: hidden;
+  padding: 1ch;
+}
+ul.adx-nav-cards > *, ol.adx-nav-cards > * {
+  margin: 0;
+  padding: 0;
+}
+ul.adx-nav-cards li, ol.adx-nav-cards li {
+  border: 1px solid #B9C0C6;
+  padding: 0 0.694rem;
+  border-radius: 0.5ch 0.5ch 0 0;
+  overflow: hidden;
+  position: relative;
+  transition: all ease 0.2s;
+}
+ul.adx-nav-cards li:focus-within, ul.adx-nav-cards li:hover, ol.adx-nav-cards li:focus-within, ol.adx-nav-cards li:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  transform: scale(1.025);
+}
+ul.adx-nav-cards li div.slab, ol.adx-nav-cards li div.slab {
+  content: " ";
+  height: 3em;
+  background: #102535;
+  margin: -0.694rem -0.694rem;
+}
+ul.adx-nav-cards li a, ol.adx-nav-cards li a {
+  text-decoration: none;
+  color: #102535;
+}
+ul.adx-nav-cards li a:hover, ol.adx-nav-cards li a:hover {
+  transition: all 0.2s;
+}
+ul.adx-nav-cards li a::after, ol.adx-nav-cards li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+ul.adx-nav-cards li:hover, ol.adx-nav-cards li:hover {
+  background: #f9fafa;
+}
+ul.adx-nav-cards li > *, ol.adx-nav-cards li > * {
+  padding: 0;
+  margin: 0.402rem 0;
+}
+ul.adx-nav-cards li p.label, ol.adx-nav-cards li p.label {
+  text-transform: uppercase;
+  font-size: 0.833rem;
+  margin: 0.833rem 0;
+}
+ul.adx-nav-cards li p.description, ol.adx-nav-cards li p.description {
+  color: #102535;
+  line-height: 1.1;
+  font-size: 0.833rem;
 }
 
 ul.cards-images {
