@@ -4785,6 +4785,56 @@ ul.adx-nav-cards li p.description, ol.adx-nav-cards li p.description {
   font-size: 0.833rem;
 }
 
+.adx-toc {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #B9C0C6;
+  border-radius: 0.5ch;
+  overflow: hidden;
+  padding: 1.728rem;
+  background: #f9fafa;
+}
+.adx-toc ol {
+  counter-reset: item;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+.adx-toc ol li::before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #40515d;
+  font-size: 0.833rem;
+  padding-right: 0.579rem;
+}
+.adx-toc li {
+  margin: 0;
+  margin-left: 2.5ch;
+  padding: 0.579rem 0;
+  padding-left: 0.579rem;
+  text-transform: capitalize;
+}
+.adx-toc li > ol > li {
+  border-left: 1px solid #B9C0C6;
+}
+.adx-toc ol.modules li::before {
+  content: "Module " counters(item, ".") ". ";
+}
+.adx-toc ol.modules li > ol > li {
+  border-left: 1px solid #B9C0C6;
+  margin-left: 9.5ch;
+}
+.adx-toc ol.modules li > ol > li:before {
+  content: counters(item, ".") " ";
+}
+.adx-toc ol.modules li > ol > li > ol > li {
+  margin-left: 3.5ch;
+}
+
 ul.cards-images {
   list-style: none;
   display: grid;

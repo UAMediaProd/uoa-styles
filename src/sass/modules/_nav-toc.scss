@@ -1,0 +1,58 @@
+.adx-toc {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: $ui-border;
+  border-radius: $radius;
+  overflow: hidden;
+  padding: $xl;
+  background: $ui-neutral-tint;
+
+  ol {
+    counter-reset: item;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol li::before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $primary-light;
+    font-size: $s; 
+    padding-right: $xxs;  
+  }
+  
+  li {
+    margin: 0;
+    margin-left: 2.5ch;
+    padding: $xxs 0;
+    padding-left: $xxs;
+    text-transform: capitalize;
+  }
+  
+  
+  li > ol > li {
+    border-left: $ui-border;
+  }
+  
+  ol.modules li::before {
+    content: "Module " counters(item, ".") ". ";
+  }
+  
+  ol.modules li > ol > li {
+  border-left: $ui-border;
+  margin-left: 9.5ch;
+  
+  &:before {
+      content: counters(item, ".")" ";
+    }
+  }
+  
+  ol.modules li > ol > li > ol >li {
+    margin-left: 3.5ch;
+  }
+}
