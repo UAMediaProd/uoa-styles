@@ -3133,6 +3133,96 @@
   color: #2887a1 !important;
 }
 
+.adx-aspect.wide {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.adx-aspect.square {
+  position: relative;
+  padding-bottom: 100%;
+}
+.adx-aspect.portrait {
+  position: relative;
+  padding-bottom: 133.3333333333%;
+}
+.adx-aspect.landscape {
+  position: relative;
+  padding-bottom: 75%;
+}
+.adx-aspect img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.adx-aspect img.top-center {
+  object-position: top center;
+}
+.adx-aspect img.bottom-center {
+  object-position: bottom center;
+}
+.adx-aspect img.center-center {
+  object-position: center center;
+}
+.adx-aspect img.left-top {
+  object-position: left top;
+}
+.adx-aspect img.left-bottom {
+  object-position: left bottom;
+}
+.adx-aspect img.left-center {
+  object-position: left center;
+}
+.adx-aspect img.right-top {
+  object-position: right top;
+}
+.adx-aspect img.right-bottom {
+  object-position: right bottom;
+}
+.adx-aspect img.right-center {
+  object-position: right center;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w40 {
+  max-width: 40%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w10 {
+  width: 10%;
+}
+
 /**
  * Author: Kevin Weber
  *

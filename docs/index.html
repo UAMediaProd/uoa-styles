@@ -1192,6 +1192,8 @@ pre code {
 
 <h4 class="adx-markup-label">Nav Cards</h4>
 
+<p>Nav cards use an <code>ol</code> or <code>ul</code> with the class <code>.adx-nav-cards</code>. The link is formed from the <code>a href</code> within the card. The <code>.slab</code> <code>div</code> allows you to set a colour of the background using a class, and the label can be defined by adding a colour class to the <code>li</code>.</p>
+
 <ul class="adx-nav-cards ">
   <li class="adx-vis-cat6">
     <div class="slab adx-bg-vis-cat6"></div>
@@ -1226,6 +1228,22 @@ pre code {
     <h4><a href="#">Module 6</a>
     </h4></li>
 </ul>
+
+<h4 class="adx-markup-label">Aspect Ratios</h4>
+
+<p>If an image requires a specific aspect ratio you can wrap it in a <code>div</code> and apply the <code>.adx-aspect</code> class and the desired aspect - portait (3:4), landscape (4:3), square (1:1) or wide (16:9). Images inside a figure can be done the same way - with a <code>div</code> container</p>
+
+<div class="adx-aspect landscape ">
+  <img src="css/2.jpg" alt="" class="center-center">
+</div>
+
+
+<figure class="adx">
+  <div class="adx-aspect wide ">
+    <img src="css/2.jpg" alt="" class="top-center">
+  </div>
+  <figcaption>Testing</figcaption>
+</figure>
 
 
 	</main>
