@@ -79,6 +79,33 @@ $correct-blk: svg-correct($ui-blk);
 $task-empty: svg-empty($ui-neutral-darker);
 $task-done: svg-done($accent);
 
+@function svg-location($colour) {
+  @return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="'+ $colour +'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg>';
+}
+
+$location-primary: svg-location($primary);
+$location-accent: svg-location($accent);
+$location-neutral: svg-location($ui-neutral-darkest);
+
+
+@function svg-at-sign($colour) {
+  @return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="'+ $colour +'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>';
+}
+
+$at-sign-primary: svg-at-sign($primary);
+$at-sign-accent: svg-at-sign($accent);
+$at-sign-neutral: svg-at-sign($ui-neutral-darkest);
+
+
+@function svg-calendar($colour) {
+  @return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="'+ $colour +'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>';
+}
+
+$calendar-primary: svg-calendar($primary);
+$calendar-accent: svg-calendar($accent);
+$calendar-neutral: svg-calendar($ui-neutral-darkest);
+
+
 // Thanks to Hugo Giraudel for his str-replace function (http://www.sassmeister.com/gist/1b4f2da5527830088e4d)
 @function str-replace($string, $search, $replace: '') {
   $index: str-index($string, $search);

@@ -1,0 +1,24 @@
+ul {
+  &.circle {list-style: circle;}
+  &.disc {list-style: disc;}
+  &.square {list-style: square;}
+}
+
+
+ol {
+  &.alpha-lower {list-style: lower-alpha;}
+  &.alpha-upper {list-style: upper-alpha;}
+  &.zero {list-style: decimal-leading-zero;}
+  &.roman-lower {list-style: lower-roman;}
+  &.roman-upper {list-style: upper-roman;}
+}
+
+ul.boxed, ol.boxed {
+  padding: $xs $xxl;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  background: $primary-tint;
+  border-radius: $radius;
+  list-style-position: inside;
+}

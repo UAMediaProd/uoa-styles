@@ -23,6 +23,7 @@ $vis-categories: (
   .adx-#{$color}-trans-50 {color: transparentize($value, .5) !important;}
   .adx-#{$color}-trans-70 {color: transparentize($value, .7) !important;}
   .adx-#{$color}-trans-80 {color: transparentize($value, .8) !important;}
+  .adx-#{$color}-border {border-color: $value !important;}
   .adx-bg-#{$color} {background: $value !important; @include text-contrast($value);}
   .adx-bg-#{$color}-light {background: lighten($value, 10%) !important; @include text-contrast(lighten($value, 10%));}
   .adx-bg-#{$color}-lighter {background: lighten($value, 20%) !important; @include text-contrast(lighten($value, 20%));}
@@ -179,7 +180,9 @@ $vis-categories: (
   @each $color, $value in $vis-redyellowgreen {
     .adx-bg-vis-ryg-#{$color} {background: $value !important; @include text-contrast($value);}
     .adx-vis-ryb-#{$color} {color: $value !important;}
+    .adx-vis-ryb-#{$color}-border {border-color: $value !important;}
   }
+  
 
   .adx-bg-vis-ryg-gradient-top {
     background: linear-gradient(180deg, $vis-ryg-start 0%, $vis-ryg-s1 12.5%, $vis-ryg-s2 25%, $vis-ryg-s3 37.5%, $vis-ryg-mid 50%, $vis-ryg-m1 62.5%, $vis-ryg-m2 75%, $vis-ryg-m3 87.5%, $vis-ryg-end 100%); 

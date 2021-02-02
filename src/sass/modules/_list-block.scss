@@ -14,10 +14,10 @@ ul.block-list {
   margin-left: 1em;
   line-height: 1.4;
 
-  p {padding: .1em 0;}
+    p {padding: .1em 0;}
 
-  &:last-child {
-    border-bottom: none;
+    &:last-child {
+      border-bottom: none;
+    }
   }
-}
 }
