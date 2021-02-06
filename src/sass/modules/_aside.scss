@@ -11,6 +11,12 @@ aside.adx {
   min-width: 25ch;
   padding: $xxs;
   
+  &::after {
+    content: "";
+    display: block; 
+    clear: both;
+  }
+  
   & > * {
     margin: 0;
   }

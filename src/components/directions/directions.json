@@ -1,0 +1,7 @@
+{
+  "title": "Directions",
+  "layout": "component",
+  "class": "adx-direction",
+  "description": "Direction boxes create a visual prompt and are to be used to provide directions for the user to act on. The basic ```adx-direction``` class is neutral with no icon. The variations provdide a colour and icon to suit the different purposes. ",
+  "variants": ["adx-direction-info", "adx-direction-question", "adx-direction-warning", "adx-direction-incorrect", "adx-direction-correct"]  
+}

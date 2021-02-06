@@ -4,16 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ 'css/style.css' | url }}" />
+	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
 </head>
 <body>
-	<header>
-		<h1 class="adx-markup-header adx-markup-caps">{{ title }}</h1>
-	</header>
-	<main class="adx">
+<aside class="sidebar">
+	
+	<h4>Test</h4>
+	<ul>
+		<li><a href="../../..">Home</a></li>
+	{% for post in collections.components %}
+	  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+	{% endfor %}
+	</ul>
+</aside>
 
-		{{ content | safe }}
+	{{ content | safe }}
 
-	</main>
 </body>
 </html>

@@ -1,0 +1,29 @@
+<aside class="adx">
+    <header>
+      <h3>Keypoints</h3>
+    </header>
+    <p>There are some really important things here:</p>
+    <ul>
+      <li>There's the first thing.</li>
+      <li>Then the second thing.</li>
+      <li>And finally the last thing.</li>
+    </ul>
+</aside>
+
+{{ '<h2 class="adx-margin-top-xxl clearboth">Variations</h2>' if 'variants' in page.variants}}
+
+{% for variant in variants %}
+  <h4 class="adx-markup-section adx-markup-guide clearboth">{{ variant }}</h4>
+  
+  <aside class="adx {{ variant}}">
+      <header>
+        <h3>Keypoints</h3>
+      </header>
+      <p>There are some really important things here:</p>
+      <ul>
+        <li>There's the first thing.</li>
+        <li>Then the second thing.</li>
+        <li>And finally the last thing.</li>
+      </ul>
+  </aside>
+{% endfor %}

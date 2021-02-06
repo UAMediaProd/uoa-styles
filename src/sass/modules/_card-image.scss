@@ -1,4 +1,4 @@
-ul.cards-images {
+ul.adx-card-images, ol.adx-card-images {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

@@ -10,6 +10,7 @@
 
 
 @import "utilities/_svg-factory";
+@import "utilities/_spacing";
 
 @import "tokens/_text";
 @import "tokens/_demo";
@@ -34,7 +35,7 @@
 @import "modules/_nav-table";
 @import "modules/_nav-cards";
 @import "modules/_nav-toc";
-@import "modules/_cards";
+@import "modules/_card-image";
 @import "modules/_code";
 @import "modules/_figure";
 @import "modules/_tables";
@@ -45,7 +46,30 @@
 body {
   font-family: $font-text;
   font-size: 18px;
-  max-width: 75ch;
+  
   margin: auto;
-  padding: 2vh 5vw;
+  
+  display: grid;
+  grid-template-columns: 25ch 1fr;
+
+  aside.sidebar {
+  background: $ui-neutral-tint;
+  margin: 0;
+  padding: 2vh 2vw;
+  min-height: 100vh;
+  
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+  }
+}
+
+main {
+  // margin-left: auto;
+  // margin-right: auto;
+  min-width: 30ch;
+  max-width: 75ch;
+  padding: 2vh 2vw;
 }

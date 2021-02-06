@@ -1,0 +1,13 @@
+<ol class="{{ class}}">
+  <li id="ref" class=”apa”>Armbrecht, Tom. (2018). Getting Over Stumbling Blocks (of Text): Creating Engaging Content Pages. <em>Object Lessons</em>. Retrieved from <a href="https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/">https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/</a></li>
+</ol>
+
+
+{{ '<h2>Variations</h2>' if 'variants' in page.variants}}
+
+{% for variant in variants %}
+<ol class="{{ class }} {{ variant }}">
+  <li>This list has <code>{{ variant }}</code> as a class to the list which adds the handy heading and border above.</li>
+  <li class=”apa”>Armbrecht, Tom. (2018). Getting Over Stumbling Blocks (of Text): Creating Engaging Content Pages. <em>Object Lessons</em>. Retrieved from <a href="https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/">https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/</a></li>
+</ol>
+{% endfor %}

@@ -4,15 +4,41 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Style Demo</title>
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-	<header>
-		<h1 class="adx-markup-header adx-markup-caps">Style Demo</h1>
-	</header>
-	<main class="adx">
+<aside class="sidebar">
+	
+	<h4>Test</h4>
+	<ul>
+		<li><a href="../../..">Home</a></li>
+	
+	  <li><a href="/components/buttons/">Buttons</a></li>
+	
+	  <li><a href="/components/reference-list/">Reference List</a></li>
+	
+	  <li><a href="/components/directions/">Directions</a></li>
+	
+	  <li><a href="/components/card-image/">Image Card</a></li>
+	
+	  <li><a href="/components/aside/">Aside</a></li>
+	
+	  <li><a href="/components/cue/">Cue</a></li>
+	
+	  <li><a href="/components/hero/">Hero</a></li>
+	
+	</ul>
+</aside>
 
-		
+	
+
+<main class="adx">
+
+  <header>
+    <h1 class="adx-markup-header adx-markup-caps">Style Demo</h1>
+  </header>
+
+  
 <h4 class="adx-markup-label">Brand Colours</h4>
 
 <div class="colour-samples grid-4">
@@ -872,36 +898,36 @@
 
 <p>Buttons can be <code>buttons</code> or tags with the <code>.adx-button</code> class. To add colour, suffix with the <code>-colour</code> refference.</p>
 <div class="grid-4">
-  <button class="adx-button button-brand-red">Click Me</button>
-  <button class="adx-button button-primary">Click Me</button>
-  <button class="adx-button button-accent">Click Me</button>
-  <button class="adx-button button-complimentary">Click Me</button>
-  <p class="adx-button button-brand-midblue">Click Me</p>
+  <button class="adx-button brand-red">Click Me</button>
+  <button class="adx-button primary">Click Me</button>
+  <button class="adx-button accent">Click Me</button>
+  <button class="adx-button complimentary">Click Me</button>
+  <p class="adx-button brand-midblue">Click Me</p>
   <p class="adx-button">Click Me</p>
 </div>
 
 <p>Button groups can be made from an <code>ul</code> and <code>li</code> elements,</p>
 
 <ul class="adx-button-group">
-  <li class="adx-button button-brand-midblue">Click Me</li>
-  <li class="adx-button button-brand-midblue">Click Me</li>
-  <li class="adx-button button-brand-midblue">Click Me</li>
+  <li class="adx-button brand-midblue">Click Me</li>
+  <li class="adx-button brand-midblue">Click Me</li>
+  <li class="adx-button brand-midblue">Click Me</li>
 </ul>
 
 <p>Or from <code>divs</code> and <code>p</code> tags,</p>
 
 <div class="adx-button-group">
-  <button class="adx-button button-accent">Click Me</button>
-  <button disabled class="adx-button button-complimentary">You can't Click Me</button>
-  <button class="adx-button button-primary">Click Me</button>
+  <button class="adx-button accent">Click Me</button>
+  <button disabled class="adx-button complimentary disabled">You can't Click Me</button>
+  <button class="adx-button primary">Click Me</button>
 </div>
 
 <p>And you can arrange them in a stack using <code>.adx-button-stack</code>.</p>
 
 <div class="adx-button-stack">
-  <p class="adx-button button-brand-red">Click Me</p>
-  <p class="adx-button button-brand-red">Click Me</p>
-  <p class="adx-button button-brand-red">Click Me</p>
+  <p class="adx-button brand-red">Click Me</p>
+  <p class="adx-button brand-red">Click Me</p>
+  <p class="adx-button brand-red">Click Me</p>
 </div>
 
 <h4 class="adx-markup-label">Horizonal Rule</h4>
@@ -933,7 +959,7 @@
 
 <h4 class="adx-markup-label">Cards</h4>
 
-<ul class="cards-images">
+<ul class="adx-card-images ">
   <li>
     <header>
       <img src="css/diff-square.jpg" alt="">
@@ -1228,10 +1254,10 @@ pre code {
 
 <h4 class="adx-markup-label">APA Referencing </h4>
 
-<p>Add the class <code>.apa</code> to a list - <code>ul</code> or <code>ol</code>. You can add the References heading add the <code>ref-list</code> to the list tag - like below</p>
+<p>Add the class <code>.adx-apa</code> to a list - <code>ul</code> or <code>ol</code>. You can add the References heading add the <code>ref-list</code> to the list tag - like below</p>
 
 
-<ol class="apa ref-list">
+<ol class="adx-apa ref-list">
   <li id="ref" class=”apa”>Armbrecht, Tom. (2018). Getting Over Stumbling Blocks (of Text): Creating Engaging Content Pages. <em>Object Lessons</em>. Retrieved from <a href="https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/">https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/</a></li>
 </ol>
 
@@ -1435,6 +1461,12 @@ pre code {
 <p class="adx-status neutral">Here's my bio about stuff</p>
 
 
-	</main>
+harvard case study - link done, and info in leadership - directions required. Tutors will need to be registered (handbook). 
+Intro video. 
+
+
+</main>
+
+
 </body>
 </html>

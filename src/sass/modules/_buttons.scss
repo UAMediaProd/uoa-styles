@@ -22,7 +22,7 @@
 }
   
 @each $color, $value in $brand-colors{
-   .button-#{$color} {
+   .adx-button.#{$color} {
       background: mix(white, $value, 92%);
       border-color: $value;
       color: mix(black, $value, 30%);
@@ -35,7 +35,7 @@
 }
   
 @each $color, $value in $program-colors{
-  .button-#{$color} {
+  .adx-button.#{$color} {
     background: mix(white, $value, 92%);
     border-color: mix(black, $value, 30%);
     color: mix(black, $value, 30%);
@@ -48,7 +48,7 @@
 }
 
 @each $color, $value in $ui-colors{
-  .button-#{$color} {
+  .adx-button.#{$color} {
     background: mix(white, $value, 92%);
     border-color: mix(black, $value, 30%);
     color: mix(black, $value, 30%);
@@ -60,7 +60,7 @@
   }
 }
 
-.adx-button-disabled, button[disabled] {
+.adx-button.disabled, .adx-button button[disabled] {
    pointer-events: none;
    color: $ui-neutral;
    border-color: $ui-neutral-dark;

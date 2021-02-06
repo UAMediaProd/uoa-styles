@@ -1,0 +1,8 @@
+{
+  "title": "Cue",
+  "layout": "component",
+  "class": "adx-cue",
+  "description": "Buttons can be ```buttons``` or ```p``` or ```div``` tags with the ```.adx-button``` class. To add colour, add the ```colour``` to the ```.adx-button``` class - e.g. ```adx-button-brand-red```.",
+  "variants": ["adx-cue-top", "adx-cue-bottom", "adx-cue-left", "adx-cue-right", "adx-cue-brand-midblue-top", "adx-cue-brand-gold-bottom", "adx-cue-positive-left", "adx-cue-information-right"], 
+  "variant-description": "You can change the border location using ```top```, ```bottom```, ```left``` & ```right```. "
+}

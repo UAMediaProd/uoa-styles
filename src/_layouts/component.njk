@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+
+
+<main class="adx">
+  <header>
+    <h1 class="adx-markup-header adx-markup-caps">{{ title }}</h1>
+  </header>
+
+
+    {{ description | renderUsingMarkdown | safe }}
+
+    {{ content | safe }}
+
+</main>

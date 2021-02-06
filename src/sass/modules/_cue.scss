@@ -72,3 +72,28 @@
         }
   }
 }
+
+@each $color, $value in $ui-colors{
+      .adx-cue-#{$color} {
+        @extend .adx-cue;
+        background: mix(white, $value, 90%); 
+        border: 0;
+              
+      &-top {
+        @extend .adx-cue-#{$color};
+        border-top: $m solid $value;
+      }
+      &-right {
+        @extend .adx-cue-#{$color};
+        border-right: $m solid $value;
+      }
+      &-bottom {
+        @extend .adx-cue-#{$color};
+        border-bottom: $m solid $value;
+      }
+      &-left {
+        @extend .adx-cue-#{$color};
+        border-left: $m solid $value;
+      }
+}
+}
