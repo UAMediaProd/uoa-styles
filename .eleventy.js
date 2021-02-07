@@ -4,7 +4,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/assets");
-
+  
   // Markdown
   const markdownOptions = {
     html: true,
@@ -18,7 +18,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
   return mdRender.render(rawString);
   });
-
 
   return {
     dir: {

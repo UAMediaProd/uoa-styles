@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
-	<link rel="stylesheet" href="/assets/style.css" />
+	<link rel="stylesheet" href="{{ root }}assets/style.css" />
 </head>
 <body>
 <aside class="sidebar">
 	
 	<h4>Navigation</h4>
 	<ul>
-		{% for nav in collections.nav | sort(attribute='title') %}
- 			<li><a href="{{ nav.url }}" class="nav-link">{{ nav.data.title }}</a></li>
+		{% for nav in collections.nav %}
+ 			<li><a href="{{ root }}{{ nav.url }}" class="nav-link">{{ nav.data.title }}</a></li>
  		{% endfor %}
 
 	</ul>

@@ -1,3 +1,4 @@
 {
-  "tags": ["components", "nav"]
+  "tags": ["components", "nav"],
+  "root": "../"
 }
