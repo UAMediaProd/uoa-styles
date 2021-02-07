@@ -12,7 +12,7 @@
 	<h4>Navigation</h4>
 	<ul>
 		{% for nav in collections.nav %}
- 			<li><a href="{{ nav.url }}" class="nav-link">{{ nav.data.title }}</a></li>
+ 			<li><a href="{{ root }}{{ nav.url }}" class="nav-link">{{ nav.data.title }}</a></li>
  		{% endfor %}
 
 	</ul>
