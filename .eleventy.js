@@ -1,9 +1,11 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/assets");
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   
   // Markdown
   const markdownOptions = {
@@ -25,5 +27,7 @@ module.exports = function (eleventyConfig) {
       output: "docs",
       layouts: '_layouts'
     },
+    
+    pathPrefix: "/uoa-styles/"
   };
 }

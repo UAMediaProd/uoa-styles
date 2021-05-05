@@ -67,7 +67,16 @@ $complimentary-trans-70: transparentize($complimentary, .7);
 $complimentary-trans-80: transparentize($complimentary, .8);
 
 
-// VISUALISATION
+// VISUALISATION - 
+
+$ld-1: #4cc9f0;
+$ld-2: #fa6769;
+$ld-3: #f8961e;
+$ld-4: #f9c74f;
+$ld-5: #90be6d;
+$ld-6: #43aa8b;
+$ld-7: #c373f9;
+
 
 // Categories - used http://colorizer.org/ and $brand-gold & $brand-red as base for these
 
@@ -156,3 +165,15 @@ $vis-earth-s3: mix($vis-earth-start, $vis-earth-mid, 25%);
 $vis-earth-m1: mix($vis-earth-end, $vis-earth-mid, 25%);
 $vis-earth-m2: mix($vis-earth-end, $vis-earth-mid, 50%);
 $vis-earth-m3: mix($vis-earth-end, $vis-earth-mid, 75%); 
+
+
+// Brand
+$vis-brand-start: #b8dceb;
+$vis-brand-mid: #005a9c;
+$vis-brand-end: #102535;
+$vis-brand-s1: mix($vis-brand-start, $vis-brand-mid, 75%);
+$vis-brand-s2: mix($vis-brand-start, $vis-brand-mid, 50%);
+$vis-brand-s3: mix($vis-brand-start, $vis-brand-mid, 25%); 
+$vis-brand-m1: mix($vis-brand-end, $vis-brand-mid, 25%);
+$vis-brand-m2: mix($vis-brand-end, $vis-brand-mid, 50%);
+$vis-brand-m3: mix($vis-brand-end, $vis-brand-mid, 75%); 

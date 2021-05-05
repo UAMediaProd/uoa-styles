@@ -1,6 +1,9 @@
 {
   "title": "Buttons",
   "layout": "component",
+  "eleventyNavigation": { 
+    "key": "Buttons"
+  },
   "class": "adx-button",
   "description": "Buttons can be ```buttons``` or ```p``` or ```div``` tags with the ```.adx-button``` class. To add colour, add the ```colour``` to the ```.adx-button``` class - e.g. ```adx-button-brand-red```.",
   "variants": [

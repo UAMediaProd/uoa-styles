@@ -1,6 +1,9 @@
 {
   "title": "Reference List",
   "layout": "component",
+  "eleventyNavigation": { 
+    "key": "Reference List"
+  },
   "class": "adx-apa",
   "description": "Add the class ```.apa``` to a list - ```ul``` or ```ol```. You can add the References heading by simply adding the ```.ref-list``` class to the list.", 
   "variants": ["ref-list"]

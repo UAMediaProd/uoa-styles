@@ -27,6 +27,10 @@
   height: $l;
   padding: $xxs;
   font-size: $s;
+  
+  &-xl {
+    height: calc(#{$xxxl} * 3) ;
+  }
 }
 
 .grid-4{
