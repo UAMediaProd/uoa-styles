@@ -8,17 +8,22 @@
 </head>
 <body>
 <aside class="sidebar">
-	
+
 	<ul>
 			<li><a href="{{ "/" | url }}" class="nav-link">Home</a></li>
 	</ul>
-	
-	<h4>Navigation</h4>
+
+	<h4>Components</h4>
 	<ul>
 		{% for nav in collections.nav %}
  			<li><a href="{{ nav.url | url }}" class="nav-link">{{ nav.data.title }}</a></li>
  		{% endfor %}
-
+	</ul>
+	<h4>Pages</h4>
+	<ul>
+		{% for page in collections.pages %}
+			<li><a href="{{ page.url | url }}" class="nav-link">{{ page.data.title }}</a></li>
+		{% endfor %}
 	</ul>
 </aside>
 
