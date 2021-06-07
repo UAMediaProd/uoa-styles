@@ -1,0 +1,37 @@
+section.adx.video {
+  border-radius: $radius;
+  border: $ui-border;
+  padding: $s;
+  box-shadow: $shadow-m;
+
+  header {
+
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: $l;
+
+    a {
+      font-size: $m;
+      color: $primary;
+      text-decoration: none;
+
+      &:before {
+        content: ' ';
+        position: relative;
+        margin: .2ch 1ch;
+        top: 0.5ch;
+      }
+
+        &:hover {
+          color: $accent-dark;
+        }
+      }
+
+      a.download:before {content: url(svg-encode($download-primary));}
+      a.external:before {content: url(svg-encode($external-primary)); }
+  }
+}

@@ -1,22 +1,21 @@
 .adx-status {
-  
+
   &:before {
-    display: inline-block; 
-    content: " "; 
+    display: inline-block;
+    content: " ";
     width: 1ch;
     height: 1ch;
     border-radius: 50%;
     margin-right: 1ch;
     border: 2px solid $ui-neutral;
-
-}
+  }
 
   &.positive::before {
     color: $ui-positive;
     border-color: $ui-positive;
     background: mix(white, $ui-positive, 92%);
   }
-  
+
   &.negative::before {
     color: $ui-negative;
     border-color: $ui-negative;
@@ -29,7 +28,7 @@
     background: mix(white, $ui-warning, 92%);
   }
 
-  &.information::before {  
+  &.information::before {
     color: $ui-information;
     border-color: $ui-information;
     background: mix(white, $ui-information, 92%);

@@ -2,11 +2,11 @@ ul.icon-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    
+
     li {
       padding: $xs;
     }
-    
+
     &-sun-accent {
       li::marker {content: url(svg-encode($sun-accent));}
       li {padding: $xs;}
@@ -20,4 +20,3 @@ ul.icon-list {
     li {padding: $xs;}
   }
 }
-      

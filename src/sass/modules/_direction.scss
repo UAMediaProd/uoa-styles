@@ -4,8 +4,6 @@ div.adx-direction {
   margin: $m $xl;
   background: mix(white, $ui-neutral, 90%);
   
-
-  
   &:before {
     position: absolute;
     top: 0;
@@ -27,7 +25,7 @@ div.adx-direction {
     background: $ui-information;
     }
   }
-  
+
   &-question {
     @extend .adx-direction;
     background: mix(white, $complimentary, 90%);
@@ -37,7 +35,7 @@ div.adx-direction {
     background: $complimentary;
     }
   }
-  
+
   &-warning {
     @extend .adx-direction;
     background: mix(white, $ui-warning, 90%);
@@ -47,7 +45,7 @@ div.adx-direction {
     background: $ui-warning;
     }
   }
-  
+
   &-incorrect {
     @extend .adx-direction;
     background: mix(white, $ui-negative, 90%);
@@ -57,7 +55,7 @@ div.adx-direction {
     background: $ui-negative;
     }
   }
-  
+
   &-correct {
     @extend .adx-direction;
     background: mix(white, $ui-positive, 90%);
@@ -67,7 +65,7 @@ div.adx-direction {
     background: $ui-positive;
     }
   }
-    
+
   & > * {
     margin-left: $l;
   }
