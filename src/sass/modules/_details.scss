@@ -1,0 +1,35 @@
+details.adx {
+  border: 1px solid $ui-neutral;
+  font-size: $m;
+  padding: 0 $xs;
+  margin: $m 0;
+}
+
+summary {
+  font-weight: bold;
+  margin-left: -$xs;
+  margin-right: -$xs;
+  padding: $s;
+}
+
+details.adx[open] {
+
+  background: $ui-neutral-tint;
+  padding-bottom: $s;
+
+  &.primary {background: $primary; color: $ui-rev;}
+  &.complimentary {background: $complimentary-dark; color: $ui-rev;}
+  &.accent {background: $accent-dark; color: $ui-rev;}
+  &.positive {background: $ui-positive; color: $ui-rev;}
+  &.negative {background: $ui-negative; color: $ui-rev;}
+  &.warning {background: $ui-warning; color: $ui-rev;}
+  &.information {background: $ui-information; color: $ui-rev;}
+  &.neutral {background: $ui-neutral; color: $ui-rev;}
+
+  & summary {
+    border-bottom: 1px solid $ui-neutral;
+    margin-bottom: $m;
+    background: $ui-rev;
+    color: $ui-blk;
+  }
+}

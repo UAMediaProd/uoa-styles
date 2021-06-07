@@ -41,13 +41,14 @@
 @import "modules/_hero";
 @import "modules/_profile";
 @import "modules/_status";
+@import "modules/_details";
 
 body {
   font-family: $font-text;
   font-size: 18px;
-  
+
   margin: auto;
-  
+
   display: grid;
   grid-template-columns: 25ch 1fr;
 
@@ -56,7 +57,7 @@ body {
   margin: 0;
   padding: 2vh 2vw;
   min-height: 100vh;
-  
+
     ul {
       padding: 0;
       margin: 0;

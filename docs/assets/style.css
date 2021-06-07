@@ -6469,6 +6469,63 @@ header.adx-hero .text > * {
   background: #f9fafa;
 }
 
+details.adx {
+  border: 1px solid #B9C0C6;
+  font-size: 1rem;
+  padding: 0 0.694rem;
+  margin: 1rem 0;
+}
+
+summary {
+  font-weight: bold;
+  margin-left: -0.694rem;
+  margin-right: -0.694rem;
+  padding: 0.833rem;
+}
+
+details.adx[open] {
+  background: #f9fafa;
+  padding-bottom: 0.833rem;
+}
+details.adx[open].primary {
+  background: #102535;
+  color: #fff;
+}
+details.adx[open].complimentary {
+  background: #564194;
+  color: #fff;
+}
+details.adx[open].accent {
+  background: #4aaa2c;
+  color: #fff;
+}
+details.adx[open].positive {
+  background: #22964f;
+  color: #fff;
+}
+details.adx[open].negative {
+  background: #d4322c;
+  color: #fff;
+}
+details.adx[open].warning {
+  background: #ffa423;
+  color: #fff;
+}
+details.adx[open].information {
+  background: #052A8A;
+  color: #fff;
+}
+details.adx[open].neutral {
+  background: #B9C0C6;
+  color: #fff;
+}
+details.adx[open] summary {
+  border-bottom: 1px solid #B9C0C6;
+  margin-bottom: 1rem;
+  background: #fff;
+  color: #000;
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
