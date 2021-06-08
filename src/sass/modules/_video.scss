@@ -3,9 +3,36 @@ section.adx.video {
   border: $ui-border;
   padding: $s;
   box-shadow: $shadow-m;
+  margin: $xl auto;
 
-  header {
+  header.full {
+    margin: -$s;
+    margin-bottom: $s;
+    z-index: -1;
+    padding: $s;
 
+    &.icon {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+
+      .text {grid-column: 2;}
+      .icon {
+
+        &.primary {background: url(svg-encode($play-primary)) center / contain no-repeat;}
+        &.complimentary {background: url(svg-encode($play-complimentary)) center / contain no-repeat;}
+        &.accent {background: url(svg-encode($play-accent)) center / contain no-repeat;}
+        &.ui-rev {background: url(svg-encode($play-rev)) center / contain no-repeat;}
+        &.ui-blk {background: url(svg-encode($play-blk)) center / contain no-repeat;}
+
+        // background-repeat: no-repeat;
+        // background-size: contain;
+        // background-position: center;
+        margin: $m;
+        padding: $m;
+      }
+
+
+    }
   }
 
   footer {
@@ -13,25 +40,5 @@ section.adx.video {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin-top: $l;
-
-    a {
-      font-size: $m;
-      color: $primary;
-      text-decoration: none;
-
-      &:before {
-        content: ' ';
-        position: relative;
-        margin: .2ch 1ch;
-        top: 0.5ch;
-      }
-
-        &:hover {
-          color: $accent-dark;
-        }
-      }
-
-      a.download:before {content: url(svg-encode($download-primary));}
-      a.external:before {content: url(svg-encode($external-primary)); }
   }
 }

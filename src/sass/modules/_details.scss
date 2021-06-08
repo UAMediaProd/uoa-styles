@@ -2,7 +2,8 @@ details.adx {
   border: 1px solid $ui-neutral;
   font-size: $m;
   padding: 0 $xs;
-  margin: $m 0;
+  margin: $m auto;
+  max-width: 90ch;
 }
 
 summary {
@@ -10,6 +11,7 @@ summary {
   margin-left: -$xs;
   margin-right: -$xs;
   padding: $s;
+  cursor: pointer;
 }
 
 details.adx[open] {

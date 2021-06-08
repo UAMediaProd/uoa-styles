@@ -3,14 +3,14 @@ ul.adx-nav-table, ol.adx-nav-table {
   min-width: 80%;
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(22ch,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
   grid-gap: .5ch;
   grid-auto-flow: dense;
   border: $ui-border;
   border-radius: $radius;
   overflow: hidden;
   padding: 1ch;
-  
+
   & li {
     display: flex;
     flex-direction: column;
@@ -23,22 +23,22 @@ ul.adx-nav-table, ol.adx-nav-table {
     position: relative;
     transition: all ease .2s;
 
-    
+
     & > * {
       margin: 0;
       line-height: 1.2;
     }
-    
+
     a {
       text-decoration: none;
       color: $primary;
       transition: all ease .2s;
     }
-    
+
     a:hover {
       color: $ui-rev;
     }
-    
+
     a::after {
       content: '';
       position: absolute;
@@ -47,14 +47,14 @@ ul.adx-nav-table, ol.adx-nav-table {
       right: 0;
       bottom: 0;
     } // clickable area trick  - https://inclusive-components.design/cards/
-    
+
     &:hover {
       background: $primary;
       color: $ui-rev;
       transform: scale(1.025);
 
     }
-    
+
     &.full {
       grid-column: 1 / -1
     }

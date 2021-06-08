@@ -1,5 +1,5 @@
 blockquote {
-  
+
   margin: $s $xl;
   font-size: $l;
   font-family: $font-text;
@@ -8,19 +8,19 @@ blockquote {
   border-width: 0 0 0 $xs !important;
   border-style: solid;
   border-color: $ui-neutral-light;
-  
+
   & cite {
     display: block;
     font-size: $s;
     font-style: italic;
     margin: $s 0 0 0;
-    
+
     &::before {
-    content: '\2014\00a0\00a0 ';
+    content: '\2014\00a0\00a0';
     margin-left: 1em;
   }
   }
-  
+
   &.fancyquote {
     font-size: $xl;
     font-family: $font-alternative;
@@ -29,7 +29,7 @@ blockquote {
     border-style: solid;
     border-color: $ui-neutral-light;
   }
-  
+
   &.pullquote-right {
     margin: $m 0 $m $m;
     float: right;
@@ -37,12 +37,12 @@ blockquote {
     background: $brand-darkblue;
     color: $ui-rev;
     border: 0;
-    
+
     cite {
       text-align: right;
     }
   }
-  
+
   &.pullquote-left {
     margin: $m $m $m 0;
     float: left;
@@ -50,7 +50,7 @@ blockquote {
     background: $brand-darkblue;
     color: $ui-rev;
     border: 0;
-    
+
     cite {
       text-align: right;
     }

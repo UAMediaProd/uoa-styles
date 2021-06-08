@@ -43,7 +43,7 @@
 @import "modules/_status";
 @import "modules/_details";
 @import "modules/_video";
-
+@import "modules/_links";
 
 body {
   font-family: $font-text;
@@ -71,7 +71,7 @@ body {
 main {
   // margin-left: auto;
   // margin-right: auto;
-  min-width: 30ch;
-  max-width: 75ch;
+  // min-width: 30ch;
+  // max-width: 75ch;
   padding: 2vh 2vw;
 }

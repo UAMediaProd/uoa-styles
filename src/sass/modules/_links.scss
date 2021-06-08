@@ -1,0 +1,20 @@
+a.adx-icon {
+  font-size: $m;
+  color: $primary;
+  text-decoration: none;
+
+  &:before {
+    content: ' ';
+    position: relative;
+    margin: .2ch 1ch;
+    top: 0.5ch;
+  }
+
+  &:hover {
+      color: $accent-dark;
+  }
+
+  &.download:before {content: url(svg-encode($download-primary)); }
+  &.external:before {content: url(svg-encode($external-primary)); }
+
+}
