@@ -6366,7 +6366,7 @@ header.adx-hero .text > * {
 }
 
 .adx-profile {
-  margin: 1rem 0;
+  margin: 1rem auto;
   display: grid;
   grid-template-columns: 200px 2fr;
   border: 1px solid #B9C0C6;
@@ -6374,6 +6374,7 @@ header.adx-hero .text > * {
   padding: 0.833rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   background: #f9fafa;
+  max-width: 75ch;
 }
 .adx-profile img {
   grid-column: 1;
@@ -6534,6 +6535,7 @@ section.adx.video {
   padding: 0.833rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin: 1.728rem auto;
+  max-width: 75ch;
 }
 section.adx.video header.full {
   margin: -0.833rem;
@@ -6652,4 +6654,80 @@ a.adx-icon.external:before {
 
 .adx-checkbox {
   display: none;
+}
+
+section.adx-podcast-square {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr auto;
+  max-width: 35ch;
+  border-radius: 0.5ch;
+  border: 1px solid #B9C0C6;
+  margin: 1.44rem auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+section.adx-podcast-square div {
+  grid-column: span 2;
+  z-index: -1;
+}
+section.adx-podcast-square h3 {
+  grid-column: 1;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.579rem 0 0 0.579rem;
+  color: #40515d;
+}
+section.adx-podcast-square h3 + p {
+  grid-column: 1;
+  font-size: 0.833rem;
+  margin: 0;
+  padding: 0.579rem 0 1rem 0.579rem;
+  color: #82868b;
+}
+section.adx-podcast-square audio {
+  grid-column: span 2;
+  height: 2.074rem;
+  z-index: -1;
+}
+
+section.adx-podcast-wide {
+  display: grid;
+  grid-template-columns: 1rem 5fr 2fr 1rem;
+  grid-template-rows: 1rem 1fr 1rem auto;
+  max-width: 75ch;
+  border-radius: 0.5ch;
+  border: 1px solid #B9C0C6;
+  margin: 1.44rem auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+section.adx-podcast-wide div.art {
+  grid-column: 3;
+  grid-row: 2;
+  rotate: 2deg;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+section.adx-podcast-wide div.track {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.adx-podcast-wide div.track h3 {
+  font-size: 1.44rem;
+  margin: 0;
+  padding: 0.579rem 0 0 0.579rem;
+  color: #40515d;
+}
+section.adx-podcast-wide div.track h3 + p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.579rem 0 1rem 0.579rem;
+  color: #82868b;
+}
+section.adx-podcast-wide audio {
+  grid-column: span 4;
+  grid-row: 4;
+  height: 2.074rem;
+  width: 100%;
 }

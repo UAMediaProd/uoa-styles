@@ -1,5 +1,5 @@
 .adx-profile {
-  margin: $m 0;
+  margin: $m auto;
   display: grid;
   grid-template-columns: 200px 2fr;
   border: $ui-border;
@@ -7,7 +7,8 @@
   padding: $s;
   box-shadow: $shadow-m;
   background: $ui-neutral-tint;
-   
+  max-width: 75ch;
+
   & img {
     grid-column: 1;
     object-fit: cover;
@@ -15,17 +16,17 @@
     height: 200px;
     border-radius: 50%;
   }
-  
+
   & section {
     grid-column: 2;
     padding: $xs;
-    
+
     & > * {margin: $xxs;}
 
   .name {
     color: $primary;
   }
-  
+
   .title {
     text-transform: uppercase;
     color: $ui-neutral-darkest;
@@ -36,7 +37,7 @@
       background-repeat: no-repeat;
       background-size: $m $m;
       display: inline-block;
-      width: $m; 
+      width: $m;
       height: $m;
       content:"";
       vertical-align: text-top;
@@ -49,7 +50,7 @@
       background-repeat: no-repeat;
       background-size: $m $m;
       display: inline-block;
-      width: $m; 
+      width: $m;
       height: $m;
       content:"";
       vertical-align: text-top;
@@ -65,7 +66,7 @@
       background-repeat: no-repeat;
       background-size: $m $m;
       display: inline-block;
-      width: $m; 
+      width: $m;
       height: $m;
       content:"";
       vertical-align: text-top;

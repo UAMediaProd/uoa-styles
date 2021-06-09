@@ -4,6 +4,7 @@ section.adx.video {
   padding: $s;
   box-shadow: $shadow-m;
   margin: $xl auto;
+  max-width: 75ch;
 
   header.full {
     margin: -$s;
