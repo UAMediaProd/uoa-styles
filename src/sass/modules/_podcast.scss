@@ -33,7 +33,8 @@ section.adx-podcast-square{
     grid-column: span 2;
     height: $xxl;
     z-index: -1;
-  }
+    width: 100%;
+    }
 }
 
 section.adx-podcast-wide{
@@ -49,8 +50,10 @@ section.adx-podcast-wide{
   div.art {
     grid-column: 3;
     grid-row: 2;
-    rotate: 2deg;
-    box-shadow: $shadow-m;
+    box-shadow: $shadow-s;
+    
+    img {
+    }
   }
 
   div.track {

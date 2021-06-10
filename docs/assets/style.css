@@ -6702,6 +6702,7 @@ section.adx-podcast-square audio {
   grid-column: span 2;
   height: 2.074rem;
   z-index: -1;
+  width: 100%;
 }
 
 section.adx-podcast-wide {
@@ -6717,8 +6718,7 @@ section.adx-podcast-wide {
 section.adx-podcast-wide div.art {
   grid-column: 3;
   grid-row: 2;
-  rotate: 2deg;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 section.adx-podcast-wide div.track {
   grid-column: 2;
