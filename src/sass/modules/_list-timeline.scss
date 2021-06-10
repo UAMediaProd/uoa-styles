@@ -1,6 +1,7 @@
 ol.adx-timeline {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: $element-width;
 
   & > * {margin: 0;}
 

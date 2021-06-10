@@ -1,7 +1,8 @@
 dl {
-  margin:0;
+  margin:0 auto;
   padding: $xl;
   font-size: $m;
+  max-width: $element-width;
 }
 
 dt {
@@ -28,7 +29,6 @@ dd {
 dl.description {
   display: flex;
   flex-direction: column;
-  margin: 0;
   padding: $xl;
   background: $ui-neutral-tint;
   border-radius: $xxxs;

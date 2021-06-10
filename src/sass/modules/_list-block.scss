@@ -1,11 +1,12 @@
 ul.block-list {
   list-style-type: none !important;
-  margin: 1em 0;
+  margin: 1em auto;
   background: $primary-tint;
   padding: 1em;
   border: 1px solid $ui-neutral;
   border-radius: $xxxs;
   font-size: $m;
+  max-width: $element-width;
 
   & li {
   padding: 1em;

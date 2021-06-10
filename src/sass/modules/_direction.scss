@@ -1,8 +1,9 @@
 div.adx-direction {
   position: relative;
   padding: $s;
-  margin: $m $xl;
+  margin: $m auto;
   background: mix(white, $ui-neutral, 90%);
+  max-width: $element-width;
   
   &:before {
     position: absolute;

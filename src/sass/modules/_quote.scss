@@ -1,13 +1,19 @@
 blockquote {
 
-  margin: $s $xl;
-  font-size: $l;
-  font-family: $font-text;
-  padding: $m;
-  line-height: 1.4;
+  margin: $s auto;
+  padding: $m $xl;
   border-width: 0 0 0 $xs !important;
   border-style: solid;
   border-color: $ui-neutral-light;
+  max-width: $element-width;
+  
+  & > * {
+    max-width: $read-width;
+    font-size: $l;
+    font-family: $font-text;
+    line-height: 1.4;
+
+  }
 
   & cite {
     display: block;
@@ -22,12 +28,16 @@ blockquote {
   }
 
   &.fancyquote {
-    font-size: $xl;
-    font-family: $font-alternative;
+    
     font-style: italic;
     border-width: 4px 0 !important;
     border-style: solid;
     border-color: $ui-neutral-light;
+    
+    p {
+      font-family: $font-alternative;
+      font-size: $xl;
+    }
   }
 
   &.pullquote-right {

@@ -2,7 +2,7 @@
   background: mix(white, $ui-neutral, 90%);
   border: 1px solid $ui-neutral;
   padding: $m $xl;
-  max-width: 75ch;
+  max-width: $element-width;
   margin: $m auto;
 
   &-top {

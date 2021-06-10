@@ -1,7 +1,7 @@
 ul.adx-nav-table, ol.adx-nav-table {
   list-style: none;
   min-width: 80%;
-  max-width: 100%;
+  max-width: $element-width;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
   grid-gap: .5ch;
@@ -10,6 +10,7 @@ ul.adx-nav-table, ol.adx-nav-table {
   border-radius: $radius;
   overflow: hidden;
   padding: 1ch;
+  margin: $s auto;
 
   & li {
     display: flex;

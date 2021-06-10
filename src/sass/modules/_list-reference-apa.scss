@@ -2,6 +2,7 @@ ol.adx-apa, ul.adx-apa {
   list-style: none;
   margin: $xl 0 !important;
   padding: 0;
+  max-width: $read-width;
   
   li {
     margin-left: $s;

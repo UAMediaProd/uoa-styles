@@ -5,6 +5,8 @@ ol.fancy-ol {
   padding: 1em 2em !important;
   border-radius: $xxxs;
   font-size: $m;
+  max-width: $element-width;
+  margin: $s auto;
 
   &.inside {
     background: none !important;
