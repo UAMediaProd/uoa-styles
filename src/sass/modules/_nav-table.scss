@@ -1,6 +1,5 @@
 ul.adx-nav-table, ol.adx-nav-table {
   list-style: none;
-  min-width: 80%;
   max-width: $element-width;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
