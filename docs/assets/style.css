@@ -6804,6 +6804,78 @@ section.adx-podcast-wide audio {
   border-bottom: 3px solid #B9C0C6;
 }
 
+.ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid #ccc;
+  color: #333;
+  font-weight: normal;
+  background-image: linear-gradient(to bottom, white, #e6e6e6);
+  border-bottom-color: #bbb;
+}
+
+.kl_panels_wrapper.ui-accordion .ui-accordion-content p {
+  margin: 0;
+}
+
+.kl_panels_wrapper .ui-accordion-header,
+.kl_wrapper .ui-accordion-header {
+  background: white;
+  border-radius: 0;
+  font-size: 1em !important;
+  /* needs to override nests of styles applied by CIDILabs */
+}
+
+.kl_custom_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_expander.ui-accordion .ui-accordion-header,
+.kl_custom_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_expander.ui-accordion .ui-accordion-header {
+  padding: 0;
+  margin: 5px 0 2px;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_expander.ui-accordion .ui-accordion-header a,
+.kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_expander.ui-accordion .ui-accordion-header a {
+  padding: 10px;
+  padding-left: 30px;
+  text-decoration: none !important;
+}
+
+.kl_panel_heading a {
+  color: #000;
+}
+
+.kl_panel_heading .ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-image: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/jqueryui/ui-icons_222222_256x240-a2c05c5e96.png");
+  margin-left: 0.5em;
+  top: 20%;
+  margin-top: 10px;
+  float: left;
+}
+
+.kl_panel_heading .ui-icon-triangle-1-e {
+  background-position: -32px -16px;
+}
+
+.ui-accordion .ui-accordion-header a {
+  display: block;
+  font-size: 1em;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;

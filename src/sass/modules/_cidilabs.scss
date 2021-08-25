@@ -10,19 +10,19 @@
 // quick check changes
 
 .kl_quick_check {
-    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
-    margin: 2.074rem auto;
-    border: 1px solid #d5d9dd !important;
-    border-top: solid 2.074rem #102535 !important;
-    border-radius: 0.402rem;
-    color: #82868b;
-    overflow: hidden;
-    margin: 10px 0;
-    padding: 20px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+  margin: 2.074rem auto;
+  border: 1px solid #d5d9dd !important;
+  border-top: solid 2.074rem #102535 !important;
+  border-radius: 0.402rem;
+  color: #82868b;
+  overflow: hidden;
+  margin: 10px 0;
+  padding: 20px;
 }
 
 .kl_quick_check h3 {
-    color: #102535;
+  color: #102535;
 }
 
 .kl_quick_check .kl_quick_check_field {
@@ -53,7 +53,7 @@
   border-collapse: separate;
   border-spacing: 0;
   border: 0;
- 
+
 }
 
 .kl_wrapper table tr {
@@ -62,4 +62,79 @@
 
 .kl_wrapper thead tr {
   border-bottom: 3px solid #B9C0C6;
+}
+
+// default accordions
+
+.ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid #ccc;
+  color: #333;
+  font-weight: normal;
+  background-image: linear-gradient(to bottom, white, #e6e6e6);
+  border-bottom-color: #bbb;
+}
+
+.kl_panels_wrapper.ui-accordion .ui-accordion-content p {
+  margin: 0;
+}
+
+.kl_panels_wrapper .ui-accordion-header,
+.kl_wrapper .ui-accordion-header {
+  background: white;
+  border-radius: 0;
+  font-size: 1em !important;
+  /* needs to override nests of styles applied by CIDILabs */
+}
+
+.kl_custom_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_expander.ui-accordion .ui-accordion-header,
+.kl_custom_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_expander.ui-accordion .ui-accordion-header {
+  padding: 0;
+  margin: 5px 0 2px;
+  font-weight: 700;
+  font-size: 1.3em;
+
+}
+
+.kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_expander.ui-accordion .ui-accordion-header a,
+.kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_expander.ui-accordion .ui-accordion-header a {
+  padding: 10px;
+  padding-left: 30px;
+  text-decoration: none !important;
+}
+
+.kl_panel_heading a {
+  color: #000;
+}
+
+.kl_panel_heading .ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-image: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/jqueryui/ui-icons_222222_256x240-a2c05c5e96.png");
+  margin-left: 0.5em;
+  top: 20%;
+  margin-top: 10px;
+  float: left;
+}
+
+.kl_panel_heading .ui-icon-triangle-1-e {
+  background-position: -32px -16px;
+}
+
+.ui-accordion .ui-accordion-header a {
+  display: block;
+  font-size: 1em;
+  padding: .5em .5em .5em .7em;
 }
