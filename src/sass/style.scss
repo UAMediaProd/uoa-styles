@@ -4,6 +4,9 @@ $primary: #102535;
 $accent: #63E33B;
 $complimentary: #7356C5;
 
+//import font-awesome
+@import url('https://pro.fontawesome.com/releases/v5.15.0/css/all.css');
+
 @import "tokens/_scale";
 @import "tokens/_colour-list";
 @import "tokens/_colour-build";
@@ -51,7 +54,7 @@ $complimentary: #7356C5;
 @import "modules/_links";
 @import "modules/_toggle";
 @import "modules/_podcast";
-
+@import "modules/_cidilabs";
 
 
 body {

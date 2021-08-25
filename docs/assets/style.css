@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://pro.fontawesome.com/releases/v5.15.0/css/all.css");
 .adx-brand-darkblue-lightest {
   color: #e7e9eb !important;
 }
@@ -6744,6 +6745,38 @@ section.adx-podcast-wide audio {
   grid-row: 4;
   height: 2.074rem;
   width: 100%;
+}
+
+/*
+
+  Each of these items affects MyUni/CIDILabs components that are native to the platform and aren't custom-written HTML layouts like the components in the style guide.
+  These are to _override_ styles inherent in MyUni
+
+*/
+.kl_quick_check {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  margin: 2.074rem auto;
+  border: 1px solid #d5d9dd;
+  border-top: solid 2.074rem #102535;
+  border-radius: 0.402rem;
+  color: #82868b;
+  overflow: hidden;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+.kl_quick_check h3 {
+  color: #102535;
+}
+
+.kl_quick_check .kl_quick_check_field {
+  margin: 3px 10px 30px 0;
+  float: left;
+}
+
+.kl_quick_check .kl_quick_check_answer_wrapper {
+  clear: both;
+  position: relative;
 }
 
 body {
