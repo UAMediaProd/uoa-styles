@@ -4141,7 +4141,6 @@ h1, h2, h3, h4, h5, h6 {
 p, li, aside {
   font-size: 1rem;
   line-height: 1.6;
-  margin: 1rem 0;
   font-family: "Open Sans", "Arial", sans-serif;
   letter-spacing: -0.02rem;
 }
