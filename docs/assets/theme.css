@@ -6702,7 +6702,7 @@ section.adx-podcast-square h3 + p {
 section.adx-podcast-square audio {
   grid-column: span 2;
   height: 2.074rem;
-  z-index: -1;
+  z-index: 999;
   width: 100%;
 }
 
