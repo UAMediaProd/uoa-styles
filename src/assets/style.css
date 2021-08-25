@@ -5369,7 +5369,7 @@ aside.adx::after {
   clear: both;
 }
 aside.adx > * {
-  margin: 0;
+  margin-top: 0;
 }
 aside.adx ul li {
   margin: 0.579rem 0;
