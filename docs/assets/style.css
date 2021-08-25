@@ -6876,6 +6876,41 @@ section.adx-podcast-wide audio {
   padding: 0.5em 0.5em 0.5em 0.7em;
 }
 
+#kl_navigation ul > li {
+  border: 1px solid #d5d9dd;
+  padding: 1em;
+  border-radius: 0.5ch 0.5ch 0 0;
+  overflow: hidden;
+  position: relative;
+  transition: all ease 0.2s;
+  border-top: 30px solid #d5d9dd;
+  font-weight: 700;
+  font-family: "Arial Black", "Open Sans", sans-serif;
+}
+
+#kl_navigation ul {
+  list-style: none;
+  min-width: 70%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
+  grid-gap: 1ch;
+  grid-auto-flow: dense;
+  overflow: hidden;
+  padding: 1ch;
+}
+
+#kl_navigation a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#kl_navigation ul > li:hover {
+  background: inherit;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  transform: scale(1.025);
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
