@@ -1,0 +1,22 @@
+---
+
+---
+<p>Text-based interview with a conversational interface layout</p>
+
+<br><br><br>
+
+{% for i in things %}
+  
+<div class="interview-{{i.side}}">
+  {% if i.side == "left" %}
+    <div class="photo"></div>
+  {% endif %}
+  
+  <div class="text">{{i.text}}</div>
+
+  {% if i.side == "right" %}
+    <div class="photo"></div>
+  {% endif %}
+</div>
+
+{% endfor %}

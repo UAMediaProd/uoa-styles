@@ -55,6 +55,7 @@ $complimentary: #7356C5;
 @import "modules/_toggle";
 @import "modules/_podcast";
 @import "modules/_cidilabs";
+@import "modules/_text-interview";
 
 
 body {
@@ -86,4 +87,8 @@ main {
   // min-width: 30ch;
   // max-width: 75ch;
   padding: 2vh 2vw;
+}
+
+.sidebar li {
+  margin-top: $m;
 }

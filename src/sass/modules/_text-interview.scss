@@ -1,0 +1,53 @@
+.interview {
+  display: block;
+}
+
+.interview-left {
+  text-align: left;
+  margin-bottom: $xl;
+  margin-top: -$l;
+}
+
+.interview-right {
+  text-align: right;
+  margin-bottom: -$xxxl;
+}
+
+.photo {
+  width: 40px;
+  height: 40px;
+  background: black;
+  display: inline-block;
+  border-radius: 100%;
+  position: relative;
+}
+
+.text {
+  background: rgba(0, 90, 156, 0.2);
+  border: 1px solid rgba(0, 90, 156, 0.5);
+  padding: $m;
+  max-width: 400px;
+}
+
+.interview-right .text {
+  margin-right: 50px;
+  margin-left: auto;
+  background: rgba(0, 90, 156, 0.8);
+  border: 1px solid rgba(2, 74, 125, 0.9);
+  color: white;
+  border-radius: 3px 3px 0 3px;
+}
+
+.interview-right .photo {
+  bottom: 40px;
+}
+
+.interview-left .photo {
+  top: 40px;
+}
+
+.interview-left .text {
+  margin-right: auto;
+  margin-left: 50px;
+  border-radius: 0 3px 3px 3px;
+}
