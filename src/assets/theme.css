@@ -6775,11 +6775,11 @@ section.adx-podcast-wide audio {
   clear: both;
   position: relative;
 }
-.adx .kl_wrapper table td {
+.adx table td {
   text-align: left;
   border: 1px solid #B9C0C6;
 }
-.adx .kl_wrapper table {
+.adx .table {
   font-size: 1rem;
   min-width: 80%;
   max-width: 100%;
@@ -6790,10 +6790,10 @@ section.adx-podcast-wide audio {
   border-spacing: 0;
   border: 0;
 }
-.adx .kl_wrapper table tr {
+.adx table tr {
   background: #f9fafa;
 }
-.adx .kl_wrapper thead tr {
+.adx thead tr {
   border-bottom: 3px solid #B9C0C6;
 }
 .adx .ui-state-default,

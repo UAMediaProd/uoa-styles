@@ -40,12 +40,12 @@
 
   // table updates inside a .kl_wrapper
 
-  .kl_wrapper table td {
+table td {
     text-align: left;
     border: 1px solid #B9C0C6;
   }
 
-  .kl_wrapper table {
+  .table {
     font-size: 1rem;
     min-width: 80%;
     max-width: 100%;
@@ -58,11 +58,11 @@
 
   }
 
-  .kl_wrapper table tr {
+table tr {
     background: #f9fafa;
   }
 
-  .kl_wrapper thead tr {
+thead tr {
     border-bottom: 3px solid #B9C0C6;
   }
 
