@@ -6753,7 +6753,7 @@ section.adx-podcast-wide audio {
   These are to _override_ styles inherent in MyUni
 
 */
-.kl_quick_check {
+.adx > * .kl_quick_check {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin: 2.074rem auto;
   border: 1px solid #d5d9dd !important;
@@ -6764,27 +6764,22 @@ section.adx-podcast-wide audio {
   margin: 10px 0;
   padding: 20px;
 }
-
-.kl_quick_check h3 {
+.adx > * .kl_quick_check h3 {
   color: #102535;
 }
-
-.kl_quick_check .kl_quick_check_field {
+.adx > * .kl_quick_check .kl_quick_check_field {
   margin: 3px 10px 30px 0;
   float: left;
 }
-
-.kl_quick_check .kl_quick_check_answer_wrapper {
+.adx > * .kl_quick_check .kl_quick_check_answer_wrapper {
   clear: both;
   position: relative;
 }
-
-.kl_wrapper table td {
+.adx > * .kl_wrapper table td {
   text-align: left;
   border: 1px solid #B9C0C6;
 }
-
-.kl_wrapper table {
+.adx > * .kl_wrapper table {
   font-size: 1rem;
   min-width: 80%;
   max-width: 100%;
@@ -6795,64 +6790,55 @@ section.adx-podcast-wide audio {
   border-spacing: 0;
   border: 0;
 }
-
-.kl_wrapper table tr {
+.adx > * .kl_wrapper table tr {
   background: #f9fafa;
 }
-
-.kl_wrapper thead tr {
+.adx > * .kl_wrapper thead tr {
   border-bottom: 3px solid #B9C0C6;
 }
-
-.ui-state-default,
-.ui-widget-header .ui-state-default {
+.adx > * .ui-state-default,
+.adx > * .ui-widget-header .ui-state-default {
   border: 1px solid #ccc;
   color: #333;
   font-weight: normal;
   background-image: linear-gradient(to bottom, white, #e6e6e6);
   border-bottom-color: #bbb;
 }
-
-.kl_panels_wrapper.ui-accordion .ui-accordion-content p {
+.adx > * .kl_panels_wrapper.ui-accordion .ui-accordion-content p {
   margin: 0;
 }
-
-.kl_panels_wrapper .ui-accordion-header,
-.kl_wrapper .ui-accordion-header {
+.adx > * .kl_panels_wrapper .ui-accordion-header,
+.adx > * .kl_wrapper .ui-accordion-header {
   background: white;
   border-radius: 0;
   font-size: 1em !important;
   /* needs to override nests of styles applied by CIDILabs */
 }
-
-.kl_custom_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_expander.ui-accordion .ui-accordion-header,
-.kl_custom_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_expander.ui-accordion .ui-accordion-header {
+.adx > * .kl_custom_accordion.ui-accordion .ui-accordion-header,
+.adx > * .kl_panels_accordion.ui-accordion .ui-accordion-header,
+.adx > * .kl_panels_expander.ui-accordion .ui-accordion-header,
+.adx > * .kl_custom_accordion.ui-accordion .ui-accordion-header,
+.adx > * .kl_panels_accordion.ui-accordion .ui-accordion-header,
+.adx > * .kl_panels_expander.ui-accordion .ui-accordion-header {
   padding: 0;
   margin: 5px 0 2px;
   font-weight: 700;
   font-size: 1.3em;
 }
-
-.kl_custom_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_expander.ui-accordion .ui-accordion-header a,
-.kl_custom_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_expander.ui-accordion .ui-accordion-header a {
+.adx > * .kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.adx > * .kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.adx > * .kl_panels_expander.ui-accordion .ui-accordion-header a,
+.adx > * .kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.adx > * .kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.adx > * .kl_panels_expander.ui-accordion .ui-accordion-header a {
   padding: 10px;
   padding-left: 30px;
   text-decoration: none !important;
 }
-
-.kl_panel_heading a {
+.adx > * .kl_panel_heading a {
   color: #000;
 }
-
-.kl_panel_heading .ui-icon {
+.adx > * .kl_panel_heading .ui-icon {
   display: block;
   text-indent: -99999px;
   overflow: hidden;
@@ -6865,18 +6851,15 @@ section.adx-podcast-wide audio {
   margin-top: 10px;
   float: left;
 }
-
-.kl_panel_heading .ui-icon-triangle-1-e {
+.adx > * .kl_panel_heading .ui-icon-triangle-1-e {
   background-position: -32px -16px;
 }
-
-.ui-accordion .ui-accordion-header a {
+.adx > * .ui-accordion .ui-accordion-header a {
   display: block;
   font-size: 1em;
   padding: 0.5em 0.5em 0.5em 0.7em;
 }
-
-#kl_navigation ul > li {
+.adx > * #kl_navigation ul > li {
   border: 1px solid #d5d9dd;
   padding: 1em;
   border-radius: 0.5ch 0.5ch 0 0;
@@ -6887,8 +6870,7 @@ section.adx-podcast-wide audio {
   font-weight: 700;
   font-family: "Arial Black", "Open Sans", sans-serif;
 }
-
-#kl_navigation ul {
+.adx > * #kl_navigation ul {
   list-style: none;
   min-width: 70%;
   max-width: 100%;
@@ -6899,13 +6881,11 @@ section.adx-podcast-wide audio {
   overflow: hidden;
   padding: 1ch;
 }
-
-#kl_navigation a {
+.adx > * #kl_navigation a {
   color: inherit;
   text-decoration: none;
 }
-
-#kl_navigation ul > li:hover {
+.adx > * #kl_navigation ul > li:hover {
   background: inherit;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   transform: scale(1.025);
