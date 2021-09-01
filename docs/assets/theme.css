@@ -4134,14 +4134,32 @@
   clear: both;
 }
 
+@font-face {
+  font-family: "made_evolve_sans_regular";
+  src: url("../assets/fonts/made_evolve_sans_regular-webfont.woff") format("woff2"), url("../../assets/fonts/made_evolve_sans_regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "made_evolve_sans_bold";
+  src: url("../assets/fonts/made_evolve_sans_bold-webfont.woff2") format("woff2"), url("../../assets/fonts/made_evolve_sans_bold-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "made_evolve_sans_light";
+  src: url("../assets/fonts/made_evolve_sans_light-webfont.woff2") format("woff2"), url("../../assets/fonts/made_evolve_sans_light-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arial Black", "Open Sans", "Arial", sans-serif;
+  font-family: "made_evolve_sans_bold", sans-serif;
 }
 
 p, li, aside {
   font-size: 1rem;
   line-height: 1.6;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
   letter-spacing: -0.02rem;
 }
 
@@ -4596,10 +4614,10 @@ div.adx-direction > *, div.adx-direction-info > *, div.adx-direction-question > 
 }
 
 .adx-markup-font-text {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 .adx-markup-font-heading {
-  font-family: "Arial Black", "Open Sans", "Arial", sans-serif;
+  font-family: "made_evolve_sans_bold", sans-serif;
 }
 .adx-markup-font-alternative {
   font-family: "Book Antiqua Regular", "Georgia", "Times New Roman", serif;
@@ -4643,7 +4661,7 @@ div.adx-direction > *, div.adx-direction-info > *, div.adx-direction-question > 
   background: #eeeff1;
   border: 1px solid #d5d9dd;
   clear: both;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
 }
 .adx-markup-highlight-yellow {
@@ -4670,7 +4688,7 @@ div.adx-direction > *, div.adx-direction-info > *, div.adx-direction-question > 
   text-decoration: line-through;
 }
 .adx-markup-guide {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
@@ -4795,7 +4813,7 @@ blockquote {
 blockquote > * {
   max-width: 75ch;
   font-size: 1.44rem;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.4;
 }
 blockquote cite {
