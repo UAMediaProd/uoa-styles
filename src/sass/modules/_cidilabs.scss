@@ -178,3 +178,13 @@ thead tr {
     transform: scale(1.025);
   }
 }
+
+
+// override the h3
+
+.adx h3 {
+  padding: 0.5em;
+  background-color: #102535;
+  border-radius: 0.08em;
+  color: #fff;
+}
