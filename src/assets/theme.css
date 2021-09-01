@@ -6908,6 +6908,13 @@ section.adx-podcast-wide audio {
   transform: scale(1.025);
 }
 
+.adx h3 {
+  padding: 0.5em;
+  background-color: #102535;
+  border-radius: 0.08em;
+  color: #fff;
+}
+
 .interview {
   display: block;
 }
