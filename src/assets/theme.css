@@ -6708,6 +6708,7 @@ section.adx-podcast-square h3 {
   margin: 0;
   padding: 0.579rem 0 0 0.579rem;
   color: #40515d;
+  background: none;
 }
 section.adx-podcast-square h3 + p {
   grid-column: 1;
