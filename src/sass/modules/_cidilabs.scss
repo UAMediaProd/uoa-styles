@@ -25,6 +25,7 @@
 
   .kl_quick_check h3 {
     color: #102535;
+    background: none;
   }
 
   .kl_quick_check .kl_quick_check_field {
@@ -40,7 +41,7 @@
 
   // table updates inside a .kl_wrapper
 
-table td {
+  table td {
     text-align: left;
     border: 1px solid #B9C0C6;
   }
@@ -58,11 +59,11 @@ table td {
 
   }
 
-table tr {
+  table tr {
     background: #f9fafa;
   }
 
-thead tr {
+  thead tr {
     border-bottom: 3px solid #B9C0C6;
   }
 
@@ -117,6 +118,12 @@ thead tr {
     color: #000;
   }
 
+  // override for active header
+
+  .ui-accordion-header-active a {
+    color: white !important;
+  }
+
   .kl_panel_heading .ui-icon {
     display: block;
     text-indent: -99999px;
@@ -126,7 +133,7 @@ thead tr {
     height: 16px;
     background-image: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/jqueryui/ui-icons_222222_256x240-a2c05c5e96.png");
     margin-left: 0.5em;
-    top: 20%;
+    top: 0%;
     margin-top: 10px;
     float: left;
   }

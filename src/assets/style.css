@@ -5400,7 +5400,7 @@ aside.adx.keypoints {
   padding: 0;
 }
 aside.adx.keypoints header {
-  background: #0a1620;
+  background: #102535;
   margin: 0 0 0.833rem 0;
   padding: 0 0.694rem;
   text-align: center;
@@ -6783,6 +6783,7 @@ section.adx-podcast-wide audio {
 }
 .adx .kl_quick_check h3 {
   color: #102535;
+  background: none;
 }
 .adx .kl_quick_check .kl_quick_check_field {
   margin: 3px 10px 30px 0;
@@ -6855,6 +6856,9 @@ section.adx-podcast-wide audio {
 .adx .kl_panel_heading a {
   color: #000;
 }
+.adx .ui-accordion-header-active a {
+  color: white !important;
+}
 .adx .kl_panel_heading .ui-icon {
   display: block;
   text-indent: -99999px;
@@ -6864,7 +6868,7 @@ section.adx-podcast-wide audio {
   height: 16px;
   background-image: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/jqueryui/ui-icons_222222_256x240-a2c05c5e96.png");
   margin-left: 0.5em;
-  top: 20%;
+  top: 0%;
   margin-top: 10px;
   float: left;
 }
