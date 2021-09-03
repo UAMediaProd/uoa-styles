@@ -56,7 +56,6 @@ $complimentary: #7356C5;
 @import "modules/_toggle";
 @import "modules/_podcast";
 @import "modules/_cidilabs";
-@import "modules/_text-interview";
 
 
 body {
@@ -65,6 +64,14 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: 25ch 1fr;
+
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 30ch;
+    max-width: 150ch;
+    padding: 2vh 2vw;
+  }
 
   aside.sidebar {
   background: $ui-neutral-tint;

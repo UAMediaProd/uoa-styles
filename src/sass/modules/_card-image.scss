@@ -22,6 +22,10 @@ ul.adx-card-images, ol.adx-card-images {
       color: $ui-rev;
       align-items: end;
       max-height: 60vh;
+
+      & h3 {
+        background: none;
+      }
       
       &:after {
         grid-area: 1 / 1 / 4 / 2;
