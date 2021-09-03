@@ -6451,6 +6451,16 @@ header.adx-shield .image img.left-bottom {
 header.adx-shield .image img.right-bottom {
   object-position: right bottom;
 }
+header.adx-shield .make-history {
+  grid-area: 1/4/1/4;
+  display: grid;
+  margin: 1vw;
+}
+header.adx-shield .make-history img {
+  display: grid;
+  height: 100px;
+  align-self: end;
+}
 header.adx-shield .overlay {
   grid-area: 1/1/2/2;
   display: grid;

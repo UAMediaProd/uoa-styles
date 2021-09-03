@@ -18,7 +18,7 @@ header.adx-shield {
       justify-self: center;
       min-width: 400px; // Do not resize to smaller than this.
       min-height: 400px;
-      
+
       & img {
       display: grid;
       
@@ -36,6 +36,17 @@ header.adx-shield {
       &.left-bottom {object-position: left bottom;}
       &.right-bottom {object-position: right bottom;}
       }
+    }
+    & .make-history {
+        grid-area: 1 / 4 / 1 / 4;
+        display: grid;
+        margin: 1vw;
+
+        & img {
+            display: grid;
+            height:100px;
+            align-self: end;
+        }
     }
     & .overlay {
       grid-area: 1 / 1 / 2 / 2;
