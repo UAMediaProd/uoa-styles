@@ -3,14 +3,24 @@
 ---
 <div class="{{ class }}">
   <h5>This is a Box uses the <code>{{ class }}</code> class</h5>
-  <p>Hi there <span class="adx-markup-highlight-orange">whats happening</span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
 </div>
+
+<h2>Usage</h2>
+
+{% highlight html %}
+<div class="adx-direction">
+  <h5>This is a Box uses the <code>adx-direction</code> class</h5>
+  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+</div>
+{% endhighlight %}
 
 {{ '<h2>Variations</h2>' if 'variants' in page.variants}}
 
 {% for variant in variants %}
 <div class="{{ variant }}">
   <h5>This is a Box uses the <code>{{ variant }}</code> class</h5>
-  <p>Hi there <span class="adx-markup-highlight-orange">whats happening</span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
 </div>
+
 {% endfor %}

@@ -16,6 +16,9 @@ div.adx-direction {
     padding-top: $l;
     height: calc(100% - #{$xxs} - #{$l});
   }
+  & h5{
+    color: $ui-neutral-darker;
+  }
 
   &-info {
     @extend .adx-direction;
@@ -24,6 +27,10 @@ div.adx-direction {
   &:before {
     content: url(svg-encode($info-rev));
     background: $ui-information;
+    }
+
+    & h5{
+      color: $ui-information;
     }
   }
 
@@ -35,6 +42,10 @@ div.adx-direction {
     content: url(svg-encode($question-rev));
     background: $complimentary;
     }
+
+    & h5{
+      color: $complimentary;
+    }
   }
 
   &-warning {
@@ -44,6 +55,9 @@ div.adx-direction {
   &:before {
     content: url(svg-encode($exclaim-rev));
     background: $ui-warning;
+    }
+    & h5{
+      color: $ui-warning;
     }
   }
 
@@ -55,6 +69,9 @@ div.adx-direction {
     content: url(svg-encode($incorrect-rev));
     background: $ui-negative;
     }
+    & h5{
+      color: $ui-negative;
+    }
   }
 
   &-correct {
@@ -64,6 +81,9 @@ div.adx-direction {
   &:before {
     content: url(svg-encode($correct-rev));
     background: $ui-positive;
+    }
+    & h5{
+      color: $ui-positive;
     }
   }
 
