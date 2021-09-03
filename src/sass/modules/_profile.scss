@@ -25,11 +25,14 @@
 
   .name {
     color: $primary;
+    background: none;
+    padding: 0;
   }
 
   .title {
     text-transform: uppercase;
     color: $ui-neutral-darkest;
+    font-family: $font-heading;
   }
   .location {
     &::before {

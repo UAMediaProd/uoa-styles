@@ -1,13 +1,16 @@
 .adx pre {
-  border: $ui-border;
+  // border: $ui-border;
   border-radius: $radius;
   background: $ui-neutral-tint;
   padding: $m;
   min-width: 60%;
   max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  white-space: pre-wrap;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  white-space: pre-wrap !important; //override Prism styling
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;;
+
   
   code {
     background: none;
@@ -15,11 +18,12 @@
   }
 }
 
-
 .adx code {
-  border: $ui-border;
+  // border: $ui-border;
   border-radius: $radius;
   padding: .15ch .5ch;
-  font-size: 85%;
+  font-size: $s !important; //override Prism styling
   letter-spacing: .05ch;
+  white-space: pre-wrap !important; //override Prism styling
+  
 }

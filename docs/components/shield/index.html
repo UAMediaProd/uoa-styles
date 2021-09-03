@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Shield</title>
 	<link rel="stylesheet" href="/uoa-styles/assets/style.css" />
+	<link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
+
+	<link rel="icon" href="https://styleguide-v3.adelaide.edu.au/assets/img/icons/apple-touch-icon-144-precomposed.png" type="image/x-icon">
 </head>
 <body>
 <aside class="sidebar">
@@ -20,8 +23,6 @@
  		
  			<li><a href="/uoa-styles/components/buttons/" class="nav-link">Buttons</a></li>
  		
- 			<li><a href="/uoa-styles/components/card-image/" class="nav-link">Image Card</a></li>
- 		
  			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
  		
  			<li><a href="/uoa-styles/components/directions/" class="nav-link">Directions</a></li>
@@ -30,7 +31,7 @@
  		
  			<li><a href="/uoa-styles/components/reference-list/" class="nav-link">Reference List</a></li>
  		
- 			<li><a href="/uoa-styles/components/text-interview/" class="nav-link">Text interview</a></li>
+ 			<li><a href="/uoa-styles/components/card-image/" class="nav-link">Image Card</a></li>
  		
  			<li><a href="/uoa-styles/components/shield/" class="nav-link">Shield</a></li>
  		
@@ -40,9 +41,9 @@
 	<h4>Pages</h4>
 	<ul>
 		
-			<li><a href="/uoa-styles/cidilabs/" class="nav-link">CIDILabs Overrides</a></li>
-		
 			<li><a href="/uoa-styles/wine/" class="nav-link">Wine Business Mockup</a></li>
+		
+			<li><a href="/uoa-styles/cidilabs/" class="nav-link">CIDILabs Overrides</a></li>
 		
 	</ul>
 </aside>
@@ -56,8 +57,7 @@
   </header>
 
 
-    <p>Buttons can be <code>buttons</code> or <code>p</code> or <code>div</code> tags with the <code>.adx-button</code> class. To add colour, add the <code>colour</code> to the <code>.adx-button</code> class - e.g. <code>adx-button-brand-red</code>.</p>
-
+    
 
     <header class="adx-shield">
   <div class="image">
@@ -73,10 +73,14 @@
 </header>
 
 
+<h2>Usage</h2>
+
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-shield<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../../assets/grapes.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>center-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>make-history<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../../assets/mh-stacked.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Welcome to Cyber Security Fundamentals<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>Here's a tagline<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span></code></pre>
+
+
   <h2 class="adx-margin-top-xxl">Variations</h2>
 
-<p class="adx"><p>here's some text</p>
-</p>
+<p class="adx"></p>
 
 
 
