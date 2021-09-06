@@ -6536,9 +6536,15 @@ header.adx-shield.basic .curve {
 }
 header.adx-shield.basic .curve.left {
   grid-area: 1/1/1/1;
+  background: #005a9c;
+  clip-path: path("M0,0v79.19h107.89C107.89,79.19,43.59,44.68,0,0z");
+  object-position: left bottom;
 }
 header.adx-shield.basic .curve.right {
   grid-area: 1/3/1/3;
+  background: #d40000;
+  clip-path: path("M210.87,0v229.76H0C0,229.76,148.75,158.01,210.87,0z");
+  object-position: right bottom;
 }
 
 .adx-profile {
