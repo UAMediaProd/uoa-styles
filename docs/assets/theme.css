@@ -7067,10 +7067,6 @@ section.adx-podcast-wide audio {
   margin-right: 1em;
 }
 
-.kl_flex_column {
-  margin-right: 40px !important;
-}
-
 .icon-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
