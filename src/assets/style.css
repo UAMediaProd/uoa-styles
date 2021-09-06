@@ -7097,6 +7097,9 @@ section.adx-podcast-wide audio {
 .adx-icon h6.icon-text {
   font-size: 14px;
 }
+.adx-icon h6.icon-text:before {
+  content: "" !important;
+}
 
 body {
   font-family: "Arial", sans-serif;

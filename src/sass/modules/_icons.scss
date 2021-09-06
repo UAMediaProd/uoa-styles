@@ -35,5 +35,7 @@
     & h6.icon-text  {
         font-size: 14px;
 
+    } & h6.icon-text:before {
+            content: "" !important;
     }
 } 
