@@ -7083,20 +7083,21 @@ section.adx-podcast-wide audio {
   margin: 1vw;
 }
 .adx-icon i, .adx-icon .i-num {
-  font-size: 36pt;
-  min-width: 70px;
+  font-size: 32pt;
   object-position: center center;
   text-align: center;
   vertical-align: middle;
   line-height: 100%;
 }
-.adx-icon i.number h1, .adx-icon .i-num.number h1 {
+.adx-icon.number h1 {
   font-style: normal;
   margin: 0;
+  min-width: 52px;
 }
 .adx-icon h6.icon-text {
   font-size: 14px;
   margin: 0 0 0 1vw;
+  display: inline-grid;
 }
 .adx-icon h6.icon-text:before {
   content: "" !important;
