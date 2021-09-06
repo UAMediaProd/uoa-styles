@@ -17,12 +17,11 @@
 
     & i, .i-num {
         font-size: 36pt;
-        margin:1vw;
         min-width:70px;
         object-position: center center;
         text-align: center;
         vertical-align: middle;
-        
+        line-height: 100%;
 
         &.awesome {
 
@@ -34,6 +33,6 @@
 
     & h6.icon-text  {
         font-size: 14px;
-
+        margin-left:1vw;
     }
-} 
+}  

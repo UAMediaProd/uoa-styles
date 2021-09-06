@@ -7085,15 +7085,16 @@ section.adx-podcast-wide audio {
 }
 .adx-icon i, .adx-icon .i-num {
   font-size: 36pt;
-  margin: 1vw;
   min-width: 70px;
   object-position: center center;
   text-align: center;
   vertical-align: middle;
+  line-height: 100%;
 }
 .adx-icon i.number, .adx-icon .i-num.number {
   font-style: normal;
 }
 .adx-icon h6.icon-text {
   font-size: 14px;
+  margin-left: 1vw;
 }
