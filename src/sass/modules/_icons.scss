@@ -12,7 +12,6 @@
 .adx-icon {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    width:100%;
     margin:1vw;
 
     & i, .i-num {
@@ -26,7 +25,7 @@
         &.awesome {
 
         }
-        &.number {
+        &.number h1 {
             font-style: normal;
             margin: 0;
         }
