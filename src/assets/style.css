@@ -7098,6 +7098,9 @@ section.adx-podcast-wide audio {
   font-size: 14px;
   margin-left: 1vw;
 }
+.adx-icon h6.icon-text:before {
+  content: "" !important;
+}
 
 body {
   font-family: "Arial", sans-serif;
