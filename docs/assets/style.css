@@ -7096,7 +7096,7 @@ section.adx-podcast-wide audio {
 }
 .adx-icon h6.icon-text {
   font-size: 14px;
-  margin-left: 1vw;
+  margin: 0 0 0 1vw;
 }
 .adx-icon h6.icon-text:before {
   content: "" !important;
