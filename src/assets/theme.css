@@ -7093,6 +7093,7 @@ section.adx-podcast-wide audio {
 }
 .adx-icon i.number, .adx-icon .i-num.number {
   font-style: normal;
+  margin: 0;
 }
 .adx-icon h6.icon-text {
   font-size: 14px;
