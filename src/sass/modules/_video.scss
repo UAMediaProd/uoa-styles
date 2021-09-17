@@ -4,22 +4,24 @@ section.adx.video {
   padding: $s;
   box-shadow: $shadow-m;
   margin: $xl auto;
-  border-top: solid 2.074rem $brand-midblue;
+  // border-top: solid 2.074rem $brand-midblue;
   // max-width: $read-width;
 
   header.full {
     margin: -$s;
-    margin-bottom: $xxs;
+    margin-bottom: $l;
     z-index: -1;
     padding: $s;
+    background: $brand-darkblue;
+    border-radius: $radius $radius 0 0 ;
 
     .vid-title {
-      color:$brand-midblue;
+      color:white;
       display: inline-block;
     }
 
     & .icon {
-      color:$brand-midblue;
+      color:white;
       font-size: 2rem;
       margin: $xs;
 
