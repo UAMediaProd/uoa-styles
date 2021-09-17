@@ -6811,6 +6811,8 @@ a.adx-icon.external:before {
 
 a.download {
   background-image: none;
+  padding: 0;
+  line-height: inherit;
 }
 
 .adx-switch {
