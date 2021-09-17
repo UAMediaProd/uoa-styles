@@ -6722,7 +6722,7 @@ section.adx.video {
   padding: 0.833rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin: 1.728rem auto;
-  border-top: solid 2.074rem #102535;
+  border-top: solid 2.074rem #005a9c;
 }
 section.adx.video header.full {
   margin: -0.833rem;
@@ -6731,11 +6731,11 @@ section.adx.video header.full {
   padding: 0.833rem;
 }
 section.adx.video header.full .vid-title {
-  color: #102535;
+  color: #005a9c;
   display: inline-block;
 }
 section.adx.video header.full .icon {
-  color: #102535;
+  color: #005a9c;
   font-size: 2rem;
   margin: 0.694rem;
 }
