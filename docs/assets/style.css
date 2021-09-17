@@ -6722,7 +6722,6 @@ section.adx.video {
   padding: 0.833rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin: 1.728rem auto;
-  max-width: 75ch;
 }
 section.adx.video header.full {
   margin: -0.833rem;
@@ -6782,6 +6781,7 @@ a.adx-icon {
   font-size: 1rem;
   color: #102535;
   text-decoration: none;
+  align-items: center;
 }
 a.adx-icon:before {
   content: " ";
