@@ -4825,8 +4825,10 @@ blockquote {
   padding: 1rem 1.728rem;
   border-width: 0 0 0 0.694rem !important;
   border-style: solid;
-  border-color: #d5d9dd;
+  border-color: #102535;
   max-width: 90ch;
+  background: #f1f1f1;
+  width: fit-content;
 }
 blockquote > * {
   max-width: 75ch;
@@ -4848,7 +4850,7 @@ blockquote.fancyquote {
   font-style: italic;
   border-width: 4px 0 !important;
   border-style: solid;
-  border-color: #d5d9dd;
+  border-color: #102535;
 }
 blockquote.fancyquote p {
   font-family: "Book Antiqua Regular", "Georgia", "Times New Roman", serif;

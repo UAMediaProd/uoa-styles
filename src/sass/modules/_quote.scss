@@ -4,8 +4,10 @@ blockquote {
   padding: $m $xl;
   border-width: 0 0 0 $xs !important;
   border-style: solid;
-  border-color: $ui-neutral-light;
+  border-color: $brand-darkblue;
   max-width: $element-width;
+  background: #f1f1f1;
+  width: fit-content;
   
   & > * {
     max-width: $read-width;
@@ -32,7 +34,7 @@ blockquote {
     font-style: italic;
     border-width: 4px 0 !important;
     border-style: solid;
-    border-color: $ui-neutral-light;
+    border-color: $brand-darkblue;
     
     p {
       font-family: $font-alternative;
