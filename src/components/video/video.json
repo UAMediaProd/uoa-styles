@@ -1,0 +1,12 @@
+{
+  "title": "Video",
+  "layout": "component",
+  "eleventyNavigation": { 
+    "key": "Video"
+  }
+  ,
+  "class": "adx-video",
+  "description": "",
+  "variant-description": "",
+  "variants": []
+}
