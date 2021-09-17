@@ -4578,14 +4578,14 @@ div.adx-direction h5, div.adx-direction-correct h5, div.adx-direction-incorrect 
   color: #949a9e;
 }
 div.adx-direction-info {
-  background: #e7e9eb;
+  background: #e6eff5;
 }
 div.adx-direction-info:before {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='16' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='8' x2='12.01' y2='8'%3E%3C/line%3E%3C/svg%3E");
-  background: #102535;
+  background: #005a9c;
 }
 div.adx-direction-info h5 {
-  color: #102535;
+  color: #005a9c;
 }
 div.adx-direction-question {
   background: #f1eef9;

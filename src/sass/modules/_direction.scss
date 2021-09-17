@@ -22,15 +22,15 @@ div.adx-direction {
 
   &-info {
     @extend .adx-direction;
-    background: mix(white, $brand-darkblue, 90%);
+    background: mix(white, $brand-midblue, 90%);
 
   &:before {
     content: url(svg-encode($info-rev));
-    background: $brand-darkblue;
+    background: $brand-midblue;
     }
 
     & h5{
-      color: $brand-darkblue;
+      color: $brand-midblue;
     }
   }
 
