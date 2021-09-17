@@ -11,10 +11,6 @@ a.adx-icon {
     top: 0.5ch;
   }
 
-  &:hover {
-      color: $accent-dark;
-      background:#f1f1f1;
-  }
 
   &.download:before {content: url(svg-encode($download-primary)); }
   &.external:before {content: url(svg-encode($external-primary)); }
