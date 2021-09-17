@@ -7001,6 +7001,11 @@ section.adx-podcast-wide audio {
   font-size: 1em !important;
   /* needs to override nests of styles applied by CIDILabs */
 }
+.adx .kl_panels_expander_open {
+  border: 1px solid #ccc !important;
+  color: #333;
+  background: none !important;
+}
 .adx .kl_custom_accordion.ui-accordion .ui-accordion-header,
 .adx .kl_panels_accordion.ui-accordion .ui-accordion-header,
 .adx .kl_panels_expander.ui-accordion .ui-accordion-header,
