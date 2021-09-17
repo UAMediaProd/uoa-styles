@@ -96,9 +96,9 @@
     border-bottom: 0 !important;
   }
 
-  .kl_panel_content {
-    background: #f9fafa;
-}
+  .ui-accordion-content.kl_panel_content {
+      background: #f9fafa;
+  }
 
   .kl_panels_wrapper.ui-accordion .ui-accordion-content {
     padding: 10px;

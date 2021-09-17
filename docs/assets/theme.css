@@ -7042,7 +7042,7 @@ section.adx-podcast-wide audio {
   background: none !important;
   border-bottom: 0 !important;
 }
-.adx .kl_panel_content {
+.adx .ui-accordion-content.kl_panel_content {
   background: #f9fafa;
 }
 .adx .kl_panels_wrapper.ui-accordion .ui-accordion-content {
