@@ -6810,7 +6810,7 @@ a.adx-icon.external:before {
 }
 
 a.download {
-  display: none;
+  background-image: none;
 }
 
 .adx-switch {
