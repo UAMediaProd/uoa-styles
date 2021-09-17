@@ -6730,15 +6730,23 @@ section.adx.video header.full {
   padding: 0.833rem;
   background: #102535;
   border-radius: 0.5ch 0.5ch 0 0;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: top;
 }
 section.adx.video header.full .vid-title {
   color: white;
   display: inline-block;
+  justify-items: start;
+  grid-area: 1/2/1/2;
 }
 section.adx.video header.full .icon {
   color: white;
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin: 0.694rem;
+  margin-top: 1.1rem;
+  grid-area: 1/1/1/1;
+  text-align: center;
 }
 section.adx.video header.full .icon .text {
   grid-column: 2;
