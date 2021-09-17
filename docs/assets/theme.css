@@ -6746,7 +6746,6 @@ section.adx.video header.full .icon {
   margin: 0.694rem;
   margin-top: 1.1rem;
   grid-area: 1/1/1/1;
-  text-align: center;
 }
 section.adx.video header.full .icon .text {
   grid-column: 2;
