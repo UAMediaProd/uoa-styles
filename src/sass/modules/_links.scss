@@ -16,3 +16,7 @@ a.adx-icon {
   &.external:before {content: url(svg-encode($external-primary)); }
 
 }
+
+a.download {
+  display: none;
+}
