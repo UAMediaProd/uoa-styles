@@ -40,10 +40,10 @@ section.adx.video {
     display: grid;
     width:100%;
     height:100%;
-    min-height: 50px;
     align-items: center;
     text-align: center;
-    
+    min-height:3em;
+    margin-bottom: $xs;
 
     &:hover {
       color: $accent-dark;
@@ -56,7 +56,7 @@ section.adx.video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    margin-top: $l;
+    margin-top: $xs;
   }
 }
 
