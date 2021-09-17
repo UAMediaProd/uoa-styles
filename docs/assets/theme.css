@@ -6773,6 +6773,7 @@ section.adx.video .v-icon-holder {
 section.adx.video .v-icon-holder:hover {
   color: #4aaa2c;
   background: #f1f1f1;
+  cursor: pointer;
 }
 section.adx.video footer {
   display: grid;
