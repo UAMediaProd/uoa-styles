@@ -6738,13 +6738,15 @@ section.adx.video header.full .vid-title {
   color: white;
   display: inline-block;
   justify-items: start;
+  margin: 1rem 1rem 1rem 0;
   grid-area: 1/2/1/2;
 }
 section.adx.video header.full .icon {
   color: white;
   font-size: 2.2rem;
-  margin: 0.694rem;
+  margin: 0.833rem;
   margin-top: 1.1rem;
+  margin-bottom: 0;
   grid-area: 1/1/1/1;
 }
 section.adx.video header.full .icon .text {

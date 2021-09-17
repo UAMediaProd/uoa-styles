@@ -24,14 +24,16 @@ section.adx.video {
       color:white;
       display: inline-block;
       justify-items: start;
+      margin: 1rem 1rem 1rem 0;
       grid-area: 1 / 2 / 1 / 2;
     }
 
     & .icon {
       color:white;
       font-size: 2.2rem;
-      margin: $xs;
+      margin: $s;
       margin-top: 1.1rem;
+      margin-bottom:0;
       grid-area: 1 / 1 / 1 / 1;
 
       .text {grid-column: 2;}
