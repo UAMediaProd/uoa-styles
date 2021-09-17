@@ -90,11 +90,9 @@
     /* needs to override nests of styles applied by CIDILabs */
   }
 
-  .kl_panels_expander_open {
-    border: 1px solid #ccc !important;
+  .kl_panel_heading.kl_panels_expander_open {
     color: #333;
     background: none !important;
-    border-bottom: 0 !important;
   }
 
   .kl_custom_accordion.ui-accordion .ui-accordion-header,
