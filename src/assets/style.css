@@ -7005,6 +7005,7 @@ section.adx-podcast-wide audio {
   border: 1px solid #ccc !important;
   color: #333;
   background: none !important;
+  border-bottom: 0 !important;
 }
 .adx .kl_custom_accordion.ui-accordion .ui-accordion-header,
 .adx .kl_panels_accordion.ui-accordion .ui-accordion-header,
