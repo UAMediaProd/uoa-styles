@@ -6341,7 +6341,7 @@ table.adx.styled thead tr {
   font-weight: lighter;
 }
 table.adx.styled thead tr th {
-  padding: 0 0.833rem 0.402rem 0.833rem;
+  padding: 0 0.833rem;
   border: 0;
 }
 table.adx.styled tbody tr {
