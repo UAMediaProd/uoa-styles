@@ -5401,6 +5401,12 @@ aside.adx {
   min-width: 25ch;
   padding: 0.579rem;
 }
+aside.adx.image {
+  background: none;
+}
+aside.adx.image figure {
+  margin: 0;
+}
 aside.adx::after {
   content: "";
   display: block;

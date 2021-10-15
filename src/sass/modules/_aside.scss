@@ -10,6 +10,14 @@ aside.adx {
   max-width: 40%;
   min-width: 25ch;
   padding: $xxs;
+
+  &.image {
+    background:none;
+
+    & figure {
+      margin: 0;
+    }
+  }
   
   &::after {
     content: "";
