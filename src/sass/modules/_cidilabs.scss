@@ -188,8 +188,7 @@
     grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
     grid-gap: 1ch;
     grid-auto-flow: dense;
-    overflow: hidden;
-    padding: 1ch;
+    padding: .5ch;
   }
 
   #kl_navigation a {
