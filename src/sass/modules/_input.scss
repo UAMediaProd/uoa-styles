@@ -1,4 +1,4 @@
-.adx input {
+.adx input[type=text], input[type=email], input[type=password] {
     width: 100%;
     padding: .8em;
     font-family: 'Arial', sans-serif;
@@ -10,10 +10,25 @@
     transition: all 0.2s ease-in-out;
 }
 
+
 .adx input:focus, textarea:focus {
     outline: none;
     border: 1px solid $brand-midblue !important;
 }
+
+.adx input:disabled {
+    border: none;
+    background: $ui-neutral-tint;
+}
+
+.required:after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f069";
+    margin-left: 10px;
+    color: $brand-red;
+    font-weight: 900;
+  }
+
 
 .adx textarea {
     width: 100%;
@@ -35,6 +50,10 @@
     width: 100%;
 }
 
+.adx form input[type=submit] {
+    width: 100%;
+}
+
 .adx label {
     font-size: 0.7em;
     color: $ui-neutral;
@@ -45,3 +64,115 @@
 .inputLabel:focus-within label {
     color: $brand-midblue;
  }
+
+ .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 0.5ch;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: $brand-midblue;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+//   radios
+
+.radioMark {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .radioMark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .radioMark {
+    background-color: $brand-midblue;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .radioMark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .radioMark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .radioMark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
