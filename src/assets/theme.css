@@ -7120,7 +7120,7 @@ section.adx-podcast-wide audio {
 .adx #kl_navigation ul {
   list-style: none;
   min-width: 70%;
-  max-width: 100%;
+  max-width: 97%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
   grid-gap: 1ch;
