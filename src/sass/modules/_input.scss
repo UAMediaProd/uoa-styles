@@ -10,6 +10,22 @@
     transition: all 0.2s ease-in-out;
 }
 
+.adx select {
+    width: 100%;
+    padding: .8em;
+    font-family: 'Arial', sans-serif;
+    color: #303030;
+    border: 1px solid $ui-neutral-light;
+    background: $ui-neutral-lighter;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adx option {
+    padding: .8em;
+}
+
 
 .adx input:focus, textarea:focus {
     outline: none;
@@ -90,11 +106,12 @@
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
-    top: -3px;
+    top: -4px;
     left: 0;
     height: 20px;
     width: 20px;
-    background-color: #eee;
+    background-color: $ui-neutral-lighter;
+    border: 1px solid $ui-neutral-light;
     border-radius: 0.5ch;
   }
   
@@ -137,11 +154,12 @@
 
 .radioMark {
     position: absolute;
-    top: -3px;
+    top: -4px;
     left: 0;
     height: 20px;
     width: 20px;
-    background-color: #eee;
+    background-color: $ui-neutral-lighter;
+    border: 1px solid $ui-neutral-light;
     border-radius: 50%;
   }
   

@@ -80,140 +80,192 @@
     </div>
 </form>
 
-<p>Placeholders can be useful for extra content. It is <em>not recommended</em> to use placeholder elements as a replacement for text labels as placeholders disappear on either text
-    box click event or text entry. We recommend only using placeholders for extra information, examples, or hints for the data entry.</p>
+<p>Placeholders can be useful for extra content. It is <em>not recommended</em> to use placeholder elements as a
+    replacement for text labels as placeholders disappear on either text
+    box click event or text entry. We recommend only using placeholders for extra information, examples, or hints for
+    the data entry.</p>
 
-        <form>
-            <div class="inputLabel">
+<form>
+    <div class="inputLabel">
 
-                <label>Text box</label>
-                <input type="text" placeholder="Placeholder text"></input>
-            </div>
-        </form>
+        <label>Text box</label>
+        <input type="text" placeholder="Placeholder text"></input>
+    </div>
+</form>
 
-        <form>
-            <div class="inputLabel">
-                <label>Text area (used for longer form text)</label>
-                <textarea rows="8"></textarea></div>
+<form>
+    <div class="inputLabel">
+        <label>Text area (used for longer form text)</label>
+        <textarea rows="8"></textarea></div>
 
-        </form>
-
-
-        <p>Wrap <code>input</code> and <code>textarea</code> elements with an <code>inputLabel</code>-classed div. Do
-            this for each element on a page or form to enable label highlighting following
-            the focused field.</p>
-        <br />
-
-        <h4>HTML usage</h4>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Text box<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>input</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Text area<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+</form>
 
 
+<p>Wrap <code>input</code> and <code>textarea</code> elements with an <code>inputLabel</code>-classed div. Do
+    this for each element on a page or form to enable label highlighting following
+    the focused field.</p>
+<br />
 
-
-        <h4 class="adx-markup-label">Checkboxes and radio buttons</h4>
-
-
-        <form>
-            <h4>Checkboxes</h4>
-        <label class="container">One
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-          </label>
-          
-          <label class="container">Two
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          
-          <label class="container">Three
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          
-          <label class="container">Four
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-
-          <br/><br/>
-
-          <h4>Radio buttons</h4>
-          <label class="container">One
-            <input type="radio" checked="checked" name="example">
-            <span class="radioMark"></span>
-          </label>
-          
-          <label class="container">Two
-            <input type="radio" name="example">
-            <span class="radioMark"></span>
-          </label>
-          
-          <label class="container">Three
-            <input type="radio" name="example">
-            <span class="radioMark"></span>
-          </label>
-          
-          <label class="container">Four
-            <input type="radio" name="example">
-            <span class="radioMark"></span>
-          </label>
-
-        </form>
-
-
-        <h4 class="adx-markup-label">Dropdowns and selects</h4>
-
-        <h4 class="adx-markup-label">Required fields and form validation</h4>
-
-        <p>Setting the <code>type</code> of inputs and adding an asterisk by applying a <code>required</code> attribute to the input will trigger in-built HTML5 form validation. Adding a class of <code>required</code> to the label for each required field will add the red asterisk to mark required fields.</p>
-
-        <p>It is recommended to only use this styling for forms or input fields that contain a mix of optional and required fields. If all fields are required, do not include the <code>required</code> class on the label but keep the input attribute.</p>
-
-        <form>
-            <p class="required" style="font-size: 0.6em; font-weight: 700;">Required fields are marked accordingly</p>
-        <div class="inputLabel">
-            <label class="required">Email</label>
-            <input type="email" name="email" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required></input>
-        </div>
-        <input type="submit" class="adx-button brand-midblue" value="Save email"></input>
-
-    </form>
+<h4>HTML usage</h4>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Text box<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>input</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span><span class="token punctuation">></span></span>Text area<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textarea</span> <span class="token attr-name">rows</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textarea</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 
 
 
-        <h4 class="adx-markup-label">Forms</h4>
 
-        <p>Ideally, forms are kept simple and short to streamline any actions we want users to take. Single-column forms
-            are
-            preferred where possible; multi-part conditional forms are preferred after that. it is not recommended to
-            use
-            multi-column forms.</p>
-
-        <form>
-            <div class="inputLabel">
-                <label>Field</label>
-                <input type="text"></input>
-            </div>
-
-            <div class="inputLabel">
-                <label>Another field</label>
-                <input type="text"></input>
-            </div>
-
-            <div class="inputLabel">
-                <label>Disabled field</label>
-                <input type="text" disabled></input>
-            </div>
-
-            <button class="adx-button brand-midblue">Get my results</button>
-        </form>
-
-        <p>The submit button should
-            avoid the word 'submit' by itself where possible, making the action word to be specific to what
-            the user is doing or submitting itself ("submit file"; "save changes"; "calculate results"; etc.).
-        </p>
+<h4 class="adx-markup-label">Checkboxes and radio buttons</h4>
 
 
+<form>
+    <h4>Checkboxes</h4>
+    <label class="container">One
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Two
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Three
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Four
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <br /><br />
+
+    <h4>Radio buttons</h4>
+    <label class="container">One
+        <input type="radio" checked="checked" name="example">
+        <span class="radioMark"></span>
+    </label>
+
+    <label class="container">Two
+        <input type="radio" name="example">
+        <span class="radioMark"></span>
+    </label>
+
+    <label class="container">Three
+        <input type="radio" name="example">
+        <span class="radioMark"></span>
+    </label>
+
+    <label class="container">Four
+        <input type="radio" name="example">
+        <span class="radioMark"></span>
+    </label>
+
+</form>
+
+
+<h4>Usage</h4>
+
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    Checkbox<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>checkmark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    Radio button<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>example<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radioMark<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span></code></pre>
+
+
+
+<h4 class="adx-markup-label">Dropdowns and selects</h4>
+
+<form>
+    <h4>Dropdown</h4>
+    <div class="inputLabel">
+
+        <label for="cars">Choose a car</label><br />
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+
+
+    <h4>Selects</h4>
+    <p>Selects are created by adding the <code>multiple</code> attribute to a <code>select</code> tag.</p>
+
+    <div class="inputLabel">
+
+        <label for="cars">Choose a car</label><br />
+        <select id="cars" name="cars" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+
+</form>
+
+    <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>inputLabel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cars<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Choose a car<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cars<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>cars<span class="token punctuation">"</span></span> <span class="token attr-name">multiple</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>volvo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Volvo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>saab<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Saab<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fiat<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Fiat<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>audi<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Audi<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+
+
+
+
+<h4 class="adx-markup-label">Required fields and form validation</h4>
+
+<p>Setting the <code>type</code> of inputs and adding an asterisk by applying a <code>required</code> attribute to the
+    input will trigger in-built HTML5 form validation. Adding a class of <code>required</code> to the label for each
+    required field will add the red asterisk to mark required fields.</p>
+
+<p>It is recommended to only use this styling for forms or input fields that contain a mix of optional and required
+    fields. If all fields are required, do not include the <code>required</code> class on the label but keep the input
+    attribute.</p>
+
+<form>
+    <p class="required" style="font-size: 0.6em; font-weight: 700;">Required fields are marked accordingly</p>
+    <div class="inputLabel">
+        <label class="required">Email</label>
+        <input type="email" name="email"
+            pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+            required></input>
+    </div>
+    <input type="submit" class="adx-button brand-midblue" value="Save email"></input>
+
+</form>
+
+
+
+<h4 class="adx-markup-label">Forms</h4>
+
+<p>Ideally, forms are kept simple and short to streamline any actions we want users to take. Single-column forms
+    are
+    preferred where possible; multi-part conditional forms are preferred after that. it is not recommended to
+    use
+    multi-column forms.</p>
+
+<form>
+    <div class="inputLabel">
+        <label>Field</label>
+        <input type="text"></input>
+    </div>
+
+    <div class="inputLabel">
+        <label>Another field</label>
+        <input type="text"></input>
+    </div>
+
+    <div class="inputLabel">
+        <label>Disabled field</label>
+        <input type="text" disabled></input>
+    </div>
+
+    <label class="container">Opt into something
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <button class="adx-button brand-midblue">Get my results</button>
+</form>
+
+<p>The submit button should
+    avoid the word 'submit' by itself where possible, making the action word to be specific to what
+    the user is doing or submitting itself ("submit file"; "save changes"; "calculate results"; etc.).
+</p>
 
 </main>
 
