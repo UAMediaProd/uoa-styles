@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aside</title>
+	<title>Forms and input</title>
 	<link rel="stylesheet" href="/uoa-styles/assets/style.css" />
 	<link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
 
@@ -59,57 +59,78 @@
 
 <main class="adx">
   <header>
-    <h1 class="adx-markup-header adx-markup-caps">Aside</h1>
+    <h1 class="adx-markup-header adx-markup-caps">Forms and input</h1>
   </header>
 
 
-    <p>Buttons can be <code>buttons</code> or <code>p</code> or <code>div</code> tags with the <code>.adx-button</code> class. To add colour, add the <code>colour</code> to the <code>.adx-button</code> class - e.g. <code>adx-button-brand-red</code>.</p>
+    
+
+    
+<h4 class="adx-markup-label">Text inputs and text areas</h4>
+
+<form>
+    <p>Biz about text areas</p>
+    <div class="inputLabel">
+        <label>Text box</label>
+        <input></input>
+    </div>
+
+    <label>Password box</label>
+    <input type='password'></input>
+
+    <div class="inputLabel">
+    <p>Placeholders</p>
+    <label>Text box</label>
+    <input type="text" placeholder="Placeholder text"></input>
+    </div>
 
 
-    <aside class="adx">
-    <header>
-      <h3>Keypoints</h3>
-    </header>
-    <p>There are some really important things here:</p>
-    <ul>
-      <li>There's the first thing.</li>
-      <li>Then the second thing.</li>
-      <li>And finally the last thing.</li>
-    </ul>
-</aside>
-
-<h2 class="adx-margin-top-xxl clearboth">Variations</h2>
 
 
-  <h4 class="adx-markup-section adx-markup-guide clearboth">keypoints</h4>
-  
-  <aside class="adx keypoints">
-      <header>
-        <h3>Keypoints</h3>
-      </header>
-      <p>There are some really important things here:</p>
-      <ul>
-        <li>There's the first thing.</li>
-        <li>Then the second thing.</li>
-        <li>And finally the last thing.</li>
-      </ul>
-  </aside>
 
-  <h4 class="adx-markup-section adx-markup-guide clearboth">left</h4>
-  
-  <aside class="adx left">
-      <header>
-        <h3>Keypoints</h3>
-      </header>
-      <p>There are some really important things here:</p>
-      <ul>
-        <li>There's the first thing.</li>
-        <li>Then the second thing.</li>
-        <li>And finally the last thing.</li>
-      </ul>
-  </aside>
+    <p>Biz about text areas</p>
+
+    <div class="inputLabel">
+    <label>Text area</label>
+    <textarea rows="8"></textarea></div>
+
+</form>
 
 
+<h4 class="adx-markup-label">Checkboxes and radio buttons</h4>
+
+
+
+<h4 class="adx-markup-label">Dropdowns and selects</h4>
+
+
+
+<h4 class="adx-markup-label">Forms</h4>
+
+<p>Ideally, forms are kept simple and short to streamline any actions we want users to take. Single-column forms are
+    preferred where possible; multi-part conditional forms are preferred after that. it is not recommended to use
+    multi-column forms.</p>
+
+<form>
+    <div class="inputLabel">
+    <label>Field</label>
+    <input></input>
+</div>
+
+<div class="inputLabel">
+    <label>Another field</label>
+    <input></input>
+</div>
+
+    <button class="adx-button brand-midblue">Get my results</button>
+</form>
+
+<p>The submit button should
+    avoid the word 'submit' by itself where possible, making the action word to be specific to what
+    the user is doing or submitting itself ("submit file"; "save changes"; "calculate results"; etc.).
+</p>
+
+<h4 class="adx-markup-label">Experimental: Conversational forms</h4>
 
 </main>
 

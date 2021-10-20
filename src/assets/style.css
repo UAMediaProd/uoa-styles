@@ -7186,6 +7186,54 @@ section.adx-podcast-wide audio {
   content: "" !important;
 }
 
+.adx input {
+  width: 100%;
+  padding: 0.8em;
+  font-family: "Arial", sans-serif;
+  color: #303030;
+  border: 1px solid #d5d9dd;
+  background: #eeeff1;
+  margin-bottom: 1em;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.adx input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #005a9c !important;
+}
+
+.adx textarea {
+  width: 100%;
+  margin-top: 1em;
+  padding: 0.8em;
+  font-family: "Arial", sans-serif;
+  color: #303030;
+  border: 1px solid #d5d9dd;
+  background: #eeeff1;
+  border-radius: 2px;
+}
+
+.adx form {
+  max-width: 50ch;
+  margin: auto;
+}
+
+.adx form button {
+  width: 100%;
+}
+
+.adx label {
+  font-size: 0.7em;
+  color: #B9C0C6;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.inputLabel:focus-within label {
+  color: #005a9c;
+}
+
 body {
   font-family: "Arial", sans-serif;
   font-size: 18px;
