@@ -7310,6 +7310,10 @@ section.adx-podcast-wide audio {
   background-color: #005a9c;
 }
 
+label input:checked + .test {
+  color: #005a9c !important;
+}
+
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
   content: "";
