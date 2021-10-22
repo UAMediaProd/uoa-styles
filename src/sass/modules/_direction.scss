@@ -87,6 +87,22 @@ div.adx-direction {
     }
   }
 
+
+
+  &-test {
+    @extend .adx-direction;
+    background: mix(white, $ui-positive, 90%);
+
+  &:before {
+    content: url(svg-encode($test-rev));
+    background: $ui-positive;
+    }
+    & h5{
+      color: $ui-positive;
+    }
+  }
+
+
   & > * {
     margin-left: $l;
   }
