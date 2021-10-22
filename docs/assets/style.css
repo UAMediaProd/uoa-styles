@@ -6123,6 +6123,7 @@ figure.adx cite a {
   background: #f5f6f6;
   color: #595959;
   padding: 0.5ch;
+  font-style: italic;
 }
 figure.adx cite a:hover {
   color: #102535;
