@@ -6113,15 +6113,15 @@ figure.adx img {
   max-width: 100%;
 }
 figure.adx figcaption {
-  color: #82868b;
+  color: #595959;
   padding: 0.579rem;
   font-size: 1rem;
   text-align: center;
 }
 figure.adx cite a {
   display: inline-block;
-  background: #f5f6f6;
-  color: #949a9e;
+  background: #f9fafa;
+  color: #595959;
   padding: 0.5ch;
 }
 figure.adx cite a:hover {
