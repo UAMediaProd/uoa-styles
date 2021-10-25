@@ -125,3 +125,25 @@
     }
   }
 }
+
+.adx-button.appstore {
+  border: none;
+  padding: $xs;
+  background: none;
+  transition: .3s all;
+  text-align: center;
+  cursor: pointer;
+  margin: $xxxs;
+  border-radius: $radius;
+  width:auto;
+  height:100px;
+  display: inline-grid;
+
+  &.ios {
+    content: url('../assets/Download_on_the_App_Store_Badge_US-UK_blk_092917.png');
+  }
+  &.google {
+    content: url('../assets/google-play-badge.png');
+  }
+
+}

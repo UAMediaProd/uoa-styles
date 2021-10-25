@@ -5703,6 +5703,26 @@ aside.adx.keypoints ul li::marker {
   border-bottom: none;
 }
 
+.adx-button.appstore {
+  border: none;
+  padding: 0.694rem;
+  background: none;
+  transition: 0.3s all;
+  text-align: center;
+  cursor: pointer;
+  margin: 0.402rem;
+  border-radius: 0.5ch;
+  width: auto;
+  height: 100px;
+  display: inline-grid;
+}
+.adx-button.appstore.ios {
+  content: url("../assets/Download_on_the_App_Store_Badge_US-UK_blk_092917.png");
+}
+.adx-button.appstore.google {
+  content: url("../assets/google-play-badge.png");
+}
+
 hr.adx-gradient-primary {
   margin: 1.728rem 0;
   border: 0;
