@@ -95,9 +95,14 @@ figure.adx {
 @media (max-width: 700px) {
   
   figure.adx {
-    &.w80 {width: 90%; }
-    &.w60 {width: 90%; }
-    &.w40 {width: 90%; }
+    width:100%;
+    max-width: 100%;
+    margin: $m 0;
+    padding: 0;
+
+    &.w80 {width: 100%; }
+    &.w60 {width: 100%; }
+    &.w40 {width: 100%; }
   }
 .adx-gallery {
   &.four-up > figure, &.three-up > figure {

@@ -5401,7 +5401,7 @@ ol.adx-timeline.simple li section p:last-child {
 aside.adx {
   font-size: 1rem;
   float: right;
-  margin: 0 1rem 0.833rem;
+  margin: 0 0 1rem 0.833rem;
   padding: 0;
   background: #f3f4f5;
   border-radius: 0;
@@ -5472,6 +5472,19 @@ aside.adx.keypoints ul li::marker {
   color: #4aaa2c;
 }
 
+@media screen and (max-width: 700px) {
+  aside.adx {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem 0;
+    padding: 0.833rem;
+  }
+  aside.adx.image {
+    padding: 0;
+    margin: 1.44rem 0;
+  }
+}
 .adx-button {
   border: 2px solid #82868b;
   padding: 0.694rem;
@@ -6197,14 +6210,20 @@ figure.adx cite a:hover {
 }
 
 @media (max-width: 700px) {
+  figure.adx {
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem 0;
+    padding: 0;
+  }
   figure.adx.w80 {
-    width: 90%;
+    width: 100%;
   }
   figure.adx.w60 {
-    width: 90%;
+    width: 100%;
   }
   figure.adx.w40 {
-    width: 90%;
+    width: 100%;
   }
 
   .adx-gallery.four-up > figure, .adx-gallery.three-up > figure {
