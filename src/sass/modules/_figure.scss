@@ -18,7 +18,7 @@ figure.adx {
   }
   
   figcaption {
-    color: $ui-neutral-darkest;
+    color: $ui-grey;
     padding: $xxs;
     font-size: $m;
     text-align: center;
@@ -27,8 +27,9 @@ figure.adx {
   cite a {
     display: inline-block;
     background: $ui-neutral-lightest;
-    color: $ui-neutral-darker;
+    color: $ui-grey;
     padding: .5ch;
+    font-style: italic;
     
     &:hover {
       color: $primary;

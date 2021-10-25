@@ -6113,7 +6113,7 @@ figure.adx img {
   max-width: 100%;
 }
 figure.adx figcaption {
-  color: #82868b;
+  color: #595959;
   padding: 0.579rem;
   font-size: 1rem;
   text-align: center;
@@ -6121,8 +6121,9 @@ figure.adx figcaption {
 figure.adx cite a {
   display: inline-block;
   background: #f5f6f6;
-  color: #949a9e;
+  color: #595959;
   padding: 0.5ch;
+  font-style: italic;
 }
 figure.adx cite a:hover {
   color: #102535;
@@ -6443,7 +6444,7 @@ header.adx-hero .text > * {
 
 header.adx-shield {
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr 120px;
+  grid-template-columns: 3fr 1fr 3fr 160px;
   grid-template-rows: minmax(250px, 50vh);
   align-content: center;
   justify-content: center;
@@ -6457,11 +6458,10 @@ header.adx-shield .image {
   grid-area: 1/3/1/3;
   width: 40%;
   clip-path: path("M0.06,0.28v149.77c0,0-8.75,171.93,186.55,245.66c0,0,178.89-51.54,188.19-245.2s0,0,0,0V0.28H0.06z");
-  transform: scale(1.06);
+  transform: scale(1.2);
   justify-self: center;
   min-width: 400px;
   min-height: 400px;
-  margin-right: -3vw;
 }
 header.adx-shield .image img {
   display: grid;
@@ -6524,7 +6524,7 @@ header.adx-shield .text {
   flex-direction: column;
   justify-content: flex-end;
   text-align: left;
-  margin: 4vw 3vw 4vw 2vw;
+  margin: 4vw 1vw 4vw 4vw;
   border: none;
   background: none;
   text-align: left;
