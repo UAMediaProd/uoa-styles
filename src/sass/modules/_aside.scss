@@ -1,7 +1,7 @@
 aside.adx {
   font-size: $m;
   float: right;
-  margin:0 0 $m $s;
+  margin:0 $m $s;
   padding: 0;
   background: $primary-tint;
   border-radius: 0;
@@ -86,18 +86,4 @@ aside.adx {
   }
   }
 }
-}
-@media screen and (max-width:700px) {
-  aside.adx {
-    float:none;
-    width:100%;
-    max-width: 100%;
-    margin: $m 0;
-    padding: $s;
-
-    &.image {
-      padding:0;
-      margin: $l 0;
-    }
-  } 
 }
