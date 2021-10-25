@@ -5717,10 +5717,10 @@ aside.adx.keypoints ul li::marker {
   display: inline-grid;
 }
 .adx-button.appstore.ios {
-  content: url("https://github.com/UAMediaProd/uoa-styles/blob/1820d183b25c527d42715ebe53447b6ff736c23f/src/assets/Download_on_the_App_Store_Badge_US-UK_blk_092917.png");
+  content: url("https://uamediaprod.github.io/uoa-styles/assets/Download_on_the_App_Store_Badge_US-UK_blk_092917.png");
 }
 .adx-button.appstore.google {
-  content: url("https://github.com/UAMediaProd/uoa-styles/blob/1820d183b25c527d42715ebe53447b6ff736c23f/src/assets/google-play-badge.png");
+  content: url("https://uamediaprod.github.io/uoa-styles/assets/google-play-badge.png");
 }
 
 hr.adx-gradient-primary {
