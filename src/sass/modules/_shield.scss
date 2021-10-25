@@ -1,132 +1,194 @@
 header.adx-shield {
-    display: grid;
-    grid-template-columns: 3fr 1fr 3fr 120px;
-    grid-template-rows: minmax(250px, 50vh);
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    overflow: clip;
-    background:#102535;
-    height:400px;
-    border-left:10px solid #d40000;
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr 120px;
+  grid-template-rows: minmax(250px, 50vh);
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  overflow: clip;
+  background:#102535;
+  height:400px;
+  border-left:10px solid #d40000;
 
-    & .image {
-      grid-area: 1 / 3 / 1 / 3;
-      width:40%;
-      clip-path: path('M0.06,0.28v149.77c0,0-8.75,171.93,186.55,245.66c0,0,178.89-51.54,188.19-245.2s0,0,0,0V0.28H0.06z');
-      transform: scale(1.06);
-      justify-self: center;
-      min-width: 400px; // Do not resize to smaller than this.
-      min-height: 400px;
-      margin-right: -3vw;
+  & .image {
+    grid-area: 1 / 3 / 1 / 3;
+    width:40%;
+    clip-path: path('M0.06,0.28v149.77c0,0-8.75,171.93,186.55,245.66c0,0,178.89-51.54,188.19-245.2s0,0,0,0V0.28H0.06z');
+    transform: scale(1.2);
+    justify-self: center;
+    min-width: 400px; // Do not resize to smaller than this.
+    min-height: 400px;
+    margin-right: -3vw;
+
+    & img {
+    display: grid;
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    &.center-center {object-position: center center;}
+    &.left-center {object-position: left center;}
+    &.right-center {object-position: right center;}
+    &.center-top {object-position: center top;}
+    &.left-top {object-position: left top;}
+    &.right-top {object-position: right top;}
+    &.center-bottom {object-position: center bottom;}
+    &.left-bottom {object-position: left bottom;}
+    &.right-bottom {object-position: right bottom;}
+    }
+
+    &.left { 
+      grid-area: 1 / 2 / 1 / 2;
+    }
+  }
+  & .make-history {
+      grid-area: 1 / 4 / 1 / 4;
+      display: grid;
+      margin: 1vw;
 
       & img {
-      display: grid;
-      
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      
-      &.center-center {object-position: center center;}
-      &.left-center {object-position: left center;}
-      &.right-center {object-position: right center;}
-      &.center-top {object-position: center top;}
-      &.left-top {object-position: left top;}
-      &.right-top {object-position: right top;}
-      &.center-bottom {object-position: center bottom;}
-      &.left-bottom {object-position: left bottom;}
-      &.right-bottom {object-position: right bottom;}
+          display: grid;
+          width:100%;
+          align-self: end;
       }
-
-      &.left { 
-        grid-area: 1 / 2 / 1 / 2;
-      }
-    }
-    & .make-history {
-        grid-area: 1 / 4 / 1 / 4;
-        display: grid;
-        margin: 1vw;
-
-        & img {
-            display: grid;
-            width:100%;
-            align-self: end;
-        }
-
-        &.left {
-            grid-area: 1 / 1 / 1 / 1;
-        }
-    }
-    & .overlay {
-      grid-area: 1 / 1 / 2 / 2;
-      display: grid;
-      width: 100%;
-      height: 100%;
-    }
-    
-    & .text {
-      grid-area: 1 / 1 / 2 / 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      text-align: left;
-      margin: 4vw 3vw 4vw 2vw; 
-      border: none;
-      background: none;
-      text-align: left;
-
-      & h2 {font-size: 3rem;}
-      
-      &.right {}
 
       &.left {
-        grid-area: 1 / 4 / 1 / 4;
-    }
-      
-      & > * {
-        margin: 0;
-        padding-bottom: $xxs;
-        color: $ui-rev;
+          grid-area: 1 / 1 / 1 / 1;
       }
-  
-    }
-    &.left {
-        grid-template-columns: 160px 3fr 1fr 3fr;
-    }
-
-
-    // shield with no image for sub-sections / module landing pages
-
-    &.basic {
-        grid-template-columns: 1fr 4fr 2fr;
-        border-left: none;
-        height:250px;
-
-        & .text {
-            grid-area: 1 / 2 / 1 / 2;
-        }
-
-        & .curve {
-            position: relative;
-            align-items: end;
-            display: grid;
-        }
-
-        .curve.left {
-            grid-area: 1 / 1 / 1 / 1;
-            background: #005a9c;
-            clip-path: path("M10,6.7V0H0V322.82H250.2C10,246.75,10,6.7,10,6.7Z");
-            object-position: left bottom;
-        }
-        .curve.right {
-            grid-area: 1 / 3 / 1 / 3;
-            background: #d40000;
-            clip-path: path("M430.23,-3.3V0h32.26V322.82H0C240.23,216.75,240.23,5.7,240.23,-23.3Z");
-            object-position: right bottom;
-        }
-
-    }
-
-
+  }
+  & .overlay {
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    width: 100%;
+    height: 100%;
   }
   
+  & .text {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    margin: 4vw; 
+    border: none;
+    background: none;
+    text-align: left;
+
+    & h2 {font-size: 3rem;}
+    
+    &.right {}
+
+    &.left {
+      grid-area: 1 / 4 / 1 / 4;
+  }
+    
+    & > * {
+      margin: 0;
+      padding-bottom: $xxs;
+      color: $ui-rev;
+    }
+
+  }
+  &.left {
+      grid-template-columns: 160px 3fr 1fr 3fr;
+  }
+
+
+  // shield with no image for sub-sections / module landing pages
+
+  &.basic {
+      grid-template-columns: 1fr 4fr 2fr;
+      border-left: none;
+      height:250px;
+
+      & .text {
+          grid-area: 1 / 2 / 1 / 2;
+      }
+
+      & .curve {
+          position: relative;
+          align-items: end;
+          display: grid;
+      }
+
+      .curve.left {
+          grid-area: 1 / 1 / 1 / 1;
+          background: #005a9c;
+          clip-path: path("M10,6.7V0H0V322.82H250.2C10,246.75,10,6.7,10,6.7Z");
+          object-position: left bottom;
+      }
+      .curve.right {
+          grid-area: 1 / 3 / 1 / 3;
+          background: #d40000;
+          clip-path: path("M430.23,-3.3V0h32.26V322.82H0C240.23,216.75,240.23,5.7,240.23,-23.3Z");
+          object-position: right bottom;
+      }
+
+  }
+
+
+}
+
+@media screen and (max-width:1400px) {
+  //right
+  header.adx-shield.right {
+    grid-template-columns: 3fr 0fr 3fr 120px;
+    & .image {
+      transform: scale(1.06);
+    }
+    & .text {
+      margin:4vw 3vw 4vw 3vw;
+    }
+  }
+  //left
+  header.adx-shield.left {
+    grid-template-columns: 160px 3fr 0fr 3fr;
+    & .image {
+      transform: scale(1.06);
+    }
+    & .text {
+      margin:4vw 3vw 4vw 3vw;
+    }
+  }
+}
+@media screen and (max-width:1200px) {
+  //right
+  header.adx-shield.right {
+    grid-template-columns: 3fr 0fr 3fr 0fr;
+  }
+  //left
+  header.adx-shield.left {
+    grid-template-columns: 0fr 3fr 0fr 3fr;
+  }
+}
+@media screen and (max-width:1000px) {
+  //right
+  header.adx-shield.right {
+    grid-template-columns: 3fr 0fr 0fr 0fr;
+    & .image {
+      display: none;
+    }
+    & .text {
+      margin:4vw;
+    }
+  }
+  //left
+  header.adx-shield.left {
+    grid-template-columns: 0fr 0fr 0fr 3fr;
+    & .image {
+      display: none;
+    }
+    & .text {
+      margin:4vw;
+    }
+  }
+}
+
+@media screen and (max-width:1200px) {
+  header.adx-shield.basic {
+    grid-template-columns: 1fr 4fr 0fr; 
+    & .curve.right {display:none;}
+    & .text {margin:4vw 6vw 4vw 0;}
+  }
+}
