@@ -6443,7 +6443,7 @@ header.adx-hero .text > * {
 
 header.adx-shield {
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr 160px;
+  grid-template-columns: 3fr 1fr 3fr 120px;
   grid-template-rows: minmax(250px, 50vh);
   align-content: center;
   justify-content: center;
@@ -6457,10 +6457,11 @@ header.adx-shield .image {
   grid-area: 1/3/1/3;
   width: 40%;
   clip-path: path("M0.06,0.28v149.77c0,0-8.75,171.93,186.55,245.66c0,0,178.89-51.54,188.19-245.2s0,0,0,0V0.28H0.06z");
-  transform: scale(1.2);
+  transform: scale(1.06);
   justify-self: center;
   min-width: 400px;
   min-height: 400px;
+  margin-right: -3vw;
 }
 header.adx-shield .image img {
   display: grid;
@@ -6523,10 +6524,13 @@ header.adx-shield .text {
   flex-direction: column;
   justify-content: flex-end;
   text-align: left;
-  margin: 4vw;
+  margin: 4vw 3vw 4vw 2vw;
   border: none;
   background: none;
   text-align: left;
+}
+header.adx-shield .text h2 {
+  font-size: 3rem;
 }
 header.adx-shield .text.left {
   grid-area: 1/4/1/4;
