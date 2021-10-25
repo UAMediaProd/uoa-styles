@@ -6841,7 +6841,7 @@ section.adx.video header.full .vid-title {
   color: white;
   display: inline-block;
   justify-items: start;
-  margin: 1rem 1.5rem 1rem 0;
+  margin: 1rem;
   grid-area: 1/2/1/2;
 }
 section.adx.video header.full .icon {
