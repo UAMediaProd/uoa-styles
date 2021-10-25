@@ -5713,7 +5713,7 @@ aside.adx.keypoints ul li::marker {
   margin: 0.402rem;
   border-radius: 0.5ch;
   width: auto;
-  height: 100px;
+  height: 60px;
   display: inline-grid;
 }
 .adx-button.appstore.ios {
