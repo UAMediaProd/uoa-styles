@@ -80,6 +80,10 @@
   padding: $s 0 $s $xxl;
   cursor: pointer;
   counter-increment: pending-items;
+  font-size: unset;
+  color: unset;
+  font-weight: unset;
+  transition: unset;
 }
 .todoList label:hover {
   background: rgba($primary, 0.1);
