@@ -75,7 +75,7 @@ header.adx-shield {
     background: none;
     text-align: left;
 
-    & h2 {font-size: 3rem;}
+    & h2 {font-size: 3rem; border: none;}
     
     &.right {}
 
@@ -104,6 +104,7 @@ header.adx-shield {
 
       & .text {
           grid-area: 1 / 2 / 1 / 2;
+          margin-top: 7vw;
       }
 
       & .curve {

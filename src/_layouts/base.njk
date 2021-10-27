@@ -13,7 +13,7 @@
 <aside class="sidebar">
 
 	<ul>
-			<li><a href="{{ "/" | url }}" class="nav-link">Home</a></li>
+				<a href="/" class="nav-link"><h3 class="home-link"><img src="/uoa-styles/assets/half-shield.svg" width="30" style="float:left; padding: 10px;"> Online Design System</h3></a>
 	</ul>
 
 	<h4>Components</h4>
@@ -24,7 +24,7 @@
 	</ul>
 	<h4>Pages</h4>
 	<ul>
-		{% for page in collections.pages %}
+		{% for page in collections.pages | reverse %}
 			<li><a href="{{ page.url | url }}" class="nav-link">{{ page.data.title }}</a></li>
 		{% endfor %}
 	</ul>

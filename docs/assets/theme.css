@@ -4152,8 +4152,33 @@
   font-weight: 400;
   font-style: normal;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: "made_evolve_sans_bold", sans-serif;
+}
+
+h4, h5, h6 {
+  font-family: "Arial", sans-serif;
+}
+
+.adx h2 {
+  color: #102535;
+  border-left: 8px solid #d40000;
+  padding-left: 0.5em;
+}
+
+.adx h3 {
+  padding: 0.5em;
+  background-color: #102535;
+  border-radius: 0.08em;
+  color: #fff;
+}
+
+.adx h3 i {
+  margin-right: 1em;
+}
+
+.adx h4:not(.adx-markup-label) {
+  color: #005a9c;
 }
 
 p, li, aside {
@@ -4283,7 +4308,6 @@ h1 {
 
 .adx-cue, .adx-cue-blk, .adx-cue-blk-left, .adx-cue-blk-bottom, .adx-cue-blk-right, .adx-cue-blk-top, .adx-cue-rev, .adx-cue-rev-left, .adx-cue-rev-bottom, .adx-cue-rev-right, .adx-cue-rev-top, .adx-cue-information, .adx-cue-information-left, .adx-cue-information-bottom, .adx-cue-information-right, .adx-cue-information-top, .adx-cue-warning, .adx-cue-warning-left, .adx-cue-warning-bottom, .adx-cue-warning-right, .adx-cue-warning-top, .adx-cue-negative, .adx-cue-negative-left, .adx-cue-negative-bottom, .adx-cue-negative-right, .adx-cue-negative-top, .adx-cue-positive, .adx-cue-positive-left, .adx-cue-positive-bottom, .adx-cue-positive-right, .adx-cue-positive-top, .adx-cue-neutral, .adx-cue-neutral-left, .adx-cue-neutral-bottom, .adx-cue-neutral-right, .adx-cue-neutral-top, .adx-cue-complimentary, .adx-cue-complimentary-left, .adx-cue-complimentary-bottom, .adx-cue-complimentary-right, .adx-cue-complimentary-top, .adx-cue-accent, .adx-cue-accent-left, .adx-cue-accent-bottom, .adx-cue-accent-right, .adx-cue-accent-top, .adx-cue-primary, .adx-cue-primary-left, .adx-cue-primary-bottom, .adx-cue-primary-right, .adx-cue-primary-top, .adx-cue-brand-red, .adx-cue-brand-red-left, .adx-cue-brand-red-bottom, .adx-cue-brand-red-right, .adx-cue-brand-red-top, .adx-cue-brand-gold, .adx-cue-brand-gold-left, .adx-cue-brand-gold-bottom, .adx-cue-brand-gold-right, .adx-cue-brand-gold-top, .adx-cue-brand-lightblue, .adx-cue-brand-lightblue-left, .adx-cue-brand-lightblue-bottom, .adx-cue-brand-lightblue-right, .adx-cue-brand-lightblue-top, .adx-cue-brand-midblue, .adx-cue-brand-midblue-left, .adx-cue-brand-midblue-bottom, .adx-cue-brand-midblue-right, .adx-cue-brand-midblue-top, .adx-cue-brand-darkblue, .adx-cue-brand-darkblue-left, .adx-cue-brand-darkblue-bottom, .adx-cue-brand-darkblue-right, .adx-cue-brand-darkblue-top, .adx-cue-left, .adx-cue-bottom, .adx-cue-right, .adx-cue-top {
   background: #f8f9f9;
-  border: 1px solid #B9C0C6;
   padding: 1rem 1.728rem;
   max-width: 90ch;
   margin: 1rem auto;
@@ -5977,7 +6001,6 @@ nav ul.adx-subsection li:nth-child(1):after {
 
 nav.adx-sequence {
   max-width: 100%;
-  border-bottom: 1px solid #B9C0C6;
 }
 nav.adx-sequence ul {
   list-style: none;
@@ -6753,6 +6776,7 @@ header.adx-shield .text {
 }
 header.adx-shield .text h2 {
   font-size: 3rem;
+  border: none;
 }
 header.adx-shield .text.left {
   grid-area: 1/4/1/4;
@@ -6772,6 +6796,7 @@ header.adx-shield.basic {
 }
 header.adx-shield.basic .text {
   grid-area: 1/2/1/2;
+  margin-top: 7vw;
 }
 header.adx-shield.basic .curve {
   position: relative;
@@ -7229,7 +7254,9 @@ section.adx-podcast-square audio {
   grid-column: span 2;
   height: 2.074rem;
   z-index: 999;
-  width: 100%;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 0.5em;
 }
 
 section.adx-podcast-wide {
@@ -7259,6 +7286,7 @@ section.adx-podcast-wide div.track h3 {
   margin: 0;
   padding: 0.579rem 0 0 0.579rem;
   color: #40515d;
+  background: none;
 }
 section.adx-podcast-wide div.track h3 + p {
   font-size: 1rem;
@@ -7270,7 +7298,9 @@ section.adx-podcast-wide audio {
   grid-column: span 4;
   grid-row: 4;
   height: 2.074rem;
-  width: 100%;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 0.5em;
 }
 
 /*
@@ -7433,17 +7463,6 @@ section.adx-podcast-wide audio {
   background: inherit;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   transform: scale(1.025);
-}
-
-.adx h3 {
-  padding: 0.5em;
-  background-color: #102535;
-  border-radius: 0.08em;
-  color: #fff;
-}
-
-.adx h3 i {
-  margin-right: 1em;
 }
 
 .icon-grid {

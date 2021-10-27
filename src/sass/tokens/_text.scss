@@ -21,8 +21,37 @@ $font-text: 'Arial', sans-serif;
 $font-heading:  'made_evolve_sans_bold' ,sans-serif;
 $font-alternative: 'Book Antiqua Regular', 'Georgia', 'Times New Roman', serif;
 
-h1, h2, h3, h4, h5, h6 {
+// base heading font families
+
+h1, h2, h3 {
   font-family: $font-heading;
+}
+
+h4, h5, h6 {
+  font-family: $font-text;
+}
+
+// default Canvas overrides
+
+.adx h2 {
+  color: $brand-darkblue;
+  border-left:8px solid #d40000;
+  padding-left: .5em;
+}
+
+.adx h3 {
+  padding: 0.5em;
+  background-color: $brand-darkblue;
+  border-radius: 0.08em;
+  color: #fff;
+}
+
+.adx h3 i {
+  margin-right: 1em;
+}
+
+.adx h4:not(.adx-markup-label) {
+  color: $brand-midblue;
 }
 
 // SCALE
