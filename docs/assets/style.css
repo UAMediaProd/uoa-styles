@@ -7469,16 +7469,18 @@ section.adx-podcast-wide audio {
   position: relative;
   display: inline-block;
   cursor: help;
-  border-bottom: 1px solid #b9a2e5;
-  box-shadow: 0px -8px 0px #b9a2e5 inset;
+  border-bottom: 1px solid #005a9c;
+  box-shadow: 0px -6px 0px #005a9c inset;
   transition: all 0.1s ease-in-out;
+  line-height: 1;
 }
 
 .tooltiptext {
+  font-size: 0.8em;
   visibility: hidden;
   min-width: 120px;
   max-width: 300px;
-  background-color: black;
+  background-color: #102535;
   color: #fff;
   text-align: center;
   border-radius: 6px;

@@ -209,17 +209,19 @@
   position: relative;
   display: inline-block;
   cursor: help;
-  border-bottom: 1px solid #b9a2e5;
-  box-shadow: 0px -8px 0px #b9a2e5 inset;
+  border-bottom: 1px solid $brand-midblue;
+  box-shadow: 0px -6px 0px $brand-midblue inset;
   transition: all 0.1s ease-in-out;
+  line-height: 1;
 }
 
 
 .tooltiptext {
+  font-size: 0.8em;
   visibility: hidden;
     min-width: 120px;
     max-width: 300px;
-    background-color: black;
+    background-color: $brand-darkblue;
     color: #fff;
     text-align: center;
     border-radius: 6px;
