@@ -7471,7 +7471,7 @@ section.adx-podcast-wide audio {
   border-bottom: 1px dotted black;
 }
 
-.tooltip .tooltiptext {
+.tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
