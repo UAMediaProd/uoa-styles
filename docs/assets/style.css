@@ -7494,6 +7494,10 @@ section.adx-podcast-wide audio {
   transition: opacity 0.4s;
 }
 
+.tooltip:hover {
+  box-shadow: 0px -25px 0px #005a9c inset;
+}
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
