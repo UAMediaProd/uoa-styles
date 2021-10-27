@@ -230,7 +230,7 @@
     z-index: 1;
     bottom: 140%;
     left: 50%;
-    margin-left: -65px;
+    transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.4s;
     line-height: 1.2;
