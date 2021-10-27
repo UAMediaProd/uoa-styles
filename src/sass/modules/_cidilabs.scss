@@ -219,7 +219,7 @@
 .tooltiptext {
   font-size: 0.9em;
     visibility: hidden;
-    min-width: 120px;
+    width: max-content;
     max-width: 300px;
     background-color: #102535;
     color: #fff;
