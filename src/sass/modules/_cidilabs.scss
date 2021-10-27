@@ -211,6 +211,7 @@
   border-bottom: 1px dotted black;
 }
 
+
 .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -227,10 +228,26 @@
   
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 0.4s;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+// don't hide anything should float above the content
+.pages.show .show-content {
+  overflow-x: unset !important;
 }
