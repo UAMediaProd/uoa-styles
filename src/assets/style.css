@@ -6122,6 +6122,7 @@ ul.adx-nav-table li.notLink:hover, ol.adx-nav-table li.notLink:hover {
   background-color: unset;
   border-color: unset;
   color: unset;
+  transform: scale(1);
 }
 
 ul.adx-nav-cards, ol.adx-nav-cards {
