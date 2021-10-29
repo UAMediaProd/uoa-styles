@@ -57,5 +57,24 @@ ul.adx-nav-table, ol.adx-nav-table {
     &.full {
       grid-column: 1 / -1
     }
+
+    // create a class to apply to any li items that are NOT links (just p or h4s or whatever)
+    &.notLink {
+      // remove the background and border colors
+      background-color: unset;
+      border-color: unset;
+    }
+
+    //adjust the style on hover for this class
+    &.notLink:hover {
+      // remove the background colour
+      // undo the scale (1.025): scale works as percentage or times, so scale(2) sets it double the current size; scale(1) sets it to 100% current size (or the same)
+      // unset the color of the text
+
+      background-color: unset;
+      border-color: unset;
+
+      // HINT: "unset" is a useful value. It...unsets a value. So it returns to default or not having any value.
+    }
   }
 }
