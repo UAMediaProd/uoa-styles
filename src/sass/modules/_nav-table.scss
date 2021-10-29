@@ -30,7 +30,7 @@ ul.adx-nav-table, ol.adx-nav-table {
     }
 
     a {
-      text-decoration: none;
+      text-decoration: none !important;
       color: $primary;
       transition: all ease .2s;
     }
@@ -52,7 +52,6 @@ ul.adx-nav-table, ol.adx-nav-table {
       background: $primary;
       color: $ui-rev;
       transform: scale(1.025);
-
     }
 
     &.full {

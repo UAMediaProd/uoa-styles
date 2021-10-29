@@ -6090,7 +6090,7 @@ ul.adx-nav-table li > *, ol.adx-nav-table li > * {
   line-height: 1.2;
 }
 ul.adx-nav-table li a, ol.adx-nav-table li a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #102535;
   transition: all ease 0.2s;
 }
