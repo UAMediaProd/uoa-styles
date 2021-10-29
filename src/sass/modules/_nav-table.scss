@@ -63,6 +63,7 @@ ul.adx-nav-table, ol.adx-nav-table {
       // remove the background and border colors
       background-color: unset;
       border-color: unset;
+      border-style: none;
     }
 
     //adjust the style on hover for this class
@@ -73,6 +74,8 @@ ul.adx-nav-table, ol.adx-nav-table {
 
       background-color: unset;
       border-color: unset;
+      scale(1);
+      color: unset;
 
       // HINT: "unset" is a useful value. It...unsets a value. So it returns to default or not having any value.
     }
