@@ -7585,6 +7585,11 @@ section.adx-podcast-wide audio {
   text-align: center;
   vertical-align: middle;
   border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.support-grid .support-content:hover {
+  transform: scale(1.02);
 }
 .support-grid .support-content h4 {
   color: white !important;
