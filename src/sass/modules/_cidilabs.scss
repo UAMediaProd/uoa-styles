@@ -261,3 +261,84 @@
 .pages.show .show-content {
   overflow-x: unset !important;
 }
+
+.glance-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.glance-grid {
+  text-align: center;
+
+  h4 {
+    margin-bottom: -10px;
+    font-weight: 700;
+    color: black !important;
+    background: unset;
+    font-size: 1em;
+  }
+
+  .glance-content {
+  width: 200px;
+  height: 200px;
+  background: $brand-darkblue;
+  margin: .6em;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+
+  h4 {
+    color: white !important;
+  }
+
+  h5 {
+    padding-top: 37%;
+    color: white;
+    font-size: 2.8em;
+    margin-bottom: -10px;
+  }
+
+}
+}
+
+.support-grid {
+  margin-top: -0.8em;
+  text-align: center;
+
+  h4 {
+    margin-bottom: -10px;
+    font-weight: 700;
+    color: black !important;
+    background: unset;
+    font-size: 1em;
+  }
+
+  .support-content {
+  width: 200px;
+  height: 200px;
+  background: $brand-darkblue;
+  margin: .2em;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  h4 {
+    color: white !important;
+  }
+
+  h5 {
+    padding-top: 27%;
+    color: white;
+    font-size: 2.8em;
+    margin-bottom: -10px;
+  }
+
+}
+}

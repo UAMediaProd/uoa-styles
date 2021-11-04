@@ -7531,6 +7531,76 @@ section.adx-podcast-wide audio {
   overflow-x: unset !important;
 }
 
+.glance-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.glance-grid {
+  text-align: center;
+}
+.glance-grid h4 {
+  margin-bottom: -10px;
+  font-weight: 700;
+  color: black !important;
+  background: unset;
+  font-size: 1em;
+}
+.glance-grid .glance-content {
+  width: 200px;
+  height: 200px;
+  background: #102535;
+  margin: 0.6em;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.glance-grid .glance-content h4 {
+  color: white !important;
+}
+.glance-grid .glance-content h5 {
+  padding-top: 37%;
+  color: white;
+  font-size: 2.8em;
+  margin-bottom: -10px;
+}
+
+.support-grid {
+  margin-top: -0.8em;
+  text-align: center;
+}
+.support-grid h4 {
+  margin-bottom: -10px;
+  font-weight: 700;
+  color: black !important;
+  background: unset;
+  font-size: 1em;
+}
+.support-grid .support-content {
+  width: 200px;
+  height: 200px;
+  background: #102535;
+  margin: 0.2em;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.support-grid .support-content:hover {
+  transform: scale(1.02);
+}
+.support-grid .support-content h4 {
+  color: white !important;
+}
+.support-grid .support-content h5 {
+  padding-top: 27%;
+  color: white;
+  font-size: 2.8em;
+  margin-bottom: -10px;
+}
+
 .icon-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
