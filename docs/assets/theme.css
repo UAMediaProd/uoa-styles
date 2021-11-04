@@ -4913,7 +4913,7 @@ blockquote.pullquote-left cite {
   text-align: right;
 }
 
-.adx input[type=text], input[type=email], input[type=password], input[type=number] {
+.adx input[type=text], input[type=email], input[type=password], input[type=number], input[type=datetime-local] {
   width: 100%;
   padding: 0.8em;
   font-family: "Arial", sans-serif;
