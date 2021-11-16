@@ -34,17 +34,18 @@ div.adx-direction {
     }
   }
 
-  &-question {
+  &-inform {
     @extend .adx-direction;
-    background: mix(white, $complimentary, 90%);
+    background: mix(white, $brand-darkblue, 90%);
 
   &:before {
-    content: url(svg-encode($question-rev));
-    background: $complimentary;
+    background: $brand-darkblue;
+    content: "";
+    width: 24px;
     }
 
     & h5{
-      color: $complimentary;
+      color: $brand-darkblue;
     }
   }
 
@@ -61,46 +62,33 @@ div.adx-direction {
     }
   }
 
-  &-incorrect {
+  &-assess {
     @extend .adx-direction;
     background: mix(white, $ui-negative, 90%);
 
   &:before {
-    content: url(svg-encode($incorrect-rev));
+    content: "";
     background: $ui-negative;
+    width: 24px;
     }
     & h5{
       color: $ui-negative;
     }
   }
 
-  &-correct {
+  &-extra {
     @extend .adx-direction;
-    background: mix(white, $ui-positive, 90%);
+    background: mix(white, $brand-midblue, 90%);
 
   &:before {
-    content: url(svg-encode($correct-rev));
-    background: $ui-positive;
+    content: url(svg-encode($expand-rev));
+    background: $brand-midblue;
     }
     & h5{
-      color: $ui-positive;
+      color: $brand-midblue;
     }
   }
 
-
-
-  &-test {
-    @extend .adx-direction;
-    background: mix(white, $ui-positive, 90%);
-
-  &:before {
-    content: url(svg-encode($test-rev));
-    background: $ui-positive;
-    }
-    & h5{
-      color: $ui-positive;
-    }
-  }
 
 
   & > * {
