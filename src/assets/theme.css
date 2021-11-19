@@ -4765,6 +4765,7 @@ div.adx-direction:before, div.adx-direction-extra:before, div.adx-direction-asse
 }
 div.adx-direction h5, div.adx-direction-extra h5, div.adx-direction-assess h5, div.adx-direction-warning h5, div.adx-direction-inform h5, div.adx-direction-info h5 {
   color: #949a9e;
+  font-weight: 700;
 }
 div.adx-direction-info {
   background: #e6eff5;
@@ -6945,6 +6946,7 @@ header.adx-shield .text {
 header.adx-shield .text h2 {
   font-size: 3rem;
   border: none;
+  padding-left: 0px;
 }
 header.adx-shield .text.left {
   grid-area: 1/4/1/4;
