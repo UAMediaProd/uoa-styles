@@ -342,3 +342,8 @@
 
 }
 }
+
+// hide external link icons in social list for OUA
+.stay-connected-social .ui-icon-extlink {
+  display: none !important;
+}

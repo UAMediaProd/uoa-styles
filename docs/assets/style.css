@@ -7758,6 +7758,10 @@ section.adx-podcast-wide audio {
   margin-bottom: -10px;
 }
 
+.stay-connected-social .ui-icon-extlink {
+  display: none !important;
+}
+
 .icon-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
