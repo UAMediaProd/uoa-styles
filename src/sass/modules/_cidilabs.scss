@@ -89,7 +89,7 @@
     /* needs to override nests of styles applied by CIDILabs */
   }
 
- h3.kl_panels_expander_open {
+  h3.kl_panels_expander_open {
     border: 1px solid #ccc !important;
     color: #333;
     background: none !important;
@@ -97,7 +97,7 @@
   }
 
   .ui-accordion-content.kl_panel_content {
-      background: #f9fafa;
+    background: #f9fafa;
   }
 
   .kl_panels_wrapper.ui-accordion .ui-accordion-content {
@@ -218,22 +218,22 @@
 
 .tooltiptext {
   font-size: 0.9em;
-    visibility: hidden;
-    width: max-content;
-    max-width: 300px;
-    background-color: #102535;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 140%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.4s;
-    line-height: 1.2;
+  visibility: hidden;
+  width: max-content;
+  max-width: 300px;
+  background-color: #102535;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.4s;
+  line-height: 1.2;
 }
 
 .tooltip:hover {
@@ -243,13 +243,14 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
-  
+
 }
 
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
-  top: 100%; /* At the bottom of the tooltip */
+  top: 100%;
+  /* At the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -280,26 +281,26 @@
   }
 
   .glance-content {
-  width: 200px;
-  height: 200px;
-  background: $brand-darkblue;
-  margin: .6em;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 2px;
+    width: 200px;
+    height: 200px;
+    background: $brand-darkblue;
+    margin: .6em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
 
-  h4 {
-    color: white !important;
+    h4 {
+      color: white !important;
+    }
+
+    h5 {
+      padding-top: 37%;
+      color: white;
+      font-size: 2.8em;
+      margin-bottom: -10px;
+    }
+
   }
-
-  h5 {
-    padding-top: 37%;
-    color: white;
-    font-size: 2.8em;
-    margin-bottom: -10px;
-  }
-
-}
 }
 
 .support-grid {
@@ -315,35 +316,44 @@
   }
 
   .support-content {
-  width: 200px;
-  height: 200px;
-  background: $brand-darkblue;
-  margin: .2em;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 2px;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
+    width: 200px;
+    height: 200px;
+    background: $brand-darkblue;
+    margin: .2em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
 
-  &:hover {
-    transform: scale(1.02);
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    h4 {
+      color: white !important;
+    }
+
+    h5 {
+      padding-top: 27%;
+      color: white;
+      font-size: 2.8em;
+      margin-bottom: -10px;
+    }
+
   }
-
-  h4 {
-    color: white !important;
-  }
-
-  h5 {
-    padding-top: 27%;
-    color: white;
-    font-size: 2.8em;
-    margin-bottom: -10px;
-  }
-
-}
 }
 
 // hide external link icons in social list for OUA
 .stay-connected-social .ui-icon-extlink {
   display: none !important;
+}
+
+.stay-connected-social {
+  width: 80%;
+  margin: auto;
+  background: #eeeff1;
+  border: 1px solid #d5d9dd;
+  padding: 1em 2em !important;
+  border-radius: 0.402rem;
 }

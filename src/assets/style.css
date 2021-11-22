@@ -7764,6 +7764,15 @@ section.adx-podcast-wide audio {
   display: none !important;
 }
 
+.stay-connected-social {
+  width: 80%;
+  margin: auto;
+  background: #eeeff1;
+  border: 1px solid #d5d9dd;
+  padding: 1em 2em !important;
+  border-radius: 0.402rem;
+}
+
 .icon-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
