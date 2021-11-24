@@ -6354,6 +6354,11 @@ ul.adx-nav-cards.timeline li, ol.adx-nav-cards.timeline li {
   font-size: 0.833rem;
   border: none;
 }
+ul.adx-nav-cards.timeline li:focus-within, ul.adx-nav-cards.timeline li:hover, ol.adx-nav-cards.timeline li:focus-within, ol.adx-nav-cards.timeline li:hover {
+  box-shadow: none;
+  transform: scale(1.025);
+  background: none;
+}
 ul.adx-nav-cards.timeline li h4, ol.adx-nav-cards.timeline li h4 {
   color: #ffffff;
   font-size: 1rem;

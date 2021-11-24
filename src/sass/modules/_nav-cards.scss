@@ -78,6 +78,12 @@ ul.adx-nav-cards, ol.adx-nav-cards {
     font-size: $s;
     border: none;
 
+    &:focus-within, &:hover {
+      box-shadow: none;
+      transform: scale(1.025);
+      background:none;
+    }
+
     & h4 {
       color:#ffffff;
       font-size: $m;
