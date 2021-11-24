@@ -6352,6 +6352,7 @@ ul.adx-nav-cards.timeline li, ol.adx-nav-cards.timeline li {
   color: #ffffff;
   padding: 0px;
   font-size: 0.833rem;
+  border: none;
 }
 ul.adx-nav-cards.timeline li h4, ol.adx-nav-cards.timeline li h4 {
   color: #ffffff;
