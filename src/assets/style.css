@@ -6348,6 +6348,30 @@ ul.adx-nav-cards li p.description, ol.adx-nav-cards li p.description {
   line-height: 1.1;
   font-size: 0.833rem;
 }
+ul.adx-nav-cards.timeline li, ol.adx-nav-cards.timeline li {
+  color: #ffffff;
+  padding: 0px;
+  font-size: 0.833rem;
+}
+ul.adx-nav-cards.timeline li h4, ol.adx-nav-cards.timeline li h4 {
+  color: #ffffff;
+  font-size: 1rem;
+}
+ul.adx-nav-cards.timeline li .module, ol.adx-nav-cards.timeline li .module {
+  margin: 0px;
+  padding: 0.402rem 0.694rem;
+  background: #005a9c;
+}
+ul.adx-nav-cards.timeline li .tutorial, ol.adx-nav-cards.timeline li .tutorial {
+  margin: 0px;
+  padding: 0.402rem 0.694rem;
+  background: #102535;
+}
+ul.adx-nav-cards.timeline li .assessment, ol.adx-nav-cards.timeline li .assessment {
+  margin: 0px;
+  padding: 0.402rem 0.694rem;
+  background: #d40000;
+}
 
 .adx-toc {
   max-width: 80%;

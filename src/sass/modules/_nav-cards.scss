@@ -70,4 +70,32 @@ ul.adx-nav-cards, ol.adx-nav-cards {
     }
 
   }
+
+
+  &.timeline li {
+    color: #ffffff;
+    padding:0px;
+    font-size: $s;
+    
+    & h4 {
+      color:#ffffff;
+      font-size: $m;
+    }
+
+    & .module {
+      margin:0px;
+      padding:$xxxs $xs;
+      background:#005a9c;
+    }
+    & .tutorial {
+      margin:0px;
+      padding:$xxxs $xs;
+      background:#102535;
+    }
+    & .assessment {
+      margin:0px;
+      padding:$xxxs $xs;
+      background: #d40000;
+    }
+  }
 }
