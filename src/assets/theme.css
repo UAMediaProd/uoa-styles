@@ -7754,6 +7754,12 @@ section.adx-podcast-wide audio {
   font-size: 2.8em;
   margin-bottom: -10px;
 }
+.glance-grid .glance-content a {
+  text-decoration: none !important;
+}
+.glance-grid .glance-content .external .ui-icon-extlink {
+  display: none !important;
+}
 
 .support-grid {
   margin-top: -0.8em;
@@ -7777,6 +7783,9 @@ section.adx-podcast-wide audio {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   display: block;
+}
+.support-grid .support-content a {
+  text-decoration: none !important;
 }
 .support-grid .support-content .external .ui-icon-extlink {
   display: none !important;

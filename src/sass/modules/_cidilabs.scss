@@ -299,6 +299,14 @@
       font-size: 2.8em;
       margin-bottom: -10px;
     }
+    
+    a {
+      text-decoration: none !important;
+    }
+
+    .external .ui-icon-extlink {
+      display: none !important;
+    }
 
   }
 }
@@ -326,6 +334,10 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     display: block;
+
+    a {
+      text-decoration: none !important;
+    }
 
     .external .ui-icon-extlink {
       display: none !important;
