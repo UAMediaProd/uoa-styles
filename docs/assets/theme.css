@@ -7790,6 +7790,9 @@ section.adx-podcast-wide audio {
   font-size: 2.8em;
   margin-bottom: -10px;
 }
+.support-grid .support-content a {
+  color: white !important;
+}
 
 .stay-connected-social .ui-icon-extlink {
   display: none !important;
