@@ -316,8 +316,8 @@
   }
 
   .support-content {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background: $brand-darkblue;
     margin: .2em;
     text-align: center;
@@ -325,6 +325,7 @@
     border-radius: 2px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    display: block;
 
     &:hover {
       transform: scale(1.02);

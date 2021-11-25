@@ -7767,8 +7767,8 @@ section.adx-podcast-wide audio {
   font-size: 1em;
 }
 .support-grid .support-content {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   background: #102535;
   margin: 0.2em;
   text-align: center;
@@ -7776,6 +7776,7 @@ section.adx-podcast-wide audio {
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  display: block;
 }
 .support-grid .support-content:hover {
   transform: scale(1.02);
