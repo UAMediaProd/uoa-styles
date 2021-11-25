@@ -327,6 +327,10 @@
     cursor: pointer;
     display: block;
 
+    .external .ui-icon-extlink {
+      display: none !important;
+    }
+
     &:hover {
       transform: scale(1.02);
     }

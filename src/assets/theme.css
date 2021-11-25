@@ -7778,6 +7778,9 @@ section.adx-podcast-wide audio {
   cursor: pointer;
   display: block;
 }
+.support-grid .support-content .external .ui-icon-extlink {
+  display: none !important;
+}
 .support-grid .support-content:hover {
   transform: scale(1.02);
 }
