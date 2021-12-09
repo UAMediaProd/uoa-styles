@@ -33,6 +33,10 @@ div.adx-direction {
     & h5{
       color: $brand-midblue;
     }
+
+    & ol, ul {
+      padding-left: 2em !important; // override Canvas styling
+    }
   }
 
   &-inform {
@@ -48,6 +52,7 @@ div.adx-direction {
     & h5{
       color: $brand-darkblue;
     }
+    
   }
 
   &-warning {
