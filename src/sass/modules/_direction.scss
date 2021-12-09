@@ -21,6 +21,10 @@ div.adx-direction {
     font-weight: 700;
   }
 
+  & ol, ul {
+    padding-left: 2em !important; // override Canvas styling
+  }
+
   &-info {
     @extend .adx-direction;
     background: mix(white, $brand-midblue, 90%);
@@ -32,10 +36,6 @@ div.adx-direction {
 
     & h5{
       color: $brand-midblue;
-    }
-
-    & ol, ul {
-      padding-left: 2em !important; // override Canvas styling
     }
   }
 

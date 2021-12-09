@@ -4767,6 +4767,9 @@ div.adx-direction h5, div.adx-direction-extra h5, div.adx-direction-assess h5, d
   color: #949a9e;
   font-weight: 700;
 }
+div.adx-direction ol, div.adx-direction-extra ol, div.adx-direction-assess ol, div.adx-direction-warning ol, div.adx-direction-inform ol, div.adx-direction-info ol, div.adx-direction ul, div.adx-direction-extra ul, div.adx-direction-assess ul, div.adx-direction-warning ul, div.adx-direction-inform ul, div.adx-direction-info ul {
+  padding-left: 2em !important;
+}
 div.adx-direction-info {
   background: #e6eff5;
 }
@@ -4776,9 +4779,6 @@ div.adx-direction-info:before {
 }
 div.adx-direction-info h5 {
   color: #005a9c;
-}
-div.adx-direction-info ol, div.adx-direction-info ul {
-  padding-left: 2em !important;
 }
 div.adx-direction-inform {
   background: #e7e9eb;
