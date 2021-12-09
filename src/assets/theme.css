@@ -7747,15 +7747,17 @@ section.adx-podcast-wide audio {
   text-align: center;
   vertical-align: middle;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 .glance-grid .glance-content h4 {
   color: white !important;
 }
 .glance-grid .glance-content h5 {
-  padding-top: 32%;
   color: white;
   font-size: 2.8em;
-  margin-bottom: -10px;
   font-weight: 700;
 }
 .glance-grid .glance-content a {
