@@ -8,7 +8,7 @@
   border-radius: $xxs;
   font-size: $m;
 
-  & li {
+  & > li {
     margin: $xs 0;
     padding: $m;
     border-bottom: 1px solid $ui-neutral-light;
@@ -32,7 +32,7 @@
     &.step-15 { counter-reset: step-counter 14;}
     &.step-16 { counter-reset: step-counter 15;}
     &.step-17 { counter-reset: step-counter 16;}
-    &.step-18 { counter-reset: step-counter 17;}  
+    &.step-18 { counter-reset: step-counter 17;}
 
     &:last-child {
       border-bottom: none;
@@ -40,7 +40,7 @@
   }
 }
 
-.step-list li:before {
+.step-list > li:before {
   content: 'step ' counter(step-counter);
   text-transform: uppercase;
   font-size: $xs;
@@ -48,4 +48,8 @@
   color: $ui-rev;
   padding: $xs;
   margin-right: 2em;
+}
+
+.step-list > li > ul, .step-list > li > ol {
+  text-indent: 0;
 }
