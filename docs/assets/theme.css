@@ -4751,6 +4751,7 @@ div.adx-direction, div.adx-direction-extra, div.adx-direction-assess, div.adx-di
   margin: 1rem auto;
   background: #f8f9f9;
   max-width: 90ch;
+  overflow: initial !important;
 }
 div.adx-direction:before, div.adx-direction-extra:before, div.adx-direction-assess:before, div.adx-direction-warning:before, div.adx-direction-inform:before, div.adx-direction-info:before {
   position: absolute;

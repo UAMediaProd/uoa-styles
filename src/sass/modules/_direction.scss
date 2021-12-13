@@ -4,6 +4,7 @@ div.adx-direction {
   margin: $m auto;
   background: mix(white, $ui-neutral, 90%);
   max-width: $element-width;
+  overflow: initial !important;
   
   &:before {
     position: absolute;
