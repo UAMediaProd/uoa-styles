@@ -5344,6 +5344,13 @@ ol.fancy-ol {
 ol.fancy-ol.inside {
   background: none !important;
 }
+ol.fancy-ol.broken-list:first-of-type {
+  counter-reset: mycounter;
+}
+ol.fancy-ol.broken-list li::before {
+  counter-increment: mycounter;
+  content: counter(mycounter) " ";
+}
 ol.fancy-ol li {
   padding: 1rem 0;
   border-bottom: 1px solid #B9C0C6;

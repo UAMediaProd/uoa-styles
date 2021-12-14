@@ -12,6 +12,19 @@ ol.fancy-ol {
     background: none !important;
   }
 
+  &.broken-list {
+    &:first-of-type {
+      counter-reset: mycounter;
+    }
+    
+    & li {
+      &::before {
+        counter-increment: mycounter;
+        content: counter(mycounter) " ";
+      }
+    }
+  }
+
   & li {
     padding: $m 0;
     border-bottom: 1px solid $ui-neutral;
