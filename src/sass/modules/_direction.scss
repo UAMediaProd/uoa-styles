@@ -61,7 +61,8 @@ div.adx-direction {
     background: mix(white, $ui-warning, 90%);
 
   &:before {
-    content: url(svg-encode($exclaim-rev));
+    content: "";
+    width: 24px;
     background: $ui-warning;
     }
     & h5{
