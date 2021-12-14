@@ -5183,7 +5183,7 @@ ol.fancy-ol li::before p {
   border-radius: 0.579rem;
   font-size: 1rem;
 }
-.step-list li {
+.step-list > li {
   margin: 0.694rem 0;
   padding: 1rem;
   border-bottom: 1px solid #d5d9dd;
@@ -5191,62 +5191,62 @@ ol.fancy-ol li::before p {
   text-indent: -5em;
   padding-left: 5em;
 }
-.step-list li.step-2 {
+.step-list > li.step-2 {
   counter-reset: step-counter 1;
 }
-.step-list li.step-3 {
+.step-list > li.step-3 {
   counter-reset: step-counter 2;
 }
-.step-list li.step-4 {
+.step-list > li.step-4 {
   counter-reset: step-counter 3;
 }
-.step-list li.step-5 {
+.step-list > li.step-5 {
   counter-reset: step-counter 4;
 }
-.step-list li.step-6 {
+.step-list > li.step-6 {
   counter-reset: step-counter 5;
 }
-.step-list li.step-7 {
+.step-list > li.step-7 {
   counter-reset: step-counter 6;
 }
-.step-list li.step-8 {
+.step-list > li.step-8 {
   counter-reset: step-counter 7;
 }
-.step-list li.step-9 {
+.step-list > li.step-9 {
   counter-reset: step-counter 8;
 }
-.step-list li.step-10 {
+.step-list > li.step-10 {
   counter-reset: step-counter 9;
 }
-.step-list li.step-11 {
+.step-list > li.step-11 {
   counter-reset: step-counter 10;
 }
-.step-list li.step-12 {
+.step-list > li.step-12 {
   counter-reset: step-counter 11;
 }
-.step-list li.step-13 {
+.step-list > li.step-13 {
   counter-reset: step-counter 12;
 }
-.step-list li.step-14 {
+.step-list > li.step-14 {
   counter-reset: step-counter 13;
 }
-.step-list li.step-15 {
+.step-list > li.step-15 {
   counter-reset: step-counter 14;
 }
-.step-list li.step-16 {
+.step-list > li.step-16 {
   counter-reset: step-counter 15;
 }
-.step-list li.step-17 {
+.step-list > li.step-17 {
   counter-reset: step-counter 16;
 }
-.step-list li.step-18 {
+.step-list > li.step-18 {
   counter-reset: step-counter 17;
 }
-.step-list li:last-child {
+.step-list > li:last-child {
   border-bottom: none;
 }
 
-.step-list li:before {
+.step-list > li:before {
   content: "step " counter(step-counter);
   text-transform: uppercase;
   font-size: 0.694rem;
@@ -5254,6 +5254,10 @@ ol.fancy-ol li::before p {
   color: #fff;
   padding: 0.694rem;
   margin-right: 2em;
+}
+
+.step-list > li > ul, .step-list > li > ol {
+  text-indent: 0;
 }
 
 dl {
