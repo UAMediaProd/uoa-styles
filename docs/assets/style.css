@@ -7318,11 +7318,12 @@ section.adx.video header.full .icon .icon.ui-blk {
 }
 section.adx.video .v-icon-holder {
   display: grid;
+  grid-template-columns: 2;
   width: 100%;
   height: 100%;
   align-items: center;
   text-align: center;
-  min-height: 4em;
+  min-height: 3em;
   margin-bottom: 0.694rem;
 }
 section.adx.video .v-icon-holder:hover {
@@ -7332,8 +7333,9 @@ section.adx.video .v-icon-holder:hover {
 }
 section.adx.video footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-items: center;
+  align-items: center;
   margin-top: 0.694rem;
 }
 
