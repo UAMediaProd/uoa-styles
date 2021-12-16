@@ -5455,7 +5455,7 @@ ul.icon-list.sun-red li {
   color: #005a9c;
 }
 
-.container {
+.adx-container {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -5469,7 +5469,7 @@ ul.icon-list.sun-red li {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.adx-container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -5490,12 +5490,12 @@ ul.icon-list.sun-red li {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.adx-container:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.adx-container input:checked ~ .checkmark {
   background-color: #005a9c;
 }
 
@@ -5511,12 +5511,12 @@ label input:checked + .test {
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.adx-container input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.adx-container .checkmark:after {
   left: 7px;
   top: 4px;
   width: 3px;
@@ -5540,12 +5540,12 @@ label input:checked + .test {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .radioMark {
+.adx-container:hover input ~ .radioMark {
   background-color: #ccc;
 }
 
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .radioMark {
+.adx-container input:checked ~ .radioMark {
   background-color: #005a9c;
 }
 
@@ -5557,12 +5557,12 @@ label input:checked + .test {
 }
 
 /* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .radioMark:after {
+.adx-container input:checked ~ .radioMark:after {
   display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.container .radioMark:after {
+.adx-container .radioMark:after {
   top: 6px;
   left: 6px;
   width: 8px;
