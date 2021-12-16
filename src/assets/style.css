@@ -4744,7 +4744,7 @@ h1 {
   border: 3px solid #d5ccee;
 }
 
-div.adx-direction, div.adx-direction-extra, div.adx-direction-assess, div.adx-direction-warning, div.adx-direction-inform, div.adx-direction-info {
+div.adx-direction, div.adx-direction-extra, div.adx-direction-assess, div.adx-direction-warning, div.adx-direction-inform, div.adx-direction-reflect, div.adx-direction-discussion, div.adx-direction-info {
   position: relative;
   padding: 0.833rem;
   margin: 1rem auto;
@@ -4752,7 +4752,7 @@ div.adx-direction, div.adx-direction-extra, div.adx-direction-assess, div.adx-di
   max-width: 90ch;
   overflow: initial !important;
 }
-div.adx-direction:before, div.adx-direction-extra:before, div.adx-direction-assess:before, div.adx-direction-warning:before, div.adx-direction-inform:before, div.adx-direction-info:before {
+div.adx-direction:before, div.adx-direction-extra:before, div.adx-direction-assess:before, div.adx-direction-warning:before, div.adx-direction-inform:before, div.adx-direction-reflect:before, div.adx-direction-discussion:before, div.adx-direction-info:before {
   position: absolute;
   top: 0;
   margin-left: -2.074rem;
@@ -4763,11 +4763,11 @@ div.adx-direction:before, div.adx-direction-extra:before, div.adx-direction-asse
   padding-top: 1.44rem;
   height: calc(100% - 0.579rem - 1.44rem);
 }
-div.adx-direction h5, div.adx-direction-extra h5, div.adx-direction-assess h5, div.adx-direction-warning h5, div.adx-direction-inform h5, div.adx-direction-info h5 {
+div.adx-direction h5, div.adx-direction-extra h5, div.adx-direction-assess h5, div.adx-direction-warning h5, div.adx-direction-inform h5, div.adx-direction-reflect h5, div.adx-direction-discussion h5, div.adx-direction-info h5 {
   color: #949a9e;
   font-weight: 700;
 }
-div.adx-direction ol, div.adx-direction-extra ol, div.adx-direction-assess ol, div.adx-direction-warning ol, div.adx-direction-inform ol, div.adx-direction-info ol, div.adx-direction ul, div.adx-direction-extra ul, div.adx-direction-assess ul, div.adx-direction-warning ul, div.adx-direction-inform ul, div.adx-direction-info ul {
+div.adx-direction ol, div.adx-direction-extra ol, div.adx-direction-assess ol, div.adx-direction-warning ol, div.adx-direction-inform ol, div.adx-direction-reflect ol, div.adx-direction-discussion ol, div.adx-direction-info ol, div.adx-direction ul, div.adx-direction-extra ul, div.adx-direction-assess ul, div.adx-direction-warning ul, div.adx-direction-inform ul, div.adx-direction-reflect ul, div.adx-direction-discussion ul, div.adx-direction-info ul {
   padding-left: 2em !important;
 }
 div.adx-direction-info {
@@ -4779,6 +4779,28 @@ div.adx-direction-info:before {
 }
 div.adx-direction-info h5 {
   color: #005a9c;
+}
+div.adx-direction-discussion {
+  background: #edfafe;
+}
+div.adx-direction-discussion:before {
+  content: "";
+  width: 24px;
+  background: #4cc9f0;
+}
+div.adx-direction-discussion h5 {
+  color: #4cc9f0;
+}
+div.adx-direction-reflect {
+  background: #f9f1fe;
+}
+div.adx-direction-reflect:before {
+  content: "";
+  width: 24px;
+  background: #c373f9;
+}
+div.adx-direction-reflect h5 {
+  color: #c373f9;
 }
 div.adx-direction-inform {
   background: #e7e9eb;
@@ -4823,7 +4845,7 @@ div.adx-direction-extra:before {
 div.adx-direction-extra h5 {
   color: #005a9c;
 }
-div.adx-direction > *, div.adx-direction-info > *, div.adx-direction-inform > *, div.adx-direction-warning > *, div.adx-direction-assess > *, div.adx-direction-extra > * {
+div.adx-direction > *, div.adx-direction-info > *, div.adx-direction-discussion > *, div.adx-direction-reflect > *, div.adx-direction-inform > *, div.adx-direction-warning > *, div.adx-direction-assess > *, div.adx-direction-extra > * {
   margin-left: 1.44rem;
 }
 
