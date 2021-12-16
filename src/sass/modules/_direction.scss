@@ -42,16 +42,16 @@ div.adx-direction {
 
   &-discussion {
     @extend .adx-direction;
-    background: mix(white, $ld-1, 90%);
+    background: mix(white, $ld-1-dark, 90%);
 
   &:before {
     content: "";
     width: 24px;
-    background: $ld-1;
+    background: $ld-1-dark;
     }
 
     & h5{
-      color: $ld-1;
+      color: $ld-1-dark;
     }
   }
 
@@ -62,11 +62,11 @@ div.adx-direction {
   &:before {
     content: "";
     width: 24px;
-    background: $ld-7;
+    background: $ld7-dark;
     }
 
     & h5{
-      color: $ld-7;
+      color: $ld-7-dark;
     }
   }
 
