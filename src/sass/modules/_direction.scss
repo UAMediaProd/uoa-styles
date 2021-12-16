@@ -42,31 +42,31 @@ div.adx-direction {
 
   &-discussion {
     @extend .adx-direction;
-    background: mix(white, $ld-1-dark, 90%);
+    background: mix(white, #358da8, 90%);
 
   &:before {
     content: "";
     width: 24px;
-    background: $ld-1-dark;
+    background: #358da8;
     }
 
     & h5{
-      color: $ld-1-dark;
+      color: #358da8;
     }
   }
 
   &-reflect {
     @extend .adx-direction;
-    background: mix(white, $ld-7, 90%);
+    background: mix(white, #8951ae, 90%);
 
   &:before {
     content: "";
     width: 24px;
-    background: $ld7-dark;
+    background: #8951ae;
     }
 
     & h5{
-      color: $ld-7-dark;
+      color: #8951ae;
     }
   }
 
