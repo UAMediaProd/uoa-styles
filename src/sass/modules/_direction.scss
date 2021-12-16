@@ -40,6 +40,36 @@ div.adx-direction {
     }
   }
 
+  &-discussion {
+    @extend .adx-direction;
+    background: mix(white, $ld-1, 90%);
+
+  &:before {
+    content: "";
+    width: 24px;
+    background: $ld-1;
+    }
+
+    & h5{
+      color: $ld-1;
+    }
+  }
+
+  &-reflect {
+    @extend .adx-direction;
+    background: mix(white, $ld-7, 90%);
+
+  &:before {
+    content: "";
+    width: 24px;
+    background: $ld-7;
+    }
+
+    & h5{
+      color: $ld-7;
+    }
+  }
+
   &-inform {
     @extend .adx-direction;
     background: mix(white, $brand-darkblue, 90%);
