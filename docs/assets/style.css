@@ -4607,6 +4607,7 @@ h1 {
 }
 .persona-neutral h5 {
   color: #B9C0C6;
+  font-weight: 700;
 }
 .persona-neutral .persona-image {
   border: 3px solid #eaecee;
@@ -4618,6 +4619,7 @@ h1 {
 }
 .persona-positive h5 {
   color: #22964f;
+  font-weight: 700;
 }
 .persona-positive .persona-image {
   border: 3px solid #bde0ca;
@@ -4629,6 +4631,7 @@ h1 {
 }
 .persona-negative h5 {
   color: #d4322c;
+  font-weight: 700;
 }
 .persona-negative .persona-image {
   border: 3px solid #f2c2c0;
@@ -4640,6 +4643,7 @@ h1 {
 }
 .persona-warning h5 {
   color: #ffa423;
+  font-weight: 700;
 }
 .persona-warning .persona-image {
   border: 3px solid #ffe4bd;
@@ -4651,6 +4655,7 @@ h1 {
 }
 .persona-information h5 {
   color: #052A8A;
+  font-weight: 700;
 }
 .persona-information .persona-image {
   border: 3px solid #b4bfdc;
@@ -4662,6 +4667,7 @@ h1 {
 }
 .persona-rev h5 {
   color: #fff;
+  font-weight: 700;
 }
 .persona-rev .persona-image {
   border: 3px solid white;
@@ -4673,6 +4679,7 @@ h1 {
 }
 .persona-blk h5 {
   color: #000;
+  font-weight: 700;
 }
 .persona-blk .persona-image {
   border: 3px solid #b3b3b3;
@@ -4684,6 +4691,7 @@ h1 {
 }
 .persona-brand-darkblue h5 {
   color: #102535;
+  font-weight: 700;
 }
 .persona-brand-darkblue .persona-image {
   border: 3px solid #b7bec2;
@@ -4695,6 +4703,7 @@ h1 {
 }
 .persona-brand-midblue h5 {
   color: #005a9c;
+  font-weight: 700;
 }
 .persona-brand-midblue .persona-image {
   border: 3px solid #b3cee1;
@@ -4706,6 +4715,7 @@ h1 {
 }
 .persona-brand-lightblue h5 {
   color: #b8dceb;
+  font-weight: 700;
 }
 .persona-brand-lightblue .persona-image {
   border: 3px solid #eaf5f9;
@@ -4717,6 +4727,7 @@ h1 {
 }
 .persona-brand-gold h5 {
   color: #b38808;
+  font-weight: 700;
 }
 .persona-brand-gold .persona-image {
   border: 3px solid #e8dbb5;
@@ -4728,6 +4739,7 @@ h1 {
 }
 .persona-brand-red h5 {
   color: #d40000;
+  font-weight: 700;
 }
 .persona-brand-red .persona-image {
   border: 3px solid #f2b3b3;
@@ -4739,6 +4751,7 @@ h1 {
 }
 .persona-question h5 {
   color: #7356C5;
+  font-weight: 700;
 }
 .persona-question .persona-image {
   border: 3px solid #d5ccee;
@@ -4750,6 +4763,7 @@ h1 {
 }
 .persona-blurple h5 {
   color: #697fb9;
+  font-weight: 700;
 }
 .persona-blurple .persona-image {
   border: 3px solid #d2d9ea;
