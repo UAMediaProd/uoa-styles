@@ -4575,13 +4575,13 @@ h1 {
   border-left: 1rem solid #000;
 }
 
-.persona, .persona-question, .persona-brand-red, .persona-brand-gold, .persona-brand-lightblue, .persona-brand-midblue, .persona-brand-darkblue, .persona-blk, .persona-rev, .persona-information, .persona-warning, .persona-negative, .persona-positive, .persona-neutral {
+.persona, .persona-blurple, .persona-question, .persona-brand-red, .persona-brand-gold, .persona-brand-lightblue, .persona-brand-midblue, .persona-brand-darkblue, .persona-blk, .persona-rev, .persona-information, .persona-warning, .persona-negative, .persona-positive, .persona-neutral {
   display: flex;
 }
-.persona h5, .persona-question h5, .persona-brand-red h5, .persona-brand-gold h5, .persona-brand-lightblue h5, .persona-brand-midblue h5, .persona-brand-darkblue h5, .persona-blk h5, .persona-rev h5, .persona-information h5, .persona-warning h5, .persona-negative h5, .persona-positive h5, .persona-neutral h5 {
+.persona h5, .persona-blurple h5, .persona-question h5, .persona-brand-red h5, .persona-brand-gold h5, .persona-brand-lightblue h5, .persona-brand-midblue h5, .persona-brand-darkblue h5, .persona-blk h5, .persona-rev h5, .persona-information h5, .persona-warning h5, .persona-negative h5, .persona-positive h5, .persona-neutral h5 {
   color: #82868b;
 }
-.persona .persona-image, .persona-question .persona-image, .persona-brand-red .persona-image, .persona-brand-gold .persona-image, .persona-brand-lightblue .persona-image, .persona-brand-midblue .persona-image, .persona-brand-darkblue .persona-image, .persona-blk .persona-image, .persona-rev .persona-image, .persona-information .persona-image, .persona-warning .persona-image, .persona-negative .persona-image, .persona-positive .persona-image, .persona-neutral .persona-image {
+.persona .persona-image, .persona-blurple .persona-image, .persona-question .persona-image, .persona-brand-red .persona-image, .persona-brand-gold .persona-image, .persona-brand-lightblue .persona-image, .persona-brand-midblue .persona-image, .persona-brand-darkblue .persona-image, .persona-blk .persona-image, .persona-rev .persona-image, .persona-information .persona-image, .persona-warning .persona-image, .persona-negative .persona-image, .persona-positive .persona-image, .persona-neutral .persona-image {
   width: 120px;
   height: 120px;
   position: relative;
@@ -4590,13 +4590,13 @@ h1 {
   margin-right: 1em;
   border: 3px solid #d5d9dd;
 }
-.persona .persona-image img, .persona-question .persona-image img, .persona-brand-red .persona-image img, .persona-brand-gold .persona-image img, .persona-brand-lightblue .persona-image img, .persona-brand-midblue .persona-image img, .persona-brand-darkblue .persona-image img, .persona-blk .persona-image img, .persona-rev .persona-image img, .persona-information .persona-image img, .persona-warning .persona-image img, .persona-negative .persona-image img, .persona-positive .persona-image img, .persona-neutral .persona-image img {
+.persona .persona-image img, .persona-blurple .persona-image img, .persona-question .persona-image img, .persona-brand-red .persona-image img, .persona-brand-gold .persona-image img, .persona-brand-lightblue .persona-image img, .persona-brand-midblue .persona-image img, .persona-brand-darkblue .persona-image img, .persona-blk .persona-image img, .persona-rev .persona-image img, .persona-information .persona-image img, .persona-warning .persona-image img, .persona-negative .persona-image img, .persona-positive .persona-image img, .persona-neutral .persona-image img {
   display: inline;
   margin: 0 auto;
   width: 100%;
   height: auto;
 }
-.persona .persona-content, .persona-question .persona-content, .persona-brand-red .persona-content, .persona-brand-gold .persona-content, .persona-brand-lightblue .persona-content, .persona-brand-midblue .persona-content, .persona-brand-darkblue .persona-content, .persona-blk .persona-content, .persona-rev .persona-content, .persona-information .persona-content, .persona-warning .persona-content, .persona-negative .persona-content, .persona-positive .persona-content, .persona-neutral .persona-content {
+.persona .persona-content, .persona-blurple .persona-content, .persona-question .persona-content, .persona-brand-red .persona-content, .persona-brand-gold .persona-content, .persona-brand-lightblue .persona-content, .persona-brand-midblue .persona-content, .persona-brand-darkblue .persona-content, .persona-blk .persona-content, .persona-rev .persona-content, .persona-information .persona-content, .persona-warning .persona-content, .persona-negative .persona-content, .persona-positive .persona-content, .persona-neutral .persona-content {
   margin-top: 1em;
   max-width: 80%;
 }
@@ -4742,6 +4742,17 @@ h1 {
 }
 .persona-question .persona-image {
   border: 3px solid #d5ccee;
+}
+
+.persona-blurple {
+  background: #697fb92b;
+  border: 0;
+}
+.persona-blurple h5 {
+  color: #697fb9;
+}
+.persona-blurple .persona-image {
+  border: 3px solid #d2d9ea;
 }
 
 div.adx-direction, div.adx-direction-extra, div.adx-direction-assess, div.adx-direction-warning, div.adx-direction-inform, div.adx-direction-reflect, div.adx-direction-discussion, div.adx-direction-info {

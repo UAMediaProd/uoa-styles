@@ -174,3 +174,16 @@ img {
   }
 
 }
+
+.persona-blurple {
+  @extend .persona;
+  background: #697fb92b;
+  border: 0;
+  h5 {
+    color: #697fb9;
+  }
+  .persona-image {
+    border: 3px solid mix(white, #697fb9, 70%) ;
+  }
+
+}
