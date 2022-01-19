@@ -7795,6 +7795,16 @@ section.adx-podcast-wide audio {
   border-color: black transparent transparent transparent;
 }
 
+.tooltiptext > .tooltip .tooltiptext {
+  display: none;
+}
+
+.tooltiptext > .tooltip {
+  cursor: auto;
+  border: unset;
+  box-shadow: unset;
+}
+
 .pages.show .show-content {
   overflow-x: unset !important;
 }
