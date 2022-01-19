@@ -7584,7 +7584,7 @@ section.adx-podcast-wide audio {
   These are to _override_ styles inherent in MyUni
 
 */
-.adx.kl_wrapper {
+.adx.kl_wrapper > div {
   overflow: visible !important;
 }
 
