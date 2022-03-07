@@ -1,8 +1,8 @@
 @mixin text-contrast($n) {
-  $color-brightness: round((red($n) * 299) + (green($n) * 587) + (blue($n) * 114) / 1000);
-  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + (blue(#ffffff) * 114) / 1000);
-  
-  @if abs($color-brightness) < ($light-color/2){
+  $color-brightness: round((red($n) * 299) + (green($n) * 587) + calc((blue($n) * 114) / 1000));
+  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + calc((blue(#ffffff) * 114) / 1000));
+
+  @if abs($color-brightness) < calc(($light-color/2)){
     color: $ui-rev;
   }
 
@@ -14,7 +14,7 @@
 $brand-colors: (
   brand-darkblue: $brand-darkblue,
   brand-midblue: $brand-midblue,
-  brand-lightblue: $brand-lightblue, 
+  brand-lightblue: $brand-lightblue,
   brand-gold: $brand-gold,
   brand-red: $brand-red
 );
@@ -79,9 +79,9 @@ $program-colors: (
 
 $ui-colors: (
   neutral: $ui-neutral,
-  positive: $ui-positive, 
+  positive: $ui-positive,
   negative: $ui-negative,
-  warning: $ui-warning, 
+  warning: $ui-warning,
   information: $ui-information,
   rev: $ui-rev,
   blk: $ui-blk,
@@ -117,12 +117,12 @@ $ui-colors: (
 
 $ld-colors: (
   ld1: $ld-1,
-  ld2: $ld-2, 
-  ld3: $ld-3, 
-  ld4: $ld-4, 
-  ld5: $ld-5, 
-  ld6: $ld-6, 
-  ld7: $ld-7, 
+  ld2: $ld-2,
+  ld3: $ld-3,
+  ld4: $ld-4,
+  ld5: $ld-5,
+  ld6: $ld-6,
+  ld7: $ld-7,
 );
 
 @each $color, $value in $ld-colors {
