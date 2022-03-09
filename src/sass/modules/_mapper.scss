@@ -1,0 +1,224 @@
+body.mapper {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+
+  main {
+    padding: 1ch;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: auto;
+    gap: 0 1ch;
+    grid-template-areas:
+      "title title"
+      "side lessons"
+    ;
+    max-width: 100vw;
+    overflow: hidden;
+
+  &.sequencer {
+    grid-template-columns: 1.5fr 6fr;
+
+  }
+
+  .title {grid-area: title;
+  height: auto;}
+
+  section.map {
+    grid-area: lessons;
+    display: grid;
+    grid-template-columns: repeat(14, minmax(8em, 1fr));
+    grid-template-rows: auto;
+    border-left: 2px solid $ui-neutral;
+    gap: 0 1ch;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    min-height: 80vh;
+
+    ul {
+      align-self: start;
+      width: 100%;
+      list-style: none;
+      margin: 0;
+      padding: .5ch;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        margin: 1ch 0;
+        border: $ui-border;
+        border-radius: $radius $radius 0 0 ;
+        font-size: 80%;
+
+        p {
+        padding: .5ch .5ch 0 .5ch;
+        font-size: 100%;
+        line-height: 1.2;
+      }
+
+        span {
+          text-align: right;
+          width: calc(100% - 1ch);
+          padding: .5ch;
+
+          &.content {background: $ld-1;}
+          &.external {background: $ld-2;}
+          &.discussion {background: $ld-3;}
+          &.practice {background: $ld-4;}
+          &.assessment {background: $ld-5;}
+          &.review {background: $ld-6;}
+          &.interactive {background: $ld-7;}
+
+
+        }
+
+        &.title {
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 60%;
+          letter-spacing: .1ch;
+          border: 0;
+          border-bottom: 2px solid $ui-neutral;
+        }
+
+        &.tot {
+          border-radius: $radius;
+          text-align: center;
+          border: none;
+          display: block;
+          background: $ui-neutral-darker;
+          color: $ui-rev;
+
+          &:after {
+            content: " hrs";
+
+          }
+        }
+      }
+
+      &.pre {grid-column: 1;}
+      &.w1 {grid-column: 2;}
+      &.w2 {grid-column: 3;}
+      &.w3 {grid-column: 4;}
+      &.w4 {grid-column: 5;}
+      &.w5 {grid-column: 6;}
+      &.w6 {grid-column: 7;}
+      &.w7 {grid-column: 8;}
+      &.w8 {grid-column: 9;}
+      &.w9 {grid-column: 10;}
+      &.w10 {grid-column: 11;}
+      &.w11 {grid-column: 12;}
+      &.w12 {grid-column: 13;}
+      &.post {grid-column: 14;}
+
+
+    }
+
+
+  }
+
+  section.type {
+    grid-area: side;
+    text-align: right;
+
+    ul {
+      grid-area: side;
+      display: grid;
+      grid-template-columns: 3fr 1fr .25fr;
+      list-style: none;
+      li {
+        padding: .2ch 1ch;
+      }
+    }
+  }
+
+  section.budget {
+    grid-area: side;
+    text-align: right;
+
+    ul {
+      grid-area: side;
+      display: grid;
+      grid-template-columns: .5fr .25fr  3fr 1fr 1fr ;
+      list-style: none;
+      padding: 0;
+      li {
+        padding: .2ch 1ch;
+
+        &.used {color: $ui-neutral;}
+        &.planned {}
+        &.name {text-align: left;}
+      }
+    }
+  }
+
+  article.lesson {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    margin-left: 3em;
+
+    h2 {
+      grid-column: 1;
+      height: fit-content;
+      }
+
+    section {
+      grid-column: 1;
+      align-self: center;
+      border-bottom: 1px solid $ui-neutral;
+      align-self: stretch;
+      margin: 1em 0;
+      padding-left: 2em;
+
+      & > * {max-width: $read-width;}
+
+      &.content {border-left: 8px solid $ld-1; }
+      &.external {border-left: 8px solid $ld-2; }
+      &.discussion {border-left: 8px solid $ld-3; }
+
+    }
+
+    aside {
+      grid-column: 2;
+      align-self: stretch;
+      border-bottom: 1px solid $ui-neutral;
+      margin: 2ch 0;
+
+
+      dl {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+
+        dt {
+          margin: 0;
+          padding: 0;
+          border: none;
+          font-size: $m;
+          text-transform: uppercase;
+          font-weight: bold;
+          grid-column: 1;
+          text-align: right;
+        }
+
+        dd {
+          grid-column: 2;
+          background: none;
+          border: none;
+          text-align: left;
+          margin: 0;
+          padding: $xxs $s;
+
+        }
+
+      }
+    }
+  }
+
+
+}
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 17.53">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;}.cls-1,.cls-2,.cls-3{stroke:#b9c0c6;stroke-miterlimit:10;stroke-width:0.5px;}.cls-2{stroke-dasharray:1.99 1.99;}.cls-3{fill:#fff;}.cls-4{fill:#b9c0c6;}</style></defs>
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <line class="cls-1" x1="111.49" y1="8.76" x2="110.49" y2="8.76"/>
+          <line class="cls-2" x1="108.5" y1="8.76" x2="2" y2="8.76"/>
+          <line class="cls-1" x1="1" y1="8.76" y2="8.76"/>
+          <line class="cls-1" x1="240" y1="8.76" x2="239" y2="8.76"/>
+          <line class="cls-2" x1="237.01" y1="8.76" x2="130.51" y2="8.76"/>
+          <line class="cls-1" x1="129.51" y1="8.76" x2="128.51" y2="8.76"/>
+          <circle class="cls-3" cx="120" cy="8.76" r="8.51"/>
+          <path class="cls-4" d="M123.71,9.82h-2.66v2.65H119V9.82h-2.66V7.71H119V5.05h2.1V7.71h2.66Z"/>
+        </g>
+      </g>
+    </svg>

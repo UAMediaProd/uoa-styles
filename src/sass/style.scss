@@ -58,7 +58,8 @@ $complimentary: #7356C5;
 @import "modules/_podcast";
 @import "modules/_cidilabs";
 @import "modules/_icons";
-
+@import "modules/_mapper";
+// @import "modules/_sequencer";
 
 
 body {
@@ -82,14 +83,14 @@ body {
     padding: 2vh 1.5vw;
     min-height: 100vh;
     width: 25ch;
-    
-    
+
+
       ul {
         padding: 0;
         margin: 0;
         list-style: none;
       }
-  
+
       li {
         margin: 0 0 $xs 0;
         padding-top: $xxs;
@@ -101,32 +102,32 @@ body {
         font-size: $m;
         line-height: 1;
       }
-  
+
       li:hover {
         background: $ui-neutral-lighter;
       }
-  
+
       .active {
         background: $ui-neutral-lighter;
       }
-  
+
       .nav-link {
         color: $ui-neutral-darkest;
         text-decoration: none;
       }
-  
+
       .home-link {
         margin-bottom: $xxxl;
         color: #102535;
         font-family: 'made_evolve_sans_regular', Arial, sans-serif;
         float:right;
       }
-  
+
       h4 {
         margin-top: $xxl;
         font-size: $m;
         text-transform: uppercase;
       }
-  
+
     }
 }
