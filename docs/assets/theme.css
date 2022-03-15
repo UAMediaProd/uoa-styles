@@ -7640,9 +7640,9 @@ section.adx-podcast-wide audio {
   background-image: linear-gradient(to bottom, white, #e6e6e6);
   border-bottom-color: #bbb;
 }
-/* .adx .kl_panels_wrapper.ui-accordion .ui-accordion-content p {
+.adx .kl_panels_wrapper.ui-accordion .ui-accordion-content p {
   margin: 0;
-} */
+}
 .adx .kl_panels_wrapper .ui-accordion-header,
 .adx .kl_wrapper .ui-accordion-header {
   background: white;
