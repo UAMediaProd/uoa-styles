@@ -4152,15 +4152,15 @@
   font-weight: 400;
   font-style: normal;
 }
-h1, h2, h3 {
+.adx h1, h2, h3 {
   font-family: "made_evolve_sans_bold", sans-serif;
 }
 
-h4, h5, h6 {
+.adx h4, h5, h6 {
   font-family: "Arial", sans-serif;
 }
 
-.adx h2 {
+ß .adx h2 {
   color: #102535;
   border-left: 8px solid #d40000;
   padding-left: 0.5em;
@@ -4181,7 +4181,14 @@ h4, h5, h6 {
   color: #005a9c;
 }
 
-p, li, aside {
+.adx li, .adx aside {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  letter-spacing: -0.02rem;
+}
+
+p {
   font-size: 1rem;
   line-height: 1.6;
   font-family: "Arial", sans-serif;
@@ -5072,7 +5079,7 @@ code {
   border: 1px solid #d5d9dd;
 }
 
-blockquote {
+.adx blockquote {
   margin-left: 3em;
   padding: 1rem 1.728rem;
   border-width: 0 0 0 0.694rem !important;
@@ -5082,23 +5089,23 @@ blockquote {
   background: #f1f1f1;
   width: fit-content;
 }
-blockquote > * {
+.adx blockquote > * {
   max-width: 75ch;
   font-size: 1.44rem;
   font-family: "Arial", sans-serif;
   line-height: 1.4;
 }
-blockquote cite {
+.adx blockquote cite {
   display: block;
   font-size: 0.833rem;
   font-style: italic;
   margin: 0.833rem 0 0 0;
 }
-blockquote cite::before {
+.adx blockquote cite::before {
   content: "—  ";
   margin-left: 1em;
 }
-blockquote.fancyquote {
+.adx blockquote.fancyquote {
   font-style: italic;
   border-width: 4px 0 !important;
   border-style: solid;
@@ -5106,11 +5113,11 @@ blockquote.fancyquote {
   margin-left: auto;
   margin-right: auto;
 }
-blockquote.fancyquote p {
+.adx blockquote.fancyquote p {
   font-family: "Book Antiqua Regular", "Georgia", "Times New Roman", serif;
   font-size: 1.728rem;
 }
-blockquote.pullquote-right {
+.adx blockquote.pullquote-right {
   margin: 1rem 0 1rem 1rem;
   float: right;
   max-width: 30ch;
@@ -5118,10 +5125,10 @@ blockquote.pullquote-right {
   color: #fff;
   border: 0;
 }
-blockquote.pullquote-right cite {
+.adx blockquote.pullquote-right cite {
   text-align: right;
 }
-blockquote.pullquote-left {
+.adx blockquote.pullquote-left {
   margin: 1rem 1rem 1rem 0;
   float: left;
   max-width: 30ch;
@@ -5129,7 +5136,7 @@ blockquote.pullquote-left {
   color: #fff;
   border: 0;
 }
-blockquote.pullquote-left cite {
+.adx blockquote.pullquote-left cite {
   text-align: right;
 }
 
@@ -7870,7 +7877,6 @@ section.adx-podcast-wide audio {
   background: #102535;
   margin: 0.2em;
   text-align: center;
-  vertical-align: middle;
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
