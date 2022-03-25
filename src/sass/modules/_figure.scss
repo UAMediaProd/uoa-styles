@@ -105,3 +105,9 @@ figure.adx {
 }
 }
 }
+
+// default figcaption override
+.adx figcaption {
+  padding-top: $l;
+  text-align: center;
+}

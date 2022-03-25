@@ -38,6 +38,14 @@ div.adx-direction {
     & h5{
       color: $brand-midblue;
     }
+    & .step-list {
+      background: mix(white, $brand-midblue, 70%);
+      border-color: mix(white, $brand-midblue, 30%);
+
+      & li {
+        border-color: mix(white, $brand-midblue, 30%);
+      }
+    }
   }
 
   &-discussion {
@@ -53,6 +61,14 @@ div.adx-direction {
     & h5{
       color: #358da8;
     }
+  & .step-list {
+    background: mix(white, #358da8, 70%);
+    border-color: mix(white, #358da8, 30%);
+
+    & li {
+      border-color: mix(white, #358da8, 30%);
+    }
+  }
   }
 
   &-reflect {
@@ -67,6 +83,14 @@ div.adx-direction {
 
     & h5{
       color: #8951ae;
+    }
+    & .step-list {
+      background: mix(white, #8951ae, 70%);
+      border-color: mix(white, #8951ae, 30%);
+
+      & li {
+        border-color: mix(white, #8951ae, 30%);
+      }
     }
   }
 
@@ -83,6 +107,14 @@ div.adx-direction {
     & h5{
       color: $brand-darkblue;
     }
+    & .step-list {
+      background: mix(white, $brand-darkblue, 70%);
+      border-color: mix(white, $brand-darkblue, 30%);
+
+      & li {
+        border-color: mix(white, $brand-darkblue, 30%);
+      }
+    }
     
   }
 
@@ -98,6 +130,14 @@ div.adx-direction {
     & h5{
       color: $ui-warning;
     }
+    & .step-list {
+      background: mix(white, $ui-warning, 70%);
+      border-color: mix(white, $ui-warning, 30%);
+
+      & li {
+        border-color: mix(white, $ui-warning, 30%);
+      }
+    }
   }
 
   &-assess {
@@ -112,6 +152,14 @@ div.adx-direction {
     & h5{
       color: $ui-negative;
     }
+    & .step-list {
+      background: mix(white, $ui-negative, 70%);
+      border-color: mix(white, $ui-negative, 30%);
+
+      & li {
+        border-color: mix(white, $ui-negative, 30%);
+      }
+    }
   }
 
   &-extra {
@@ -124,6 +172,14 @@ div.adx-direction {
     }
     & h5{
       color: $brand-midblue;
+    }
+    & .step-list {
+      background: mix(white, $brand-midblue, 70%);
+      border-color: mix(white, $brand-midblue, 30%);
+
+      & li {
+        border-color: mix(white, $brand-midblue, 30%);
+      }
     }
   }
 
