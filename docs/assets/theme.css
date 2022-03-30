@@ -7979,6 +7979,10 @@ section.adx-podcast-wide audio {
   border-radius: 0.402rem;
 }
 
+#assessment_show li {
+  font-family: "Arial", sans-serif;
+}
+
 .icon-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

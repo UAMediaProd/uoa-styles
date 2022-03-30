@@ -398,3 +398,9 @@
   padding: 1em 2em !important;
   border-radius: 0.402rem;
 }
+
+// fix for system fonts on <li> items in assessment pages
+
+#assessment_show li {
+  font-family: 'Arial', sans-serif;
+}
