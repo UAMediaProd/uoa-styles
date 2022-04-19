@@ -183,6 +183,48 @@ div.adx-direction {
     }
   }
 
+  &-hsm {
+    @extend .adx-direction;
+    background: mix(white, #4bcaf1, 90%);
+
+    &:before {
+      content: url(svg-encode($expand-rev));
+      background: #4bcaf1;
+    }
+    & h5{
+      color: #4bcaf1;
+    }
+    & .step-list {
+      background: mix(white, #4bcaf1, 70%);
+      border-color: mix(white, #4bcaf1, 30%);
+
+      & li {
+        border-color: mix(white, #4bcaf1, 30%);
+      }
+    }
+  }
+
+  &-ib {
+    @extend .adx-direction;
+    background: mix(white, #fb6f26, 90%);
+
+    &:before {
+      content: url(svg-encode($expand-rev));
+      background: #fb6f26;
+    }
+    & h5{
+      color: #4bcaf1;
+    }
+    & .step-list {
+      background: mix(white, #fb6f26, 70%);
+      border-color: mix(white, #fb6f26, 30%);
+
+      & li {
+        border-color: mix(white, #fb6f26, 30%);
+      }
+    }
+  }
+
 
 
   & > * {
