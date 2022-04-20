@@ -188,7 +188,7 @@ div.adx-direction {
     background: mix(white, #4bcaf1, 90%);
 
     &:before {
-      content: url(svg-encode($expand-rev));
+      content: url(svg-encode($hsm-rev));
       background: #4bcaf1;
     }
     & h5{
@@ -209,11 +209,11 @@ div.adx-direction {
     background: mix(white, #fb6f26, 90%);
 
     &:before {
-      content: url(svg-encode($expand-rev));
+      content: url(svg-encode($ib-rev));
       background: #fb6f26;
     }
     & h5{
-      color: #4bcaf1;
+      color: #fb6f26;
     }
     & .step-list {
       background: mix(white, #fb6f26, 70%);
