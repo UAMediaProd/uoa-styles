@@ -4782,7 +4782,7 @@ h1 {
 }
 
 .persona-blurple {
-  background: #697fb92b;
+  background: rgba(105, 127, 185, 0.168627451);
   border: 0;
 }
 .persona-blurple h5 {
@@ -7658,6 +7658,7 @@ section.adx-podcast-wide div.track {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 1em;
 }
 section.adx-podcast-wide div.track h3 {
   font-size: 1.44rem;
