@@ -1,4 +1,6 @@
-.adx input[type=text], input[type=email], input[type=password], input[type=number], input[type=datetime-local] {
+.adx {
+
+  input[type=text], input[type=email], input[type=password], input[type=number], input[type=datetime-local] {
     width: 100%;
     padding: .8em;
     font-family: 'Arial', sans-serif;
@@ -8,6 +10,8 @@
     margin-bottom: 1em;
     border-radius: 2px;
     transition: all 0.2s ease-in-out;
+  }
+
 }
 
 .adx select {

@@ -4782,7 +4782,7 @@ h1 {
 }
 
 .persona-blurple {
-  background: rgba(105, 127, 185, 0.168627451);
+  background: #697fb92b;
   border: 0;
 }
 .persona-blurple h5 {
@@ -5508,7 +5508,7 @@ ul.icon-list.sun-red li {
   padding: 0.694rem;
 }
 
-.adx input[type=text], input[type=email], input[type=password], input[type=number], input[type=datetime-local] {
+.adx input[type=text], .adx input[type=email], .adx input[type=password], .adx input[type=number], .adx input[type=datetime-local] {
   width: 100%;
   padding: 0.8em;
   font-family: "Arial", sans-serif;
