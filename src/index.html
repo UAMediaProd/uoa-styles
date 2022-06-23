@@ -778,208 +778,383 @@ tags:
 
   <h4 class="adx-markup-label">Basic table</h4>
 
-  <table class="adx styled ">
-      <caption class="top">Here's an example styled table caption.</caption>
-      <thead>
-          <tr>
-              <th class="">Name</th>
-              <th>Contact</th>
-              <th>Team</th>
-              <th class="">Section</th>
-              <th>Points</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>Dom</td>
-              <td>6000</td>
-              <td>Detroit</td>
-              <td>Back to front</td>
-              <td>40</td>
-          </tr>
-          <tr class="active-row">
-              <td>Melissa</td>
-              <td>5150</td>
-              <td>Paris</td>
-              <td>Midfield</td>
-              <td>31</td>
-          </tr>
-      </tbody>
-  </table>
-
-  {% highlight html %}
-<!-- Basic table HTML Usage -->
-<table class="adx styled ">
-  <caption class="top">Here's an example styled table caption.</caption>
+<table class="adx">
+  <caption>Here's an example basic table caption.</caption>
   <thead>
-      <tr>
-          <th class="">Name</th>
-          <th>Contact</th>
-          <th>Team</th>
-          <th class="">Section</th>
-          <th>Points</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Dom</td>
-          <td>6000</td>
-          <td>Detroit</td>
-          <td>Back to front</td>
-          <td>40</td>
-      </tr>
-      <tr class="active-row">
-          <td>Melissa</td>
-          <td>5150</td>
-          <td>Paris</td>
-          <td>Midfield</td>
-          <td>31</td>
-      </tr>
-  </tbody>
-</table>
-
-{% endhighlight %}
-
-<h4 class="adx-markup-label">Small styled table with caption</h4>
-
-  <table id="customers" class="adx text-smaller column-last zebra-even ">
-    <caption class="">
-
-      <h5>Customer database</h5>
-      <p>You can add some styled text here in the caption in here.</p>
-      Or just some text here.
-    </caption>
-  <thead>
-    <tr>
-      <th class="column-right">Company</th>
-      <th>Contact</th>
-      <th>Country</th>
-    </tr>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
   </thead>
   <tbody>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
   </tr>
-  <tr class="">
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr class="">
-    <td class="column-right">Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td class="column-right" >Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td class="column-right">Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
   </tr>
   </tbody>
 </table>
 
 {% highlight html %}
-<!-- Small styled table with caption HTML Usage -->
-<table id="customers" class="adx text-smaller column-last zebra-even ">
-  <caption class="">
-
-    <h5>Customer database</h5>
-    <p>You can add some styled text here in the caption in here.</p>
-    Or just some text here.
-  </caption>
-<thead>
+<!-- Basic table HTML Usage -->
+<table class="adx">
+  <caption>Here's an example basic table caption.</caption>
+  <thead>
   <tr>
-    <th class="column-right">Company</th>
+    <th class="">Name</th>
     <th>Contact</th>
-    <th>Country</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
   </tr>
-</thead>
-<tbody>
-<tr>
-  <td>Alfreds Futterkiste</td>
-  <td>Maria Anders</td>
-  <td>Germany</td>
-</tr>
-<tr class="">
-  <td>Berglunds snabbköp</td>
-  <td>Christina Berglund</td>
-  <td>Sweden</td>
-</tr>
-<tr>
-  <td>Centro comercial Moctezuma</td>
-  <td>Francisco Chang</td>
-  <td>Mexico</td>
-</tr>
-<tr>
-  <td>Ernst Handel</td>
-  <td>Roland Mendel</td>
-  <td>Austria</td>
-</tr>
-<tr class="">
-  <td class="column-right">Island Trading</td>
-  <td>Helen Bennett</td>
-  <td>UK</td>
-</tr>
-<tr>
-  <td class="column-right" >Königlich Essen</td>
-  <td>Philip Cramer</td>
-  <td>Germany</td>
-</tr>
-<tr>
-  <td class="column-right">Laughing Bacchus Winecellars</td>
-  <td>Yoshi Tannamuri</td>
-  <td>Canada</td>
-</tr>
-<tr>
-  <td>Magazzini Alimentari Riuniti</td>
-  <td>Giovanni Rovelli</td>
-  <td>Italy</td>
-</tr>
-<tr>
-  <td>North/South</td>
-  <td>Simon Crowther</td>
-  <td>UK</td>
-</tr>
-<tr>
-  <td>Paris spécialités</td>
-  <td>Marie Bertrand</td>
-  <td>France</td>
-</tr>
-</tbody>
+  </thead>
+
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
 </table>
+
 {% endhighlight %}
+
+
+
+<h4 class="adx-markup-label">Dual-axis table</h4>
+
+<table class="adx">
+  <caption>Here's an example basic table with two axes</caption>
+
+  <tr>
+    <th>A</th>
+    <th>B</th>
+    <th>C</th>
+    <th>D</th>
+    <th>E</th>
+    <th>F</th>
+    <th>G</th>
+    <th>H</th>
+  </tr>
+
+
+  <tr>
+    <th>B</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <th>C</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <th>D</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <th>E</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+
+
+</table>
+
+{% highlight html %}
+<!-- Basic table HTML Usage -->
+<table class="adx">
+  <caption>Here's an example basic table with two axes</caption>
+
+  <tr>
+    <th>A</th>
+    <th>B</th>
+    <th>C</th>
+    <th>D</th>
+    <th>E</th>
+  </tr>
+
+
+  <tr>
+    <th>B</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <th>C</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <th>D</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <th>E</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+
+
+</table>
+
+{% endhighlight %}
+
+
+
+
+<h4 class="adx-markup-label">Minimal table</h4>
+
+<table class="adx minimal">
+  <caption>Here's an example minimal table caption.</caption>
+  <thead>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
+</table>
+
+{% highlight html %}
+<!-- Basic table HTML Usage -->
+<table class="adx minimal">
+  <caption>Here's an example basic table caption.</caption>
+  <thead>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
+  </thead>
+
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
+</table>
+
+{% endhighlight %}
+
+
+<h4 class="adx-markup-label">Simple table</h4>
+
+<table class="adx simple">
+  <caption>Here's an example simple table caption.</caption>
+  <thead>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
+</table>
+
+{% highlight html %}
+<!-- Simple table HTML Usage -->
+<table class="adx simple">
+  <caption>Here's an example simple table caption.</caption>
+  <thead>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
+  </thead>
+
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
+</table>
+
+{% endhighlight %}
+
+
+<h4 class="adx-markup-label">Styled class table</h4>
+
+<table class="adx styled">
+  <caption>Here's an example styled table caption.</caption>
+  <thead>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
+</table>
+
+{% highlight html %}
+<!-- Styled table HTML Usage -->
+<table class="adx styled">
+  <caption>Here's an example styled table caption.</caption>
+  <thead>
+  <tr>
+    <th class="">Name</th>
+    <th>Contact</th>
+    <th>Team</th>
+    <th class="">Section</th>
+    <th>Points</th>
+  </tr>
+  </thead>
+
+  <tr>
+    <td>Dom</td>
+    <td>6000</td>
+    <td>Detroit</td>
+    <td>Back to front</td>
+    <td>40</td>
+  </tr>
+  <tr class="active-row">
+    <td>Melissa</td>
+    <td>5150</td>
+    <td>Paris</td>
+    <td>Midfield</td>
+    <td>31</td>
+  </tr>
+  </tbody>
+</table>
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
 
 <h3>Hero Images</h3>
 
