@@ -6818,7 +6818,7 @@ table.adx {
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate !important;
-  border-spacing: 4px;
+  border-spacing: 4px !important;
   border: 1px solid #f2f2f2;
 }
 table.adx.text-small {
@@ -6935,7 +6935,7 @@ table.adx tr:last-child th:first-child {
   border-bottom-left-radius: 3px;
 }
 table.adx.minimal {
-  border-spacing: 0 8px;
+  border-spacing: 0 8px !important;
   border: none;
 }
 table.adx.minimal tr {
@@ -6961,6 +6961,7 @@ table.adx.minimal th {
 }
 table.adx.simple {
   border-collapse: collapse !important;
+  border-spacing: 0px !important;
 }
 table.adx.simple tr {
   background: none;
@@ -6985,7 +6986,7 @@ table.adx.simple th {
   border: 1px solid #B9C0C6;
 }
 table.adx.styled {
-  border-spacing: 0px;
+  border-spacing: 0px !important;
   border-collapse: collapse !important;
 }
 table.adx.styled th, table.adx.styled td {
