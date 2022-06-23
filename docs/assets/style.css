@@ -6817,7 +6817,7 @@ table.adx {
   margin: 1.44rem 0;
   margin-left: auto;
   margin-right: auto;
-  border-collapse: separate;
+  border-collapse: separate !important;
   border-spacing: 4px;
   border: 1px solid #f2f2f2;
 }
@@ -6960,7 +6960,7 @@ table.adx.minimal th {
   color: #82868b;
 }
 table.adx.simple {
-  border-collapse: collapse;
+  border-collapse: collapse !important;
 }
 table.adx.simple tr {
   background: none;
@@ -6986,6 +6986,7 @@ table.adx.simple th {
 }
 table.adx.styled {
   border-spacing: 0px;
+  border-collapse: collapse !important;
 }
 table.adx.styled th, table.adx.styled td {
   text-align: left;
