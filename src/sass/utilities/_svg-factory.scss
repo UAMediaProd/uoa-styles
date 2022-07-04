@@ -71,7 +71,7 @@ $correct-blk: svg-correct($ui-blk);
 @function svg-done($colour) {
   @return '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="' + $colour + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>';
 }
-$task-empty: svg-empty($ui-neutral-darker);
+$task-empty: svg-empty($ui-neutral-darkest);
 $task-done: svg-done($accent);
 
 @function svg-download($colour) {
