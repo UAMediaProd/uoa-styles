@@ -1,24 +1,24 @@
 div.adx-direction {
   position: relative;
-  padding: $s;
+  padding: $l;
   margin: $m auto;
-  background: mix(white, $ui-neutral, 90%);
+  background: mix(white, $ui-neutral-darkest, 90%);
   max-width: $element-width;
   overflow: initial !important;
-  
+
   &:before {
     position: absolute;
     top: 0;
-    margin-left: -$xxl;
+    margin-left: -$l;
     margin-right: $xl;
     content: url(svg-encode($task-empty));
-    background: $ui-neutral-darker;
+    background: $ui-neutral-darkest;
     padding: $xxs;
     padding-top: $l;
     height: calc(100% - #{$xxs} - #{$l});
   }
   & h5{
-    color: $ui-neutral-darker;
+    color: $ui-neutral-darkest;
     font-weight: 700;
   }
 
@@ -28,15 +28,38 @@ div.adx-direction {
 
   &-info {
     @extend .adx-direction;
-    background: mix(white, $brand-midblue, 90%);
+    background: mix(white, $ui-information, 90%);
 
   &:before {
     content: url(svg-encode($info-rev));
-    background: $brand-midblue;
+    background: $ui-information;
     }
 
     & h5{
-      color: $brand-midblue;
+      color: $ui-information;
+    }
+    & .step-list {
+      background: mix(white, $ui-information, 70%);
+      border-color: mix(white, $ui-information, 30%);
+
+      & li {
+        border-color: mix(white, $ui-information, 30%);
+      }
+    }
+  }
+
+
+  &-question{
+    @extend .adx-direction;
+    background: mix(white, $primary, 90%);
+
+  &:before {
+    content: url(svg-encode($question-rev));
+    background: $primary;
+    }
+
+    & h5{
+      color: $primary;
     }
     & .step-list {
       background: mix(white, $brand-midblue, 70%);
@@ -48,51 +71,319 @@ div.adx-direction {
     }
   }
 
-  &-discussion {
+  &-warning {
     @extend .adx-direction;
-    background: mix(white, #358da8, 90%);
+    background: mix(white, $ui-warning, 90%);
 
   &:before {
-    content: "";
+    content: url(svg-encode($exclaim-rev));
     width: 24px;
-    background: #358da8;
+    background: $ui-warning;
+    }
+    & h5{
+      color: $ui-warning;
+    }
+    & .step-list {
+      background: mix(white, $ui-warning, 70%);
+      border-color: mix(white, $ui-warning, 30%);
+
+      & li {
+        border-color: mix(white, $ui-warning, 30%);
+      }
+    }
+  }
+
+  &-positive{
+    @extend .adx-direction;
+    background: mix(white, $ui-positive, 90%);
+
+  &:before {
+    content: url(svg-encode($correct-rev));
+    background: $ui-positive;
     }
 
     & h5{
-      color: #358da8;
+      color: $ui-positive;
     }
-  & .step-list {
-    background: mix(white, #358da8, 70%);
-    border-color: mix(white, #358da8, 30%);
+    & .step-list {
+      background: mix(white, $brand-midblue, 70%);
+      border-color: mix(white, $brand-midblue, 30%);
 
-    & li {
-      border-color: mix(white, #358da8, 30%);
+      & li {
+        border-color: mix(white, $brand-midblue, 30%);
+      }
     }
   }
+
+  &-negative{
+    @extend .adx-direction;
+    background: mix(white, $ui-negative, 90%);
+
+  &:before {
+    content: url(svg-encode($incorrect-rev));
+    background: $ui-negative;
+    }
+
+    & h5{
+      color: $ui-negative;
+    }
+    & .step-list {
+      background: mix(white, $brand-midblue, 70%);
+      border-color: mix(white, $brand-midblue, 30%);
+
+      & li {
+        border-color: mix(white, $brand-midblue, 30%);
+      }
+    }
+  }
+
+  // Learning directions
+
+  &-assessment {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat2, 90%);
+
+  &:before {
+    content: url(svg-encode($calendar-rev));
+    background: $vis-cat2;
+    }
+
+    & h5{
+      color: $vis-cat2;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat2, 70%);
+      border-color: mix(white, $vis-cat2, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat2, 30%);
+      }
+    }
+  }
+
+  &-discussion {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat3, 90%);
+
+  &:before {
+    content: url(svg-encode($messages-rev));
+    background: $vis-cat3;
+    }
+
+    & h5{
+      color: $vis-cat3;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat3, 70%);
+      border-color: mix(white, $vis-cat3, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat3, 30%);
+      }
+    }
+  }
+
+  &-extra {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat4, 90%);
+
+  &:before {
+    content: url(svg-encode($expand-rev));
+    background: $vis-cat4;
+    }
+    & h5{
+      color: $vis-cat4;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat4, 70%);
+      border-color: mix(white, $vis-cat4, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat4, 30%);
+      }
+    }
+  }
+
+
+
+  &-interactive {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat5, 90%);
+
+  &:before {
+    content: url(svg-encode($exchange-rev));
+    background: $vis-cat5;
+    }
+
+    & h5{
+      color: $vis-cat5;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat5, 70%);
+      border-color: mix(white, $vis-cat5, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat4, 30%);
+      }
+    }
+  }
+
+  &-investigate {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat6, 90%);
+
+  &:before {
+    content: url(svg-encode($search-rev));
+    background: $vis-cat6;
+    }
+
+    & h5{
+      color: $vis-cat6;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat6, 70%);
+      border-color: mix(white, $vis-cat6, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat6, 30%);
+      }
+    }
+  }
+
+  &-practice {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat7, 90%);
+
+  &:before {
+    content: url(svg-encode($clipboard-rev));
+    background: $vis-cat7;
+    }
+
+    & h5{
+      color: $vis-cat7;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat7, 70%);
+      border-color: mix(white, $vis-cat7, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat7, 30%);
+      }
+    }
+  }
+
+
+  &-reading {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat8, 90%);
+
+  &:before {
+    content: url(svg-encode($book-rev));
+    background: $vis-cat8;
+    }
+
+    & h5{
+      color: $vis-cat8;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat8, 70%);
+      border-color: mix(white, $vis-cat8, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat8, 30%);
+      }
+    }
   }
 
   &-reflect {
     @extend .adx-direction;
-    background: mix(white, #8951ae, 90%);
+    background: mix(white, $vis-cat9, 90%);
 
   &:before {
-    content: "";
-    width: 24px;
-    background: #8951ae;
+    content: url(svg-encode($reflect-rev));
+    background: $vis-cat9;
     }
 
     & h5{
-      color: #8951ae;
+      color: $vis-cat9;
     }
     & .step-list {
-      background: mix(white, #8951ae, 70%);
-      border-color: mix(white, #8951ae, 30%);
+      background: mix(white, $vis-cat9, 70%);
+      border-color: mix(white, $vis-cat8, 30%);
 
       & li {
-        border-color: mix(white, #8951ae, 30%);
+        border-color: mix(white, $vis-cat9, 30%);
       }
     }
   }
+
+  &-write {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat10, 90%);
+
+  &:before {
+    content: url(svg-encode($write-rev));
+    background: $vis-cat10;
+    }
+
+    & h5{
+      color: $vis-cat10;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat10, 70%);
+      border-color: mix(white, $vis-cat10, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat10, 30%);
+      }
+    }
+  }
+
+// Program directions
+
+&-hsm {
+  @extend .adx-direction;
+  background: mix(white, $oua-hsm, 90%);
+
+  &:before {
+    content: url(svg-encode($hsm-rev));
+    background: $oua-hsm;
+  }
+  & h5{
+    color: $oua-hsm;
+  }
+  & .step-list {
+    background: mix(white, $oua-hsm, 70%);
+    border-color: mix(white, $oua-hsm, 30%);
+
+    & li {
+      border-color: mix(white, $oua-hsm, 30%);
+    }
+  }
+}
+
+&-ib {
+  @extend .adx-direction;
+  background: mix(white, $oua-ib, 90%);
+
+  &:before {
+    content: url(svg-encode($ib-rev));
+    background: $oua-ib;
+  }
+  & h5{
+    color: $oua-ib;
+  }
+  & .step-list {
+    background: mix(white, $oua-ib, 70%);
+    border-color: mix(white, $oua-ib, 30%);
+
+    & li {
+      border-color: mix(white, $oua-ib, 30%);
+    }
+  }
+}
+
+// Deprecated
 
   &-inform {
     @extend .adx-direction;
@@ -113,29 +404,6 @@ div.adx-direction {
 
       & li {
         border-color: mix(white, $brand-darkblue, 30%);
-      }
-    }
-    
-  }
-
-  &-warning {
-    @extend .adx-direction;
-    background: mix(white, $ui-warning, 90%);
-
-  &:before {
-    content: "";
-    width: 24px;
-    background: $ui-warning;
-    }
-    & h5{
-      color: $ui-warning;
-    }
-    & .step-list {
-      background: mix(white, $ui-warning, 70%);
-      border-color: mix(white, $ui-warning, 30%);
-
-      & li {
-        border-color: mix(white, $ui-warning, 30%);
       }
     }
   }
@@ -162,72 +430,9 @@ div.adx-direction {
     }
   }
 
-  &-extra {
-    @extend .adx-direction;
-    background: mix(white, $brand-midblue, 90%);
-
-  &:before {
-    content: url(svg-encode($expand-rev));
-    background: $brand-midblue;
-    }
-    & h5{
-      color: $brand-midblue;
-    }
-    & .step-list {
-      background: mix(white, $brand-midblue, 70%);
-      border-color: mix(white, $brand-midblue, 30%);
-
-      & li {
-        border-color: mix(white, $brand-midblue, 30%);
-      }
-    }
-  }
-
-  &-hsm {
-    @extend .adx-direction;
-    background: mix(white, #4bcaf1, 90%);
-
-    &:before {
-      content: url(svg-encode($hsm-rev));
-      background: #4bcaf1;
-    }
-    & h5{
-      color: #4bcaf1;
-    }
-    & .step-list {
-      background: mix(white, #4bcaf1, 70%);
-      border-color: mix(white, #4bcaf1, 30%);
-
-      & li {
-        border-color: mix(white, #4bcaf1, 30%);
-      }
-    }
-  }
-
-  &-ib {
-    @extend .adx-direction;
-    background: mix(white, #fb6f26, 90%);
-
-    &:before {
-      content: url(svg-encode($ib-rev));
-      background: #fb6f26;
-    }
-    & h5{
-      color: #fb6f26;
-    }
-    & .step-list {
-      background: mix(white, #fb6f26, 70%);
-      border-color: mix(white, #fb6f26, 30%);
-
-      & li {
-        border-color: mix(white, #fb6f26, 30%);
-      }
-    }
-  }
-
 
 
   & > * {
-    margin-left: $l;
+    margin-left: $xxl;
   }
 }

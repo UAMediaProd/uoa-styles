@@ -31,6 +31,7 @@ $complimentary: #7356C5;
 @import "modules/_list-step";
 @import "modules/_list-definition";
 @import "modules/_list-icons";
+@import "modules/_list-item-block";
 @import "modules/_input";
 @import "modules/_list-task";
 @import "modules/_list-reference-apa";
@@ -67,12 +68,13 @@ body {
   font-size: 18px;
   margin: auto;
   display: grid;
-  grid-template-columns: 25ch 1fr;
+  grid-template-columns: minmax(25ch, 1fr) 4fr;
+  grid-gap: 2ch;
 
   main {
     margin-left: auto;
     margin-right: auto;
-    min-width: 30ch;
+    min-width: 20ch;
     max-width: 150ch;
     padding: 2vh 2vw;
   }

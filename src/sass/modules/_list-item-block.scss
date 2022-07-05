@@ -1,0 +1,46 @@
+ul.adx-item-blocks {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45ch, 1fr));
+  grid-template-rows: masonry;
+
+  & li {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: $element-width;
+
+      background: $ui-neutral-tint;
+      border: $ui-border;
+      border-radius: $radius;
+      padding: $m $xl;
+      max-width: $element-width;
+      margin: $s;
+      box-shadow: $shadow-xs;
+
+      &:hover {
+        transition: all .2s ease-in-out;
+        box-shadow: $shadow-m;
+        background: $ui-rev;
+        border: 1px solid $ui-neutral;
+
+      }
+
+      font-size: 110%;
+
+  }
+
+  @each $color, $value in $ld-colors {
+    &.block-#{$color} {
+      li {
+        background: mix(white, $value, 95%) !important;
+        border-color: mix(white, $value, 50%);
+        &:hover {
+          background: mix(white, $value, 85%) !important;
+          border-color: $value;
+        }
+      }
+    }
+
+  }
+
+}

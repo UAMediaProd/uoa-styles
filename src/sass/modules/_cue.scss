@@ -21,30 +21,132 @@
     @extend .adx-cue;
     border-left: $m solid $ui-neutral;
   }
+  &-bordered {
+    @extend .adx-cue;
+    border: 1px solid $ui-neutral;
+    border-left: $m solid $ui-neutral;
+  }
+
+// Learning Cues
+
+  &-ld {
+    @extend .adx-cue;
+      &:before {
+        display: block;
+        text-transform: uppercase;
+        color: $ld-1;
+        font-weight: bold;
+        font-size: 80%;
+        text-align: right;
+      }
+  }
+
+  &-example {
+    @extend .adx-cue-ld;
+    background: mix(white, $ld-3, 90%);
+
+    &:before {
+      color: $ld-3;
+      content: 'example';
+    }
+  }
+
+  &-definition {
+    @extend .adx-cue-ld;
+    background: mix(white, $ld-6, 90%);
+
+    &:before {
+      content: 'definition';
+      color: $ld-6;
+    }
+  }
+
+  &-note {
+    @extend .adx-cue-ld;
+    background: mix(white, $ui-neutral, 90%);
+
+    &:before {
+      content: 'note';
+      color: $ui-neutral-darker;
+    }
+  }
+
+  &-notification {
+    @extend .adx-cue-ld;
+    border-left: $m solid $brand-midblue;
+    background: mix(white, $brand-midblue, 90%);
+
+    &:before {
+      content: 'notification';
+      color: $brand-midblue;
+    }
+  }
+
+  &-reference {
+    @extend .adx-cue-ld;
+    border-top: .5ch solid $brand-midblue !important;
+    box-shadow: $shadow-s;
+
+    & ul {
+      list-style: none;
+      padding-left: 2ch;
+    }
+    &:before {
+      content: 'references';
+      color: $brand-midblue;
+      font-size: 90%;
+      text-align: left;
+      border-bottom: 1px solid $brand-midblue;
+    }
+  }
+
+  &-summary {
+    @extend .adx-cue-ld;
+    border-left: $m solid $ld-5;
+    background: mix(white, $ld-5, 90%);
+
+    &:before {
+      content: 'summary';
+      color: $ld-5;
+    }
+  }
+
+  &-attention {
+    @extend .adx-cue-ld;
+    border: 1px solid $ld-2 !important;
+    border-left: $m solid $ld-2 !important;
+    background: mix(white, $ld-2, 90%);
+
+    &:before {
+      content: 'attention';
+      color: $ld-2;
+    }
+  }
+
 }
 
-  @each $color, $value in $brand-colors{
-        .adx-cue-#{$color} {
-          @extend .adx-cue;
-          background: mix(white, $value, 90%);
+@each $color, $value in $brand-colors{
+      .adx-cue-#{$color} {
+        @extend .adx-cue;
+        background: mix(white, $value, 90%);
 
-        &-top {
-          @extend .adx-cue-#{$color};
-          border-top: $m solid $value;
-        }
-        &-right {
-          @extend .adx-cue-#{$color};
-          border-right: $m solid $value;
-        }
-        &-bottom {
-          @extend .adx-cue-#{$color};
-          border-bottom: $m solid $value;
-        }
-        &-left {
-          @extend .adx-cue-#{$color};
-          border-left: $m solid $value;
-        }
-  }
+      &-top {
+        @extend .adx-cue-#{$color};
+        border-top: $m solid $value;
+      }
+      &-right {
+        @extend .adx-cue-#{$color};
+        border-right: $m solid $value;
+      }
+      &-bottom {
+        @extend .adx-cue-#{$color};
+        border-bottom: $m solid $value;
+      }
+      &-left {
+        @extend .adx-cue-#{$color};
+        border-left: $m solid $value;
+      }
+}
 }
 
   @each $color, $value in $program-colors{
@@ -94,7 +196,7 @@
         @extend .adx-cue-#{$color};
         border-left: $m solid $value;
       }
-}
+    }
 }
 
 .persona {
@@ -114,7 +216,7 @@
   border: 3px solid $ui-neutral-light;
   height: auto;
   width: auto;
-  
+
 
 
 img {
@@ -137,7 +239,7 @@ img {
   margin-top: 1em;
   max-width: 80%;
 
- 
+
 }
 
 }
