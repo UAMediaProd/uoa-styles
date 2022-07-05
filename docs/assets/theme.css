@@ -4575,7 +4575,6 @@ h1 {
 }
 .adx-cue-note {
   background: #f8f9f9;
-  margin: 1.728rem auto;
 }
 .adx-cue-note:before {
   content: "note";

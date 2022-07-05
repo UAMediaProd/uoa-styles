@@ -64,7 +64,6 @@
   &-note {
     @extend .adx-cue-ld;
     background: mix(white, $ui-neutral, 90%);
-    margin: $xl auto;
 
     &:before {
       content: 'note';
