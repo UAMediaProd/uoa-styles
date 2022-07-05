@@ -4529,7 +4529,7 @@ h1 {
   align-items: center;
 }
 
-.adx-cue, .adx-cue-blk, .adx-cue-blk-left, .adx-cue-blk-bottom, .adx-cue-blk-right, .adx-cue-blk-top, .adx-cue-rev, .adx-cue-rev-left, .adx-cue-rev-bottom, .adx-cue-rev-right, .adx-cue-rev-top, .adx-cue-information, .adx-cue-information-left, .adx-cue-information-bottom, .adx-cue-information-right, .adx-cue-information-top, .adx-cue-warning, .adx-cue-warning-left, .adx-cue-warning-bottom, .adx-cue-warning-right, .adx-cue-warning-top, .adx-cue-negative, .adx-cue-negative-left, .adx-cue-negative-bottom, .adx-cue-negative-right, .adx-cue-negative-top, .adx-cue-positive, .adx-cue-positive-left, .adx-cue-positive-bottom, .adx-cue-positive-right, .adx-cue-positive-top, .adx-cue-neutral, .adx-cue-neutral-left, .adx-cue-neutral-bottom, .adx-cue-neutral-right, .adx-cue-neutral-top, .adx-cue-complimentary, .adx-cue-complimentary-left, .adx-cue-complimentary-bottom, .adx-cue-complimentary-right, .adx-cue-complimentary-top, .adx-cue-accent, .adx-cue-accent-left, .adx-cue-accent-bottom, .adx-cue-accent-right, .adx-cue-accent-top, .adx-cue-primary, .adx-cue-primary-left, .adx-cue-primary-bottom, .adx-cue-primary-right, .adx-cue-primary-top, .adx-cue-brand-red, .adx-cue-brand-red-left, .adx-cue-brand-red-bottom, .adx-cue-brand-red-right, .adx-cue-brand-red-top, .adx-cue-brand-gold, .adx-cue-brand-gold-left, .adx-cue-brand-gold-bottom, .adx-cue-brand-gold-right, .adx-cue-brand-gold-top, .adx-cue-brand-lightblue, .adx-cue-brand-lightblue-left, .adx-cue-brand-lightblue-bottom, .adx-cue-brand-lightblue-right, .adx-cue-brand-lightblue-top, .adx-cue-brand-midblue, .adx-cue-brand-midblue-left, .adx-cue-brand-midblue-bottom, .adx-cue-brand-midblue-right, .adx-cue-brand-midblue-top, .adx-cue-brand-darkblue, .adx-cue-brand-darkblue-left, .adx-cue-brand-darkblue-bottom, .adx-cue-brand-darkblue-right, .adx-cue-brand-darkblue-top, .adx-cue-ld, .adx-cue-attention, .adx-cue-summary, .adx-cue-reference, .adx-cue-notification, .adx-cue-note, .adx-cue-important, .adx-cue-definition, .adx-cue-example, .adx-cue-left, .adx-cue-bottom, .adx-cue-right, .adx-cue-top {
+.adx-cue, .adx-cue-blk, .adx-cue-blk-left, .adx-cue-blk-bottom, .adx-cue-blk-right, .adx-cue-blk-top, .adx-cue-rev, .adx-cue-rev-left, .adx-cue-rev-bottom, .adx-cue-rev-right, .adx-cue-rev-top, .adx-cue-information, .adx-cue-information-left, .adx-cue-information-bottom, .adx-cue-information-right, .adx-cue-information-top, .adx-cue-warning, .adx-cue-warning-left, .adx-cue-warning-bottom, .adx-cue-warning-right, .adx-cue-warning-top, .adx-cue-negative, .adx-cue-negative-left, .adx-cue-negative-bottom, .adx-cue-negative-right, .adx-cue-negative-top, .adx-cue-positive, .adx-cue-positive-left, .adx-cue-positive-bottom, .adx-cue-positive-right, .adx-cue-positive-top, .adx-cue-neutral, .adx-cue-neutral-left, .adx-cue-neutral-bottom, .adx-cue-neutral-right, .adx-cue-neutral-top, .adx-cue-complimentary, .adx-cue-complimentary-left, .adx-cue-complimentary-bottom, .adx-cue-complimentary-right, .adx-cue-complimentary-top, .adx-cue-accent, .adx-cue-accent-left, .adx-cue-accent-bottom, .adx-cue-accent-right, .adx-cue-accent-top, .adx-cue-primary, .adx-cue-primary-left, .adx-cue-primary-bottom, .adx-cue-primary-right, .adx-cue-primary-top, .adx-cue-brand-red, .adx-cue-brand-red-left, .adx-cue-brand-red-bottom, .adx-cue-brand-red-right, .adx-cue-brand-red-top, .adx-cue-brand-gold, .adx-cue-brand-gold-left, .adx-cue-brand-gold-bottom, .adx-cue-brand-gold-right, .adx-cue-brand-gold-top, .adx-cue-brand-lightblue, .adx-cue-brand-lightblue-left, .adx-cue-brand-lightblue-bottom, .adx-cue-brand-lightblue-right, .adx-cue-brand-lightblue-top, .adx-cue-brand-midblue, .adx-cue-brand-midblue-left, .adx-cue-brand-midblue-bottom, .adx-cue-brand-midblue-right, .adx-cue-brand-midblue-top, .adx-cue-brand-darkblue, .adx-cue-brand-darkblue-left, .adx-cue-brand-darkblue-bottom, .adx-cue-brand-darkblue-right, .adx-cue-brand-darkblue-top, .adx-cue-ld, .adx-cue-attention, .adx-cue-summary, .adx-cue-reference, .adx-cue-notification, .adx-cue-note, .adx-cue-definition, .adx-cue-example, .adx-cue-bordered, .adx-cue-left, .adx-cue-bottom, .adx-cue-right, .adx-cue-top {
   background: #f8f9f9;
   padding: 1rem 1.728rem;
   max-width: 90ch;
@@ -4547,7 +4547,11 @@ h1 {
 .adx-cue-left {
   border-left: 1rem solid #B9C0C6;
 }
-.adx-cue-ld:before, .adx-cue-attention:before, .adx-cue-summary:before, .adx-cue-reference:before, .adx-cue-notification:before, .adx-cue-note:before, .adx-cue-important:before, .adx-cue-definition:before, .adx-cue-example:before {
+.adx-cue-bordered {
+  border: 1px solid #B9C0C6;
+  border-left: 1rem solid #B9C0C6;
+}
+.adx-cue-ld:before, .adx-cue-attention:before, .adx-cue-summary:before, .adx-cue-reference:before, .adx-cue-notification:before, .adx-cue-note:before, .adx-cue-definition:before, .adx-cue-example:before {
   display: block;
   text-transform: uppercase;
   color: #4cc9f0;
@@ -4556,7 +4560,6 @@ h1 {
   text-align: right;
 }
 .adx-cue-example {
-  border-right: 1rem solid #f8961e;
   background: #fef5e9;
 }
 .adx-cue-example:before {
@@ -4564,25 +4567,14 @@ h1 {
   content: "example";
 }
 .adx-cue-definition {
-  border-left: 1rem solid #43aa8b;
   background: #ecf7f3;
 }
 .adx-cue-definition:before {
   content: "definition";
   color: #43aa8b;
 }
-.adx-cue-important {
-  border-top: 1rem solid #d40000;
-  background: #fbe6e6;
-}
-.adx-cue-important:before {
-  content: "important";
-  color: #d40000;
-}
 .adx-cue-note {
   background: #f8f9f9;
-  border: 1px solid #B9C0C6;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin: 1.728rem auto;
 }
 .adx-cue-note:before {
@@ -4590,7 +4582,7 @@ h1 {
   color: #949a9e;
 }
 .adx-cue-notification {
-  border-top: 1rem solid #005a9c;
+  border-left: 1rem solid #005a9c;
   background: #e6eff5;
 }
 .adx-cue-notification:before {
@@ -4613,7 +4605,7 @@ h1 {
   border-bottom: 1px solid #005a9c;
 }
 .adx-cue-summary {
-  border-right: 1rem solid #90be6d;
+  border-left: 1rem solid #90be6d;
   background: #f4f9f0;
 }
 .adx-cue-summary:before {
@@ -5072,7 +5064,7 @@ h1 {
 }
 
 .persona-blurple {
-  background: rgba(105, 127, 185, 0.168627451);
+  background: #697fb92b;
   border: 0;
 }
 .persona-blurple h5 {
@@ -5233,7 +5225,7 @@ div.adx-direction-extra {
   background: #f8e6f3;
 }
 div.adx-direction-extra:before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 498 562' fill='%23fff'%3E%3Cpath d='M447.9 332l.1 136c0 6.6-5.4 12-12 12l-136-.1c-6.6 0-12-5.4-12-12v-27.8c0-6.7 5.5-12.1 12.2-12l61.4 2.3 1.4-1.4-139-139L85 429l1.4 1.4 61.4-2.3c6.7-.1 12.2 5.3 12.2 12v27.8c0 6.6-5.4 12-12 12L12 480c-6.6 0-12-5.4-12-12l.1-136c0-6.6 5.4-12 12-12h27.8c6.7 0 12.1 5.5 12 12.2l-2.3 61.4L51 395l139-139L51 117l-1.4 1.4 2.3 61.4c.1 6.7-5.3 12.2-12 12.2H12.1c-6.6 0-12-5.4-12-12L0 44c0-6.6 5.4-12 12-12l136 .1c6.6 0 12 5.4 12 12v27.8c0 6.7-5.5 12.1-12.2 12l-61.4-2.3L85 83l139 139L363 83l-1.4-1.4-61.4 2.3c-6.7.1-12.2-5.3-12.2-12V44.1c0-6.6 5.4-12 12-12l136-.1c6.6 0 12 5.4 12 12l-.1 136c0 6.6-5.4 12-12 12h-27.8c-6.7 0-12.1-5.5-12-12.2l2.3-61.4-1.4-1.4-139 139 139 139 1.4-1.4-2.3-61.4c-.1-6.7 5.3-12.2 12-12.2h27.8c6.6 0 12 5.4 12 12z'/%3E%3C/svg%3E");
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Crect x='4' y='4' width='6' height='6' rx='1' /%3E%3Crect x='4' y='14' width='6' height='6' rx='1' /%3E%3Crect x='14' y='14' width='6' height='6' rx='1' /%3E%3Cline x1='14' y1='7' x2='20' y2='7' /%3E%3Cline x1='17' y1='4' x2='17' y2='10' /%3E%3C/svg%3E");
   background: #BB068B;
 }
 div.adx-direction-extra h5 {
@@ -7273,7 +7265,8 @@ figure.adx cite a:hover {
 .adx-gallery {
   margin: 1.44rem 0;
   display: flex;
-  flex-wrap: wrap; /*  allow items to wrap  */
+  flex-wrap: wrap;
+  /*  allow items to wrap  */
   justify-content: center;
   border-radius: 0.402rem;
   border: 1px solid #B9C0C6;
@@ -7326,6 +7319,7 @@ figure.adx cite a:hover {
   figure.adx.w40 {
     width: 90%;
   }
+
   .adx-gallery.four-up > figure, .adx-gallery.three-up > figure {
     flex-basis: calc(50% - (2 * 0.402rem));
   }
@@ -7771,6 +7765,7 @@ header.adx-shield.basic .curve.right {
   header.adx-shield.right .text {
     margin: 4vw 3vw 4vw 3vw;
   }
+
   header.adx-shield.left {
     grid-template-columns: 160px 3fr 0fr 3fr;
   }
@@ -7785,6 +7780,7 @@ header.adx-shield.basic .curve.right {
   header.adx-shield.right {
     grid-template-columns: 3fr 0fr 3fr 0fr;
   }
+
   header.adx-shield.left {
     grid-template-columns: 0fr 3fr 0fr 3fr;
   }
@@ -7799,6 +7795,7 @@ header.adx-shield.basic .curve.right {
   header.adx-shield.right .text {
     margin: 4vw;
   }
+
   header.adx-shield.left {
     grid-template-columns: 0fr 0fr 0fr 3fr;
   }
@@ -8068,7 +8065,8 @@ section.adx.video footer {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   height: 0;
 }
 

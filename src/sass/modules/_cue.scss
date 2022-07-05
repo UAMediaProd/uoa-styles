@@ -21,6 +21,11 @@
     @extend .adx-cue;
     border-left: $m solid $ui-neutral;
   }
+  &-bordered {
+    @extend .adx-cue;
+    border: 1px solid $ui-neutral;
+    border-left: $m solid $ui-neutral;
+  }
 
 // Learning Cues
 
@@ -38,7 +43,6 @@
 
   &-example {
     @extend .adx-cue-ld;
-    border-right: $m solid $ld-3;
     background: mix(white, $ld-3, 90%);
 
     &:before {
@@ -49,7 +53,6 @@
 
   &-definition {
     @extend .adx-cue-ld;
-    border-left: $m solid $ld-6;
     background: mix(white, $ld-6, 90%);
 
     &:before {
@@ -58,22 +61,9 @@
     }
   }
 
-  &-important {
-    @extend .adx-cue-ld;
-    border-top: $m solid $brand-red;
-    background: mix(white, $brand-red, 90%);
-
-    &:before {
-      content: 'important';
-      color: $brand-red;
-    }
-  }
-
   &-note {
     @extend .adx-cue-ld;
     background: mix(white, $ui-neutral, 90%);
-    border: 1px solid $ui-neutral;
-    box-shadow: $shadow-m;
     margin: $xl auto;
 
     &:before {
@@ -84,7 +74,7 @@
 
   &-notification {
     @extend .adx-cue-ld;
-    border-top: $m solid $brand-midblue;
+    border-left: $m solid $brand-midblue;
     background: mix(white, $brand-midblue, 90%);
 
     &:before {
@@ -113,7 +103,7 @@
 
   &-summary {
     @extend .adx-cue-ld;
-    border-right: $m solid $ld-5;
+    border-left: $m solid $ld-5;
     background: mix(white, $ld-5, 90%);
 
     &:before {

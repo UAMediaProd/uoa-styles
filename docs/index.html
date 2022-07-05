@@ -25,6 +25,8 @@
  		
  			<li><a href="/uoa-styles/components/card-image/" class="nav-link">Image Card</a></li>
  		
+ 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
+ 		
  			<li><a href="/uoa-styles/components/directions/" class="nav-link">Directions</a></li>
  		
  			<li><a href="/uoa-styles/components/hero/" class="nav-link">Hero</a></li>
@@ -43,19 +45,17 @@
  		
  			<li><a href="/uoa-styles/components/video/" class="nav-link">Video</a></li>
  		
- 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
- 		
 	</ul>
 	<h4>Pages</h4>
 	<ul>
 		
 			<li><a href="/uoa-styles/new-cues/" class="nav-link">New Cues &amp; Directions</a></li>
 		
+			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
+		
 			<li><a href="/uoa-styles/oua-build/" class="nav-link">OUA Build Guide</a></li>
 		
 			<li><a href="/uoa-styles/cidilabs/" class="nav-link">CIDILabs Overrides</a></li>
-		
-			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
 		
 	</ul>
 </aside>
@@ -142,81 +142,125 @@
 
 <div class="adx-direction">
   <h5>This is a Direction Box</h5>
-  <p>This grey direction box is used for optional or extra content.</p>
-  <ul>
-    <li>A</li>
-    <li>A</li>
-  </ul>
+  <p>Directions are used to <em>direct</em> students to take action or do something external to the current
+  content flow inside the LMS.</p>
 </div>
 
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Base Direction HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Box uses the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>adx-direction<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This grey direction box is used for optional or extra content.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>  <br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Direction Box<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Directions are used to <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">></span></span>direct<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">></span></span> students to take action or do something external to the current<br>    content flow inside the LMS.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 
 
 <h4 class="adx-markup-label">Direction variants</h4>
 
-<div class="adx-direction-assess">
-  <h5>This is a Box uses the <code>adx-direction-assess</code> class</h5>
-  <p>This direction should be used to highlight any work which relates to an assessment. (e.g. this content relates to this assessment, this contributes to an assessment).</p>
-  <ul>
-    <li>A</li>
-    <li>A</li>
-  </ul>
+
+<p>Use the following direction boxes to markup specific directions for students. These are callouts to complete specific tasks external to the page and flow of the lesson. </p>
+
+<div class="adx-direction-assessment">
+  <h5>This is a Assessment Direction</h5>
+  <p>Use the <code>adx-direction-assessment</code> class to define information on the page about assessment tasks. This would specifically include directions to complete the task itself, or elements of the task.</p>
 </div>
 
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Icon Direction HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction-assess<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Box uses the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>adx-direction-assess<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This direction should be used to highlight any work which relates to an assessment. (e.g. this content relates to this assessment, this contributes to an assessment).<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-
-
-<div class="adx-direction-inform">
-  <h5>This is a Box uses the <code>adx-direction-inform</code> class</h5>
-  <p>This direction should be used to describe activities which do <em>not</em> relate to the assessment.</p>
+<div class="adx-direction-discussion">
+  <h5>This is a Discussion Direction</h5>
+  <p>Use the <code>adx-direction-discussion</code> class to alert students to tasks that relate to discussions. This maybe located on another page - but if context information is suitable, i.e. the information in this lesson is the logical point to carry out and contribute to the discussion, then use this direction.</p>
 </div>
-
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Icon Direction HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction-inform<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Box uses the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>adx-direction-incorrect<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This direction should be used to describe activities which do <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">></span></span>not<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">></span></span> relate to the assessment.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-
-
-
-<div class="adx-direction-warning">
-  <h5>This is a Box uses the <code>adx-direction-warning</code> class</h5>
-  <p>This direction should be used for notes, additional information or important takeaways.</p>
-</div>
-
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Icon Direction HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction-warning<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Box uses the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>adx-direction-warning<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This direction should be used for notes, additional information or important takeaways.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-
 
 <div class="adx-direction-extra">
-  <h5>This is a Box uses the <code>adx-direction-extra</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+  <h5>This is a Extra Direction</h5>
+  <p>Use the <code>adx-direction-extra</code> class to alert students to extra tasks. These are not required but could be seen as extensions beyond the content and activities required in this course. This may be useful for "parking" concepts and ideas that students aren't required to complete but may be useful in the longer term. </p>
 </div>
 
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Icon Direction HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction-extra<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Box uses the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>adx-direction-extra<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<div class="adx-direction-interactive">
+  <h5>This is an Interactive Direction</h5>
+  <p>Use the <code>adx-direction-extra</code> class to alert students to interactive activities and ways to engage with other students. Can be used for synchronous sessions on Zoom or on other tools.</p>
+</div>
+
+<div class="adx-direction-investigate">
+  <h5>This is an Investigate Direction</h5>
+  <p>Use the <code>adx-direction-investigate</code> class to alert students to tasks that ask them to investigate, search and find information. Useful for research tasks like accessing databases, papers or articles.</p>
+</div>
+
+<div class="adx-direction-practice">
+  <h5>This is a Practice Direction</h5>
+  <p>Use the <code>adx-direction-practice</code> class to alert students to activities where they practice skills, tasks and processes.</p>
+</div>
+
+<div class="adx-direction-reading">
+  <h5>This is a Reading Direction</h5>
+  <p>Use the <code>adx-direction-reading</code> class to alert students to reading tasks. This could include reading texts, articles and papers.</p>
+</div>
+
+<div class="adx-direction-reflect">
+  <h5>This is a Reflect Direction</h5>
+  <p>Use the <code>adx-direction-reflect</code> class to alert students to reflection tasks. </p>
+</div>
+
+<div class="adx-direction-write">
+  <h5>This is a Write Direction</h5>
+  <p>Use the <code>adx-direction-write</code> class to alert students to writing tasks. </p>
+</div>
+
+
+
 
 <h3>Cues</h3>
 <p>Discussions still happening in the Cue space re: colours just like Directions.</p>
-<h4 class="adx-markup-label">Cue Base</h4>
+<h4 class="adx-markup-label">Cue Structure</h4>
 
 
-<div class="adx-cue-top">
-
-  <p>Hi there <span class="adx-markup-highlight">whats happening</span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch. Biodiesel af flannel, fixie literally kitsch slow-carb sriracha post-ironic. Live-edge celiac skateboard pork belly. Whatever pug poke hell of wolf franzen squid. Try-hard shoreditch ramps, church-key franzen artisan occupy chia copper mug lumbersexual. Tousled chambray artisan whatever next level brunch umami semiotics bespoke woke enamel pin typewriter pinterest.</p>
+<div class="adx-cue">
+  <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the
+  flow of the content on the page.</p>
 </div>
-
-
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Base cue HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-cue-top<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Hi there <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-markup-highlight<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>whats happening<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch. Biodiesel af flannel, fixie literally kitsch slow-carb sriracha post-ironic. Live-edge celiac skateboard pork belly. Whatever pug poke hell of wolf franzen squid. Try-hard shoreditch ramps, church-key franzen artisan occupy chia copper mug lumbersexual. Tousled chambray artisan whatever next level brunch umami semiotics bespoke woke enamel pin typewriter pinterest.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-
-
-
-<h4 class="adx-markup-label">Cue with Left Border</h4>
 
 <div class="adx-cue-left">
+  <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can
+  stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>
+</div>
 
-  <p>Hi there <span class="adx-markup-highlight">whats happening</span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch. Biodiesel af flannel, fixie literally kitsch slow-carb sriracha post-ironic. Live-edge celiac skateboard pork belly. Whatever pug poke hell of wolf franzen squid. Try-hard shoreditch ramps, church-key franzen artisan occupy chia copper mug lumbersexual. Tousled chambray artisan whatever next level brunch umami semiotics bespoke woke enamel pin typewriter pinterest.</p>
+<div class="adx-cue-bordered">
+  <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>
 </div>
 
 
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Cue with left border HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-cue-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Hi there <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-markup-highlight<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>whats happening<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch. Biodiesel af flannel, fixie literally kitsch slow-carb sriracha post-ironic. Live-edge celiac skateboard pork belly. Whatever pug poke hell of wolf franzen squid. Try-hard shoreditch ramps, church-key franzen artisan occupy chia copper mug lumbersexual. Tousled chambray artisan whatever next level brunch umami semiotics bespoke woke enamel pin typewriter pinterest.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Cue with left border HTML Usage --></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-cue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the<br>    flow of the content on the page.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-cue-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can<br>    stand alone as a key point to draw the eye and interrupt the reading eyeline motion.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-cue-bordered<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+
+<h4 class="adx-markup-label">Cue Variants</h4>
+
+<div class="adx-cue-note">
+  <p>A note shuld use the <code>adx-cue-note</code> cue. This is a visual clue used for extra information inside the flow of content.</p>
+</div>
+
+<div class="adx-cue-example">
+  <p>An example should use the <code>adx-cue-example</code> cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself. </p>
+</div>
+
+<div class="adx-cue-definition">
+  <p>When providing a definition for a specific term or concept you should use the <code>adx-cue-definition</code> cue. This will provide a visual cue to students that something important is being defined in the content.</p>
+</div>
+<div class="adx-cue-notification">
+  <p>A notification should use the <code>adx-cue-notification</code> cue. When and where to use this requires explaining.</p>
+</div>
+
+<div class="adx-cue-summary">
+  <p>A summary should use the <code>adx-cue-summary</code> cue. When and where to use this requires explaining.</p>
+</div>
+
+<div class="adx-cue-attention">
+  <p>An attention cue should use the <code>adx-cue-attention</code> cue. This is used for very important information and is eye-catching to the student. When and where to use this requires explaining.</p>
+</div>
+
+<h4 class="adx-markup-label">Specialty-use Cues</h4>
+
+<div class="adx-cue-reference">
+  <ul>
+    <li>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</li>
+    <li>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</li>
+    <li>Australian Institute of Health and Welfare 2010, Child protection Australia 2008-09, Child welfare series no. 47. Cat. no. CWS 35, Australian Institute of Health and Welfare, Canberra, viewed 06 November 2012, <https://www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents>.</li>
+  </ul>
+</div>
 
 
-<h3>Persona Cues</h3>
+<h3>Persona Boxes</h3>
 
 <h4 class="adx-markup-label">Base Persona</h4>
 
