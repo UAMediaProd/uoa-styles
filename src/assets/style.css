@@ -4391,6 +4391,7 @@ h6 {
 
 .adx h4:not(.adx-markup-label) {
   color: #005a9c;
+  font-weight: 700;
 }
 
 .adx li {
