@@ -317,12 +317,12 @@ div.adx-direction {
     }
   }
 
-  &-write {
+  &-watch {
     @extend .adx-direction;
     background: mix(white, $vis-cat10, 90%);
 
   &:before {
-    content: url(svg-encode($write-rev));
+    content: url(svg-encode($play-rev));
     background: $vis-cat10;
     }
 
@@ -335,6 +335,28 @@ div.adx-direction {
 
       & li {
         border-color: mix(white, $vis-cat10, 30%);
+      }
+    }
+  }
+
+  &-write {
+    @extend .adx-direction;
+    background: mix(white, $vis-cat11, 90%);
+
+  &:before {
+    content: url(svg-encode($write-rev));
+    background: $vis-cat11;
+    }
+
+    & h5{
+      color: $vis-cat11;
+    }
+    & .step-list {
+      background: mix(white, $vis-cat11, 70%);
+      border-color: mix(white, $vis-cat11, 30%);
+
+      & li {
+        border-color: mix(white, $vis-cat11, 30%);
       }
     }
   }

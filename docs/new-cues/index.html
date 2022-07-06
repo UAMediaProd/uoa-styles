@@ -25,8 +25,6 @@
  		
  			<li><a href="/uoa-styles/components/card-image/" class="nav-link">Image Card</a></li>
  		
- 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
- 		
  			<li><a href="/uoa-styles/components/directions/" class="nav-link">Directions</a></li>
  		
  			<li><a href="/uoa-styles/components/hero/" class="nav-link">Hero</a></li>
@@ -45,17 +43,19 @@
  		
  			<li><a href="/uoa-styles/components/video/" class="nav-link">Video</a></li>
  		
+ 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
+ 		
 	</ul>
 	<h4>Pages</h4>
 	<ul>
 		
 			<li><a href="/uoa-styles/new-cues/" class="nav-link">New Cues &amp; Directions</a></li>
 		
-			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
-		
 			<li><a href="/uoa-styles/oua-build/" class="nav-link">OUA Build Guide</a></li>
 		
 			<li><a href="/uoa-styles/cidilabs/" class="nav-link">CIDILabs Overrides</a></li>
+		
+			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
 		
 	</ul>
 </aside>
@@ -91,32 +91,37 @@
 
 <div class="adx-direction-interactive">
   <h5>This is a Interactive Direction</h5>
-  <p>Use the <code>adx-direction-extra</code> class to alert students to interactive activities and ways to engage with other students. Can be used for synchronous sessions on Zoom or on other tools.</p>
+  <p>Use the <code>adx-direction-extra</code> class to alert students to interactive activities and ways to engage with other students. Can be used for synchronous sessions on Zoom or on other tools. This is not for H5P or interactive tools, but interactive experience between students.</p>
 </div>
 
 <div class="adx-direction-investigate">
   <h5>This is a Investigate Direction</h5>
-  <p>Use the <code>adx-direction-extra</code> class to alert students to tasks that ask them to investigate, search and find information. Useful for research tasks like accessing databases, papers or articles.</p>
+  <p>Use the <code>adx-direction-investigate</code> class to alert students to tasks that ask them to investigate, search and find information. Useful for research tasks like accessing databases, papers or articles.</p>
 </div>
 
 <div class="adx-direction-practice">
   <h5>This is a Practice Direction</h5>
-  <p>Use the <code>adx-direction-practice</code> class to alert students to activities where they practice skills, tasks and processes.</p>
+  <p>Use the <code>adx-direction-practice</code> class to alert students to activities where they practice skills, tasks and processes. These may be specific skills students need to be able to do for their assessments or as part of their program of study. </p>
 </div>
 
 <div class="adx-direction-reading">
   <h5>This is a Reading Direction</h5>
-  <p>Use the <code>adx-direction-extra</code> class to alert students to reading tasks. This could include reading texts, articles and papers.</p>
+  <p>Use the <code>adx-direction-reading</code> class to alert students to reading tasks. This could include reading texts, articles and papers. Further directions for students should be included within the box - say if students are required to answer questions or take notes.</p>
 </div>
 
 <div class="adx-direction-reflect">
   <h5>This is a Reflect Direction</h5>
-  <p>Use the <code>adx-direction-extra</code> class to alert students to reflection tasks. </p>
+  <p>Use the <code>adx-direction-reflect</code> class to alert students to reflection tasks. These may be part of a larger body of work (like a learning log or portfolio) but the tasks relate to students reflecting on their own experience or work. </p>
+</div>
+
+<div class="adx-direction-watch">
+  <h5>This is a Watch Direction</h5>
+  <p>Use the <code>adx-direction-watch</code> class to alert students to videos or presentations they need to watch. This can be used for any video that can't be embedded or if the video is not required viewing, but part of an extension task.</p>
 </div>
 
 <div class="adx-direction-write">
   <h5>This is a Write Direction</h5>
-  <p>Use the <code>adx-direction-extra</code> class to alert students to writing tasks. </p>
+  <p>Use the <code>adx-direction-write</code> class to alert students to writing tasks. These should be used to direct students to writing down ideas, collecting information, filling in a documents or completing writing tasks. Not to be used for assessments, but for more general writing tasks.  </p>
 </div>
 
 
@@ -132,26 +137,28 @@
   <p>When providing a definition for a specific term or concept you should use the <code>adx-cue-definition</code> cue. This will provide a visual cue to students that something important is being defined in the content.</p>
 </div>
 
-
-
 <div class="adx-cue-note">
-  <p>Cold-pressed intelligentsia bicycle rights, flannel chambray XOXO raclette sustainable seitan stumptown dreamcatcher tumeric. Mixtape lomo schlitz fashion axe 90's. Kombucha cornhole everyday carry, four dollar toast keffiyeh next level meggings tacos.</p>
+  <p>The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the <code>adx-cue-note</code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an <a href="https://en.wikipedia.org/wiki/Nota_bene#">N.B.</a></p>
 </div>
 
 <div class="adx-cue-notification">
-  <p>Cold-pressed intelligentsia bicycle rights, flannel chambray XOXO raclette sustainable seitan stumptown dreamcatcher tumeric. Mixtape lomo schlitz fashion axe 90's. Kombucha cornhole everyday carry, four dollar toast keffiyeh next level meggings tacos.</p>
-</div>
-
-<div class="adx-cue-summary">
-  <p>Cold-pressed intelligentsia bicycle rights, flannel chambray XOXO raclette sustainable seitan stumptown dreamcatcher tumeric. Mixtape lomo schlitz fashion axe 90's. Kombucha cornhole everyday carry, four dollar toast keffiyeh next level meggings tacos.</p>
+  <p>A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The <code>adx-cue-notification</code> cue is a subtle hint to students. </p>
 </div>
 
 <div class="adx-cue-attention">
-  <p>Cold-pressed intelligentsia bicycle rights, flannel chambray XOXO raclette sustainable seitan stumptown dreamcatcher tumeric. Mixtape lomo schlitz fashion axe 90's. Kombucha cornhole everyday carry, four dollar toast keffiyeh next level meggings tacos.</p>
+  <p>The <code>adx-cue-attention</code> is a non-subtle cue that contains information that students <strong>must</strong> address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students. </p>
 </div>
 
+<div class="adx-cue-summary">
+  <p>The <code>adx-cue-summary</code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course. </p>
+</div>
+
+
+
 <div class="adx-cue-reference">
-  <p>Cold-pressed intelligentsia bicycle rights, flannel chambray XOXO raclette sustainable seitan stumptown dreamcatcher tumeric. Mixtape lomo schlitz fashion axe 90's. Kombucha cornhole everyday carry, four dollar toast keffiyeh next level meggings tacos.</p>
+  <p>The <code>adx-cue-reference</code> cue is for a single or multiple references. These can be contained within a <code>ul</code> or as <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks. </p>
+  <br>
+  <p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</p>
   <ul>
     <li>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</li>
     <li>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</li>
