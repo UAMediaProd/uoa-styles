@@ -4566,6 +4566,7 @@ h1 {
 .adx-cue-example:before {
   color: #f8961e;
   content: "example";
+  font-family: "Arial", sans-serif;
 }
 .adx-cue-definition {
   background: #ecf7f3;
@@ -4573,6 +4574,7 @@ h1 {
 .adx-cue-definition:before {
   content: "definition";
   color: #43aa8b;
+  font-family: "Arial", sans-serif;
 }
 .adx-cue-note {
   background: #f8f9f9;
@@ -4580,6 +4582,7 @@ h1 {
 .adx-cue-note:before {
   content: "note";
   color: #949a9e;
+  font-family: "Arial", sans-serif;
 }
 .adx-cue-notification {
   border-left: 1rem solid #005a9c;
@@ -4588,6 +4591,7 @@ h1 {
 .adx-cue-notification:before {
   content: "notification";
   color: #005a9c;
+  font-family: "Arial", sans-serif;
 }
 .adx-cue-reference {
   border-top: 0.5ch solid #005a9c !important;
@@ -4603,6 +4607,7 @@ h1 {
   font-size: 90%;
   text-align: left;
   border-bottom: 1px solid #005a9c;
+  font-family: "Arial", sans-serif;
 }
 .adx-cue-summary {
   border-left: 1rem solid #90be6d;
@@ -4611,6 +4616,7 @@ h1 {
 .adx-cue-summary:before {
   content: "summary";
   color: #90be6d;
+  font-family: "Arial", sans-serif;
 }
 .adx-cue-attention {
   border: 1px solid #fa6769 !important;
@@ -4620,6 +4626,7 @@ h1 {
 .adx-cue-attention:before {
   content: "attention";
   color: #fa6769;
+  font-family: "Arial", sans-serif;
 }
 
 .adx-cue-brand-darkblue, .adx-cue-brand-darkblue-left, .adx-cue-brand-darkblue-bottom, .adx-cue-brand-darkblue-right, .adx-cue-brand-darkblue-top {

@@ -48,6 +48,7 @@
     &:before {
       color: $ld-3;
       content: 'example';
+      font-family: $font-text;
     }
   }
 
@@ -58,6 +59,7 @@
     &:before {
       content: 'definition';
       color: $ld-6;
+      font-family: $font-text;
     }
   }
 
@@ -68,6 +70,7 @@
     &:before {
       content: 'note';
       color: $ui-neutral-darker;
+      font-family: $font-text;
     }
   }
 
@@ -79,6 +82,7 @@
     &:before {
       content: 'notification';
       color: $brand-midblue;
+      font-family: $font-text;
     }
   }
 
@@ -97,6 +101,7 @@
       font-size: 90%;
       text-align: left;
       border-bottom: 1px solid $brand-midblue;
+      font-family: $font-text;
     }
   }
 
@@ -108,6 +113,7 @@
     &:before {
       content: 'summary';
       color: $ld-5;
+      font-family: $font-text;
     }
   }
 
@@ -120,6 +126,7 @@
     &:before {
       content: 'attention';
       color: $ld-2;
+      font-family: $font-text;
     }
   }
 
