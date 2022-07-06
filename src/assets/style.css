@@ -7250,6 +7250,7 @@ figure.adx figcaption {
   padding: 0.579rem;
   font-size: 1rem;
   text-align: center;
+  font-family: "Arial", sans-serif;
 }
 figure.adx cite a {
   display: inline-block;
