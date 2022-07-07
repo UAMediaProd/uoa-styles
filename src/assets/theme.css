@@ -7320,7 +7320,7 @@ table.adx tr:hover {
 }
 table.adx th, table.adx td {
   text-align: left;
-  padding: 0.694rem 0.694rem;
+  padding: 0.694rem 0.694rem !important;
 }
 table.adx td p, table.adx th p {
   margin: 0;

@@ -34,7 +34,7 @@ table.adx  {
 
   th, td {
     text-align: left;
-    padding: $xs $xs;
+    padding: $xs $xs !important; //override Canvas styling
 
   }
 
