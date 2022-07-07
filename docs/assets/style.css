@@ -5071,7 +5071,7 @@ h1 {
 }
 
 .persona-blurple {
-  background: rgba(105, 127, 185, 0.168627451);
+  background: #697fb92b;
   border: 0;
 }
 .persona-blurple h5 {
@@ -7290,7 +7290,8 @@ figure.adx cite a:hover {
 .adx-gallery {
   margin: 1.44rem 0;
   display: flex;
-  flex-wrap: wrap; /*  allow items to wrap  */
+  flex-wrap: wrap;
+  /*  allow items to wrap  */
   justify-content: center;
   border-radius: 0.402rem;
   border: 1px solid #B9C0C6;
@@ -7343,6 +7344,7 @@ figure.adx cite a:hover {
   figure.adx.w40 {
     width: 90%;
   }
+
   .adx-gallery.four-up > figure, .adx-gallery.three-up > figure {
     flex-basis: calc(50% - (2 * 0.402rem));
   }
@@ -7789,6 +7791,7 @@ header.adx-shield.basic .curve.right {
   header.adx-shield.right .text {
     margin: 4vw 3vw 4vw 3vw;
   }
+
   header.adx-shield.left {
     grid-template-columns: 160px 3fr 0fr 3fr;
   }
@@ -7803,6 +7806,7 @@ header.adx-shield.basic .curve.right {
   header.adx-shield.right {
     grid-template-columns: 3fr 0fr 3fr 0fr;
   }
+
   header.adx-shield.left {
     grid-template-columns: 0fr 3fr 0fr 3fr;
   }
@@ -7817,6 +7821,7 @@ header.adx-shield.basic .curve.right {
   header.adx-shield.right .text {
     margin: 4vw;
   }
+
   header.adx-shield.left {
     grid-template-columns: 0fr 0fr 0fr 3fr;
   }
@@ -8086,7 +8091,8 @@ section.adx.video footer {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   height: 0;
 }
 

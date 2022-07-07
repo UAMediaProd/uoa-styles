@@ -25,6 +25,8 @@
  		
  			<li><a href="/uoa-styles/components/card-image/" class="nav-link">Image Card</a></li>
  		
+ 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
+ 		
  			<li><a href="/uoa-styles/components/directions/" class="nav-link">Directions</a></li>
  		
  			<li><a href="/uoa-styles/components/hero/" class="nav-link">Hero</a></li>
@@ -43,19 +45,17 @@
  		
  			<li><a href="/uoa-styles/components/video/" class="nav-link">Video</a></li>
  		
- 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
- 		
 	</ul>
 	<h4>Pages</h4>
 	<ul>
 		
 			<li><a href="/uoa-styles/new-cues/" class="nav-link">New Cues &amp; Directions</a></li>
 		
+			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
+		
 			<li><a href="/uoa-styles/oua-build/" class="nav-link">OUA Build Guide</a></li>
 		
 			<li><a href="/uoa-styles/cidilabs/" class="nav-link">CIDILabs Overrides</a></li>
-		
-			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
 		
 	</ul>
 </aside>
@@ -193,6 +193,11 @@
   <p>Use the <code>adx-direction-reflect</code> class to alert students to reflection tasks. </p>
 </div>
 
+<div class="adx-direction-watch">
+  <h5>This is a Watch Direction</h5>
+  <p>Use the <code>adx-direction-watch</code> class to alert students to videos or presentations they need to watch. This can be used for any video that can't be embedded or if the video is not required viewing, but part of an extension task.</p>
+</div>
+
 <div class="adx-direction-write">
   <h5>This is a Write Direction</h5>
   <p>Use the <code>adx-direction-write</code> class to alert students to writing tasks. </p>
@@ -225,7 +230,7 @@
 <h4 class="adx-markup-label">Cue Variants</h4>
 
 <div class="adx-cue-note">
-  <p>A note shuld use the <code>adx-cue-note</code> cue. This is a visual clue used for extra information inside the flow of content.</p>
+  <p>The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the <code>adx-cue-note</code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an <a href="https://en.wikipedia.org/wiki/Nota_bene#">N.B.</a></p>
 </div>
 
 <div class="adx-cue-example">
@@ -235,22 +240,25 @@
 <div class="adx-cue-definition">
   <p>When providing a definition for a specific term or concept you should use the <code>adx-cue-definition</code> cue. This will provide a visual cue to students that something important is being defined in the content.</p>
 </div>
-<div class="adx-cue-notification">
-  <p>A notification should use the <code>adx-cue-notification</code> cue. When and where to use this requires explaining.</p>
-</div>
 
-<div class="adx-cue-summary">
-  <p>A summary should use the <code>adx-cue-summary</code> cue. When and where to use this requires explaining.</p>
+
+<div class="adx-cue-notification">
+  <p>A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The <code>adx-cue-notification</code> cue is a subtle hint to students. </p>
 </div>
 
 <div class="adx-cue-attention">
-  <p>An attention cue should use the <code>adx-cue-attention</code> cue. This is used for very important information and is eye-catching to the student. When and where to use this requires explaining.</p>
+  <p>The <code>adx-cue-attention</code> is a non-subtle cue that contains information that students <strong>must</strong> address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students. </p>
 </div>
 
-<h4 class="adx-markup-label">Specialty-use Cues</h4>
+<div class="adx-cue-summary">
+  <p>The <code>adx-cue-summary</code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course. </p>
+</div>
+
 
 <div class="adx-cue-reference">
-  <p><code>adx-cue-reference</code></p>
+  <p>The <code>adx-cue-reference</code> cue is for a single or multiple references. These can be contained within a <code>ul</code> or as <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks. </p>
+  <br>
+  <p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</p>
   <ul>
     <li>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</li>
     <li>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</li>
