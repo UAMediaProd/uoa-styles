@@ -7368,6 +7368,7 @@ table.adx caption {
   caption-side: top;
   margin-bottom: 0.833rem;
   padding: 0.833rem;
+  font-family: "Arial", sans-serif !important;
 }
 table.adx caption > * {
   font-style: normal;

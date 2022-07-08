@@ -71,6 +71,7 @@ table.adx  {
     caption-side: top;
     margin-bottom: $s;
     padding: $s;
+    font-family: $font-text !important; //override canvas
     
     & > * {
       font-style: normal;
