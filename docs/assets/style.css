@@ -8282,6 +8282,10 @@ section.adx-podcast-wide audio {
   overflow: visible !important;
 }
 
+#kl_wrapper_3 * {
+  box-sizing: inherit !important;
+}
+
 .adx .kl_quick_check {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin: 2.074rem auto;

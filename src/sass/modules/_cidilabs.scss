@@ -11,6 +11,12 @@
   overflow: visible !important;
 }
 
+
+
+#kl_wrapper_3 * {
+  box-sizing: inherit !important; //override box-sizing issue with kl_wrapper
+}
+
 .adx {
 
   // quick check changes
