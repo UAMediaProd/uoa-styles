@@ -4533,7 +4533,7 @@ h1 {
 .adx-cue, .adx-cue-blk, .adx-cue-blk-left, .adx-cue-blk-bottom, .adx-cue-blk-right, .adx-cue-blk-top, .adx-cue-rev, .adx-cue-rev-left, .adx-cue-rev-bottom, .adx-cue-rev-right, .adx-cue-rev-top, .adx-cue-information, .adx-cue-information-left, .adx-cue-information-bottom, .adx-cue-information-right, .adx-cue-information-top, .adx-cue-warning, .adx-cue-warning-left, .adx-cue-warning-bottom, .adx-cue-warning-right, .adx-cue-warning-top, .adx-cue-negative, .adx-cue-negative-left, .adx-cue-negative-bottom, .adx-cue-negative-right, .adx-cue-negative-top, .adx-cue-positive, .adx-cue-positive-left, .adx-cue-positive-bottom, .adx-cue-positive-right, .adx-cue-positive-top, .adx-cue-neutral, .adx-cue-neutral-left, .adx-cue-neutral-bottom, .adx-cue-neutral-right, .adx-cue-neutral-top, .adx-cue-complimentary, .adx-cue-complimentary-left, .adx-cue-complimentary-bottom, .adx-cue-complimentary-right, .adx-cue-complimentary-top, .adx-cue-accent, .adx-cue-accent-left, .adx-cue-accent-bottom, .adx-cue-accent-right, .adx-cue-accent-top, .adx-cue-primary, .adx-cue-primary-left, .adx-cue-primary-bottom, .adx-cue-primary-right, .adx-cue-primary-top, .adx-cue-brand-red, .adx-cue-brand-red-left, .adx-cue-brand-red-bottom, .adx-cue-brand-red-right, .adx-cue-brand-red-top, .adx-cue-brand-gold, .adx-cue-brand-gold-left, .adx-cue-brand-gold-bottom, .adx-cue-brand-gold-right, .adx-cue-brand-gold-top, .adx-cue-brand-lightblue, .adx-cue-brand-lightblue-left, .adx-cue-brand-lightblue-bottom, .adx-cue-brand-lightblue-right, .adx-cue-brand-lightblue-top, .adx-cue-brand-midblue, .adx-cue-brand-midblue-left, .adx-cue-brand-midblue-bottom, .adx-cue-brand-midblue-right, .adx-cue-brand-midblue-top, .adx-cue-brand-darkblue, .adx-cue-brand-darkblue-left, .adx-cue-brand-darkblue-bottom, .adx-cue-brand-darkblue-right, .adx-cue-brand-darkblue-top, .adx-cue-ld, .adx-cue-attention, .adx-cue-summary, .adx-cue-reference, .adx-cue-notification, .adx-cue-note, .adx-cue-definition, .adx-cue-example, .adx-cue-bordered, .adx-cue-left, .adx-cue-bottom, .adx-cue-right, .adx-cue-top {
   background: #f8f9f9;
   padding: 1rem 1.728rem;
-  max-width: 87ch;
+  max-width: 90ch;
   margin: 1rem auto;
 }
 .adx-cue-top {
@@ -8198,10 +8198,6 @@ section.adx-podcast-wide audio {
 */
 .adx.kl_wrapper > div {
   overflow: visible !important;
-}
-
-#kl_wrapper_3 * {
-  box-sizing: inherit !important;
 }
 
 .adx .kl_quick_check {
