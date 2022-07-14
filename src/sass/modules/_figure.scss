@@ -112,4 +112,16 @@ figure.adx {
   padding-top: $l;
   text-align: center;
   font-family: $font-text;
+
+  cite a {
+    display: inline-block;
+    background: $ui-neutral-lightest;
+    color: $ui-grey;
+    padding: .5ch;
+    font-style: italic;
+
+    &:hover {
+      color: $primary;
+    }
+  }
 }
