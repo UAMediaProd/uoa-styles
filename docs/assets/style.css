@@ -7354,14 +7354,14 @@ figure.adx cite a:hover {
   text-align: center;
   font-family: "Arial", sans-serif;
 }
-.adx figcaption cite a {
+.adx figcaption cite {
   display: inline-block;
   background: #f5f6f6;
   color: #595959;
   padding: 0.5ch;
   font-style: italic;
 }
-.adx figcaption cite a:hover {
+.adx figcaption cite:hover {
   color: #102535;
 }
 
