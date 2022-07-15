@@ -1,31 +1,30 @@
 ul.adx-item-blocks {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45ch, 1fr));
-  grid-template-rows: masonry;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
 
   & li {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: $element-width;
-
-      background: $ui-neutral-tint;
-      border: $ui-border;
-      border-radius: $radius;
-      padding: $m $xl;
-      max-width: $element-width;
       margin: $s;
+      max-width: 30ch;
+      transition: all .2s ease-in-out;
+      background: $ui-neutral-tint;
+      //border: $ui-border;
+      border-radius: 3px;
+      padding: $m $xl;
       box-shadow: $shadow-xs;
+      font-family: "made_evolve_sans_regular", Arial, sans-serif;
+
+    & strong {
+      font-family: $font-heading;
+    }
 
       &:hover {
-        transition: all .2s ease-in-out;
         box-shadow: $shadow-m;
         background: $ui-rev;
-        border: 1px solid $ui-neutral;
 
       }
-
-      font-size: 110%;
 
   }
 
@@ -33,10 +32,8 @@ ul.adx-item-blocks {
     &.block-#{$color} {
       li {
         background: mix(white, $value, 95%) !important;
-        border-color: mix(white, $value, 50%);
         &:hover {
           background: mix(white, $value, 85%) !important;
-          border-color: $value;
         }
       }
     }

@@ -5967,84 +5967,69 @@ ul.icon-list.sun-red li {
 
 ul.adx-item-blocks {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45ch, 1fr));
-  grid-template-rows: masonry;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
 }
 ul.adx-item-blocks li {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 90ch;
-  background: #f9fafa;
-  border: 1px solid #d5d9dd;
-  border-radius: 0.5ch;
-  padding: 1rem 1.728rem;
-  max-width: 90ch;
   margin: 0.833rem;
+  max-width: 30ch;
+  transition: all 0.2s ease-in-out;
+  background: #f9fafa;
+  border-radius: 3px;
+  padding: 1rem 1.728rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  font-size: 110%;
+  font-family: "made_evolve_sans_regular", Arial, sans-serif;
+}
+ul.adx-item-blocks li strong {
+  font-family: "made_evolve_sans_bold", sans-serif;
 }
 ul.adx-item-blocks li:hover {
-  transition: all 0.2s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   background: #fff;
-  border: 1px solid #B9C0C6;
 }
 ul.adx-item-blocks.block-ld1 li {
   background: #f6fcfe !important;
-  border-color: #a6e4f8;
 }
 ul.adx-item-blocks.block-ld1 li:hover {
   background: #e4f7fd !important;
-  border-color: #4cc9f0;
 }
 ul.adx-item-blocks.block-ld2 li {
   background: #fff7f8 !important;
-  border-color: #fdb3b4;
 }
 ul.adx-item-blocks.block-ld2 li:hover {
   background: #fee8e9 !important;
-  border-color: #fa6769;
 }
 ul.adx-item-blocks.block-ld3 li {
   background: #fffaf4 !important;
-  border-color: #fccb8f;
 }
 ul.adx-item-blocks.block-ld3 li:hover {
   background: #feefdd !important;
-  border-color: #f8961e;
 }
 ul.adx-item-blocks.block-ld4 li {
   background: #fffcf6 !important;
-  border-color: #fce3a7;
 }
 ul.adx-item-blocks.block-ld4 li:hover {
   background: #fef7e5 !important;
-  border-color: #f9c74f;
 }
 ul.adx-item-blocks.block-ld5 li {
   background: #f9fcf8 !important;
-  border-color: #c8dfb6;
 }
 ul.adx-item-blocks.block-ld5 li:hover {
   background: #eef5e9 !important;
-  border-color: #90be6d;
 }
 ul.adx-item-blocks.block-ld6 li {
   background: #f6fbf9 !important;
-  border-color: #a1d5c5;
 }
 ul.adx-item-blocks.block-ld6 li:hover {
   background: #e3f2ee !important;
-  border-color: #43aa8b;
 }
 ul.adx-item-blocks.block-ld7 li {
   background: #fcf8ff !important;
-  border-color: #e1b9fc;
 }
 ul.adx-item-blocks.block-ld7 li:hover {
   background: #f6eafe !important;
-  border-color: #c373f9;
 }
 
 .adx input[type=text], .adx input[type=email], .adx input[type=password], .adx input[type=number], .adx input[type=datetime-local] {
