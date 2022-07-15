@@ -6177,7 +6177,7 @@ ul.adx-item-blocks li {
   border-radius: 3px;
   padding: 1rem 1.728rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  font-family: "made_evolve_sans_regular", Arial, sans-serif;
+  font-family: "made_evolve_sans_regular", Arial, sans-serif !important;
 }
 ul.adx-item-blocks li strong {
   font-family: "made_evolve_sans_bold", sans-serif;
