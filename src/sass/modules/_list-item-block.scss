@@ -14,7 +14,10 @@ ul.adx-item-blocks {
       border-radius: 3px;
       padding: $m $xl;
       box-shadow: $shadow-xs;
+
+    & p {
       font-family: "made_evolve_sans_regular", Arial, sans-serif !important;
+    }
 
     & strong {
       font-family: $font-heading;
