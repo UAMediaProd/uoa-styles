@@ -7362,6 +7362,7 @@ table.adx {
   border-collapse: separate !important;
   border-spacing: 4px !important;
   border: 1px solid #f2f2f2;
+  background: #FFF;
 }
 table.adx.text-small {
   font-size: 80% !important;
