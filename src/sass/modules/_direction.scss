@@ -6,6 +6,10 @@ div.adx-direction {
   max-width: $element-width;
   overflow: initial !important;
 
+  & > * {
+    margin-left: $xxl;
+  }
+
   &:before {
     position: absolute;
     top: 0;
@@ -38,7 +42,7 @@ div.adx-direction {
     & h5{
       color: $ui-information;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $ui-information, 70%);
       border-color: mix(white, $ui-information, 30%);
 
@@ -61,7 +65,7 @@ div.adx-direction {
     & h5{
       color: $primary;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $brand-midblue, 70%);
       border-color: mix(white, $brand-midblue, 30%);
 
@@ -83,7 +87,7 @@ div.adx-direction {
     & h5{
       color: $ui-warning;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $ui-warning, 70%);
       border-color: mix(white, $ui-warning, 30%);
 
@@ -105,7 +109,7 @@ div.adx-direction {
     & h5{
       color: $ui-positive;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $brand-midblue, 70%);
       border-color: mix(white, $brand-midblue, 30%);
 
@@ -127,7 +131,7 @@ div.adx-direction {
     & h5{
       color: $ui-negative;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $brand-midblue, 70%);
       border-color: mix(white, $brand-midblue, 30%);
 
@@ -151,7 +155,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat2;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat2, 70%);
       border-color: mix(white, $vis-cat2, 30%);
 
@@ -173,7 +177,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat3;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat3, 70%);
       border-color: mix(white, $vis-cat3, 30%);
 
@@ -194,7 +198,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat4;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat4, 70%);
       border-color: mix(white, $vis-cat4, 30%);
 
@@ -218,7 +222,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat5;
     }
-    & .step-list {
+    & .step-list, & .block-list  {
       background: mix(white, $vis-cat5, 70%);
       border-color: mix(white, $vis-cat5, 30%);
 
@@ -240,7 +244,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat6;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat6, 70%);
       border-color: mix(white, $vis-cat6, 30%);
 
@@ -262,7 +266,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat7;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat7, 70%);
       border-color: mix(white, $vis-cat7, 30%);
 
@@ -285,7 +289,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat8;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat8, 70%);
       border-color: mix(white, $vis-cat8, 30%);
 
@@ -307,7 +311,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat9;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat9, 70%);
       border-color: mix(white, $vis-cat8, 30%);
 
@@ -329,7 +333,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat10;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat10, 70%);
       border-color: mix(white, $vis-cat10, 30%);
 
@@ -351,7 +355,7 @@ div.adx-direction {
     & h5{
       color: $vis-cat11;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $vis-cat11, 70%);
       border-color: mix(white, $vis-cat11, 30%);
 
@@ -374,7 +378,7 @@ div.adx-direction {
   & h5{
     color: $oua-hsm;
   }
-  & .step-list {
+  & .step-list, & .block-list {
     background: mix(white, $oua-hsm, 70%);
     border-color: mix(white, $oua-hsm, 30%);
 
@@ -395,7 +399,7 @@ div.adx-direction {
   & h5{
     color: $oua-ib;
   }
-  & .step-list {
+  & .step-list, & .block-list {
     background: mix(white, $oua-ib, 70%);
     border-color: mix(white, $oua-ib, 30%);
 
@@ -420,7 +424,7 @@ div.adx-direction {
     & h5{
       color: $brand-darkblue;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $brand-darkblue, 70%);
       border-color: mix(white, $brand-darkblue, 30%);
 
@@ -442,7 +446,7 @@ div.adx-direction {
     & h5{
       color: $ui-negative;
     }
-    & .step-list {
+    & .step-list, & .block-list {
       background: mix(white, $ui-negative, 70%);
       border-color: mix(white, $ui-negative, 30%);
 
@@ -452,9 +456,4 @@ div.adx-direction {
     }
   }
 
-
-
-  & > * {
-    margin-left: $xxl;
-  }
 }

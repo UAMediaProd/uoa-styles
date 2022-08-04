@@ -5090,6 +5090,9 @@ div.adx-direction, div.adx-direction-assess, div.adx-direction-inform, div.adx-d
   max-width: 90ch;
   overflow: initial !important;
 }
+div.adx-direction > *, div.adx-direction-assess > *, div.adx-direction-inform > *, div.adx-direction-ib > *, div.adx-direction-hsm > *, div.adx-direction-write > *, div.adx-direction-watch > *, div.adx-direction-reflect > *, div.adx-direction-reading > *, div.adx-direction-practice > *, div.adx-direction-investigate > *, div.adx-direction-interactive > *, div.adx-direction-extra > *, div.adx-direction-discussion > *, div.adx-direction-assessment > *, div.adx-direction-negative > *, div.adx-direction-positive > *, div.adx-direction-warning > *, div.adx-direction-question > *, div.adx-direction-info > * {
+  margin-left: 2.074rem;
+}
 div.adx-direction:before, div.adx-direction-assess:before, div.adx-direction-inform:before, div.adx-direction-ib:before, div.adx-direction-hsm:before, div.adx-direction-write:before, div.adx-direction-watch:before, div.adx-direction-reflect:before, div.adx-direction-reading:before, div.adx-direction-practice:before, div.adx-direction-investigate:before, div.adx-direction-interactive:before, div.adx-direction-extra:before, div.adx-direction-discussion:before, div.adx-direction-assessment:before, div.adx-direction-negative:before, div.adx-direction-positive:before, div.adx-direction-warning:before, div.adx-direction-question:before, div.adx-direction-info:before {
   position: absolute;
   top: 0;
@@ -5118,11 +5121,11 @@ div.adx-direction-info:before {
 div.adx-direction-info h5 {
   color: #052A8A;
 }
-div.adx-direction-info .step-list {
+div.adx-direction-info .step-list, div.adx-direction-info .block-list {
   background: #b4bfdc;
   border-color: #506aad;
 }
-div.adx-direction-info .step-list li {
+div.adx-direction-info .step-list li, div.adx-direction-info .block-list li {
   border-color: #506aad;
 }
 div.adx-direction-question {
@@ -5135,11 +5138,11 @@ div.adx-direction-question:before {
 div.adx-direction-question h5 {
   color: #102535;
 }
-div.adx-direction-question .step-list {
+div.adx-direction-question .step-list, div.adx-direction-question .block-list {
   background: #b3cee1;
   border-color: #4d8cba;
 }
-div.adx-direction-question .step-list li {
+div.adx-direction-question .step-list li, div.adx-direction-question .block-list li {
   border-color: #4d8cba;
 }
 div.adx-direction-warning {
@@ -5153,11 +5156,11 @@ div.adx-direction-warning:before {
 div.adx-direction-warning h5 {
   color: #ffa423;
 }
-div.adx-direction-warning .step-list {
+div.adx-direction-warning .step-list, div.adx-direction-warning .block-list {
   background: #ffe4bd;
   border-color: #ffbf65;
 }
-div.adx-direction-warning .step-list li {
+div.adx-direction-warning .step-list li, div.adx-direction-warning .block-list li {
   border-color: #ffbf65;
 }
 div.adx-direction-positive {
@@ -5170,11 +5173,11 @@ div.adx-direction-positive:before {
 div.adx-direction-positive h5 {
   color: #22964f;
 }
-div.adx-direction-positive .step-list {
+div.adx-direction-positive .step-list, div.adx-direction-positive .block-list {
   background: #b3cee1;
   border-color: #4d8cba;
 }
-div.adx-direction-positive .step-list li {
+div.adx-direction-positive .step-list li, div.adx-direction-positive .block-list li {
   border-color: #4d8cba;
 }
 div.adx-direction-negative {
@@ -5187,11 +5190,11 @@ div.adx-direction-negative:before {
 div.adx-direction-negative h5 {
   color: #d4322c;
 }
-div.adx-direction-negative .step-list {
+div.adx-direction-negative .step-list, div.adx-direction-negative .block-list {
   background: #b3cee1;
   border-color: #4d8cba;
 }
-div.adx-direction-negative .step-list li {
+div.adx-direction-negative .step-list li, div.adx-direction-negative .block-list li {
   border-color: #4d8cba;
 }
 div.adx-direction-assessment {
@@ -5204,11 +5207,11 @@ div.adx-direction-assessment:before {
 div.adx-direction-assessment h5 {
   color: #3706BB;
 }
-div.adx-direction-assessment .step-list {
+div.adx-direction-assessment .step-list, div.adx-direction-assessment .block-list {
   background: #c3b4eb;
   border-color: #7351cf;
 }
-div.adx-direction-assessment .step-list li {
+div.adx-direction-assessment .step-list li, div.adx-direction-assessment .block-list li {
   border-color: #7351cf;
 }
 div.adx-direction-discussion {
@@ -5221,11 +5224,11 @@ div.adx-direction-discussion:before {
 div.adx-direction-discussion h5 {
   color: #9106BB;
 }
-div.adx-direction-discussion .step-list {
+div.adx-direction-discussion .step-list, div.adx-direction-discussion .block-list {
   background: #deb4eb;
   border-color: #b251cf;
 }
-div.adx-direction-discussion .step-list li {
+div.adx-direction-discussion .step-list li, div.adx-direction-discussion .block-list li {
   border-color: #b251cf;
 }
 div.adx-direction-extra {
@@ -5238,11 +5241,11 @@ div.adx-direction-extra:before {
 div.adx-direction-extra h5 {
   color: #BB068B;
 }
-div.adx-direction-extra .step-list {
+div.adx-direction-extra .step-list, div.adx-direction-extra .block-list {
   background: #ebb4dc;
   border-color: #cf51ae;
 }
-div.adx-direction-extra .step-list li {
+div.adx-direction-extra .step-list li, div.adx-direction-extra .block-list li {
   border-color: #cf51ae;
 }
 div.adx-direction-interactive {
@@ -5255,11 +5258,11 @@ div.adx-direction-interactive:before {
 div.adx-direction-interactive h5 {
   color: #BB3706;
 }
-div.adx-direction-interactive .step-list {
+div.adx-direction-interactive .step-list, div.adx-direction-interactive .block-list {
   background: #ebc3b4;
   border-color: #cf7351;
 }
-div.adx-direction-interactive .step-list li {
+div.adx-direction-interactive .step-list li, div.adx-direction-interactive .block-list li {
   border-color: #cf51ae;
 }
 div.adx-direction-investigate {
@@ -5272,11 +5275,11 @@ div.adx-direction-investigate:before {
 div.adx-direction-investigate h5 {
   color: #BB9106;
 }
-div.adx-direction-investigate .step-list {
+div.adx-direction-investigate .step-list, div.adx-direction-investigate .block-list {
   background: #ebdeb4;
   border-color: #cfb251;
 }
-div.adx-direction-investigate .step-list li {
+div.adx-direction-investigate .step-list li, div.adx-direction-investigate .block-list li {
   border-color: #cfb251;
 }
 div.adx-direction-practice {
@@ -5289,11 +5292,11 @@ div.adx-direction-practice:before {
 div.adx-direction-practice h5 {
   color: #96BB06;
 }
-div.adx-direction-practice .step-list {
+div.adx-direction-practice .step-list, div.adx-direction-practice .block-list {
   background: #e0ebb4;
   border-color: #b6cf51;
 }
-div.adx-direction-practice .step-list li {
+div.adx-direction-practice .step-list li, div.adx-direction-practice .block-list li {
   border-color: #b6cf51;
 }
 div.adx-direction-reading {
@@ -5306,11 +5309,11 @@ div.adx-direction-reading:before {
 div.adx-direction-reading h5 {
   color: #3EBB06;
 }
-div.adx-direction-reading .step-list {
+div.adx-direction-reading .step-list, div.adx-direction-reading .block-list {
   background: #c5ebb4;
   border-color: #78cf51;
 }
-div.adx-direction-reading .step-list li {
+div.adx-direction-reading .step-list li, div.adx-direction-reading .block-list li {
   border-color: #78cf51;
 }
 div.adx-direction-reflect {
@@ -5323,11 +5326,11 @@ div.adx-direction-reflect:before {
 div.adx-direction-reflect h5 {
   color: #058869;
 }
-div.adx-direction-reflect .step-list {
+div.adx-direction-reflect .step-list, div.adx-direction-reflect .block-list {
   background: #b4dbd2;
   border-color: #78cf51;
 }
-div.adx-direction-reflect .step-list li {
+div.adx-direction-reflect .step-list li, div.adx-direction-reflect .block-list li {
   border-color: #50ac96;
 }
 div.adx-direction-watch {
@@ -5340,11 +5343,11 @@ div.adx-direction-watch:before {
 div.adx-direction-watch h5 {
   color: #046E8B;
 }
-div.adx-direction-watch .step-list {
+div.adx-direction-watch .step-list, div.adx-direction-watch .block-list {
   background: #b4d4dc;
   border-color: #4f9aae;
 }
-div.adx-direction-watch .step-list li {
+div.adx-direction-watch .step-list li, div.adx-direction-watch .block-list li {
   border-color: #4f9aae;
 }
 div.adx-direction-write {
@@ -5357,11 +5360,11 @@ div.adx-direction-write:before {
 div.adx-direction-write h5 {
   color: #052A8A;
 }
-div.adx-direction-write .step-list {
+div.adx-direction-write .step-list, div.adx-direction-write .block-list {
   background: #b4bfdc;
   border-color: #506aad;
 }
-div.adx-direction-write .step-list li {
+div.adx-direction-write .step-list li, div.adx-direction-write .block-list li {
   border-color: #506aad;
 }
 div.adx-direction-hsm {
@@ -5374,11 +5377,11 @@ div.adx-direction-hsm:before {
 div.adx-direction-hsm h5 {
   color: #4bcaf1;
 }
-div.adx-direction-hsm .step-list {
+div.adx-direction-hsm .step-list, div.adx-direction-hsm .block-list {
   background: #c9effb;
   border-color: #81daf5;
 }
-div.adx-direction-hsm .step-list li {
+div.adx-direction-hsm .step-list li, div.adx-direction-hsm .block-list li {
   border-color: #81daf5;
 }
 div.adx-direction-ib {
@@ -5391,11 +5394,11 @@ div.adx-direction-ib:before {
 div.adx-direction-ib h5 {
   color: #fb6f26;
 }
-div.adx-direction-ib .step-list {
+div.adx-direction-ib .step-list, div.adx-direction-ib .block-list {
   background: #fed4be;
   border-color: #fc9a67;
 }
-div.adx-direction-ib .step-list li {
+div.adx-direction-ib .step-list li, div.adx-direction-ib .block-list li {
   border-color: #fc9a67;
 }
 div.adx-direction-inform {
@@ -5409,11 +5412,11 @@ div.adx-direction-inform:before {
 div.adx-direction-inform h5 {
   color: #102535;
 }
-div.adx-direction-inform .step-list {
+div.adx-direction-inform .step-list, div.adx-direction-inform .block-list {
   background: #b7bec2;
   border-color: #586672;
 }
-div.adx-direction-inform .step-list li {
+div.adx-direction-inform .step-list li, div.adx-direction-inform .block-list li {
   border-color: #586672;
 }
 div.adx-direction-assess {
@@ -5427,15 +5430,12 @@ div.adx-direction-assess:before {
 div.adx-direction-assess h5 {
   color: #d4322c;
 }
-div.adx-direction-assess .step-list {
+div.adx-direction-assess .step-list, div.adx-direction-assess .block-list {
   background: #f2c2c0;
   border-color: #e1706b;
 }
-div.adx-direction-assess .step-list li {
+div.adx-direction-assess .step-list li, div.adx-direction-assess .block-list li {
   border-color: #e1706b;
-}
-div.adx-direction > *, div.adx-direction-info > *, div.adx-direction-question > *, div.adx-direction-warning > *, div.adx-direction-positive > *, div.adx-direction-negative > *, div.adx-direction-assessment > *, div.adx-direction-discussion > *, div.adx-direction-extra > *, div.adx-direction-interactive > *, div.adx-direction-investigate > *, div.adx-direction-practice > *, div.adx-direction-reading > *, div.adx-direction-reflect > *, div.adx-direction-watch > *, div.adx-direction-write > *, div.adx-direction-hsm > *, div.adx-direction-ib > *, div.adx-direction-inform > *, div.adx-direction-assess > * {
-  margin-left: 2.074rem;
 }
 
 .adx-markup-font-text {
@@ -5922,7 +5922,7 @@ ul.boxed, ol.boxed {
 
 ul.block-list {
   list-style-type: none !important;
-  margin: 1em auto;
+  margin-top: 1em;
   background: #f3f4f5;
   padding: 1em;
   border: 1px solid #B9C0C6;
