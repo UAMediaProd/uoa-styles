@@ -8328,7 +8328,7 @@ section.adx-podcast-wide audio {
   border-bottom-color: #bbb;
 }
 .adx .kl_panels_wrapper.ui-accordion .ui-accordion-content p {
-  margin: 0;
+  margin: 12px 0;
 }
 .adx .kl_panels_wrapper .ui-accordion-header,
 .adx .kl_wrapper .ui-accordion-header {
