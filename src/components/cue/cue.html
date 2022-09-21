@@ -1,33 +1,91 @@
 ---
 
 ---
-<div class="{{ class }}">
+<h4 class="adx-markup-label">Cue Structure</h4>
 
-  <p>Hi there <span class="adx-markup-highlight">whats happening</span> hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch. Biodiesel af flannel, fixie literally kitsch slow-carb sriracha post-ironic. Live-edge celiac skateboard pork belly. Whatever pug poke hell of wolf franzen squid. Try-hard shoreditch ramps, church-key franzen artisan occupy chia copper mug lumbersexual. Tousled chambray artisan whatever next level brunch umami semiotics bespoke woke enamel pin typewriter pinterest.</p>
+<div class="adx-cue">
+  <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the
+    flow of the content on the page.</p>
+</div>
+
+<div class="adx-cue-left">
+  <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can
+    stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>
+</div>
+
+<div class="adx-cue-bordered">
+  <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>
 </div>
 
 
-{{ '<h2 class="adx-margin-top-xxl">Variations</h2>' if 'variants' in page.variants}}
+{% highlight html %}
+<!-- Cue with left border HTML Usage -->
+<div class="adx-cue">
+  <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the
+    flow of the content on the page.</p>
+</div>
 
-<p class="adx">{{ variant-description | renderUsingMarkdown | safe }}</p>
+<div class="adx-cue-left">
+  <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can
+    stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>
+</div>
 
-{% for variant in variants %}  
-  <div class="{{ variant }}">
-    <p>This cue box is using the <code>{{ variant }}</code> class to colour and define the side of the colour.</p>
-  </div>
+<div class="adx-cue-bordered">
+  <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>
+</div>
+{% endhighlight %}
 
-{% endfor %}
+<h4 class="adx-markup-label">Cue Variants</h4>
 
-<h2>Persona Cue</h2>
+<div class="adx-cue-note">
+  <p>The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the <code>adx-cue-note</code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an <a href="https://en.wikipedia.org/wiki/Nota_bene#">N.B.</a></p>
+</div>
+
+<div class="adx-cue-example">
+  <p>An example should use the <code>adx-cue-example</code> cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself. </p>
+</div>
+
+<div class="adx-cue-definition">
+  <p>When providing a definition for a specific term or concept you should use the <code>adx-cue-definition</code> cue. This will provide a visual cue to students that something important is being defined in the content.</p>
+</div>
+
+
+<div class="adx-cue-notification">
+  <p>A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The <code>adx-cue-notification</code> cue is a subtle hint to students. </p>
+</div>
+
+<div class="adx-cue-attention">
+  <p>The <code>adx-cue-attention</code> is a non-subtle cue that contains information that students <strong>must</strong> address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students. </p>
+</div>
+
+<div class="adx-cue-summary">
+  <p>The <code>adx-cue-summary</code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course. </p>
+</div>
+
+
+<div class="adx-cue-reference">
+  <p>The <code>adx-cue-reference</code> cue is for a single or multiple references. These can be contained within a <code>ul</code> or as <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks. </p>
+  <br>
+  <p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</p>
+  <ul>
+    <li>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009, <http://www.minister.infrastructure.gov.au/releases/2009>.</li>
+    <li>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</li>
+    <li>Australian Institute of Health and Welfare 2010, Child protection Australia 2008-09, Child welfare series no. 47. Cat. no. CWS 35, Australian Institute of Health and Welfare, Canberra, viewed 06 November 2012, <https://www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents>.</li>
+  </ul>
+</div>
+
+
+<h3>Persona Boxes</h3>
+
 <h4 class="adx-markup-label">Base Persona</h4>
 
-<div class="{{ class }} persona">
+<div class="adx-cue persona">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -35,11 +93,11 @@
 {% highlight html %}
 <div class="adx-cue persona">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -49,11 +107,11 @@
 
 <div class="adx-cue persona-brand-midblue">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -61,11 +119,11 @@
 {% highlight html %}
 <div class="adx-cue persona-brand-midblue">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -73,13 +131,13 @@
 
 <h4 class="adx-markup-label">Purple Persona</h4>
 
-<div class="{{ class }} persona-question">
+<div class="adx-cue persona-question">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -87,11 +145,11 @@
 {% highlight html %}
 <div class="adx-cue persona-question">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -99,13 +157,13 @@
 
 <h4 class="adx-markup-label">Orange Persona</h4>
 
-<div class="{{ class }} persona-warning">
+<div class="adx-cue persona-warning">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -113,11 +171,11 @@
 {% highlight html %}
 <div class="adx-cue persona-warning">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -125,13 +183,13 @@
 
 <h4 class="adx-markup-label">Green Persona</h4>
 
-<div class="{{ class }} persona-positive">
+<div class="adx-cue persona-positive">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>
@@ -139,11 +197,11 @@
 {% highlight html %}
 <div class="adx-cue persona-positive">
   <div class="persona-image">
-    <img src="../../assets/2.jpg" alt="" class="persona">
+    <img src="assets/2.jpg" alt="" class="persona">
   </div>
   <div class="persona-content">
-    <h5>Sarah Lastnamington</h5>
-  <p>At work, Sarah notices quite often that a few teachers leave their dirty mugs in the sink without washing them up. While this may seem like a trivial action to be annoyed about, it affects Sarah’s thoughts about their professional identities. When she sees them walking away from their dirty mugs, she associates them with being lazy, irresponsible, and inconsiderate towards others. Even if they are excellent teachers, their personal brand has been tarnished by their behaviour in the staffroom.</p>
+    <h5>Persona Name</h5>
+    <p>Testing content!</p>
   </div>
 
 </div>

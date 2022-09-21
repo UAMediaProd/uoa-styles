@@ -1,7 +1,0 @@
-{
-  "title": "Image Card",
-  "layout": "component",
-  "class": "adx-card-image",
-  "description": "Image Cards are made out of ```ul``` or ```ol``` with the class ```adx-card-image```. Each card, ```li```, has a ```header``` which contains a ```img``` and a ```h1-h6```. Next is an ```article``` element for text. Finally there's a ```footer``` to include a ```button```. ",
-  "variants": []
-}

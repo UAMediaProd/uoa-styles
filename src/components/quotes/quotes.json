@@ -1,0 +1,9 @@
+{
+  "title": "Quotes",
+  "layout": "component",
+  "eleventyNavigation": { 
+    "key": "Quotes"
+  },
+  "class": "adx",
+  "description": ""
+}

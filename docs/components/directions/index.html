@@ -23,15 +23,9 @@
  		
  			<li><a href="/uoa-styles/components/buttons/" class="nav-link">Buttons</a></li>
  		
- 			<li><a href="/uoa-styles/components/card-image/" class="nav-link">Image Card</a></li>
- 		
- 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cue</a></li>
+ 			<li><a href="/uoa-styles/components/cue/" class="nav-link">Cues &amp; personas</a></li>
  		
  			<li><a href="/uoa-styles/components/directions/" class="nav-link">Directions</a></li>
- 		
- 			<li><a href="/uoa-styles/components/hero/" class="nav-link">Hero</a></li>
- 		
- 			<li><a href="/uoa-styles/components/icons/" class="nav-link">Icons</a></li>
  		
  			<li><a href="/uoa-styles/components/images/" class="nav-link">Images</a></li>
  		
@@ -39,23 +33,25 @@
  		
  			<li><a href="/uoa-styles/components/nav-cards/" class="nav-link">Nav Cards</a></li>
  		
- 			<li><a href="/uoa-styles/components/reference-list/" class="nav-link">Reference List</a></li>
- 		
  			<li><a href="/uoa-styles/components/shield/" class="nav-link">Shield</a></li>
  		
- 			<li><a href="/uoa-styles/components/video/" class="nav-link">Video</a></li>
+ 			<li><a href="/uoa-styles/components/video/" class="nav-link">Video &amp; multimedia</a></li>
+ 		
+ 			<li><a href="/uoa-styles/components/tables/" class="nav-link">Tables</a></li>
+ 		
+ 			<li><a href="/uoa-styles/components/quotes/" class="nav-link">Quotes</a></li>
+ 		
+ 			<li><a href="/uoa-styles/components/team/" class="nav-link">Course team</a></li>
+ 		
+ 			<li><a href="/uoa-styles/components/lists/" class="nav-link">Lists</a></li>
  		
 	</ul>
 	<h4>Pages</h4>
 	<ul>
 		
+			<li><a href="/uoa-styles/colours/" class="nav-link">Colour Palette</a></li>
+		
 			<li><a href="/uoa-styles/new-cues/" class="nav-link">New Cues &amp; Directions</a></li>
-		
-			<li><a href="/uoa-styles/all-items/" class="nav-link">All Development Elements</a></li>
-		
-			<li><a href="/uoa-styles/oua-build/" class="nav-link">OUA Build Guide</a></li>
-		
-			<li><a href="/uoa-styles/cidilabs/" class="nav-link">CIDILabs Overrides</a></li>
 		
 	</ul>
 </aside>
@@ -72,76 +68,73 @@
     <p>Direction boxes create a visual prompt and are to be used to provide directions for the user to act on. The basic <code>adx-direction</code> class is neutral with no icon. The variations provdide a colour and icon to suit the different purposes.</p>
 
 
-    <div class="adx-direction">
-  <h5>This is a Box uses the <code>adx-direction</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+    
+<h4 class="adx-markup-label">Base Direction</h4>
+
+
+<div class="adx-direction">
+  <h5>This is a Direction Box</h5>
+  <p>Directions are used to <em>direct</em> students to take action or do something external to the current
+    content flow inside the LMS.</p>
 </div>
 
-<h2>Usage</h2>
-
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Box uses the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>code</span><span class="token punctuation">></span></span>adx-direction<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>code</span><span class="token punctuation">></span></span> class<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>adx-direction<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>This is a Direction Box<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Directions are used to <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">></span></span>direct<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">></span></span> students to take action or do something external to the current<br>    content flow inside the LMS.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 
 
+<h4 class="adx-markup-label">Direction variants</h4>
 
 
-<h2>Variations</h2>
+<p>Use the following direction boxes to markup specific directions for students. These are callouts to complete specific tasks external to the page and flow of the lesson. </p>
 
-
-<div class="adx-direction-info">
-  <h5>This is a Box uses the <code>adx-direction-info</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+<div class="adx-direction-assessment">
+  <h5>This is an Assessment Direction</h5>
+  <p>Use the <code>adx-direction-assessment</code> class to define information on the page about assessment tasks. This would specifically include directions to complete the task itself, or elements of the task.</p>
 </div>
-
 
 <div class="adx-direction-discussion">
-  <h5>This is a Box uses the <code>adx-direction-discussion</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+  <h5>This is a Discussion Direction</h5>
+  <p>Use the <code>adx-direction-discussion</code> class to alert students to tasks that relate to discussions. This maybe located on another page - but if context information is suitable, i.e. the information in this lesson is the logical point to carry out and contribute to the discussion, then use this direction.</p>
 </div>
-
-
-<div class="adx-direction-inform">
-  <h5>This is a Box uses the <code>adx-direction-inform</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
-</div>
-
-
-<div class="adx-direction-reflect">
-  <h5>This is a Box uses the <code>adx-direction-reflect</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
-</div>
-
-
-<div class="adx-direction-warning">
-  <h5>This is a Box uses the <code>adx-direction-warning</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
-</div>
-
-
-<div class="adx-direction-assess">
-  <h5>This is a Box uses the <code>adx-direction-assess</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
-</div>
-
 
 <div class="adx-direction-extra">
-  <h5>This is a Box uses the <code>adx-direction-extra</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+  <h5>This is an Extra Direction</h5>
+  <p>Use the <code>adx-direction-extra</code> class to alert students to extra tasks. These are not required but could be seen as extensions beyond the content and activities required in this course. This may be useful for "parking" concepts and ideas that students aren't required to complete but may be useful in the longer term. </p>
 </div>
 
-
-<div class="adx-direction-hsm">
-  <h5>This is a Box uses the <code>adx-direction-hsm</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+<div class="adx-direction-interactive">
+  <h5>This is an Interactive Direction</h5>
+  <p>Use the <code>adx-direction-interactive</code> class to alert students to interactive activities and ways to engage with other students. Can be used for synchronous sessions on Zoom or on other tools.</p>
 </div>
 
-
-<div class="adx-direction-ib">
-  <h5>This is a Box uses the <code>adx-direction-ib</code> class</h5>
-  <p>Hi there whats happening hope things are going well. I'm baby chartreuse cold-pressed green juice church-key, mixtape enamel pin migas shoreditch.</p>
+<div class="adx-direction-investigate">
+  <h5>This is an Investigate Direction</h5>
+  <p>Use the <code>adx-direction-investigate</code> class to alert students to tasks that ask them to investigate, search and find information. Useful for research tasks like accessing databases, papers or articles.</p>
 </div>
 
+<div class="adx-direction-practice">
+  <h5>This is a Practice Direction</h5>
+  <p>Use the <code>adx-direction-practice</code> class to alert students to activities where they practice skills, tasks and processes.</p>
+</div>
 
+<div class="adx-direction-reading">
+  <h5>This is a Reading Direction</h5>
+  <p>Use the <code>adx-direction-reading</code> class to alert students to reading tasks. This could include reading texts, articles and papers.</p>
+</div>
 
+<div class="adx-direction-reflect">
+  <h5>This is a Reflect Direction</h5>
+  <p>Use the <code>adx-direction-reflect</code> class to alert students to reflection tasks. </p>
+</div>
+
+<div class="adx-direction-watch">
+  <h5>This is a Watch Direction</h5>
+  <p>Use the <code>adx-direction-watch</code> class to alert students to videos or presentations they need to watch. This can be used for any video that can't be embedded or if the video is not required viewing, but part of an extension task.</p>
+</div>
+
+<div class="adx-direction-write">
+  <h5>This is a Write Direction</h5>
+  <p>Use the <code>adx-direction-write</code> class to alert students to writing tasks. </p>
+</div>
 
 </main>
 

@@ -1,8 +1,8 @@
 {
-  "title": "Aside",
+  "title": "Course team",
   "layout": "component",
   "eleventyNavigation": { 
-    "key": "Aside"
+    "key": "Course team"
   },
   "class": "adx",
   "description": "",

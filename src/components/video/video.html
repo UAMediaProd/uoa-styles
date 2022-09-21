@@ -1,22 +1,105 @@
 ---
 
 ---
-<main style="width:50vw">
+<h4 class="adx-markup-label">Video Player with Transcript</h4>
+<p>Use this version for Media Production videos produced by us.</p>
+    <section class="adx video">
+
+        <div class="videoWrapper">
+            <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <footer>
+            <div class="v-icon-holder">
+                <a href="#" class="adx-icon download">Transcript [.txt]</a>
+            </div>
+
+        </footer>
+    </section>
+
+    {% highlight html %}
+    <!-- Video callout box HTML Usage -->
+    <section class="adx video">
+
+        <div class="videoWrapper">
+            <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <footer>
+            <div class="v-icon-holder">
+                <a href="#" class="adx-icon download">Transcript [.txt]</a>
+            </div>
+
+        </footer>
+    </section>
+    {% endhighlight %}
+
+<h4 class="adx-markup-label">Video Player</h4>
+<p>Use this version for externally hosted videos (i.e. YouTube)</p>
 <section class="adx video">
 
-<header class="full">
-    <h2 class="vid-title">Welcome to the fundamentals of a midsummer night's dream in the hollows of hogwarts</h2>
-</header>
-
-<div class="videoWrapper">
-  <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-</div>
-
-<footer>
-  <div class="v-icon-holder">
-    <a href="#" class="adx-icon download">Download video transcript [.txt]</a>
-  </div>
-</footer>
-
+    <div class="videoWrapper">
+        <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
 </section>
-</main>
+
+{% highlight html %}
+<!-- Video callout box HTML Usage -->
+<section class="adx video">
+
+    <div class="videoWrapper">
+        <iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+</section>
+{% endhighlight %}
+
+<h4 class="adx-markup-label">Podcast Square</h4>
+
+<section class="adx-podcast-square">
+    <div class="adx-aspect square adx-bg-primary">
+        <img src="../../assets/diff-square.jpg" alt="" class="center-center">
+    </div>
+    <h3>Track Title Goes Here</h3>
+    <p>Some track details go here.</p>
+    <audio controls src="">
+    </audio>
+</section>
+
+{% highlight html %}
+<!-- Square podcast HTML Usage -->
+<section class="adx-podcast-square">
+    <div class="adx-aspect square adx-bg-primary">
+        <img src="assets/diff-square.jpg" alt="" class="center-center">
+    </div>
+    <h3>Track Title Goes Here</h3>
+    <p>Some track details go here.</p>
+    <audio controls src="">
+    </audio>
+</section>
+{% endhighlight %}
+
+<h4 class="adx-markup-label">Podcast Wide Player</h4>
+<section class="adx-podcast-wide">
+    <div class="track">
+        <h3>Track Title Goes Here</h3>
+        <p>Some track details go here.</p>
+    </div>
+    <div class="adx-aspect square adx-bg-primary art">
+        <img src="../../assets/diff-square.jpg" alt="" class="center-center">
+    </div>
+    <audio controls src="">
+    </audio>
+</section>
+
+{% highlight html %}
+<!-- Wide podcast player HTML Usage -->
+<section class="adx-podcast-wide">
+    <div class="track">
+        <h3>Track Title Goes Here</h3>
+        <p>Some track details go here.</p>
+    </div>
+    <div class="adx-aspect square adx-bg-primary art">
+        <img src="assets/diff-square.jpg" alt="" class="center-center">
+    </div>
+    <audio controls src="">
+    </audio>
+</section>
+{% endhighlight %}

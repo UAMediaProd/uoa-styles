@@ -1,8 +1,8 @@
 {
-  "title": "Cues & personas",
+  "title": "Tables",
   "layout": "component",
   "eleventyNavigation": { 
-    "key": "Cue"
+    "key": "Tables"
   },
   "class": "adx-cue",
   "description": "",

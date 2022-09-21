@@ -1,8 +1,8 @@
 {
-  "title": "Video",
+  "title": "Video & multimedia",
   "layout": "component",
   "eleventyNavigation": { 
-    "key": "Video"
+    "key": "Video & multimedia"
   }
   ,
   "class": "adx-video",

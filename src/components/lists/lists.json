@@ -1,0 +1,9 @@
+{
+  "title": "Lists",
+  "layout": "component",
+  "eleventyNavigation": { 
+    "key": "Lists"
+  },
+  "class": "adx",
+  "description": ""
+}
