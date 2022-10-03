@@ -1,3 +1,4 @@
+.adx {
 table.adx  {
   font-size: $m;
   min-width: 80%;
@@ -10,7 +11,7 @@ table.adx  {
   border: 1px solid #f2f2f2;
   background: #FFF;
 
-  
+
   &.text-small {font-size: 80% !important;}
   &.text-smaller {font-size: 70% !important;}
   .w20 {width: 20%;}
@@ -43,41 +44,41 @@ table.adx  {
     margin: 0;
   }
 
-  
+
   tr.accent {
     background: $accent-lightest;
   }
-  
+
   tr.primary {
     background: $primary-lightest;
   }
-  
+
   tr.accent {
     background: $accent-lightest;
   }
-  
+
   @each $color, $value in $program-colors {
       tr.#{$color} {
         background: mix(white, $value, 80%) !important
     }
   }
-  
+
   @each $color, $value in $ui-colors {
       tr.#{$color} {
         background: mix(white, $value, 80%) !important
     }
   }
-  
+
   caption {
     caption-side: top;
     margin-bottom: $s;
     padding: $s;
     font-family: $font-text !important; //override canvas
-    
+
     & > * {
       font-style: normal;
     }
-    
+
     &.caption-bottom {
       caption-side: bottom !important;
     }
@@ -245,4 +246,5 @@ table.adx  {
     }
   }
 
+}
 }

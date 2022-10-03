@@ -1,36 +1,37 @@
-.adx-cue {
-  background: mix(white, $ui-neutral, 90%);
-  // border: 1px solid $ui-neutral;
-  padding: $m $xl;
-  max-width: $element-width;
-  margin: $m auto;
+.adx {
+  .adx-cue {
+    background: mix(white, $ui-neutral, 90%);
+    // border: 1px solid $ui-neutral;
+    padding: $m $xl;
+    max-width: $element-width;
+    margin: $m auto;
 
-  &-top {
-    @extend .adx-cue;
-    border-top: $m solid $ui-neutral;
-  }
-  &-right {
-    @extend .adx-cue;
-    border-right: $m solid $ui-neutral;
-  }
-  &-bottom {
-    @extend .adx-cue;
-    border-bottom: $m solid $ui-neutral;
-  }
-  &-left {
-    @extend .adx-cue;
-    border-left: $m solid $ui-neutral;
-  }
-  &-bordered {
-    @extend .adx-cue;
-    border: 1px solid $ui-neutral;
-    border-left: $m solid $ui-neutral;
-  }
+    &-top {
+      @extend .adx-cue;
+      border-top: $m solid $ui-neutral;
+    }
+    &-right {
+      @extend .adx-cue;
+      border-right: $m solid $ui-neutral;
+    }
+    &-bottom {
+      @extend .adx-cue;
+      border-bottom: $m solid $ui-neutral;
+    }
+    &-left {
+      @extend .adx-cue;
+      border-left: $m solid $ui-neutral;
+    }
+    &-bordered {
+      @extend .adx-cue;
+      border: 1px solid $ui-neutral;
+      border-left: $m solid $ui-neutral;
+    }
 
-// Learning Cues
+    // Learning Cues
 
-  &-ld {
-    @extend .adx-cue;
+    &-ld {
+      @extend .adx-cue;
       &:before {
         display: block;
         text-transform: uppercase;
@@ -39,103 +40,103 @@
         font-size: 80%;
         text-align: right;
       }
+    }
+
+    &-example {
+      @extend .adx-cue-ld;
+      background: mix(white, $ld-3, 90%);
+
+      &:before {
+        color: $ld-3;
+        content: 'example';
+        font-family: $font-text;
+      }
+    }
+
+    &-definition {
+      @extend .adx-cue-ld;
+      background: mix(white, $ld-6, 90%);
+
+      &:before {
+        content: 'definition';
+        color: $ld-6;
+        font-family: $font-text;
+      }
+    }
+
+    &-note {
+      @extend .adx-cue-ld;
+      background: mix(white, $ui-neutral, 90%);
+
+      &:before {
+        content: 'note';
+        color: $ui-neutral-darker;
+        font-family: $font-text;
+      }
+    }
+
+    &-notification {
+      @extend .adx-cue-ld;
+      border-left: $m solid $brand-midblue;
+      background: mix(white, $brand-midblue, 90%);
+
+      &:before {
+        content: 'notification';
+        color: $brand-midblue;
+        font-family: $font-text;
+      }
+    }
+
+    &-reference {
+      @extend .adx-cue-ld;
+      border-top: .5ch solid $brand-midblue !important;
+      box-shadow: $shadow-s;
+
+      & ul {
+        list-style: none;
+        padding-left: 2ch;
+      }
+      &:before {
+        content: 'references';
+        color: $brand-midblue;
+        font-size: 90%;
+        text-align: left;
+        border-bottom: 1px solid $brand-midblue;
+        font-family: $font-text;
+      }
+    }
+
+    &-summary {
+      @extend .adx-cue-ld;
+      border-left: $m solid $ld-5;
+      background: mix(white, $ld-5, 90%);
+
+      &:before {
+        content: 'summary';
+        color: $ld-5;
+        font-family: $font-text;
+      }
+    }
+
+    &-attention {
+      @extend .adx-cue-ld;
+      border: 1px solid $ld-2 !important;
+      border-left: $m solid $ld-2 !important;
+      background: mix(white, $ld-2, 90%);
+
+      &:before {
+        content: 'attention';
+        color: $ld-2;
+        font-family: $font-text;
+      }
+    }
+
   }
 
-  &-example {
-    @extend .adx-cue-ld;
-    background: mix(white, $ld-3, 90%);
-
-    &:before {
-      color: $ld-3;
-      content: 'example';
-      font-family: $font-text;
-    }
-  }
-
-  &-definition {
-    @extend .adx-cue-ld;
-    background: mix(white, $ld-6, 90%);
-
-    &:before {
-      content: 'definition';
-      color: $ld-6;
-      font-family: $font-text;
-    }
-  }
-
-  &-note {
-    @extend .adx-cue-ld;
-    background: mix(white, $ui-neutral, 90%);
-
-    &:before {
-      content: 'note';
-      color: $ui-neutral-darker;
-      font-family: $font-text;
-    }
-  }
-
-  &-notification {
-    @extend .adx-cue-ld;
-    border-left: $m solid $brand-midblue;
-    background: mix(white, $brand-midblue, 90%);
-
-    &:before {
-      content: 'notification';
-      color: $brand-midblue;
-      font-family: $font-text;
-    }
-  }
-
-  &-reference {
-    @extend .adx-cue-ld;
-    border-top: .5ch solid $brand-midblue !important;
-    box-shadow: $shadow-s;
-
-    & ul {
-      list-style: none;
-      padding-left: 2ch;
-    }
-    &:before {
-      content: 'references';
-      color: $brand-midblue;
-      font-size: 90%;
-      text-align: left;
-      border-bottom: 1px solid $brand-midblue;
-      font-family: $font-text;
-    }
-  }
-
-  &-summary {
-    @extend .adx-cue-ld;
-    border-left: $m solid $ld-5;
-    background: mix(white, $ld-5, 90%);
-
-    &:before {
-      content: 'summary';
-      color: $ld-5;
-      font-family: $font-text;
-    }
-  }
-
-  &-attention {
-    @extend .adx-cue-ld;
-    border: 1px solid $ld-2 !important;
-    border-left: $m solid $ld-2 !important;
-    background: mix(white, $ld-2, 90%);
-
-    &:before {
-      content: 'attention';
-      color: $ld-2;
-      font-family: $font-text;
-    }
-  }
-
-}
-
-@each $color, $value in $brand-colors{
-      .adx-cue-#{$color} {
-        @extend .adx-cue;
-        background: mix(white, $value, 90%);
+  @each $color, $value in $brand-colors{
+    .adx-cue-#{$color} {
+      @extend .adx-cue;
+      background: mix(white, $value, 90%);
 
       &-top {
         @extend .adx-cue-#{$color};
@@ -153,39 +154,14 @@
         @extend .adx-cue-#{$color};
         border-left: $m solid $value;
       }
-}
-}
+    }
+  }
 
   @each $color, $value in $program-colors{
-        .adx-cue-#{$color} {
-          @extend .adx-cue;
-          background: mix(white, $value, 90%);
-          border: 0;
-
-        &-top {
-          @extend .adx-cue-#{$color};
-          border-top: $m solid $value;
-        }
-        &-right {
-          @extend .adx-cue-#{$color};
-          border-right: $m solid $value;
-        }
-        &-bottom {
-          @extend .adx-cue-#{$color};
-          border-bottom: $m solid $value;
-        }
-        &-left {
-          @extend .adx-cue-#{$color};
-          border-left: $m solid $value;
-        }
-  }
-}
-
-@each $color, $value in $ui-colors{
-      .adx-cue-#{$color} {
-        @extend .adx-cue;
-        background: mix(white, $value, 90%);
-        border: 0;
+    .adx-cue-#{$color} {
+      @extend .adx-cue;
+      background: mix(white, $value, 90%);
+      border: 0;
 
       &-top {
         @extend .adx-cue-#{$color};
@@ -204,109 +180,137 @@
         border-left: $m solid $value;
       }
     }
-}
-
-.persona {
-
-  display: flex;
-  h5 {
-    color: $ui-neutral-darkest;
   }
 
-.persona-image {
-  max-width: 100px;
-  max-height: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  margin-right: 1em;
-  border: 3px solid $ui-neutral-light;
-  height: auto;
-  width: auto;
+  @each $color, $value in $ui-colors{
+    .adx-cue-#{$color} {
+      @extend .adx-cue;
+      background: mix(white, $value, 90%);
+      border: 0;
 
-
-
-img {
-  display: inline;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
-}
-
-@media only screen and (max-width: 600px) {
-  .persona-image {
-    width: 50px;
-    height: 50px;
-    margin-top: 1em;
+      &-top {
+        @extend .adx-cue-#{$color};
+        border-top: $m solid $value;
+      }
+      &-right {
+        @extend .adx-cue-#{$color};
+        border-right: $m solid $value;
+      }
+      &-bottom {
+        @extend .adx-cue-#{$color};
+        border-bottom: $m solid $value;
+      }
+      &-left {
+        @extend .adx-cue-#{$color};
+        border-left: $m solid $value;
+      }
+    }
   }
-}
 
-.persona-content {
-  margin-top: 1em;
-  max-width: 80%;
+  .persona {
 
-
-}
-
-}
-
-@each $color, $value in $ui-colors{
-  .persona-#{$color} {
-    @extend .persona;
-    background: mix(white, $value, 90%);
-    border: 0;
-
+    display: flex;
     h5 {
-      color: $value;
-      font-weight: 700;
+      color: $ui-neutral-darkest;
     }
 
     .persona-image {
-      border: 3px solid mix(white, $value, 70%);
+      max-width: 100px;
+      max-height: 100px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 1em;
+      border: 3px solid $ui-neutral-light;
+      height: auto;
+      width: auto;
+
+
+
+      img {
+        display: inline;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .persona-image {
+        width: 50px;
+        height: 50px;
+        margin-top: 1em;
+      }
+    }
+
+    .persona-content {
+      margin-top: 1em;
+      max-width: 80%;
+
+
+    }
+
+  }
+
+  @each $color, $value in $ui-colors{
+    .persona-#{$color} {
+      @extend .persona;
+      background: mix(white, $value, 90%);
+      border: 0;
+
+      h5 {
+        color: $value;
+        font-weight: 700;
+      }
+
+      .persona-image {
+        border: 3px solid mix(white, $value, 70%);
+      }
     }
   }
-}
 
-@each $color, $value in $brand-colors{
-  .persona-#{$color} {
+  @each $color, $value in $brand-colors{
+    .persona-#{$color} {
+      @extend .persona;
+      background: mix(white, $value, 90%);
+      border: 0;
+      h5 {
+        color: $value;
+        font-weight: 700;
+      }
+      .persona-image {
+        border: 3px solid mix(white, $value, 70%);
+      }
+    }
+  }
+
+  .persona-question {
     @extend .persona;
-    background: mix(white, $value, 90%);
+    background: #f1eef9;
     border: 0;
     h5 {
-      color: $value;
+      color: #7356C5;
       font-weight: 700;
     }
     .persona-image {
-      border: 3px solid mix(white, $value, 70%);
+      border: 3px solid mix(white, #7356C5, 70%) ;
     }
-  }
-}
 
-.persona-question {
-  @extend .persona;
-  background: #f1eef9;
-  border: 0;
-  h5 {
-    color: #7356C5;
-    font-weight: 700;
-  }
-  .persona-image {
-    border: 3px solid mix(white, #7356C5, 70%) ;
   }
 
-}
+  .persona-blurple {
+    @extend .persona;
+    background: #697fb92b;
+    border: 0;
+    h5 {
+      color: #697fb9;
+      font-weight: 700;
+    }
+    .persona-image {
+      border: 3px solid mix(white, #697fb9, 70%) ;
+    }
 
-.persona-blurple {
-  @extend .persona;
-  background: #697fb92b;
-  border: 0;
-  h5 {
-    color: #697fb9;
-    font-weight: 700;
   }
-  .persona-image {
-    border: 3px solid mix(white, #697fb9, 70%) ;
-  }
+
 
 }
