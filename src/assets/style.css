@@ -4455,6 +4455,10 @@ h1 {
   letter-spacing: 0.05rem;
 }
 
+a.external > span img {
+  display: none;
+}
+
 .adx-show-xxs {
   width: 0.579rem;
   height: 0.579rem;

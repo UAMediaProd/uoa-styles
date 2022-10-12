@@ -125,3 +125,8 @@ h1 {
   margin: $m 0 $xs;
   letter-spacing: 0.05rem;
 }
+
+//override external link images
+a.external > span img {
+  display: none;
+}
