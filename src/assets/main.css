@@ -1,0 +1,11 @@
+@import "https://mediaproduction.adelaide.edu.au/uoa-styles/assets/theme.css";
+
+html {
+  font-size:18px;
+  font-family: 'Made Evolve Sans', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #102535;
+  line-height: 1.7;
+}
