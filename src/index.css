@@ -4,10 +4,26 @@
 
 @layer components {
   .header-nav {
-    @apply px-6 py-2
+    @apply px-6 py-2 h-full my-0
   }
 
   .header-nav.router-link-active {
     @apply bg-white text-brand-midblue-dark
+  }
+
+  #components-side-nav {
+    @apply bg-gray-100 min-w-[195px] overflow-y-auto
+  }
+
+  #components-main {
+    @apply w-full max-w-[1500px] overflow-y-auto py-4 px-6 mx-auto
+  }
+
+  .component-item {
+    @apply pb-16
+  }
+
+  .adx-cue-reference a {
+    @apply text-brand-midblue underline
   }
 }

@@ -1,11 +1,47 @@
 @import "https://mediaproduction.adelaide.edu.au/uoa-styles/assets/theme.css";
 
-html {
-  font-size:18px;
+html, body {
+  font-size: 16px;
   font-family: 'Made Evolve Sans', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #102535;
+  color: black;
   line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.adx div.adx-direction:before,
+.adx div.adx-direction-assess:before,
+.adx div.adx-direction-inform:before,
+.adx div.adx-direction-ib:before,
+.adx div.adx-direction-hsm:before,
+.adx div.adx-direction-write:before,
+.adx div.adx-direction-watch:before,
+.adx div.adx-direction-reflect:before,
+.adx div.adx-direction-reading:before,
+.adx div.adx-direction-practice:before,
+.adx div.adx-direction-investigate:before,
+.adx div.adx-direction-interactive:before,
+.adx div.adx-direction-extra:before,
+.adx div.adx-direction-discussion:before,
+.adx div.adx-direction-assessment:before,
+.adx div.adx-direction-negative:before,
+.adx div.adx-direction-positive:before,
+.adx div.adx-direction-warning:before,
+.adx div.adx-direction-question:before,
+.adx div.adx-direction-info:before {
+  height: 100%
+}
+
+.adx p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

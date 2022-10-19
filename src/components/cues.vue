@@ -1,0 +1,98 @@
+<template>
+  <div id="Cues" class="component-item">
+    <h3>Cues</h3>
+    <h4 class="adx-markup-label">Cue Structure</h4>
+
+    <div class="adx-cue">
+      <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the
+        flow of the content on the page.</p>
+    </div>
+
+    <div class="adx-cue-left">
+      <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can
+        stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>
+    </div>
+
+    <div class="adx-cue-bordered">
+      <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>
+    </div>
+
+    <pre><code class="language-markup">&lt;!-- Cue with left border HTML Usage --&gt;
+&lt;div class="adx-cue"&gt;
+  &lt;p&gt;This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="adx-cue-left"&gt;
+  &lt;p&gt;This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="adx-cue-bordered"&gt;
+  &lt;p&gt;This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+    <h4 class="adx-markup-label">Cue Variants</h4>
+
+    <div class="adx-cue-note">
+      <p>
+        The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the
+        <code>adx-cue-note</code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an
+        <a href="https://en.wikipedia.org/wiki/Nota_bene#">N.B.</a>
+      </p>
+    </div>
+
+    <div class="adx-cue-example">
+      <p>
+        An example should use the
+        <code>adx-cue-example</code> cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself.
+      </p>
+    </div>
+
+    <div class="adx-cue-definition">
+      <p>
+        When providing a definition for a specific term or concept you should use the
+        <code>adx-cue-definition</code> cue. This will provide a visual cue to students that something important is being defined in the content.
+      </p>
+    </div>
+
+
+    <div class="adx-cue-notification">
+      <p>
+        A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The
+        <code>adx-cue-notification</code> cue is a subtle hint to students. </p>
+    </div>
+
+    <div class="adx-cue-attention">
+      <p>
+        The <code>adx-cue-attention</code> is a non-subtle cue that contains information that students
+        <strong>must</strong> address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students.
+      </p>
+    </div>
+
+    <div class="adx-cue-summary">
+      <p>
+        The<code>adx-cue-summary</code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.
+      </p>
+    </div>
+
+
+    <div class="adx-cue-reference">
+      <p>The <code>adx-cue-reference</code> cue is for a single or multiple references. These can be contained within a
+        <code>ul</code> or as
+        <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks.
+      </p>
+      <p>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009,
+        <a href="http://www.minister.infrastructure.gov.au/releases/2009" target="_blank" rel="noreferrer noopener">www.minister.infrastructure.gov.au/releases/2009</a>.
+      </p>
+      <ul>
+        <li>Albanese, A (Minister for Infrastructure, Transport, Regional Development and Local Government) 2009, Fairer compensation for air travellers, media release, 29 January, Department of Infrastructure, Transport, Regional Development and Local Government, Canberra, viewed 30 January 2009,
+          <a href="http://www.minister.infrastructure.gov.au/releases/2009" target="_blank" rel="noreferrer noopener">www.minister.infrastructure.gov.au/releases/2009</a>.
+        </li>
+        <li>Australian Government Publishing Service 1987, Commonwealth printing and publishing manual, 2nd edn, A.G.P.S., Canberra.</li>
+        <li>Australian Institute of Health and Welfare 2010, Child protection Australia 2008-09, Child welfare series no. 47. Cat. no. CWS 35, Australian Institute of Health and Welfare, Canberra, viewed 06 November 2012,
+          <a href="https://www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents" target="_blank" rel="noreferrer noopener">www.aihw.gov.au/reports/child-protection/child-protection-australia-2008-09/contents/table-of-contents</a>.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</template>
