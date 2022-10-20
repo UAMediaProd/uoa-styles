@@ -11,7 +11,11 @@
       <div class="flex flex-col w-full">
         <div class="flex justify-between bg-brand-darkblue text-white align-middle px-6 min-h-[70px]">
           <h3>UoA Styles</h3>
-          <a href="./assets/theme.css" target="_blank" rel="noreferrer noopener" class="my-auto font-bold text-sm">Stylesheet<i class="far fa-external-link ml-1" /></a>
+          <div class="my-auto font-bold text-sm">
+            <a href="./assets/theme.css" target="_blank" rel="noreferrer noopener" class="my-auto">Stylesheet<i class="far fa-external-link ml-1" /></a>
+            <span class="mx-4 my-auto border-r" />
+            <a href="https://adelaide.atlassian.net/wiki/spaces/LMP/overview?homepageId=221601" target="_blank" rel="noreferrer noopener" class="my-auto">Confluence<i class="far fa-external-link ml-1" /></a>
+          </div>
         </div>
         <div class="flex justify-end bg-brand-midblue text-white font-bold h-full">
           <RouterLink to="/" class="header-nav"><i class="fad fa-layer-group mr-1" /><span class="text-lg">Components</span></RouterLink>

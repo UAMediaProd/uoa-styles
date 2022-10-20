@@ -1,82 +1,32 @@
 <template>
   <div id="Cues" class="component-item">
     <h3>Cues</h3>
-    <h4 class="adx-markup-label">Cue Structure</h4>
+    <h4 class="adx-markup-label">{{ basicCues.title }}</h4>
 
-    <div class="adx-cue">
-      <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the
-        flow of the content on the page.</p>
-    </div>
-
-    <div class="adx-cue-left">
-      <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can
-        stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>
-    </div>
-
-    <div class="adx-cue-bordered">
-      <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>
-    </div>
-
-    <pre><code class="language-markup">&lt;!-- Cue with left border HTML Usage --&gt;
-&lt;div class="adx-cue"&gt;
-  &lt;p&gt;This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class="adx-cue-left"&gt;
-  &lt;p&gt;This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class="adx-cue-bordered"&gt;
-  &lt;p&gt;This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-
-    <h4 class="adx-markup-label">Cue Variants</h4>
-
-    <div class="adx-cue-note">
+    <div v-for="cue in basicCues.cues" :class="cue.class">
       <p>
-        The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the
-        <code>adx-cue-note</code> cue should be used if there is useful content on the page - items that students should note down or could be marked with an
-        <a href="https://en.wikipedia.org/wiki/Nota_bene#">N.B.</a>
+        {{ cue.textStart }}
+        <clipboard-code :data-to-copy="cue.class" />
+        {{ cue.textEnd }}
       </p>
     </div>
 
-    <div class="adx-cue-example">
+    <pre class="w-full"><code class="language-markup">{{ basicCuesHtmlComment }}{{ basicCuesHtml }}</code></pre>
+
+    <h4 class="adx-markup-label">{{ cueVariants.title }}</h4>
+
+    <div v-for="cue in cueVariants.cues" :class="cue.class">
       <p>
-        An example should use the
-        <code>adx-cue-example</code> cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself.
+        {{ cue.textStart }}
+        <clipboard-code :data-to-copy="cue.class" />
+        {{ cue.textEnd }}
       </p>
     </div>
-
-    <div class="adx-cue-definition">
-      <p>
-        When providing a definition for a specific term or concept you should use the
-        <code>adx-cue-definition</code> cue. This will provide a visual cue to students that something important is being defined in the content.
-      </p>
-    </div>
-
-
-    <div class="adx-cue-notification">
-      <p>
-        A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The
-        <code>adx-cue-notification</code> cue is a subtle hint to students. </p>
-    </div>
-
-    <div class="adx-cue-attention">
-      <p>
-        The <code>adx-cue-attention</code> is a non-subtle cue that contains information that students
-        <strong>must</strong> address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students.
-      </p>
-    </div>
-
-    <div class="adx-cue-summary">
-      <p>
-        The<code>adx-cue-summary</code> cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.
-      </p>
-    </div>
-
 
     <div class="adx-cue-reference">
-      <p>The <code>adx-cue-reference</code> cue is for a single or multiple references. These can be contained within a
+      <p>The
+        <clipboard-code data-to-copy="adx-cue-reference" />
+        cue is for a single or multiple references. These can be contained within a
         <code>ul</code> or as
         <code>p</code>. These are not resources for students to access, but rather to provide academic rigour to the content. Do not use this cue for readings or other student tasks.
       </p>
@@ -96,3 +46,79 @@
 
   </div>
 </template>
+
+<script setup>
+import ClipboardCode from '@/components/common/clipboardCode.vue'
+
+const basicCues = {
+  title: 'Basic Cues',
+  cues: [
+    {
+      class: 'adx-cue',
+      textStart: 'This is a basic cue, with no border. This',
+      textEnd: 'is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.',
+    },
+    {
+      class: 'adx-cue-left',
+      textStart: 'This is a basic cue, with a border on the left. This',
+      textEnd: 'is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.',
+    },
+    {
+      class: 'adx-cue-bordered',
+      textStart: 'This is a basic cue, with a border on the left and a surrounding border. This',
+      textEnd: 'is used as a top-tier hierarchy element to call extra attention to important information.',
+    },
+  ]
+}
+
+const basicCuesHtmlComment = '<!-- Basic Cues HTML Usage -->\n'
+
+const basicCuesHtml = '<div class="adx-cue">\n' +
+  '  <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.</p>\n' +
+  '</div>\n' +
+  '\n' +
+  '<div class="adx-cue-left">\n' +
+  '  <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>\n' +
+  '</div>\n' +
+  '\n' +
+  '<div class="adx-cue-bordered">\n' +
+  '  <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>\n' +
+  '</div>'
+
+const cueVariants = {
+  title: 'Cue Variants',
+  cues: [
+    {
+      class: 'adx-cue-note',
+      textStart: 'The note cue should be used to call out information on a page without breaking the flow of the readers attention. Using the',
+      textEnd: 'cue should be used if there is useful content on the page - items that students should note down or could be marked with an N.B. (Nota Bene).',
+    },
+    {
+      class: 'adx-cue-example',
+      textStart: 'An example should use the',
+      textEnd: 'cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself.',
+    },
+    {
+      class: 'adx-cue-definition',
+      textStart: 'When providing a definition for a specific term or concept you should use the',
+      textEnd: 'cue. This will provide a visual cue to students that something important is being defined in the content.',
+    },
+    {
+      class: 'adx-cue-notification',
+      textStart: 'A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The',
+      textEnd: 'cue is a subtle hint to students.',
+    },
+    {
+      class: 'adx-cue-attention',
+      textStart: 'The',
+      textEnd: 'is a non-subtle cue that contains information that students must address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students.',
+    },
+    {
+      class: 'adx-cue-summary',
+      textStart: 'The',
+      textEnd: 'cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.',
+    },
+  ]
+}
+
+</script>

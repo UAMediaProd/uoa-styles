@@ -10,13 +10,13 @@
       <div class="my-auto">
         <button class="adx-button">base</button>
       </div>
-      <pre><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
+      <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
     &lt;button class="adx-button"&gt;base&lt;/button&gt;</code></pre>
     </div>
 
     <div class="flex">
       <div class="my-auto"><a class="adx-button">base</a></div>
-      <pre><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
+      <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
     &lt;a class="adx-button"&gt;base&lt;/a&gt;</code></pre>
     </div>
 
@@ -32,7 +32,7 @@
       <button class="adx-button brand-midblue">midblue</button>
     </div>
 
-    <pre><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
     &lt;button class="adx-button brand-red"&gt;Click Me&lt;/button&gt;
     &lt;button class="adx-button primary"&gt;Click Me&lt;/button&gt;
     &lt;button class="adx-button accent"&gt;Click Me&lt;/button&gt;
@@ -47,7 +47,7 @@
       <a class="adx-button brand-midblue">Click Me</a>
     </div>
 
-    <pre><code class="language-markup">&lt;!-- Buttons using a link elements HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using a link elements HTML Usage --&gt;
     &lt;a class="adx-button brand-red"&gt;Click Me&lt;/a&gt;
     &lt;a class="adx-button primary"&gt;Click Me&lt;/a&gt;
     &lt;a class="adx-button accent"&gt;Click Me&lt;/a&gt;
@@ -64,7 +64,7 @@
       <li class="adx-button brand-midblue">Click Me</li>
     </ul>
 
-    <pre><code class="language-markup">&lt;!-- List button group HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- List button group HTML Usage --&gt;
     &lt;ul class="adx-button-group"&gt;
       &lt;li class="adx-button brand-midblue"&gt;Click Me&lt;/li&gt;
       &lt;li class="adx-button brand-midblue"&gt;Click Me&lt;/li&gt;
@@ -79,7 +79,7 @@
       <button class="adx-button primary">Click Me</button>
     </div>
 
-    <pre><code class="language-markup">&lt;!-- Div button group HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Div button group HTML Usage --&gt;
     &lt;div class="adx-button-group"&gt;
       &lt;button class="adx-button accent"&gt;Click Me&lt;/button&gt;
       &lt;button disabled class="adx-button complimentary disabled"&gt;You can't Click Me&lt;/button&gt;
@@ -94,7 +94,7 @@
       <p class="adx-button brand-red">Click Me</p>
     </div>
 
-    <pre><code class="language-markup">&lt;!-- Button stack HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Button stack HTML Usage --&gt;
     &lt;div class="adx-button-stack"&gt;
       &lt;p class="adx-button brand-red"&gt;Click Me&lt;/p&gt;
       &lt;p class="adx-button brand-red"&gt;Click Me&lt;/p&gt;

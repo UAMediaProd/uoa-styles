@@ -15,12 +15,22 @@
       <h6 class="my-10">Heading 6</h6>
     </div>
 
-    <pre><code class="language-markup">&lt;!-- Headings HTML Usage --&gt;
-    &lt;h1&gt;Heading 1&lt;/h1&gt;
-    &lt;h2&gt;Heading 2&lt;/h2&gt;
-    &lt;h3&gt;Heading 3&lt;/h3&gt;
-    &lt;h4&gt;Heading 4&lt;/h4&gt;
-    &lt;h5&gt;Heading 5&lt;/h5&gt;
-    &lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlCode" />
+      <pre class="w-full"><code class="language-markup">{{ htmlComment }}{{ htmlCode }}</code></pre>
+    </div>
   </div>
 </template>
+
+<script setup>
+import ClipboardButton from '@/components/common/clipboardButton.vue'
+
+const htmlComment = '<!-- Headings HTML Usage -->\n'
+
+const htmlCode = '<h1>Heading 1</h1>\n' +
+  '<h2>Heading 2</h2>\n' +
+  '<h3>Heading 3</h3>\n' +
+  '<h4>Heading 4</h4>\n' +
+  '<h5>Heading 5</h5>\n' +
+  '<h6>Heading 6</h6>'
+</script>

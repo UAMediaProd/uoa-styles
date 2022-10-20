@@ -17,7 +17,7 @@
 
     <br /><br />
 
-    <pre><code class="language-markup">&lt;!-- Keypoints Aside HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Keypoints Aside HTML Usage --&gt;
 &lt;aside class="adx keypoints"&gt;
   &lt;header&gt;
     &lt;h3&gt;Keypoints&lt;/h3&gt;
@@ -46,7 +46,7 @@
 
     <br />
 
-    <pre><code class="language-markup">&lt;!-- Left Aside HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Left Aside HTML Usage --&gt;
 &lt;aside class="adx left"&gt;
   &lt;p&gt;There are some really important things here:&lt;/p&gt;
   &lt;ul&gt;

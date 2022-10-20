@@ -26,4 +26,8 @@
   .adx-cue-reference a {
     @apply text-brand-midblue underline
   }
+
+  .clipboard-icon {
+    @apply text-2xl cursor-pointer my-auto ml-2 -mr-6 hover:opacity-100
+  }
 }

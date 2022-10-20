@@ -11,7 +11,6 @@
       <quotes />
       <images />
       <multimedia />
-      <banners />
       <lists />
       <tables />
       <navigation />
@@ -21,14 +20,12 @@
       <buttons />
       <dividers />
     </div>
-
   </div>
 </template>
 
 <script setup>
 
 import { onBeforeUnmount, onMounted, ref } from "vue"
-import { onBeforeRouteUpdate } from "vue-router"
 import Prism from "prismjs";
 import "prismjs/themes/prism.css"
 import 'prismjs/components/prism-markup-templating'
@@ -45,7 +42,6 @@ import Dividers from '@/components/dividers.vue'
 import Images from '@/components/images.vue'
 import Tables from '@/components/tables.vue'
 import Multimedia from '@/components/multimedia.vue'
-import Banners from '@/components/banners.vue'
 import Navigation from '@/components/navigation.vue'
 import Team from '@/components/team.vue'
 
@@ -57,7 +53,6 @@ const itemList = [
   'Quotes',
   'Images',
   'Multimedia',
-  'Banners',
   'Lists',
   'Tables',
   'Navigation',
@@ -125,10 +120,6 @@ onMounted(() => {
   renderPrism()
   syncSideMenu()
 
-})
-
-onBeforeRouteUpdate(() => {
-  renderPrism()
 })
 
 onBeforeUnmount(() => {

@@ -12,7 +12,7 @@
       <li>Meditation cray snackwave raw denim thundercats banh mi. XOXO pour-over unicorn bushwick YOLO brunch. Flexitarian direct trade hammock cloud bread art party occupy. Slow-carb glossier literally thundercats truffaut, church-key quinoa tousled. Pour-over asymmetrical brooklyn narwhal, hell of waistcoat 8-bit irony.</li>
     </ol>
 
-    <pre><code class="language-markup">&lt;!-- Fancy ordered list HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Fancy ordered list HTML Usage --&gt;
 &lt;ol class="fancy-ol"&gt;
   &lt;li&gt;Gather your ingredients&lt;/li&gt;
   &lt;li&gt;Pour all the ingreients into a bowl&lt;/li&gt;
@@ -33,7 +33,7 @@
       <li>Meditation cray snackwave raw denim thundercats banh mi. XOXO pour-over unicorn bushwick YOLO brunch. Flexitarian direct trade hammock cloud bread art party occupy. Slow-carb glossier literally thundercats truffaut, church-key quinoa tousled. Pour-over asymmetrical brooklyn narwhal, hell of waistcoat 8-bit irony.</li>
     </ul>
 
-    <pre><code class="language-markup">&lt;!-- Stepped list HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Stepped list HTML Usage --&gt;
 &lt;ul class="step-list"&gt;
   &lt;li class="step-2"&gt;Gather your ingredients&lt;/li&gt;
   &lt;li&gt;Pour all the ingreients into a bowl&lt;/li&gt;

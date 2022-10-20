@@ -3,14 +3,10 @@
     <h3>Dividers &amp; Signposts</h3>
     <h4 class="adx-markup-label">Horizontal Rule</h4>
 
-    <hr class="adx-gradient-primary">
-    <hr class="adx-gradient-accent">
-    <hr class="adx-gradient-complimentary">
+    <hr class="adx-gradient-brand-midblue">
 
-    <pre><code class="language-markup">&lt;!-- Horizontal rules HTML Usage --&gt;
-    &lt;hr class="adx-gradient-primary"&gt;
-    &lt;hr class="adx-gradient-accent"&gt;
-    &lt;hr class="adx-gradient-complimentary"&gt;</code></pre>
+    <pre class="w-full"><code class="language-markup">&lt;!-- Horizontal rules HTML Usage --&gt;
+    &lt;hr class="adx-gradient-brand-midblue"&gt;</code></pre>
 
     <h4 class="adx-markup-label">Subsection</h4>
 
@@ -21,7 +17,7 @@
       </ul>
     </nav>
 
-    <pre><code class="language-markup">&lt;!-- Custom subsection navigation HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Custom subsection navigation HTML Usage --&gt;
     &lt;nav&gt;
       &lt;ul class="adx-subsection"&gt;
         &lt;li&gt;&lt;a href="#"&gt;Section Name&lt;/a&gt;&lt;/li&gt;
@@ -41,7 +37,7 @@
       </ul>
     </nav>
 
-    <pre><code class="language-markup">&lt;!-- Sequenced navigation element HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Sequenced navigation element HTML Usage --&gt;
     &lt;nav class="adx-sequence"&gt;
       &lt;ul class=""&gt;
         &lt;li class="complete"&gt;Step 1&lt;/li&gt;

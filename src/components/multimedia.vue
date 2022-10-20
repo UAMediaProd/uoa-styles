@@ -14,7 +14,7 @@
       </footer>
     </section>
 
-    <pre><code class="language-markup">&lt;!-- Video callout box HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Video callout box HTML Usage --&gt;
     &lt;section class="adx video"&gt;
       &lt;div class="videoWrapper"&gt;
         &lt;iframe title="YouTube video player" src="https://www.youtube.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"&gt;&lt;/iframe&gt;
@@ -39,7 +39,7 @@
       </audio>
     </section>
 
-    <pre><code class="language-markup">&lt;!-- Square podcast HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Square podcast HTML Usage --&gt;
     &lt;section class="adx-podcast-square"&gt;
       &lt;div class="adx-aspect square adx-bg-primary"&gt;
         &lt;img src="image.png" alt="" class="center-center"&gt;
@@ -63,7 +63,7 @@
       </audio>
     </section>
 
-    <pre><code class="language-markup">&lt;!-- Wide podcast player HTML Usage --&gt;
+    <pre class="w-full"><code class="language-markup">&lt;!-- Wide podcast player HTML Usage --&gt;
     &lt;section class="adx-podcast-wide"&gt;
       &lt;div class="track"&gt;
         &lt;h3&gt;Track Title Goes Here&lt;/h3&gt;
