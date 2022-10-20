@@ -1,7 +1,7 @@
 @import "https://mediaproduction.adelaide.edu.au/uoa-styles/assets/theme.css";
 
-html, body {
-  font-size: 16px;
+body {
+  font-size: 18px;
   font-family: 'Made Evolve Sans', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;

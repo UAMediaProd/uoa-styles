@@ -15,12 +15,12 @@
     @apply bg-gray-100 min-w-[195px] overflow-y-auto
   }
 
-  #components-main {
+  #components-main, #colours-main {
     @apply w-full max-w-[1500px] overflow-y-auto py-4 px-6 mx-auto
   }
 
   .component-item {
-    @apply pb-16
+    @apply pb-12
   }
 
   .adx-cue-reference a {
