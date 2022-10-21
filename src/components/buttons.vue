@@ -7,55 +7,31 @@
     <h4 class="adx-markup-label">Base Buttons</h4>
 
     <div class="flex">
-      <div class="my-auto">
-        <button class="adx-button">base</button>
+      <div class="my-auto min-w-[175px]">
+        <button class="adx-button w-full">base</button>
       </div>
-      <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
-    &lt;button class="adx-button"&gt;base&lt;/button&gt;</code></pre>
+      <div class="adx-cue w-full">
+        <p>Use HTML class
+          <clipboard-code data-to-copy="adx-button" />
+        </p>
+      </div>
     </div>
-
-    <div class="flex">
-      <div class="my-auto"><a class="adx-button">base</a></div>
-      <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
-    &lt;a class="adx-button"&gt;base&lt;/a&gt;</code></pre>
-    </div>
-
 
     <h4 class="adx-markup-label">Button Variations</h4>
-
     <p>To add colour, add the <code>colour</code> reference class.</p>
-    <div class="grid-4">
-      <button class="adx-button brand-red">brand-red</button>
-      <button class="adx-button primary">primary</button>
-      <button class="adx-button accent">accent</button>
-      <button class="adx-button complimentary">complimentary</button>
-      <button class="adx-button brand-midblue">midblue</button>
+
+    <div v-for="buttonClass in buttonVariations" class="flex">
+      <div class="my-auto min-w-[175px]">
+        <button class="w-full" :class="buttonClass">{{ buttonClass.split(' ')[1] }}</button>
+      </div>
+      <div class="adx-cue w-full">
+        <p>Use HTML class
+          <clipboard-code :data-to-copy="buttonClass" />
+        </p>
+      </div>
     </div>
-
-    <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using button elements HTML Usage --&gt;
-    &lt;button class="adx-button brand-red"&gt;Click Me&lt;/button&gt;
-    &lt;button class="adx-button primary"&gt;Click Me&lt;/button&gt;
-    &lt;button class="adx-button accent"&gt;Click Me&lt;/button&gt;
-    &lt;button class="adx-button complimentary"&gt;Click Me&lt;/button&gt;
-    &lt;button class="adx-button brand-midblue"&gt;Click Me&lt;/button&gt;</code></pre>
-
-    <div class="grid-4">
-      <a class="adx-button brand-red">Click Me</a>
-      <a class="adx-button primary">Click Me</a>
-      <a class="adx-button accent">Click Me</a>
-      <a class="adx-button complimentary">Click Me</a>
-      <a class="adx-button brand-midblue">Click Me</a>
-    </div>
-
-    <pre class="w-full"><code class="language-markup">&lt;!-- Buttons using a link elements HTML Usage --&gt;
-    &lt;a class="adx-button brand-red"&gt;Click Me&lt;/a&gt;
-    &lt;a class="adx-button primary"&gt;Click Me&lt;/a&gt;
-    &lt;a class="adx-button accent"&gt;Click Me&lt;/a&gt;
-    &lt;a class="adx-button complimentary"&gt;Click Me&lt;/a&gt;
-    &lt;a class="adx-button brand-midblue"&gt;Click Me&lt;/a&gt;</code></pre>
 
     <h4 class="adx-markup-label">Button groups</h4>
-
     <p>Button groups can be made from an <code>ul</code> and <code>li</code> elements,</p>
 
     <ul class="adx-button-group">
@@ -64,12 +40,10 @@
       <li class="adx-button brand-midblue">Click Me</li>
     </ul>
 
-    <pre class="w-full"><code class="language-markup">&lt;!-- List button group HTML Usage --&gt;
-    &lt;ul class="adx-button-group"&gt;
-      &lt;li class="adx-button brand-midblue"&gt;Click Me&lt;/li&gt;
-      &lt;li class="adx-button brand-midblue"&gt;Click Me&lt;/li&gt;
-      &lt;li class="adx-button brand-midblue"&gt;Click Me&lt;/li&gt;
-    &lt;/ul&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="group.html" />
+      <pre class="w-full"><code class="language-markup">{{ group.comment }}{{ group.html }}</code></pre>
+    </div>
 
     <p>Or from <code>divs</code> and <code>p</code> tags,</p>
 
@@ -79,14 +53,15 @@
       <button class="adx-button primary">Click Me</button>
     </div>
 
-    <pre class="w-full"><code class="language-markup">&lt;!-- Div button group HTML Usage --&gt;
-    &lt;div class="adx-button-group"&gt;
-      &lt;button class="adx-button accent"&gt;Click Me&lt;/button&gt;
-      &lt;button disabled class="adx-button complimentary disabled"&gt;You can't Click Me&lt;/button&gt;
-      &lt;button class="adx-button primary"&gt;Click Me&lt;/button&gt;
-    &lt;/div&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="disabled.html" />
+      <pre class="w-full"><code class="language-markup">{{ disabled.comment }}{{ disabled.html }}</code></pre>
+    </div>
 
-    <p>And you can arrange them in a stack using <code>.adx-button-stack</code>.</p>
+    <p>And you can arrange them in a stack using class
+      <clipboard-code data-to-copy="adx-button-stack" />
+      .
+    </p>
 
     <div class="adx-button-stack">
       <p class="adx-button brand-red">Click Me</p>
@@ -94,11 +69,50 @@
       <p class="adx-button brand-red">Click Me</p>
     </div>
 
-    <pre class="w-full"><code class="language-markup">&lt;!-- Button stack HTML Usage --&gt;
-    &lt;div class="adx-button-stack"&gt;
-      &lt;p class="adx-button brand-red"&gt;Click Me&lt;/p&gt;
-      &lt;p class="adx-button brand-red"&gt;Click Me&lt;/p&gt;
-      &lt;p class="adx-button brand-red"&gt;Click Me&lt;/p&gt;
-    &lt;/div&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="stack.html" />
+      <pre class="w-full"><code class="language-markup">{{ stack.comment }}{{ stack.html }}</code></pre>
+    </div>
   </div>
 </template>
+
+<script setup>
+import ClipboardButton from '@/components/common/clipboardButton.vue'
+import ClipboardCode from '@/components/common/clipboardCode.vue'
+
+const buttonVariations = [
+  'adx-button brand-red',
+  'adx-button primary',
+  'adx-button accent',
+  'adx-button complimentary',
+  'adx-button brand-midblue'
+]
+
+const group = {
+  comment: '<!-- List button group HTML Usage -->\n',
+  html: '<ul class="adx-button-group">\n' +
+    '  <li class="adx-button brand-midblue">Click Me</li>\n' +
+    '  <li class="adx-button brand-midblue">Click Me</li>\n' +
+    '  <li class="adx-button brand-midblue">Click Me</li>\n' +
+    '</ul>'
+}
+
+const disabled = {
+  comment: '<!-- Div button group with disabled button HTML Usage -->\n',
+  html: '<div class="adx-button-group">\n' +
+    '  <button class="adx-button accent">Click Me</button>\n' +
+    '  <button disabled class="adx-button complimentary disabled">You can\'t Click Me</button>\n' +
+    '  <button class="adx-button primary">Click Me</button>\n' +
+    '</div>'
+}
+
+const stack = {
+  comment: '<!-- Button stack HTML Usage -->\n',
+  html: '<div class="adx-button-stack">\n' +
+    '  <p class="adx-button brand-red">Click Me</p>\n' +
+    '  <p class="adx-button brand-red">Click Me</p>\n' +
+    '  <p class="adx-button brand-red">Click Me</p>\n' +
+    '</div>'
+}
+
+</script>

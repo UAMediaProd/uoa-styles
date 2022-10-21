@@ -1,7 +1,7 @@
 <template>
   <div id="Multimedia" class="component-item">
     <h3>Multimedia</h3>
-    <h4 class="adx-markup-label">Video Player</h4>
+    <h4 class="adx-markup-label">Video Player with Transcript</h4>
 
     <section class="adx video">
       <div class="videoWrapper">
@@ -14,17 +14,24 @@
       </footer>
     </section>
 
-    <pre class="w-full"><code class="language-markup">&lt;!-- Video callout box HTML Usage --&gt;
-    &lt;section class="adx video"&gt;
-      &lt;div class="videoWrapper"&gt;
-        &lt;iframe title="YouTube video player" src="https://www.youtube.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"&gt;&lt;/iframe&gt;
-      &lt;/div&gt;
-      &lt;footer&gt;
-        &lt;div class="v-icon-holder"&gt;
-          &lt;a href="#" class="adx-icon download"&gt;Transcript [.txt]&lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/footer&gt;
-    &lt;/section&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlData.videoTranscript.code" />
+      <pre class="w-full"><code class="language-markup">{{ htmlData.videoTranscript.comment }}{{ htmlData.videoTranscript.code }}</code></pre>
+    </div>
+
+
+    <h4 class="adx-markup-label">Video Player without Transcript</h4>
+
+    <section class="adx video">
+      <div class="videoWrapper">
+        <iframe title="YouTube video player" src="https://www.youtube.com/embed/PR269o7s66M" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+    </section>
+
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlData.videoOnly.code" />
+      <pre class="w-full"><code class="language-markup">{{ htmlData.videoOnly.comment }}{{ htmlData.videoOnly.code }}</code></pre>
+    </div>
 
 
     <h4 class="adx-markup-label">Podcast Square</h4>
@@ -39,16 +46,10 @@
       </audio>
     </section>
 
-    <pre class="w-full"><code class="language-markup">&lt;!-- Square podcast HTML Usage --&gt;
-    &lt;section class="adx-podcast-square"&gt;
-      &lt;div class="adx-aspect square adx-bg-primary"&gt;
-        &lt;img src="image.png" alt="" class="center-center"&gt;
-      &lt;/div&gt;
-      &lt;h3&gt;Track Title Goes Here&lt;/h3&gt;
-      &lt;p&gt;Some track details go here.&lt;/p&gt;
-      &lt;audio controls src=""&gt;
-      &lt;/audio&gt;
-    &lt;/section&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlData.podcastSquare.code" />
+      <pre class="w-full"><code class="language-markup">{{ htmlData.podcastSquare.comment }}{{ htmlData.podcastSquare.code }}</code></pre>
+    </div>
 
     <h4 class="adx-markup-label">Podcast Wide Player</h4>
     <section class="adx-podcast-wide">
@@ -63,17 +64,64 @@
       </audio>
     </section>
 
-    <pre class="w-full"><code class="language-markup">&lt;!-- Wide podcast player HTML Usage --&gt;
-    &lt;section class="adx-podcast-wide"&gt;
-      &lt;div class="track"&gt;
-        &lt;h3&gt;Track Title Goes Here&lt;/h3&gt;
-        &lt;p&gt;Some track details go here.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="adx-aspect square adx-bg-primary art"&gt;
-        &lt;img src="image.png" alt="" class="center-center"&gt;
-      &lt;/div&gt;
-      &lt;audio controls src=""&gt;
-      &lt;/audio&gt;
-    &lt;/section&gt;</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlData.podcastWide.code" />
+      <pre class="w-full"><code class="language-markup">{{ htmlData.podcastWide.comment }}{{ htmlData.podcastWide.code }}</code></pre>
+    </div>
   </div>
 </template>
+
+<script setup>
+import ClipboardButton from '@/components/common/clipboardButton.vue'
+
+const htmlData = {
+  videoTranscript: {
+    comment: '<!-- Video with Transcript box HTML Usage -->\n',
+    code: '<section class="adx video">\n' +
+      '  <div class="videoWrapper">\n' +
+      '    <iframe title="YouTube video player" src="https://www.youtube.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>\n' +
+      '  </div>\n' +
+      '  <footer>\n' +
+      '    <div class="v-icon-holder">\n' +
+      '      <a href="#" class="adx-icon download">Transcript [.txt]</a>\n' +
+      '    </div>\n' +
+      '  </footer>\n' +
+      '</section>'
+  },
+  videoOnly: {
+    comment: '<!-- Video without Transcript box HTML Usage -->\n',
+    code: '<section class="adx video">\n' +
+      '  <div class="videoWrapper">\n' +
+      '    <iframe title="YouTube video player" src="https://www.youtube.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>\n' +
+      '  </div>\n' +
+      '</section>'
+  },
+  podcastSquare: {
+    comment: '<!-- Square podcast HTML Usage -->\n',
+    code: '<section class="adx-podcast-square">\n' +
+      '  <div class="adx-aspect square adx-bg-primary">\n' +
+      '    <img src="../assets/images/diff-square.jpg" alt="" class="center-center">\n' +
+      '  </div>\n' +
+      '  <h3>Track Title Goes Here</h3>\n' +
+      '  <p>Some track details go here.</p>\n' +
+      '  <audio controls src="">\n' +
+      '  </audio>\n' +
+      '</section>'
+  },
+  podcastWide: {
+    comment: '<!-- Wide podcast player HTML Usage -->\n',
+    code: '<section class="adx-podcast-wide">\n' +
+      '  <div class="track">\n' +
+      '    <h3>Track Title Goes Here</h3>\n' +
+      '    <p>Some track details go here.</p>\n' +
+      '  </div>\n' +
+      '  <div class="adx-aspect square adx-bg-primary art">\n' +
+      '    <img src="../assets/images/diff-square.jpg" alt="" class="center-center">\n' +
+      '  </div>\n' +
+      '  <audio controls src="">\n' +
+      '  </audio>\n' +
+      '</section>'
+  },
+}
+
+</script>
