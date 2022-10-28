@@ -6798,6 +6798,12 @@ hr.adx-gradient-accent {
   height: 3px;
   background-image: linear-gradient(to right, #fff, #7356C5, #63E33B, #7356C5, #fff);
 }
+hr.adx-gradient-brand-midblue {
+  margin: 1.728rem 0;
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, #fff, #669cc4, #005a9c, #669cc4, #fff);
+}
 
 nav ul.adx-subsection {
   max-width: 100%;
