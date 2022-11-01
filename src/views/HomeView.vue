@@ -3,22 +3,24 @@
     <aside id="components-side-nav">
       <div v-for="item in itemInViewportStates" :id="`${item.id}-menu`" class="text-[1rem] text-slate-500 py-3 pl-6 mb-1 cursor-pointer" :class="item.state ? 'text-brand-midblue-dark font-bold bg-gray-200 border-l-4 border-brand-red' : ''" @click="scrollToItem(item.id)">{{ item.id }}</div>
     </aside>
-    <div id="components-main" class="adx" @scroll="syncSideMenu">
-      <headings />
-      <directions />
-      <cues />
-      <personas />
-      <quotes />
-      <images />
-      <multimedia />
-      <lists />
-      <tables />
-      <navigation />
-      <team />
-      <definitions />
-      <asides />
-      <buttons />
-      <dividers />
+    <div id="components-main" @scroll="syncSideMenu">
+      <div id="components-wrapper" class="adx">
+        <headings />
+        <directions />
+        <cues />
+        <personas />
+        <quotes />
+        <images />
+        <multimedia />
+        <lists />
+        <tables />
+        <navigation />
+        <team />
+        <definitions />
+        <asides />
+        <buttons />
+        <dividers />
+      </div>
     </div>
   </div>
 </template>

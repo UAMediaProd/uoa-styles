@@ -2,10 +2,10 @@
   <div id="Asides" class="component-item">
     <h3>Asides</h3>
 
-    <div v-for="item in htmlData">
+    <div v-for="(item, index) in htmlData">
       <h4 class="adx-markup-label">{{ item.name }}</h4>
       <div v-html="item.aside + item.paragraph"></div>
-      <br /><br /><br />
+      <br v-for="n in (3 - index)" />
 
       <div class="flex">
         <clipboard-button :data-to-copy="item.aside" />

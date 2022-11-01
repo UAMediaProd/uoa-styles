@@ -16,7 +16,11 @@
   }
 
   #components-main, #colours-main {
-    @apply w-full max-w-[1500px] overflow-y-auto py-4 px-6 mx-auto
+    @apply w-full overflow-y-auto py-4 px-6
+  }
+
+  #components-wrapper, #colours-wrapper {
+    @apply max-w-[1440px] mx-auto
   }
 
   .component-item {

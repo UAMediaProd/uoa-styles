@@ -35,7 +35,7 @@
 
     <aside class="adx image">
       <figure>
-        <img src="../assets/images/dog-unsplash.jpg" alt="" class="top">
+        <img src="../assets/images/dog-unsplash.jpg" alt="" class="top max-h-[240px]">
         <figcaption>
           <strong>Figure 1.3: </strong>Good doggo<br />
           <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>

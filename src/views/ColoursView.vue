@@ -1,11 +1,13 @@
 <template>
   <div id="colours-main">
-    <div class="adx"><h3>Colour Palettes</h3></div>
-    <div v-for="palette in colourPalettes" class="mb-6">
-      <h4 class="adx-markup-label">{{ palette.name }} Colours</h4>
-      <div class="colour-samples grid-4 w-[70vw]">
-        <div v-for="colour in palette.colours" class="colour-items">
-          <div v-for="item in palette.items" class="min-h-[42px]" :class="getColourClass(colour, item)">{{ getColourDisplay(colour, item) }}</div>
+    <div id="colours-wrapper">
+      <div class="adx"><h3>Colour Palettes</h3></div>
+      <div v-for="palette in colourPalettes" class="mb-6">
+        <h4 class="adx-markup-label">{{ palette.name }} Colours</h4>
+        <div class="colour-samples grid-4 w-full">
+          <div v-for="colour in palette.colours" class="colour-items">
+            <div v-for="item in palette.items" class="min-h-[42px]" :class="getColourClass(colour, item)">{{ getColourDisplay(colour, item) }}</div>
+          </div>
         </div>
       </div>
     </div>
