@@ -11,7 +11,10 @@
       </p>
     </div>
 
-    <pre class="w-full"><code class="language-markup">{{ basicCuesHtmlComment }}{{ basicCuesHtml }}</code></pre>
+    <div class="flex">
+      <clipboard-button :data-to-copy="basicCuesHtml" />
+      <pre class="w-full"><code class="language-markup">{{ basicCuesHtmlComment }}{{ basicCuesHtml }}</code></pre>
+    </div>
 
     <h4 class="adx-markup-label">{{ cueVariants.title }}</h4>
 
@@ -48,6 +51,7 @@
 </template>
 
 <script setup>
+import ClipboardButton from '@/components/common/clipboardButton.vue'
 import ClipboardCode from '@/components/common/clipboardCode.vue'
 
 const basicCues = {
@@ -75,14 +79,6 @@ const basicCuesHtmlComment = '<!-- Basic Cues HTML Usage -->\n'
 
 const basicCuesHtml = '<div class="adx-cue">\n' +
   '  <p>This is a basic cue, with no border. This is used as a low-tier hierarchy element and contains extra information inside the flow of the content on the page.</p>\n' +
-  '</div>\n' +
-  '\n' +
-  '<div class="adx-cue-left">\n' +
-  '  <p>This is a basic cue, with a border on the left. This is used as a mid-tier hierarchy element inside the flow of content but can stand alone as a key point to draw the eye and interrupt the reading eyeline motion.</p>\n' +
-  '</div>\n' +
-  '\n' +
-  '<div class="adx-cue-bordered">\n' +
-  '  <p>This is a basic cue, with a border on the left and a surrounding border. This is used as a top-tier hierarchy element to call extra attention to important information.</p>\n' +
   '</div>'
 
 const cueVariants = {
