@@ -4382,7 +4382,8 @@ h6 {
   padding: 0.5em;
   background-color: #102535;
   border-radius: 0.08em;
-  color: #fff;
+  color: #f1f1f1f1;
+  letter-spacing: 0.03em;
 }
 
 .adx h3 i {
@@ -4540,7 +4541,7 @@ a.external > span img {
   background: #f8f9f9;
   padding: 1rem 1.728rem;
   max-width: 90ch;
-  margin: 1rem auto;
+  margin: 1rem auto 2.5rem auto;
 }
 .adx .adx-cue-top {
   border-top: 1rem solid #B9C0C6;
@@ -7383,6 +7384,8 @@ figure.adx cite a:hover {
 .adx table.adx th, .adx table.adx td {
   text-align: left;
   padding: 0.694rem 0.694rem !important;
+  font-family: 'Arial',sans-serif;
+  vertical-align: top;
 }
 .adx table.adx td p, .adx table.adx th p {
   margin: 0;
@@ -7440,7 +7443,6 @@ figure.adx cite a:hover {
 }
 .adx table.adx th {
   background: #005a9c;
-  text-align: center;
   color: #FFF;
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
 }
@@ -8260,6 +8262,7 @@ section.adx-podcast-wide audio {
 */
 .adx.kl_wrapper > div {
   overflow: visible !important;
+  margin-bottom: 1.25em;
 }
 
 .adx .kl_quick_check {
