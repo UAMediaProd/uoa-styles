@@ -5921,6 +5921,12 @@ ul.block-list li:last-child {
   border-bottom: none;
 }
 
+ul.fancy-ul li{
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #B9C0C6;
+  margin-left: 1rem;
+}
+
 ol.fancy-ol {
   list-style-type: none !important;
   background: #eeeff1;
