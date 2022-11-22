@@ -100,6 +100,11 @@ const cueVariants = {
       textEnd: 'cue. This will provide a visual cue to students that something important is being defined in the content.',
     },
     {
+      class: 'adx-cue-phil-toolkit',
+      textStart: 'The',
+      textEnd: 'cue is there to call out content that is used to call out specific re-usable concepts in your "philosophical toolkit" used in the Introduction to Health Ethics course',
+    },
+    {
       class: 'adx-cue-notification',
       textStart: 'A notification should be used to notify the student of the information contained within the cue box. This might be to nudge students to complete certain tasks or activities, that there is an upcoming assessment or interactive session. The',
       textEnd: 'cue is a subtle hint to students.',
@@ -114,6 +119,7 @@ const cueVariants = {
       textStart: 'The',
       textEnd: 'cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.',
     },
+
   ]
 }
 
