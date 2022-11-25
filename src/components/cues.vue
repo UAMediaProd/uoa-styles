@@ -115,6 +115,11 @@ const cueVariants = {
       textEnd: 'is a non-subtle cue that contains information that students must address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students.',
     },
     {
+      class: 'adx-cue-content-warning',
+      textStart: 'The',
+      textEnd: 'is an obvious cue that contains a warning about possibly sensitive content. This might be used to warn students about content that may be upsetting or distressing, or content that may be triggering for students with a history of trauma.',
+    },
+    {
       class: 'adx-cue-summary',
       textStart: 'The',
       textEnd: 'cue is there to call out content that is a summary of prior content or learning. Use it to wrap up a lesson, module or course or to reintroduce content learnt earlier in the course or in a previous course.',
