@@ -7410,10 +7410,10 @@ figure.adx cite a:hover {
 .adx table.adx th {
   background: #005a9c;
   color: #FFF;
-  font-family: "made_evolve_sans_bold", Arial, sans-serif;
 }
 .adx table.adx th p {
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
+  font-weight: normal;
 }
 .adx table.adx th li {
   font-family: "made_evolve_sans_regular", Arial, sans-serif;
