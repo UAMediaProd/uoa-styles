@@ -21,7 +21,7 @@
     <figure class="w40" style="margin: auto;text-align: center;">
       <img src="../assets/images/adam-miller-unsplash.jpg" alt="" class="top">
       <figcaption>
-        <strong>Figure 1.2: </strong>Astronaut with its width set to 40%.<br />
+        <strong>Figure 1.2:</strong> Astronaut with its width set to 40%.<br />
         <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
       </figcaption>
     </figure>
@@ -37,7 +37,7 @@
       <figure>
         <img src="../assets/images/dog-unsplash.jpg" alt="" class="top max-h-[240px]">
         <figcaption>
-          <strong>Figure 1.3: </strong>Good doggo<br />
+          <strong>Figure 1.3:</strong> Good doggo<br />
           <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
         </figcaption>
       </figure>
@@ -61,7 +61,7 @@
         <img src="../assets/images/persona.jpg" alt="" class="top">
       </figure>
       <figcaption>
-        <strong>Figure 1.4: </strong>Two images side-by-side<br />
+        <strong>Figure 1.4:</strong> Two images side-by-side<br />
         <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
       </figcaption>
     </section>
@@ -76,7 +76,7 @@
     <figure class="w60" style="margin: auto;text-align: center;">
       <img src="../assets/images/brand-eg.png" alt="" class="top">
       <figcaption>
-        <strong>Figure 1.4: </strong>Uses the w60 task to set the width to 60%.<br />
+        <strong>Figure 1.4:</strong> Uses the w60 task to set the width to 60%.<br />
         <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
       </figcaption>
     </figure>
@@ -96,7 +96,7 @@ const figureHtml = {
   w80: '<figure class="w80" style="margin: auto;text-align: center;">\n' +
     '  <img src="image.png" alt="" class="top">\n' +
     '  <figcaption>\n' +
-    '    <strong>Figure 1.1: </strong>This is one hell of a rocket with its width set to 80%.<br />\n' +
+    '    <strong>Figure 1.1:</strong> This is one hell of a rocket with its width set to 80%.<br />\n' +
     '    <em><a href="http://www.unsplash.com/" target="_blank" >http://www.unsplash.com/</a></em>\n' +
     '  </figcaption>\n' +
     '</figure>',
@@ -104,7 +104,7 @@ const figureHtml = {
   w40: '<figure class="w40" style="margin: auto;text-align: center;">\n' +
     '  <img src="image.png" alt="" class="top">\n' +
     '  <figcaption>\n' +
-    '    <strong>Figure 1.2: </strong>Astronaut with its width set to 40%.<br />\n' +
+    '    <strong>Figure 1.2:</strong> Astronaut with its width set to 40%.<br />\n' +
     '    <em><a href="http://www.unsplash.com/" target="_blank" >http://www.unsplash.com/</a></em>\n' +
     '  </figcaption>\n' +
     '</figure>',
@@ -113,7 +113,7 @@ const figureHtml = {
     '  <figure>\n' +
     '    <img src="image.png" alt="" class="top">\n' +
     '    <figcaption>\n' +
-    '      <strong>Figure 1.3: </strong>Good doggo<br />\n' +
+    '      <strong>Figure 1.3:</strong> Good doggo<br />\n' +
     '      <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
     '    </figcaption>\n' +
     '  </figure>\n' +
@@ -128,7 +128,7 @@ const figureHtml = {
     '    <img src="image.png" alt="" class="top">\n' +
     '  </figure>\n' +
     '  <figcaption>\n' +
-    '    <strong>Figure 1.4: </strong>Two images side-by-side<br />\n' +
+    '    <strong>Figure 1.4:</strong> Two images side-by-side<br />\n' +
     '    <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
     '  </figcaption>\n' +
     '</section>',
@@ -136,7 +136,7 @@ const figureHtml = {
   small: '<figure class="w60" style="margin: auto;text-align: center;">\n' +
     '  <img src="../assets/images/brand-eg.png" alt="" class="top">\n' +
     '  <figcaption>\n' +
-    '    <strong>Figure 1.4: </strong>Uses the w60 task to set the width to 60%.<br />\n' +
+    '    <strong>Figure 1.4:</strong> Uses the w60 task to set the width to 60%.<br />\n' +
     '    <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
     '  </figcaption>\n' +
     '</figure>'
