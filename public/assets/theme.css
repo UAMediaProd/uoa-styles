@@ -4362,7 +4362,10 @@
 }
 
 .adx p {
-  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  letter-spacing: -0.02rem;
 }
 
 .adx h1,
