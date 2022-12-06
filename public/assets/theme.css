@@ -4360,6 +4360,11 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.adx p {
+  font-family: Arial, sans-serif;
+}
+
 .adx h1,
 .adx h2,
 .adx h3 {
