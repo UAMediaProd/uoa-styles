@@ -112,7 +112,7 @@ const cueVariants = {
     {
       class: 'adx-cue-attention',
       textStart: 'The',
-      textEnd: 'is a non-subtle cue that contains information that students must address. This might be useful to flag upcoming events, due dates, important tasks and reminders for students.',
+      textEnd: 'is a non-subtle cue that contains information that students must address or is of the utmost importance they take on. This might be useful to flag upcoming events, due dates, important tasks and reminders for students, or key content that is critical.',
     },
     {
       class: 'adx-cue-content-warning',
