@@ -5536,9 +5536,7 @@ code {
 }
 .adx blockquote > * {
   max-width: 75ch;
-  font-size: 1.44rem;
   font-family: "Arial", sans-serif;
-  line-height: 1.4;
 }
 .adx blockquote cite {
   display: block;
@@ -5560,7 +5558,7 @@ code {
 }
 .adx blockquote.fancyquote p {
   font-family: "Book Antiqua Regular", "Georgia", "Times New Roman", serif;
-  font-size: 1.728rem;
+  font-size: 1.3rem;
 }
 .adx blockquote.pullquote-right {
   margin: 1rem 0 1rem 1rem;
