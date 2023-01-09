@@ -4566,7 +4566,7 @@ a.external > span img {
 }
 .adx .adx-cue-reference ul {
   list-style: none;
-  padding-left: 2ch;
+  padding-left: 0;
 }
 .adx .adx-cue-reference:before {
   content: "references";
