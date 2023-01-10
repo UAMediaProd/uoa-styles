@@ -4401,6 +4401,8 @@
 .adx h4:not(.adx-markup-label) {
   color: #005a9c;
   font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
 }
 
 .adx li {
@@ -8234,9 +8236,7 @@ section.adx-podcast-wide audio {
   background-image: linear-gradient(to bottom, white, #e6e6e6);
   border-bottom-color: #bbb;
 }
-.adx .kl_panels_wrapper.ui-accordion .ui-accordion-content p {
-  margin: 12px 0;
-}
+
 .adx .kl_panels_wrapper .ui-accordion-header,
 .adx .kl_wrapper .ui-accordion-header {
   background: white;
@@ -8547,4 +8547,7 @@ section.adx-podcast-wide audio {
 }
 .glance-content .external_link_icon {
   display: none !important;
+}
+.adx li p {
+  margin: 0;
 }
