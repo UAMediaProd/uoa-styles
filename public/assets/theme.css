@@ -8187,7 +8187,7 @@ section.adx-podcast-wide audio {
 
 */
 .adx.kl_wrapper > div {
-  overflow: visible !important;
+  /*overflow: visible !important;*/
   margin-bottom: 1.25em;
 }
 
@@ -8552,6 +8552,26 @@ section.adx-podcast-wide audio {
 .adx li p {
   margin: 0;
 }
+
+/*CIDILabs overrides */
+
 .kl_wrapper ul {
   padding-left: 12px;
 }
+
+.adx .kl_message_block.kl_message_block_tip {
+  border-color: #102535 !important;
+}
+
+.adx .kl_message_heading.kl_message_heading_tip {
+  background: #102535 !important;
+}
+
+.adx .kl_colored_bar {
+  background-color: #102535 !important;
+}
+
+.adx .kl_progress_icons li.kl_complete a {
+  background:  #102535 !important;
+}
+
