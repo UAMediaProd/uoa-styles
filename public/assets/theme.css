@@ -8317,13 +8317,13 @@ section.adx-podcast-wide audio {
   border-top: 30px solid #d5d9dd;
   font-weight: 700;
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
+  width: 100%;
 }
 .adx #kl_navigation ul {
   list-style: none;
   min-width: 70%;
   max-width: 97%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
+  display: flex;
   grid-gap: 1ch;
   grid-auto-flow: dense;
   padding: 0.5ch;
