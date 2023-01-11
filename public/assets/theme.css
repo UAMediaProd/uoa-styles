@@ -7310,9 +7310,12 @@ figure.adx cite a:hover {
 .adx table.adx th, .adx table.adx td {
   text-align: left;
   padding: 0.694rem 0.694rem !important;
-  font-family: 'Arial',sans-serif;
   vertical-align: top;
 }
+.adx table.adx td {
+  font-family: 'Arial',sans-serif;
+}
+
 .adx table.adx td p, .adx table.adx th p {
   margin: 0;
 }
@@ -7370,10 +7373,7 @@ figure.adx cite a:hover {
 .adx table.adx th {
   background: #005a9c;
   color: #FFF;
-}
-.adx table.adx th p {
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
-  font-weight: normal;
 }
 .adx table.adx th li {
   font-family: "made_evolve_sans_regular", Arial, sans-serif;
