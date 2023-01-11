@@ -8480,6 +8480,7 @@ section.adx-podcast-wide audio {
 }
 .support-grid .support-content h4 {
   color: white !important;
+  margin-top: 0 !important;
 }
 .support-grid .support-content h5 {
   padding-top: 27%;
