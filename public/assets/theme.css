@@ -7171,6 +7171,7 @@ figure.adx figcaption {
   font-size: 1rem;
   text-align: center;
   font-family: "Arial", sans-serif;
+  margin-bottom: 1em;
 }
 figure.adx cite a {
   display: inline-block;
@@ -8574,4 +8575,5 @@ section.adx-podcast-wide audio {
 .adx .kl_progress_icons li.kl_complete a {
   background:  #102535 !important;
 }
+
 
