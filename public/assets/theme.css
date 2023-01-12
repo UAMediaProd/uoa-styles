@@ -5873,8 +5873,6 @@ ol.fancy-ol li {
   margin: 0.833rem 0;
   margin-left: 1rem !important;
   counter-increment: step-counter;
-  text-indent: -3em;
-  padding-left: 3em;
 }
 ol.fancy-ol li:last-child {
   border-bottom: none;
@@ -5891,6 +5889,10 @@ ol.fancy-ol li::before {
 }
 ol.fancy-ol li::before p {
   margin-left: 1rem;
+}
+
+ol.fancy-ol li p {
+  margin-top: 1rem;
 }
 
 .step-list {
