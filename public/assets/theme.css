@@ -8567,7 +8567,7 @@ section.adx-podcast-wide audio {
   background: #102535 !important;
 }
 
-.adx .kl_colored_bar {
+.adx .kl_colored_bar .kl_current {
   background-color: #102535 !important;
 }
 
