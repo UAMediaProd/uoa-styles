@@ -8250,7 +8250,7 @@ section.adx-podcast-wide audio {
 .adx h3.kl_panels_expander_open {
   border: 1px solid #ccc !important;
   color: #333;
-  background: none !important;
+  background: #102535 !important;
   border-bottom: 0 !important;
 }
 .adx .ui-accordion-content.kl_panel_content {
