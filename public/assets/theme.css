@@ -8575,5 +8575,10 @@ section.adx-podcast-wide audio {
 .adx .kl_progress_icons li.kl_complete a {
   background:  #102535 !important;
 }
+/* editor-view of the grogress icons */
+.adx p.kl_module_progress_icons {
+  background: #102535 !important;
+}
+
 
 
