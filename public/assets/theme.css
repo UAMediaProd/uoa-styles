@@ -8188,8 +8188,9 @@ section.adx-podcast-wide audio {
 
 */
 .adx.kl_wrapper > div {
-  /*overflow: visible !important;*/
+  overflow: visible;
   margin-bottom: 1.25em;
+  padding-bottom: 1em;
 }
 
 .adx .kl_quick_check {
@@ -8579,6 +8580,3 @@ section.adx-podcast-wide audio {
 .adx p.kl_module_progress_icons {
   background: #102535 !important;
 }
-
-
-
