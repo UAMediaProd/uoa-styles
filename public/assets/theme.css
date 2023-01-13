@@ -8192,6 +8192,7 @@ section.adx-podcast-wide audio {
 .adx.kl_wrapper > div {
   overflow: visible !important;
   margin-bottom: 1.25em;
+  clear: both;
 }
 
 .adx .kl_quick_check {
