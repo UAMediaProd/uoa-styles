@@ -2255,23 +2255,23 @@
 }
 
 .adx-ld7 {
-  color: #c373f9 !important;
+  color: #a279b5 !important;
 }
 
 .adx-ld7-dark {
-  color: #8951ae !important;
+  color: #8653a2 !important;
 }
 
 .adx-ld7-darker {
-  color: #754595 !important;
+  color: #764594 !important;
 }
 
 .adx-ld7-darkest {
-  color: #623a7d !important;
+  color: #633b7e !important;
 }
 
 .adx-ld7-tint {
-  color: #faf4ff !important;
+  color: #f9f4f9 !important;
 }
 
 .adx-ld7-trans-50 {
@@ -2287,47 +2287,47 @@
 }
 
 .adx-ld7-border {
-  border-color: #c373f9 !important;
+  border-color: #a279b5 !important;
 }
 
 .adx-bg-ld7-tint {
-  background: #faf4ff !important;
+  background: #f9f4f9 !important;
   color: #000;
 }
 
 .adx-bg-ld7-lightest {
-  background: #e7c7fd !important;
+  background: #dec7e1 !important;
   color: #000;
 }
 
 .adx-bg-ld7-lighter {
-  background: #dbabfb !important;
+  background: #ccacd2 !important;
   color: #000;
 }
 
 .adx-bg-ld7-light {
-  background: #cf8ffa !important;
+  background: #b793c4 !important;
   color: #000;
 }
 
 .adx-bg-ld7 {
-  background: #c373f9 !important;
+  background: #a279b5 !important;
   color: #000;
   color: #000;
 }
 
 .adx-bg-ld7-dark {
-  background: #8951ae !important;
+  background: #8653a2 !important;
   color: #fff;
 }
 
 .adx-bg-ld7-darker {
-  background: #754595 !important;
+  background: #764594 !important;
   color: #fff;
 }
 
 .adx-bg-ld7-darkest {
-  background: #623a7d !important;
+  background: #633b7e !important;
   color: #fff;
 }
 
@@ -4587,11 +4587,11 @@ a.external > span img {
   font-family: "Arial", sans-serif;
 }
 .adx .adx-cue-phil-toolkit {
-  background: #faf4ff;
+  background: #f9f4f9;
 }
 .adx .adx-cue-phil-toolkit:before {
   content: "Philosophical Toolkit";
-  color: #754595;
+  color: #764594;
   font-family: "Arial", sans-serif;
 }
 .adx .adx-cue-attention {
