@@ -8581,3 +8581,21 @@ section.adx-podcast-wide audio {
 .adx p.kl_module_progress_icons {
   background: #102535 !important;
 }
+section.adx.video footer a.inline_disabled.no_preview {
+  color: #102535;
+  width: 100%;
+  display: block;
+  text-decoration: none !important;
+  font-family: 'Arial', sans-serif;
+}
+
+section.adx.video footer a.file_download_btn {
+  display: none;
+}
+
+section.adx.video footer a.inline_disabled.no_preview:before {
+  position: relative;
+  top: 0.5ch;
+  margin:  0.2ch 1ch;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23102535' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5'/%3E%3C/svg%3E");
+}
