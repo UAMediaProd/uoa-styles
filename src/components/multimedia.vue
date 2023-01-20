@@ -83,7 +83,7 @@ const htmlData = {
       '  </div>\n' +
       '  <footer>\n' +
       '    <div class="v-icon-holder">\n' +
-      '      <a href="#" class="adx-icon download">Transcript [.txt]</a>\n' +
+      '     Transcript [.txt]\n' +
       '    </div>\n' +
       '  </footer>\n' +
       '</section>'
