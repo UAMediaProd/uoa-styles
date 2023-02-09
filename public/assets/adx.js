@@ -6,6 +6,6 @@ function adxFunc(courseID){
             'Content-Type': 'application/x-www-form-urlencoded'
         }
     }).then((response) => {
-        response.json().then((json) => console.log(json));
+       return response.json();
     });
 }
