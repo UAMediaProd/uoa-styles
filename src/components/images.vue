@@ -37,10 +37,10 @@
       <div class="bs-row">
         <div class="bs-col-md">
           <figure>
-            <img src="../assets/images/dog-unsplash.jpg" alt="" class="top max-h-[240px]">
+            <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">
             <figcaption>
               <strong>Figure 1.1.3:</strong> Good doggo<br />
-              <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>
+              <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
             </figcaption>
           </figure>
         </div>
@@ -64,10 +64,10 @@
         </div>
         <div class="bs-col-md">
           <figure>
-            <img src="../assets/images/dog-unsplash.jpg" alt="" class="top max-h-[240px]">
+            <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">
             <figcaption>
               <strong>Figure 1.1.4:</strong> Good doggo<br />
-              <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>
+              <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
             </figcaption>
           </figure>
         </div>
@@ -140,7 +140,7 @@ const figureHtml = {
   asideLeft: '<div class="bs-row">\n' +
    '  <div class="bs-col-md">\n' +
    '    <figure>\n' +
-   '      <img src="../assets/images/dog-unsplash.jpg" alt="" class="top max-h-[240px]">\n' +
+   '      <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">\n' +
    '        <figcaption>\n' +
    '          <strong>Figure 1.1.3:</strong> Good doggo<br />\n' +
    '          <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
@@ -158,7 +158,7 @@ const figureHtml = {
     '  </div>\n' +
     '  <div class="bs-col-md">\n' +
     '    <figure>\n' +
-    '      <img src="../assets/images/dog-unsplash.jpg" alt="" class="top max-h-[240px]">\n' +
+    '      <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">\n' +
     '        <figcaption>\n' +
     '          <strong>Figure 1.1.4:</strong> Good doggo<br />\n' +
     '          <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
