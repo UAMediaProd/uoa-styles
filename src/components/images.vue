@@ -39,7 +39,7 @@
           <figure>
             <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">
             <figcaption>
-              <strong>Figure 1.1.3:</strong> Good doggo<br />
+              <strong>Figure 1.1.3:</strong> Good doggo.<br />
               <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
             </figcaption>
           </figure>
@@ -66,7 +66,7 @@
           <figure>
             <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">
             <figcaption>
-              <strong>Figure 1.1.4:</strong> Good doggo<br />
+              <strong>Figure 1.1.4:</strong> Good doggo.<br />
               <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
             </figcaption>
           </figure>
@@ -84,14 +84,18 @@
     <section class="adx-gallery two-up">
       <figure>
         <img src="../assets/images/persona.jpg" alt="" class="top">
+        <figcaption>
+          <strong>Figure 1.1.5(a):</strong> Image on the left.<br />
+          <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
+        </figcaption>
       </figure>
       <figure>
         <img src="../assets/images/persona.jpg" alt="" class="top">
+        <figcaption>
+          <strong>Figure 1.1.5(b):</strong> Image on the right.<br />
+          <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
+        </figcaption>
       </figure>
-      <figcaption>
-        <strong>Figure 1.1.5:</strong> Two images side-by-side<br />
-        <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
-      </figcaption>
     </section>
 
     <div class="flex">
@@ -170,14 +174,18 @@ const figureHtml = {
   side: '<section class="adx-gallery two-up">\n' +
     '  <figure>\n' +
     '    <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top">\n' +
+    '    <figcaption>\n' +
+    '      <strong>Figure 1.1.5(a):</strong> Image on the left.<br />\n' +
+    '      <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
+    '    </figcaption>\n' +
     '  </figure>\n' +
     '  <figure>\n' +
     '    <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top">\n' +
+    '    <figcaption>\n' +
+    '      <strong>Figure 1.1.5(b):</strong> Image on the right.<br />\n' +
+    '      <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
+    '    </figcaption>\n' +
     '  </figure>\n' +
-    '  <figcaption>\n' +
-    '    <strong>Figure 1.1.5:</strong> Two images side-by-side<br />\n' +
-    '    <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
-    '  </figcaption>\n' +
     '</section>',
   smallComment: '<!-- Small image excerpt HTML usage -->\n',
   small: '<figure class="w60" style="margin: auto;text-align: center;">\n' +
