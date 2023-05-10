@@ -6471,13 +6471,15 @@ aside.adx.keypoints ul li::marker {
   border-radius: 0.5ch;
 }
 .adx-button a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .adx-button:hover {
   background: #82868b;
   color: #fff;
 }
-
+.adx-button:hover a {
+  color: #fff;
+}
 .adx-button.brand-darkblue {
   background: #eceeef;
   border-color: #102535;
@@ -6487,27 +6489,36 @@ aside.adx.keypoints ul li::marker {
   background: #102535;
   color: #fff;
 }
-
 .adx-button.brand-midblue {
   background: #ebf2f7;
   border-color: #005a9c;
   color: #003f6d;
 }
+.adx-button.brand-midblue a {
+    color: #003f6d;
+}
 .adx-button.brand-midblue:hover {
   background: #005a9c;
   color: #fff;
 }
-
+.adx-button.brand-midblue:hover a {
+    color: #fff;
+}
 .adx-button.brand-lightblue {
   background: #f9fcfd;
   border-color: #b8dceb;
+  color: #819aa5;
+}
+.adx-button.brand-lightblue a {
   color: #819aa5;
 }
 .adx-button.brand-lightblue:hover {
   background: #b8dceb;
   color: #fff;
 }
-
+.adx-button.brand-lightblue:hover a {
+  color: #fff;
+}
 .adx-button.brand-gold {
   background: #f9f5eb;
   border-color: #b38808;
@@ -6517,7 +6528,9 @@ aside.adx.keypoints ul li::marker {
   background: #b38808;
   color: #fff;
 }
-
+.adx-button.brand-gold:hover a {
+  color: #fff;
+}
 .adx-button.brand-red {
   background: #fcebeb;
   border-color: #d40000;
@@ -6527,7 +6540,9 @@ aside.adx.keypoints ul li::marker {
   background: #d40000;
   color: #fff;
 }
-
+.adx-button.brand-red:hover a {
+  color: #fff;
+}
 .adx-button.primary {
   background: #eceeef;
   border-color: #0b1a25;
@@ -6537,7 +6552,9 @@ aside.adx.keypoints ul li::marker {
   background: #0b1a25;
   color: #fff;
 }
-
+.adx-button.primary:hover a {
+  color: #fff;
+}
 .adx-button.accent {
   background: #f3fdef;
   border-color: #459f29;
@@ -6547,7 +6564,9 @@ aside.adx.keypoints ul li::marker {
   background: #459f29;
   color: #fff;
 }
-
+.adx-button.accent:hover a {
+  color: #fff;
+}
 .adx-button.complimentary {
   background: #f4f1fa;
   border-color: #513c8a;
@@ -6557,7 +6576,9 @@ aside.adx.keypoints ul li::marker {
   background: #513c8a;
   color: #fff;
 }
-
+.adx-button.complimentary:hover a {
+  color: #fff;
+}
 .adx-button.neutral {
   background: #f9fafa;
   border-color: #82868b;
@@ -6567,7 +6588,9 @@ aside.adx.keypoints ul li::marker {
   background: #82868b;
   color: #fff;
 }
-
+.adx-button.neutral:hover a {
+  color: #fff;
+}
 .adx-button.positive {
   background: #edf7f1;
   border-color: #186937;
@@ -6577,7 +6600,9 @@ aside.adx.keypoints ul li::marker {
   background: #186937;
   color: #fff;
 }
-
+.adx-button.positive:hover a {
+  color: #fff;
+}
 .adx-button.negative {
   background: #fcefee;
   border-color: #94231f;
@@ -6587,7 +6612,9 @@ aside.adx.keypoints ul li::marker {
   background: #94231f;
   color: #fff;
 }
-
+.adx-button.negative:hover a {
+  color: #fff;
+}
 .adx-button.warning {
   background: #fff8ed;
   border-color: #b37319;
@@ -6597,7 +6624,9 @@ aside.adx.keypoints ul li::marker {
   background: #b37319;
   color: #fff;
 }
-
+.adx-button.warning:hover a {
+  color: #fff;
+}
 .adx-button.information {
   background: #ebeef6;
   border-color: #041d61;
@@ -6607,7 +6636,9 @@ aside.adx.keypoints ul li::marker {
   background: #041d61;
   color: #fff;
 }
-
+.adx-button.information:hover a {
+  color: #fff;
+}
 .adx-button.rev {
   background: white;
   border-color: #b3b3b3;
@@ -6615,6 +6646,9 @@ aside.adx.keypoints ul li::marker {
 }
 .adx-button.rev:hover {
   background: #b3b3b3;
+  color: #fff;
+}
+.adx-button.rev:hover a {
   color: #fff;
 }
 
@@ -6625,6 +6659,9 @@ aside.adx.keypoints ul li::marker {
 }
 .adx-button.blk:hover {
   background: black;
+  color: #fff;
+}
+.adx-button.blk:hover a {
   color: #fff;
 }
 
