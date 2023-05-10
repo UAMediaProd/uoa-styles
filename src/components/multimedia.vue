@@ -34,6 +34,18 @@
     </div>
 
 
+    <h4 class="adx-markup-label">Empty Section Wrapper for H5P and Echo360 Video</h4>
+
+    <section class="adx video min-h-[200px] flex justify-center">
+      <span class="my-auto font-bold">H5P / Echo360 video</span>
+    </section>
+
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlData.emptySection.code" />
+      <pre class="w-full"><code class="language-markup">{{ htmlData.emptySection.comment }}{{ htmlData.emptySection.code }}</code></pre>
+    </div>
+
+
     <h4 class="adx-markup-label">Podcast Square</h4>
 
     <section class="adx-podcast-square">
@@ -94,6 +106,11 @@ const htmlData = {
       '  <div class="videoWrapper">\n' +
       '    <iframe title="YouTube video player" src="https://www.youtube.com/embed/U9OPRtMRwE0" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>\n' +
       '  </div>\n' +
+      '</section>'
+  },
+  emptySection: {
+    comment: '<!-- Empty Section wrapper for H5P and Echo360 video HTML Usage -->\n',
+    code: '<section class="adx video">\n\n' +
       '</section>'
   },
   podcastSquare: {

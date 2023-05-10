@@ -4,7 +4,9 @@
     <h4 class="adx-markup-label">Basic table</h4>
 
     <table class="adx">
-      <caption>Here's an example basic table caption.</caption>
+      <caption>
+        <strong>Table 1.1.1: </strong>Here's an example basic table caption.
+      </caption>
       <thead>
         <tr>
           <th class="">Name</th>
@@ -34,7 +36,9 @@
 
     <pre class="w-full"><code class="language-markup">&lt;!-- Basic table HTML Usage --&gt;
     &lt;table class="adx"&gt;
-      &lt;caption&gt;Here's an example basic table caption.&lt;/caption&gt;
+      &lt;caption&gt;
+        &lt;strong&gt;Table 1.1.1: &lt;/strong&gt;Here's an example basic table caption.
+      &lt;/caption&gt;
       &lt;thead&gt;
         &lt;tr&gt;
           &lt;th class=""&gt;Name&lt;/th&gt;
@@ -66,7 +70,9 @@
     <h4 class="adx-markup-label">Dual-axis table</h4>
 
     <table class="adx">
-      <caption>Here's an example basic table with two axes</caption>
+      <caption>
+        <strong>Table 1.1.2: </strong>Here's an example basic table with two axes
+      </caption>
       <tr>
         <th>A</th>
         <th>B</th>
@@ -121,7 +127,9 @@
 
     <pre class="w-full"><code class="language-markup">&lt;!-- Basic table HTML Usage --&gt;
     &lt;table class="adx"&gt;
-      &lt;caption&gt;Here's an example basic table with two axes&lt;/caption&gt;
+      &lt;caption&gt;
+        &lt;strong&gt;Table 1.1.2: &lt;/strong&gt;Here's an example basic table with two axes
+      &lt;/caption&gt;
       &lt;tr&gt;
         &lt;th&gt;A&lt;/th&gt;
         &lt;th&gt;B&lt;/th&gt;
@@ -162,7 +170,9 @@
     <h4 class="adx-markup-label">Simple table</h4>
 
     <table class="adx simple">
-      <caption>Here's an example simple table caption.</caption>
+      <caption>
+        <strong>Table 1.1.3: </strong>Here's an example simple table caption.
+      </caption>
       <thead>
         <tr>
           <th class="">Name</th>
@@ -192,7 +202,9 @@
 
     <pre class="w-full"><code class="language-markup">&lt;!-- Simple table HTML Usage --&gt;
     &lt;table class="adx simple"&gt;
-      &lt;caption&gt;Here's an example simple table caption.&lt;/caption&gt;
+      &lt;caption&gt;
+        &lt;strong&gt;Table 1.1.3: &lt;/strong&gt;Here's an example simple table caption.
+      &lt;/caption&gt;
       &lt;thead&gt;
         &lt;tr&gt;
           &lt;th class=""&gt;Name&lt;/th&gt;
@@ -222,3 +234,5 @@
 
   </div>
 </template>
+<script setup>
+</script>
