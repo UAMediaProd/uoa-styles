@@ -4410,7 +4410,7 @@
 }
 .adx li,
 .adx aside {
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.6;
   font-family: "Arial", sans-serif;
   letter-spacing: -0.02rem;
