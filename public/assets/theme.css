@@ -8051,6 +8051,10 @@ section.adx.video footer {
 }
 
 a.adx-button {
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  letter-spacing: -0.02rem;
   text-decoration: none !important;
 }
 a.adx-button:focus-visible {
