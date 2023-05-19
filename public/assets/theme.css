@@ -8050,6 +8050,17 @@ section.adx.video footer {
   height: 100% !important;
 }
 
+a.adx-button {
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  letter-spacing: -0.02rem;
+  text-decoration: none !important;
+}
+a.adx-button:focus, a.adx-button:focus-visible {
+  outline: none;
+}
+
 a.adx-icon {
   font-size: 1rem;
   color: #102535;
