@@ -45,6 +45,16 @@
       <pre class="w-full"><code class="language-markup">{{ htmlData.emptySection.comment }}{{ htmlData.emptySection.code }}</code></pre>
     </div>
 
+    <h4 class="adx-markup-label">Responsive iFrame Wrapper</h4>
+
+    <section class="adx video">
+      <iframe class="adx-frame" src="https://mediaproduction.adelaide.edu.au/oua-interactives/#/economy-transition-map" width="100%" height="900px"></iframe>
+    </section>
+
+    <div class="flex">
+      <clipboard-button :data-to-copy="htmlData.iframe.code" />
+      <pre class="w-full"><code class="language-markup">{{ htmlData.iframe.comment }}{{ htmlData.iframe.code }}</code></pre>
+    </div>
 
     <h4 class="adx-markup-label">Podcast Square</h4>
 
@@ -112,6 +122,12 @@ const htmlData = {
     comment: '<!-- Empty Section wrapper for H5P and Echo360 video HTML Usage -->\n',
     code: '<section class="adx video">\n\n' +
       '</section>'
+  },
+  iframe: {
+    comment: '<!-- iFrame with wrapper HTML Usage; no height is required, this will update automatically -->\n',
+    code: '<section class="adx video">\n' +
+        `   <iframe class="adx-frame" src="INSERT_SOURCE_URL" width="100%"></iframe>\n` +
+        '</section>'
   },
   podcastSquare: {
     comment: '<!-- Square podcast HTML Usage -->\n',
