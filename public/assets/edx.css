@@ -4356,11 +4356,11 @@
 h1,
 h2,
 h3 {
-  font-family: "made_evolve_sans_bold", sans-serif;
+  font-family: "made_evolve_sans_bold", sans-serif !important;
 }
 
 h2 {
-  color: #102535;
+  color: #102535 !important;
   border-left: 8px solid #d40000;
   padding-left: 0.5em;
 }
@@ -4385,14 +4385,11 @@ h4:not(.adx-markup-label) {
 
 li {
   margin-bottom: 1em;
-  font-family: "Arial", sans-serif;
 }
 li,
 aside {
   font-size: 1em;
   line-height: 1.6;
-  font-family: "Arial", sans-serif;
-  letter-spacing: -0.02rem;
 }
 
 
@@ -4513,7 +4510,7 @@ a.external > span img {
 .adx-cue-example:before {
   color: #955A12;
   content: "example";
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-definition {
   background: #ecf7f3;
@@ -4521,7 +4518,7 @@ a.external > span img {
 .adx-cue-definition:before {
   content: "definition";
   color: #286653;
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-note {
   background: #f8f9f9;
@@ -4529,7 +4526,7 @@ a.external > span img {
 .adx-cue-note:before {
   content: "note";
   color: #5D6063;
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-notification {
   border-left: 1rem solid #005a9c;
@@ -4538,7 +4535,7 @@ a.external > span img {
 .adx-cue-notification:before {
   content: "notification";
   color: #005a9c;
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-reference {
   border-top: 0.5ch solid #005a9c !important;
@@ -4554,7 +4551,7 @@ a.external > span img {
   font-size: 90%;
   text-align: left;
   border-bottom: 1px solid #005a9c;
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-summary {
   border-left: 1rem solid #567241;
@@ -4563,7 +4560,7 @@ a.external > span img {
 .adx-cue-summary:before {
   content: "summary";
   color: #567241;
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-phil-toolkit {
   background: #f9f4f9;
@@ -4571,7 +4568,7 @@ a.external > span img {
 .adx-cue-phil-toolkit:before {
   content: "Philosophical Toolkit";
   color: #764594;
-  font-family: "Arial", sans-serif;
+
 }
 .adx-cue-attention {
   border: 1px solid #963E3F !important;
@@ -4581,7 +4578,7 @@ a.external > span img {
 .adx-cue-attention:before {
   content: "attention";
   color: #963E3F;
-  font-family: "Arial", sans-serif;
+
 }
 
 .adx-cue-content-warning {
@@ -5316,7 +5313,7 @@ div.adx-direction-assess .step-list li, div.adx-direction-assess .block-list li 
 }
 
 .adx-markup-font-text {
-  font-family: "Arial", sans-serif;
+
 }
 .adx-markup-font-heading {
   font-family: "made_evolve_sans_bold", sans-serif;
@@ -5363,7 +5360,7 @@ div.adx-direction-assess .step-list li, div.adx-direction-assess .block-list li 
   background: #eeeff1;
   border: 1px solid #d5d9dd;
   clear: both;
-  font-family: "Arial", sans-serif;
+
   font-weight: bold;
 }
 .adx-markup-highlight-yellow {
@@ -5390,7 +5387,7 @@ div.adx-direction-assess .step-list li, div.adx-direction-assess .block-list li 
   text-decoration: line-through;
 }
 .adx-markup-guide {
-  font-family: "Arial", sans-serif;
+
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
@@ -5516,7 +5513,7 @@ blockquote {
 }
 blockquote > * {
   max-width: 75ch;
-  font-family: "Arial", sans-serif;
+
 }
 blockquote cite {
   display: block;
@@ -5566,7 +5563,7 @@ blockquote.pullquote-left cite {
 input[type=text], input[type=email], input[type=password], input[type=number], input[type=datetime-local] {
   width: 100%;
   padding: 0.8em;
-  font-family: "Arial", sans-serif;
+
   color: #303030;
   border: 1px solid #d5d9dd;
   background: #eeeff1;
@@ -5578,7 +5575,7 @@ input[type=text], input[type=email], input[type=password], input[type=number], i
 select {
   width: 100%;
   padding: 0.8em;
-  font-family: "Arial", sans-serif;
+
   color: #303030;
   border: 1px solid #d5d9dd;
   background: #eeeff1;
@@ -5613,7 +5610,7 @@ textarea {
   width: 100%;
   margin-top: 1em;
   padding: 0.8em;
-  font-family: "Arial", sans-serif;
+
   color: #303030;
   border: 1px solid #d5d9dd;
   background: #eeeff1;
@@ -6474,14 +6471,14 @@ aside.adx.keypoints ul li::marker {
   color: #003f6d;
 }
 .adx-button.brand-midblue a {
-    color: #003f6d;
+  color: #003f6d;
 }
 .adx-button.brand-midblue:hover {
   background: #005a9c;
   color: #fff;
 }
 .adx-button.brand-midblue:hover a {
-    color: #fff;
+  color: #fff;
 }
 .adx-button.brand-lightblue {
   background: #f9fcfd;
@@ -7187,7 +7184,7 @@ figurefigcaption {
   padding: 0.579rem;
   font-size: 1rem;
   text-align: center;
-  font-family: "Arial", sans-serif;
+
   margin-bottom: 1em;
 }
 figurecite a {
@@ -7264,7 +7261,7 @@ figurecite a:hover {
 figcaption {
   padding-top: 0.579rem;
   text-align: center;
-  font-family: "Arial", sans-serif;
+
 }
 figcaption cite {
   display: inline-block;
@@ -8029,7 +8026,7 @@ section.adx.video footer {
 }
 
 a.adx-button {
-  font-family: "Arial", sans-serif;
+
   font-size: 1em;
   line-height: 1.6;
   letter-spacing: -0.02rem;
@@ -8206,164 +8203,6 @@ section.adx-podcast-wide audio {
   padding-bottom: 0.5em;
 }
 
-/*
-
-  Each of these items affects MyUni/CIDILabs components that are native to the platform and aren't custom-written HTML layouts like the components in the style guide.
-  These are to _override_ styles inherent in MyUni
-
-*/
-.adx.kl_wrapper > div {
-  overflow: visible !important;
-  margin-bottom: 1.25em;
-  clear: both;
-}
-
-.kl_quick_check {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  margin: 2.074rem auto;
-  border: 1px solid #d5d9dd !important;
-  border-top: solid 2.074rem #102535 !important;
-  border-radius: 0.402rem;
-  color: #82868b;
-  overflow: hidden;
-  margin: 10px 0;
-  padding: 20px;
-}
-.kl_quick_check h3 {
-  color: #102535;
-  background: none;
-}
-.kl_quick_check .kl_quick_check_field {
-  margin: 3px 10px 30px 0;
-  float: left;
-}
-.kl_quick_check .kl_quick_check_answer_wrapper {
-  clear: both;
-  position: relative;
-}
-table td {
-  text-align: left;
-}
-.table {
-  font-size: 1rem;
-  min-width: 80%;
-  max-width: 100%;
-  margin: 1.44rem 0;
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: separate;
-  border-spacing: 0;
-  border: 0;
-}
-.ui-state-default,
-.ui-widget-header .ui-state-default {
-  border: 1px solid #ccc;
-  color: #333;
-  font-weight: normal;
-  background-image: linear-gradient(to bottom, white, #e6e6e6);
-  border-bottom-color: #bbb;
-}
-
-.kl_panels_wrapper .ui-accordion-header,
-.kl_wrapper .ui-accordion-header {
-  background: white;
-  border-radius: 0;
-  /* needs to override nests of styles applied by CIDILabs */
-}
-h3.kl_panels_expander_open {
-  border: 1px solid #ccc !important;
-  color: #333;
-  background: #102535 !important;
-  border-bottom: 0 !important;
-}
-.ui-accordion-content.kl_panel_content {
-  background: #f9fafa;
-}
-.kl_panels_wrapper.ui-accordion .ui-accordion-content {
-  padding: 10px;
-  clear: both;
-  top: -2px;
-  margin-bottom: 0;
-  border: 1px solid #ccc !important;
-}
-.kl_custom_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_expander.ui-accordion .ui-accordion-header,
-.kl_custom_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_accordion.ui-accordion .ui-accordion-header,
-.kl_panels_expander.ui-accordion .ui-accordion-header {
-  padding: 0;
-  margin: 5px 0 2px;
-  font-weight: 700;
-  font-size: 1.3em;
-}
-.kl_custom_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_expander.ui-accordion .ui-accordion-header a,
-.kl_custom_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_accordion.ui-accordion .ui-accordion-header a,
-.kl_panels_expander.ui-accordion .ui-accordion-header a {
-  padding: 10px;
-  padding-left: 30px;
-  text-decoration: none !important;
-}
-.kl_panel_heading a {
-  color: #000;
-}
-.ui-accordion-header-active a {
-  color: white !important;
-}
-.kl_panel_heading .ui-icon {
-  display: block;
-  text-indent: -99999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  background-image: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/jqueryui/ui-icons_222222_256x240-a2c05c5e96.png");
-  margin-left: 0.5em;
-  top: 0%;
-  margin-top: 10px;
-  float: left;
-}
-.kl_panel_heading .ui-icon-triangle-1-e {
-  background-position: -32px -16px;
-}
-.ui-accordion .ui-accordion-header a {
-  display: block;
-  font-size: 1em;
-  padding: 0.5em 0.5em 0.5em 0.7em;
-}
-#kl_navigation ul > li {
-  border: 1px solid #d5d9dd;
-  padding: 1em;
-  border-radius: 0.5ch 0.5ch 0 0;
-  overflow: hidden;
-  position: relative;
-  transition: all ease 0.2s;
-  border-top: 30px solid #d5d9dd;
-  font-weight: 700;
-  font-family: "made_evolve_sans_bold", Arial, sans-serif;
-  width: 100%;
-}
-#kl_navigation ul {
-  list-style: none;
-  min-width: 70%;
-  max-width: 97%;
-  display: flex;
-  grid-gap: 1ch;
-  grid-auto-flow: dense;
-  padding: 0.5ch;
-}
-#kl_navigation a {
-  color: inherit;
-  text-decoration: none;
-}
-#kl_navigation ul > li:hover {
-  background: inherit;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  transform: scale(1.025);
-}
 
 .tooltip {
   position: relative;
@@ -8532,10 +8371,6 @@ h3.kl_panels_expander_open {
   border-radius: 0.402rem;
 }
 
-#assignment_show li {
-  font-family: "Arial", sans-serif;
-  letter-spacing: -0.02rem;
-}
 
 .icon-grid {
   display: grid;
@@ -8580,27 +8415,6 @@ li p {
   margin: 0;
 }
 
-/*CIDILabs overrides */
-
-.kl_wrapper ul {
-  padding-left: 12px;
-}
-
-.kl_message_block.kl_message_block_tip {
-  border-color: #102535 !important;
-}
-
-.kl_message_heading.kl_message_heading_tip {
-  background: #102535 !important;
-}
-
-.kl_current .kl_colored_bar, .kl_complete .kl_colored_bar   {
-  background-color: #102535 !important;
-}
-
-.kl_progress_icons li.kl_complete a {
-  background:  #102535 !important;
-}
 /* editor-view of the grogress icons */
 p.kl_module_progress_icons {
   background: #102535 !important;
