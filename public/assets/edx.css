@@ -4356,7 +4356,7 @@
 h1,
 h2,
 h3 {
-  font-family: "made_evolve_sans_bold", sans-serif !important;
+  font-family: "made_evolve_sans_bold", sans-serif;
 }
 
 h2 {
@@ -7310,94 +7310,91 @@ table.w50 {
 table.w60 {
   width: 60%;
 }
-tabletr {
+table tr {
   background: #f9fafa;
   transition: background 0.1s linear;
 }
-tabletr:nth-child(even) {
+table tr:nth-child(even) {
   background: #f5f6f6;
 }
-tabletr:hover {
+table tr:hover {
   background: #eeeff1;
 }
-tableth, tabletd {
+table th, table td {
   text-align: left;
   padding: 0.694rem 0.694rem !important;
   vertical-align: top;
 }
-tabletd {
-  font-family: 'Arial',sans-serif;
-}
 
-tabletd p, tableth p {
+table td p, table th p {
   margin: 0;
 }
-tabletr.accent {
+table tr.accent {
   background: #c1f4b1;
 }
-tabletr.primary {
+table tr.primary {
   background: #9fa8ae;
 }
-tabletr.accent {
+table tr.accent {
   background: #c1f4b1;
 }
-tabletr.primary {
+table tr.primary {
   background: #cfd3d7 !important;
 }
-tabletr.accent {
+table tr.accent {
   background: #e0f9d8 !important;
 }
-tabletr.complimentary {
+table tr.complimentary {
   background: #e3ddf3 !important;
 }
-tabletr.neutral {
+table tr.neutral {
   background: #f1f2f4 !important;
 }
-tabletr.positive {
+table tr.positive {
   background: #d3eadc !important;
 }
-tabletr.negative {
+table tr.negative {
   background: #f6d6d5 !important;
 }
-tabletr.warning {
+table tr.warning {
   background: #ffedd3 !important;
 }
-tabletr.information {
+table tr.information {
   background: #cdd4e8 !important;
 }
-tabletr.rev {
+table tr.rev {
   background: white !important;
 }
-tabletr.blk {
+table tr.blk {
   background: #cccccc !important;
 }
-tablecaption {
+table caption {
   caption-side: top;
   padding: 0.833rem;
   font-family: "Arial", sans-serif !important;
 }
-tablecaption > * {
+table caption > * {
   font-style: normal;
 }
-tablecaption.caption-bottom {
+table caption.caption-bottom {
   caption-side: bottom !important;
 }
-tableth {
+table th {
   background: #005a9c;
   color: #FFF;
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
 }
-tableth li {
+table th li {
   font-family: "made_evolve_sans_regular", Arial, sans-serif;
 }
-tabletr:first-child th:first-child {
+table tr:first-child th:first-child {
   border-top-left-radius: 3px;
 }
-tabletr:first-child th:last-child {
+table tr:first-child th:last-child {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-tabletr:last-child th:first-child {
+table tr:last-child th:first-child {
   border-bottom-left-radius: 3px;
 }
 table.adx.minimal {
@@ -8203,6 +8200,164 @@ section.adx-podcast-wide audio {
   padding-bottom: 0.5em;
 }
 
+/*
+
+  Each of these items affects MyUni/CIDILabs components that are native to the platform and aren't custom-written HTML layouts like the components in the style guide.
+  These are to _override_ styles inherent in MyUni
+
+*/
+.adx.kl_wrapper > div {
+  overflow: visible !important;
+  margin-bottom: 1.25em;
+  clear: both;
+}
+
+.kl_quick_check {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  margin: 2.074rem auto;
+  border: 1px solid #d5d9dd !important;
+  border-top: solid 2.074rem #102535 !important;
+  border-radius: 0.402rem;
+  color: #82868b;
+  overflow: hidden;
+  margin: 10px 0;
+  padding: 20px;
+}
+.kl_quick_check h3 {
+  color: #102535;
+  background: none;
+}
+.kl_quick_check .kl_quick_check_field {
+  margin: 3px 10px 30px 0;
+  float: left;
+}
+.kl_quick_check .kl_quick_check_answer_wrapper {
+  clear: both;
+  position: relative;
+}
+table td {
+  text-align: left;
+}
+.table {
+  font-size: 1rem;
+  min-width: 80%;
+  max-width: 100%;
+  margin: 1.44rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 0;
+}
+.ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid #ccc;
+  color: #333;
+  font-weight: normal;
+  background-image: linear-gradient(to bottom, white, #e6e6e6);
+  border-bottom-color: #bbb;
+}
+
+.kl_panels_wrapper .ui-accordion-header,
+.kl_wrapper .ui-accordion-header {
+  background: white;
+  border-radius: 0;
+  /* needs to override nests of styles applied by CIDILabs */
+}
+h3.kl_panels_expander_open {
+  border: 1px solid #ccc !important;
+  color: #333;
+  background: #102535 !important;
+  border-bottom: 0 !important;
+}
+.ui-accordion-content.kl_panel_content {
+  background: #f9fafa;
+}
+.kl_panels_wrapper.ui-accordion .ui-accordion-content {
+  padding: 10px;
+  clear: both;
+  top: -2px;
+  margin-bottom: 0;
+  border: 1px solid #ccc !important;
+}
+.kl_custom_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_expander.ui-accordion .ui-accordion-header,
+.kl_custom_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_accordion.ui-accordion .ui-accordion-header,
+.kl_panels_expander.ui-accordion .ui-accordion-header {
+  padding: 0;
+  margin: 5px 0 2px;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_expander.ui-accordion .ui-accordion-header a,
+.kl_custom_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_accordion.ui-accordion .ui-accordion-header a,
+.kl_panels_expander.ui-accordion .ui-accordion-header a {
+  padding: 10px;
+  padding-left: 30px;
+  text-decoration: none !important;
+}
+.kl_panel_heading a {
+  color: #000;
+}
+.ui-accordion-header-active a {
+  color: white !important;
+}
+.kl_panel_heading .ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-image: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/jqueryui/ui-icons_222222_256x240-a2c05c5e96.png");
+  margin-left: 0.5em;
+  top: 0%;
+  margin-top: 10px;
+  float: left;
+}
+.kl_panel_heading .ui-icon-triangle-1-e {
+  background-position: -32px -16px;
+}
+.ui-accordion .ui-accordion-header a {
+  display: block;
+  font-size: 1em;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+}
+#kl_navigation ul > li {
+  border: 1px solid #d5d9dd;
+  padding: 1em;
+  border-radius: 0.5ch 0.5ch 0 0;
+  overflow: hidden;
+  position: relative;
+  transition: all ease 0.2s;
+  border-top: 30px solid #d5d9dd;
+  font-weight: 700;
+  font-family: "made_evolve_sans_bold", Arial, sans-serif;
+  width: 100%;
+}
+#kl_navigation ul {
+  list-style: none;
+  min-width: 70%;
+  max-width: 97%;
+  display: flex;
+  grid-gap: 1ch;
+  grid-auto-flow: dense;
+  padding: 0.5ch;
+}
+#kl_navigation a {
+  color: inherit;
+  text-decoration: none;
+}
+#kl_navigation ul > li:hover {
+  background: inherit;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  transform: scale(1.025);
+}
 
 .tooltip {
   position: relative;
@@ -8371,6 +8526,10 @@ section.adx-podcast-wide audio {
   border-radius: 0.402rem;
 }
 
+#assignment_show li {
+
+  letter-spacing: -0.02rem;
+}
 
 .icon-grid {
   display: grid;
@@ -8415,6 +8574,27 @@ li p {
   margin: 0;
 }
 
+/*CIDILabs overrides */
+
+.kl_wrapper ul {
+  padding-left: 12px;
+}
+
+.kl_message_block.kl_message_block_tip {
+  border-color: #102535 !important;
+}
+
+.kl_message_heading.kl_message_heading_tip {
+  background: #102535 !important;
+}
+
+.kl_current .kl_colored_bar, .kl_complete .kl_colored_bar   {
+  background-color: #102535 !important;
+}
+
+.kl_progress_icons li.kl_complete a {
+  background:  #102535 !important;
+}
 /* editor-view of the grogress icons */
 p.kl_module_progress_icons {
   background: #102535 !important;
