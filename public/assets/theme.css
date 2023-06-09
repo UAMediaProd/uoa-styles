@@ -8529,13 +8529,12 @@ section.adx-podcast-wide audio {
 .support-grid .support-content h4 {
   color: white !important;
   margin-top: 0 !important;
-}
-.support-grid .support-content h5 {
   padding-top: 23px;
   color: white;
   font-size: 2.8em;
   margin-bottom: 0;
 }
+
 .support-grid .support-content a {
   color: white !important;
 }
