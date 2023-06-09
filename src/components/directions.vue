@@ -4,7 +4,7 @@
     <h4 class="adx-markup-label">Base Direction</h4>
 
     <div class="adx-direction">
-      <h5>This is a Direction Box</h5>
+      <p><strong>This is a Direction Box</strong></p>
       <p>Directions are used to <em>direct</em> students to take action or do something external to the current
         content flow inside the LMS.</p>
     </div>
@@ -18,7 +18,7 @@
       <h4 class="adx-markup-label">{{ group.type }}</h4>
       <p>{{ group.intro }}</p>
       <div v-for="direction in group.items" :class="direction.class">
-        <h5>{{ direction.title }}</h5>
+        <p><strong>{{ direction.title }}</strong></p>
         <p>{{ direction.textStart }} <clipboard-code :data-to-copy="direction.class" /> {{ direction.textEnd }}</p>
       </div>
     </div>
@@ -31,7 +31,7 @@ import ClipboardCode from '@/components/common/clipboardCode.vue'
 
 const htmlComment = '<!-- Base Direction HTML Usage -->\n'
 const baseDirection = '<div class="adx-direction">\n' +
-  '  <h5>This is a Direction Box</h5>\n' +
+  '  <p><strong>This is a Direction Box</strong></p>\n' +
   '  <p>Directions are used to <em>direct</em> students to take action or do something external to the current content flow inside the LMS.</p>\n' +
   '</div>'
 const directions = [
