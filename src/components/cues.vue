@@ -90,6 +90,11 @@ const cueVariants = {
       textEnd: 'cue should be used if there is useful content on the page - items that students should note down or could be marked with an N.B. (Nota Bene).',
     },
     {
+      class: 'adx-cue-case-study',
+      textStart: 'The case study cue should be used to call out the scaffolding text or context of a case study using the',
+      textEnd: 'cue should be used if there a case study layout on the page before the case study text content and then followed by a direction box with the appropriate call-to-action task.',
+    },
+    {
       class: 'adx-cue-example',
       textStart: 'An example should use the',
       textEnd: 'cue. This is a visual clue to an example and does not require a heading explaining that to a student, but should be evident in the text itself.',
