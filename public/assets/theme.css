@@ -7421,6 +7421,7 @@ figure.adx cite a:hover {
   background: #005a9c;
   color: #FFF;
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
+  font-weight: inherit;
 }
 .adx table.adx th li {
   font-family: "made_evolve_sans_regular", Arial, sans-serif;
