@@ -5865,7 +5865,7 @@ ol.fancy-ol {
   border-radius: 0.402rem;
   font-size: 1rem;
   max-width: 90ch;
-  margin: 0.833rem auto;
+  margin: 0.833rem auto !important; /* override for CIDIlabs */
 }
 ol.fancy-ol.inside {
   background: none !important;
