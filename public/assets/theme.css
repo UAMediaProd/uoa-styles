@@ -8661,3 +8661,19 @@ section.adx.video footer a.inline_disabled.no_preview:before {
 .step-list .tippy-popper {
   text-indent: 0;
 }
+
+/*override for Canvas modals*/
+
+.ui-dialog .ui-dialog-title {
+  font-family: "made_evolve_sans_bold", sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+  border-bottom: none;
+}
+.ui-dialog.ui-widget-content {
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 1em;
+}
