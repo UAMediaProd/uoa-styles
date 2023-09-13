@@ -8673,7 +8673,6 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   border-bottom: none;
 }
 .ui-dialog.ui-widget-content {
-  box-shadow: none;
   border-radius: 5px;
   padding: 1em;
 }
