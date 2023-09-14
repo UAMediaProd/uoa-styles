@@ -8676,3 +8676,97 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   border-radius: 5px;
   padding: 1em;
 }
+
+/* HAPIB modal grid additions - LVP-4377 */
+
+
+.weekbutton {
+  background-color: #337BB0;
+  color: white;
+  border: 3px solid #005A9C;
+  border-radius: 0.5rem;
+}
+
+.weekbutton:hover {
+  background-color: #005A9C;
+  border: 3px solid #003F6D;
+  color: white
+}
+
+.weekoverviewbutton {
+  background-color: #FDC2C3 !important;
+  color: black;
+  border: 2px solid #FB8587 !important;
+  border-radius: 0.5rem;
+}
+
+.weekoverviewbutton:hover {
+  background-color: #FB8587 !important;
+  border: 2px solid #AF484A !important;
+  color: black;
+}
+
+.f2fworkshopbutton {
+  background-color: #D3E5C5 !important;
+  color: black;
+  border: 2px solid #a6cb8a !important;
+  border-radius: 0.5rem;
+}
+
+.f2fworkshopbutton:hover {
+  background-color: #a6cb8a !important;
+  border: 2px solid #65854C !important;
+  color: black;
+}
+
+.resourcesbutton {
+  background-color: #B7E9F9 !important;
+  color: black;
+  border: 2px solid #70d4f3 !important;
+  /*! border-width: 2px !important; */
+  border-radius: 0.5rem;
+
+}
+
+.resourcesbutton:hover {
+  background-color: #70d4f3 !important;
+  border: 2px solid #358DA8 !important;
+  color: black;
+}
+
+
+.tutorialbutton {
+  background-color: #FDE9B9 !important;
+  color: black;
+  border: 2px solid #FAD272 !important;
+  border-radius: 0.5rem;
+}
+
+
+.tutorialbutton:hover {
+  background-color: #FAD272 !important;
+  border: 2px solid #AE8B37 !important;
+  color: black;
+}
+
+
+.labpracbutton {
+  background-color: #FCD5A5 !important;
+  color: black;
+  border: 2px solid #F9AB4B !important;
+  border-radius: 0.5rem;
+}
+
+.labpracbutton:hover {
+  background-color: #F9AB4B !important;
+  border: 2px solid #AE6915 !important;
+  color: black;
+}
+
+
+.modalboxbg {
+  border: 3px solid #99BDD7;
+  background: #EBF2F7;
+  width: 99%;
+  border-radius: 0.5rem;
+}
