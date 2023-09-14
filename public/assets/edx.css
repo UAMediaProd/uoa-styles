@@ -4353,19 +4353,23 @@
 }
 
 
-h1,
-h2,
-h3 {
+.content-wrapper h1,
+.content-wrapper h2,
+.content-wrapper h3 {
   font-family: "made_evolve_sans_bold", sans-serif;
 }
 
-h2 {
+.content-wrapper h3.hd-2 {
+  font-size: 1.2em !important;
+}
+
+.content-wrapper h2 {
   color: #102535 !important;
   border-left: 8px solid #d40000;
   padding-left: 0.5em;
 }
 
-h3 {
+.content-wrapper h3  {
   padding: 0.5em;
   background-color: #102535;
   border-radius: 0.08em;
@@ -4373,11 +4377,11 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-h3 i {
+.content-wrapper h3 i {
   margin-right: 1em;
 }
 
-h4:not(.adx-markup-label) {
+.content-wrapper h4:not(.adx-markup-label) {
   color: #005a9c;
   font-weight: 700;
   margin-top: 1em;
