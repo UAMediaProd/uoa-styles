@@ -4393,7 +4393,7 @@ li {
 li,
 aside {
   font-size: 1em;
-  line-height: 1.6;
+  line-height: 1.6 !important;
 }
 
 
@@ -4549,6 +4549,7 @@ a.external > span img {
   list-style: none;
   padding-left: 0;
 }
+
 .adx-cue-reference:before {
   content: "references";
   color: #005a9c;
@@ -5003,7 +5004,7 @@ div.adx-direction, div.adx-direction-assess, div.adx-direction-inform, div.adx-d
   overflow: initial !important;
 }
 div.adx-direction > *, div.adx-direction-assess > *, div.adx-direction-inform > *, div.adx-direction-ib > *, div.adx-direction-hsm > *, div.adx-direction-write > *, div.adx-direction-watch > *, div.adx-direction-reflect > *, div.adx-direction-reading > *, div.adx-direction-practice > *, div.adx-direction-investigate > *, div.adx-direction-interactive > *, div.adx-direction-extra > *, div.adx-direction-discussion > *, div.adx-direction-assessment > *, div.adx-direction-negative > *, div.adx-direction-positive > *, div.adx-direction-warning > *, div.adx-direction-question > *, div.adx-direction-info > * {
-  margin-left: 2.074rem;
+  margin-left: 2.074rem !important;
 }
 div.adx-direction:before, div.adx-direction-assess:before, div.adx-direction-inform:before, div.adx-direction-ib:before, div.adx-direction-hsm:before, div.adx-direction-write:before, div.adx-direction-watch:before, div.adx-direction-reflect:before, div.adx-direction-reading:before, div.adx-direction-practice:before, div.adx-direction-investigate:before, div.adx-direction-interactive:before, div.adx-direction-extra:before, div.adx-direction-discussion:before, div.adx-direction-assessment:before, div.adx-direction-negative:before, div.adx-direction-positive:before, div.adx-direction-warning:before, div.adx-direction-question:before, div.adx-direction-info:before {
   position: absolute;
@@ -5019,6 +5020,7 @@ div.adx-direction:before, div.adx-direction-assess:before, div.adx-direction-inf
 div.adx-direction h5, div.adx-direction-assess h5, div.adx-direction-inform h5, div.adx-direction-ib h5, div.adx-direction-hsm h5, div.adx-direction-write h5, div.adx-direction-watch h5, div.adx-direction-reflect h5, div.adx-direction-reading h5, div.adx-direction-practice h5, div.adx-direction-investigate h5, div.adx-direction-interactive h5, div.adx-direction-extra h5, div.adx-direction-discussion h5, div.adx-direction-assessment h5, div.adx-direction-negative h5, div.adx-direction-positive h5, div.adx-direction-warning h5, div.adx-direction-question h5, div.adx-direction-info h5 {
   color: #102535;
   font-weight: 700;
+  font-size: 1em !important;
 }
 div.adx-direction ol, div.adx-direction-assess ol, div.adx-direction-inform ol, div.adx-direction-ib ol, div.adx-direction-hsm ol, div.adx-direction-write ol, div.adx-direction-watch ol, div.adx-direction-reflect ol, div.adx-direction-reading ol, div.adx-direction-practice ol, div.adx-direction-investigate ol, div.adx-direction-interactive ol, div.adx-direction-extra ol, div.adx-direction-discussion ol, div.adx-direction-assessment ol, div.adx-direction-negative ol, div.adx-direction-positive ol, div.adx-direction-warning ol, div.adx-direction-question ol, div.adx-direction-info ol, div.adx-direction ul, div.adx-direction-assess ul, div.adx-direction-inform ul, div.adx-direction-ib ul, div.adx-direction-hsm ul, div.adx-direction-write ul, div.adx-direction-watch ul, div.adx-direction-reflect ul, div.adx-direction-reading ul, div.adx-direction-practice ul, div.adx-direction-investigate ul, div.adx-direction-interactive ul, div.adx-direction-extra ul, div.adx-direction-discussion ul, div.adx-direction-assessment ul, div.adx-direction-negative ul, div.adx-direction-positive ul, div.adx-direction-warning ul, div.adx-direction-question ul, div.adx-direction-info ul {
   padding-left: 2em !important;
@@ -5564,203 +5566,6 @@ blockquote.pullquote-left cite {
   text-align: right;
 }
 
-input[type=text], input[type=email], input[type=password], input[type=number], input[type=datetime-local] {
-  width: 100%;
-  padding: 0.8em;
-
-  color: #303030;
-  border: 1px solid #d5d9dd;
-  background: #eeeff1;
-  margin-bottom: 1em;
-  border-radius: 2px;
-  transition: all 0.2s ease-in-out;
-}
-
-select {
-  width: 100%;
-  padding: 0.8em;
-
-  color: #303030;
-  border: 1px solid #d5d9dd;
-  background: #eeeff1;
-  margin-bottom: 1em;
-  border-radius: 2px;
-  transition: all 0.2s ease-in-out;
-}
-
-option {
-  padding: 0.8em;
-}
-
-input:focus, textarea:focus {
-  outline: none;
-  border: 1px solid #005a9c !important;
-}
-
-input:disabled {
-  border: none;
-  background: #f9fafa;
-}
-
-.required:after {
-  font-family: "Font Awesome 5 Pro";
-  content: "\f069";
-  margin-left: 10px;
-  color: #d40000;
-  font-weight: 900;
-}
-
-textarea {
-  width: 100%;
-  margin-top: 1em;
-  padding: 0.8em;
-
-  color: #303030;
-  border: 1px solid #d5d9dd;
-  background: #eeeff1;
-  border-radius: 2px;
-}
-
-form {
-  max-width: 50ch;
-  margin: auto;
-}
-
-form button {
-  width: 100%;
-}
-
-form input[type=submit] {
-  width: 100%;
-}
-
-label {
-  font-size: 0.7em;
-  color: #a7adb2;
-  font-weight: 700;
-  transition: all 0.2s ease-in-out;
-}
-
-.inputLabel:focus-within label {
-  color: #005a9c;
-}
-
-.adx-container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Hide the browser's default checkbox */
-.adx-container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: -4px;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eeeff1;
-  border: 1px solid #d5d9dd;
-  border-radius: 0.5ch;
-}
-
-/* On mouse-over, add a grey background color */
-.adx-container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background */
-.adx-container input:checked ~ .checkmark {
-  background-color: #005a9c;
-}
-
-label input:checked + .test {
-  color: #005a9c !important;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the checkmark when checked */
-.adx-container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style the checkmark/indicator */
-.adx-container .checkmark:after {
-  left: 7px;
-  top: 4px;
-  width: 3px;
-  height: 7px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.radioMark {
-  position: absolute;
-  top: -4px;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eeeff1;
-  border: 1px solid #d5d9dd;
-  border-radius: 50%;
-}
-
-/* On mouse-over, add a grey background color */
-.adx-container:hover input ~ .radioMark {
-  background-color: #ccc;
-}
-
-/* When the radio button is checked, add a blue background */
-.adx-container input:checked ~ .radioMark {
-  background-color: #005a9c;
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.radioMark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.adx-container input:checked ~ .radioMark:after {
-  display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.adx-container .radioMark:after {
-  top: 6px;
-  left: 6px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
-}
-
 ul.circle {
   list-style: circle;
 }
@@ -5850,7 +5655,7 @@ ol.fancy-ol li {
   padding: 1rem 0;
   border-bottom: 1px solid #B9C0C6;
   margin: 0.833rem 0;
-  margin-left: 1rem !important;
+  margin-left: 3rem !important;
   counter-increment: step-counter;
 }
 ol.fancy-ol li:last-child {
@@ -5863,8 +5668,10 @@ ol.fancy-ol li::before {
   background: #0a1620;
   color: #fff;
   padding: 0.579rem;
-  margin-right: 2em;
+  margin-right: 1em;
   font-weight: bold;
+  /*! display: inline-block; */
+  margin-left: -3.4em;
 }
 ol.fancy-ol li::before p {
   margin-left: 1rem;
@@ -6063,7 +5870,7 @@ ul.adx-item-blocks li {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 ul.adx-item-blocks li p {
-  font-family: "made_evolve_sans_regular", Arial, sans-serif !important;
+  font-family: "made_evolve_sans_regular", sans-serif !important;
 }
 ul.adx-item-blocks li strong {
   font-family: "made_evolve_sans_bold", sans-serif;
@@ -6390,10 +6197,10 @@ aside.adx::after {
 aside> * {
   margin-top: 0;
 }
-asideul li {
+aside ul li {
   margin: 0.579rem 0;
 }
-asideheader {
+aside header {
   text-align: center;
 }
 aside.adx.left {
@@ -7375,7 +7182,6 @@ table tr.blk {
 table caption {
   caption-side: top;
   padding: 0.833rem;
-  font-family: "Arial", sans-serif !important;
 }
 table caption > * {
   font-style: normal;
@@ -7386,10 +7192,10 @@ table caption.caption-bottom {
 table th {
   background: #005a9c;
   color: #FFF;
-  font-family: "made_evolve_sans_bold", Arial, sans-serif;
+  font-family: "made_evolve_sans_bold", sans-serif;
 }
 table th li {
-  font-family: "made_evolve_sans_regular", Arial, sans-serif;
+  font-family: "made_evolve_sans_regular", sans-serif;
 }
 table tr:first-child th:first-child {
   border-top-left-radius: 3px;
@@ -7401,6 +7207,22 @@ table tr:first-child th:last-child {
 table tr:last-child th:first-child {
   border-bottom-left-radius: 3px;
 }
+
+table.adx {
+  margin: auto !important;
+}
+
+table.adx th {
+  background: #005a9c !important;
+  color: #FFF;
+  font-family: "made_evolve_sans_bold", Arial, sans-serif;
+  font-weight: unset;
+}
+
+table.adx td {
+  border: none;
+}
+
 table.adx.minimal {
   border-spacing: 0 8px !important;
   border: none;
@@ -8332,36 +8154,6 @@ h3.kl_panels_expander_open {
   font-size: 1em;
   padding: 0.5em 0.5em 0.5em 0.7em;
 }
-#kl_navigation ul > li {
-  border: 1px solid #d5d9dd;
-  padding: 1em;
-  border-radius: 0.5ch 0.5ch 0 0;
-  overflow: hidden;
-  position: relative;
-  transition: all ease 0.2s;
-  border-top: 30px solid #d5d9dd;
-  font-weight: 700;
-  font-family: "made_evolve_sans_bold", Arial, sans-serif;
-  width: 100%;
-}
-#kl_navigation ul {
-  list-style: none;
-  min-width: 70%;
-  max-width: 97%;
-  display: flex;
-  grid-gap: 1ch;
-  grid-auto-flow: dense;
-  padding: 0.5ch;
-}
-#kl_navigation a {
-  color: inherit;
-  text-decoration: none;
-}
-#kl_navigation ul > li:hover {
-  background: inherit;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  transform: scale(1.025);
-}
 
 .tooltip {
   position: relative;
@@ -8576,48 +8368,4 @@ h3.kl_panels_expander_open {
 }
 li p {
   margin: 0;
-}
-
-/*CIDILabs overrides */
-
-.kl_wrapper ul {
-  padding-left: 12px;
-}
-
-.kl_message_block.kl_message_block_tip {
-  border-color: #102535 !important;
-}
-
-.kl_message_heading.kl_message_heading_tip {
-  background: #102535 !important;
-}
-
-.kl_current .kl_colored_bar, .kl_complete .kl_colored_bar   {
-  background-color: #102535 !important;
-}
-
-.kl_progress_icons li.kl_complete a {
-  background:  #102535 !important;
-}
-/* editor-view of the grogress icons */
-p.kl_module_progress_icons {
-  background: #102535 !important;
-}
-section.adx.video footer a.inline_disabled.no_preview {
-  color: #102535;
-  width: 100%;
-  display: block;
-  text-decoration: none !important;
-  font-family: 'Arial', sans-serif;
-}
-
-section.adx.video footer a.file_download_btn {
-  display: none;
-}
-
-section.adx.video footer a.inline_disabled.no_preview:before {
-  position: relative;
-  top: 0.5ch;
-  margin:  0.2ch 1ch;
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23102535' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5'/%3E%3C/svg%3E");
 }
