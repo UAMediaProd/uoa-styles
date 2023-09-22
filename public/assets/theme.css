@@ -8681,15 +8681,18 @@ section.adx.video footer a.inline_disabled.no_preview:before {
 
 
 .weekbutton {
-  background-color: #337BB0;
-  color: white;
-  border: 3px solid #005A9C;
-  border-radius: 0.5rem;
+  /*! background-color: #337BB0; */
+  /*! color: white; */
+  border: 2px solid #102535;
+  border-radius: 0.25rem !important;
+  background: none;
+  font-family: "Made Evolve Sans", sans-serif;
+  font-size: 1em !important;
 }
 
 .weekbutton:hover {
   background-color: #005A9C;
-  border: 3px solid #003F6D;
+  border: 2px solid #003F6D;
   color: white
 }
 
@@ -8698,6 +8701,7 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   color: black;
   border: 2px solid #FB8587 !important;
   border-radius: 0.5rem;
+  margin-bottom: 1.4em !important;
 }
 
 .weekoverviewbutton:hover {
@@ -8711,6 +8715,8 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   color: black;
   border: 2px solid #a6cb8a !important;
   border-radius: 0.5rem;
+  margin-bottom: 1.4em !important;
+  margin-bottom: 1.4em !important;
 }
 
 .f2fworkshopbutton:hover {
@@ -8726,6 +8732,7 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   /*! border-width: 2px !important; */
   border-radius: 0.5rem;
 
+  margin-bottom: 1.4em !important;
 }
 
 .resourcesbutton:hover {
@@ -8765,8 +8772,9 @@ section.adx.video footer a.inline_disabled.no_preview:before {
 
 
 .modalboxbg {
-  border: 3px solid #99BDD7;
+  border: 2px solid #99BDD7;
   background: #EBF2F7;
   width: 99%;
   border-radius: 0.5rem;
+  font-family: "Arial", sans-serif;
 }
