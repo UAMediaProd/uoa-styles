@@ -4498,7 +4498,7 @@ a.external > span img {
   align-items: center;
 }
 
-.adx .adx-cue, .adx .adx-cue-blk, .adx .adx-cue-blk-left, .adx .adx-cue-blk-bottom, .adx .adx-cue-blk-right, .adx .adx-cue-blk-top, .adx .adx-cue-rev, .adx .adx-cue-rev-left, .adx .adx-cue-rev-bottom, .adx .adx-cue-rev-right, .adx .adx-cue-rev-top, .adx .adx-cue-information, .adx .adx-cue-information-left, .adx .adx-cue-information-bottom, .adx .adx-cue-information-right, .adx .adx-cue-information-top, .adx .adx-cue-warning, .adx .adx-cue-warning-left, .adx .adx-cue-warning-bottom, .adx .adx-cue-warning-right, .adx .adx-cue-warning-top, .adx .adx-cue-negative, .adx .adx-cue-negative-left, .adx .adx-cue-negative-bottom, .adx .adx-cue-negative-right, .adx .adx-cue-negative-top, .adx .adx-cue-positive, .adx .adx-cue-positive-left, .adx .adx-cue-positive-bottom, .adx .adx-cue-positive-right, .adx .adx-cue-positive-top, .adx .adx-cue-neutral, .adx .adx-cue-neutral-left, .adx .adx-cue-neutral-bottom, .adx .adx-cue-neutral-right, .adx .adx-cue-neutral-top, .adx .adx-cue-complimentary, .adx .adx-cue-complimentary-left, .adx .adx-cue-complimentary-bottom, .adx .adx-cue-complimentary-right, .adx .adx-cue-complimentary-top, .adx .adx-cue-accent, .adx .adx-cue-accent-left, .adx .adx-cue-accent-bottom, .adx .adx-cue-accent-right, .adx .adx-cue-accent-top, .adx .adx-cue-primary, .adx .adx-cue-primary-left, .adx .adx-cue-primary-bottom, .adx .adx-cue-primary-right, .adx .adx-cue-primary-top, .adx .adx-cue-brand-red, .adx .adx-cue-brand-red-left, .adx .adx-cue-brand-red-bottom, .adx .adx-cue-brand-red-right, .adx .adx-cue-brand-red-top, .adx .adx-cue-brand-gold, .adx .adx-cue-brand-gold-left, .adx .adx-cue-brand-gold-bottom, .adx .adx-cue-brand-gold-right, .adx .adx-cue-brand-gold-top, .adx .adx-cue-brand-lightblue, .adx .adx-cue-brand-lightblue-left, .adx .adx-cue-brand-lightblue-bottom, .adx .adx-cue-brand-lightblue-right, .adx .adx-cue-brand-lightblue-top, .adx .adx-cue-brand-midblue, .adx .adx-cue-brand-midblue-left, .adx .adx-cue-brand-midblue-bottom, .adx .adx-cue-brand-midblue-right, .adx .adx-cue-brand-midblue-top, .adx .adx-cue-brand-darkblue, .adx .adx-cue-brand-darkblue-left, .adx .adx-cue-brand-darkblue-bottom, .adx .adx-cue-brand-darkblue-right, .adx .adx-cue-brand-darkblue-top, .adx .adx-cue-ld, .adx .adx-cue-attention, .adx .adx-cue-summary, .adx .adx-cue-reference, .adx .adx-cue-notification, .adx .adx-cue-note, .adx .adx-cue-case-study, .adx .adx-cue-definition, .adx .adx-cue-example, .adx .adx-cue-bordered, .adx .adx-cue-left, .adx .adx-cue-bottom, .adx .adx-cue-right, .adx .adx-cue-top, .adx .adx-cue-phil-toolkit, .adx .adx-cue-content-warning {
+.adx .adx-cue, .adx .adx-cue-blk, .adx .adx-cue-blk-left, .adx .adx-cue-blk-bottom, .adx .adx-cue-blk-right, .adx .adx-cue-blk-top, .adx .adx-cue-rev, .adx .adx-cue-rev-left, .adx .adx-cue-rev-bottom, .adx .adx-cue-rev-right, .adx .adx-cue-rev-top, .adx .adx-cue-information, .adx .adx-cue-information-left, .adx .adx-cue-information-bottom, .adx .adx-cue-information-right, .adx .adx-cue-information-top, .adx .adx-cue-warning, .adx .adx-cue-warning-left, .adx .adx-cue-warning-bottom, .adx .adx-cue-warning-right, .adx .adx-cue-warning-top, .adx .adx-cue-negative, .adx .adx-cue-negative-left, .adx .adx-cue-negative-bottom, .adx .adx-cue-negative-right, .adx .adx-cue-negative-top, .adx .adx-cue-positive, .adx .adx-cue-positive-left, .adx .adx-cue-positive-bottom, .adx .adx-cue-positive-right, .adx .adx-cue-positive-top, .adx .adx-cue-neutral, .adx .adx-cue-neutral-left, .adx .adx-cue-neutral-bottom, .adx .adx-cue-neutral-right, .adx .adx-cue-neutral-top, .adx .adx-cue-complimentary, .adx .adx-cue-complimentary-left, .adx .adx-cue-complimentary-bottom, .adx .adx-cue-complimentary-right, .adx .adx-cue-complimentary-top, .adx .adx-cue-accent, .adx .adx-cue-accent-left, .adx .adx-cue-accent-bottom, .adx .adx-cue-accent-right, .adx .adx-cue-accent-top, .adx .adx-cue-primary, .adx .adx-cue-primary-left, .adx .adx-cue-primary-bottom, .adx .adx-cue-primary-right, .adx .adx-cue-primary-top, .adx .adx-cue-brand-red, .adx .adx-cue-brand-red-left, .adx .adx-cue-brand-red-bottom, .adx .adx-cue-brand-red-right, .adx .adx-cue-brand-red-top, .adx .adx-cue-brand-gold, .adx .adx-cue-brand-gold-left, .adx .adx-cue-brand-gold-bottom, .adx .adx-cue-brand-gold-right, .adx .adx-cue-brand-gold-top, .adx .adx-cue-brand-lightblue, .adx .adx-cue-brand-lightblue-left, .adx .adx-cue-brand-lightblue-bottom, .adx .adx-cue-brand-lightblue-right, .adx .adx-cue-brand-lightblue-top, .adx .adx-cue-brand-midblue, .adx .adx-cue-brand-midblue-left, .adx .adx-cue-brand-midblue-bottom, .adx .adx-cue-brand-midblue-right, .adx .adx-cue-brand-midblue-top, .adx .adx-cue-brand-darkblue, .adx .adx-cue-brand-darkblue-left, .adx .adx-cue-brand-darkblue-bottom, .adx .adx-cue-brand-darkblue-right, .adx .adx-cue-brand-darkblue-top, .adx .adx-cue-ld, .adx .adx-cue-attention, .adx .adx-cue-summary, .adx .adx-cue-reference, .adx .adx-cue-notification, .adx .adx-cue-note, .adx .adx-cue-case-study, .adx .adx-cue-definition, .adx .adx-cue-example, .adx .adx-cue-bordered, .adx .adx-cue-left, .adx .adx-cue-bottom, .adx .adx-cue-right, .adx .adx-cue-top, .adx .adx-cue-phil-toolkit, .adx .adx-cue-content-warning.adx .adx-direction-cue-assessment, .adx .adx-direction-cue-discussion, .adx .adx-direction-cue-extra, .adx .adx-direction-cue-interactive, .adx .adx-direction-cue-investigate, .adx .adx-direction-cue-practice, .adx .adx-direction-cue-reading, .adx .adx-direction-cue-reflect, .adx .adx-direction-cue-watch, .adx .adx-direction-cue-write {
   background: #f8f9f9;
   padding: 1rem 1.728rem;
   max-width: 90ch;
@@ -4520,6 +4520,36 @@ a.external > span img {
   border: 1px solid #B9C0C6;
   border-left: 1rem solid #B9C0C6;
 }
+.adx .adx-direction-cue-assessment {
+  border-left: 1rem solid #3706BB;
+ }
+ .adx .adx-direction-cue-discussion {
+  border-left: 1rem solid #9106BB;
+ }
+ .adx .adx-direction-cue-extra {
+  border-left: 1rem solid #BB068B;
+ }
+ .adx .adx-direction-cue-interactive {
+  border-left: 1rem solid #BB3706;
+ }
+ .adx .adx-direction-cue-investigate {
+  border-left: 1rem solid #BB9106;
+ }
+ .adx .adx-direction-cue-practice {
+  border-left: 1rem solid #96BB06;
+ }
+ .adx .adx-direction-cue-reading {
+  border-left: 1rem solid #3EBB06;
+ }
+ .adx .adx-direction-cue-reflect {
+  border-left: 1rem solid #058869;
+ }
+ .adx .adx-direction-cue-watch {
+  border-left: 1rem solid #046E8B;
+ }
+ .adx .adx-direction-cue-write {
+  border-left: 1rem solid #052A8A;
+ }
 .adx .adx-cue-ld:before, .adx .adx-cue-attention:before, .adx .adx-cue-summary:before, .adx .adx-cue-reference:before, .adx .adx-cue-notification:before, .adx .adx-cue-note:before, .adx .adx-cue-case-study:before, .adx .adx-cue-definition:before, .adx .adx-cue-example:before, .adx .adx-cue-phil-toolkit:before, .adx .adx-cue-content-warning:before {
   display: block;
   text-transform: uppercase;
@@ -5861,11 +5891,10 @@ ol.fancy-ol {
   list-style-type: none !important;
   background: #eeeff1;
   border: 1px solid #d5d9dd;
-  padding: 1em 2em !important;
   border-radius: 0.402rem;
   font-size: 1rem;
   max-width: 90ch;
-  margin: 0.833rem auto !important; /* override for CIDIlabs */
+  margin: 1rem auto !important; /* override for CIDIlabs */
 }
 ol.fancy-ol.inside {
   background: none !important;
@@ -5878,13 +5907,15 @@ ol.fancy-ol.broken-list li::before {
   content: counter(mycounter) " ";
 }
 ol.fancy-ol li {
-  padding: 1rem 0;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   border-bottom: 1px solid #B9C0C6;
-  margin: 0.833rem 0;
-  margin-left: 1rem !important;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
   counter-increment: step-counter;
-  text-indent: -3em;
-  padding-left: 1.5em;
+  margin: 0;
+  text-indent: -3.2em;
+  padding-left: 3.2em;
 }
 ol.fancy-ol li:last-child {
   border-bottom: none;
@@ -5892,10 +5923,14 @@ ol.fancy-ol li:last-child {
 ol.fancy-ol li::before {
   content: " " counter(step-counter);
   text-transform: uppercase;
-  font-size: 0.694rem;
+  font-size: 0.7rem;
   background: #0a1620;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
   color: #fff;
-  padding: 0.579rem;
+  border-radius: 0.3em;
   margin-right: 2em;
   font-weight: bold;
 }
@@ -5911,19 +5946,21 @@ ol.fancy-ol li p {
   list-style-type: none !important;
   margin: 0 auto;
   max-width: 90ch;
-  padding: 0.694rem;
   background: #eeeff1;
   border: 1px solid #d5d9dd;
-  border-radius: 0.579rem;
+  border-radius: 0.4rem;
   font-size: 1rem;
 }
 .step-list > li {
-  margin: 0.694rem 0;
-  padding: 1rem;
-  border-bottom: 1px solid #d5d9dd;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #B9C0C6;
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
   counter-increment: step-counter;
-  text-indent: -5em;
-  padding-left: 5em;
+  margin: 0;
+  text-indent: -5.1em;
+  padding-left: 5.1em;
 }
 .step-list > li.step-2 {
   counter-reset: step-counter 1;
@@ -5985,9 +6022,11 @@ ol.fancy-ol li p {
   text-transform: uppercase;
   font-size: 0.694rem;
   background: #0a1620;
+  border-radius: 0.3rem;
   color: #fff;
-  padding: 0.694rem;
+  padding: 0.7rem;
   margin-right: 2em;
+  font-weight: bold;
 }
 
 .step-list > li > ul, .step-list > li > ol {
