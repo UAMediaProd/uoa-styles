@@ -2,6 +2,7 @@
   <div id="colours-main">
     <div id="colours-wrapper">
       <div class="adx"><h3>Colour Palettes</h3></div>
+      <p>Click on any of the following palette swatches to copy the HEX code for use elsewhere.</p>
       <div v-for="palette in colourPalettes" class="mb-6">
         <h4 class="adx-markup-label">{{ palette.name }} Colours</h4>
         <div class="colour-samples w-full">

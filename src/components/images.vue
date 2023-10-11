@@ -4,7 +4,7 @@
     <h4 class="adx-markup-label">Default landscape image set to 80%</h4>
 
     <figure class="w80" style="margin: auto;text-align: center;">
-      <img src="../assets/images/spacex-unsplash.jpg" alt="" class="top">
+      <img src="../assets/images/spacex-unsplash.jpg" alt="" class="top kl_popup_image">
       <figcaption>
         <strong>Figure 1.1.1: </strong>This is one hell of a rocket with its width set to 80%.<br />
         <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
@@ -19,7 +19,7 @@
     <h4 class="adx-markup-label">Default portrait image set to 40%</h4>
 
     <figure class="w40" style="margin: auto;text-align: center;">
-      <img src="../assets/images/adam-miller-unsplash.jpg" alt="" class="top">
+      <img src="../assets/images/adam-miller-unsplash.jpg" alt="" class="top kl_popup_image">
       <figcaption>
         <strong>Figure 1.1.2:</strong> Astronaut with its width set to 40%.<br />
         <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
@@ -37,7 +37,7 @@
       <div class="bs-row">
         <div class="bs-col-md">
           <figure>
-            <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">
+            <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;" class="kl_popup_image">
             <figcaption>
               <strong>Figure 1.1.3:</strong> Good doggo.<br />
               <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
@@ -64,7 +64,7 @@
         </div>
         <div class="bs-col-md">
           <figure>
-            <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">
+            <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;" class="kl_popup_image">
             <figcaption>
               <strong>Figure 1.1.4:</strong> Good doggo.<br />
               <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
@@ -83,14 +83,14 @@
 
     <section class="adx-gallery two-up">
       <figure>
-        <img src="../assets/images/persona.jpg" alt="" class="top">
+        <img src="../assets/images/persona.jpg" alt="" class="top kl_popup_image">
         <figcaption>
           <strong>Figure 1.1.5(a):</strong> Image on the left.<br />
           <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
         </figcaption>
       </figure>
       <figure>
-        <img src="../assets/images/persona.jpg" alt="" class="top">
+        <img src="../assets/images/persona.jpg" alt="" class="top kl_popup_image">
         <figcaption>
           <strong>Figure 1.1.5(b):</strong> Image on the right.<br />
           <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
@@ -106,7 +106,7 @@
     <h4 class="adx-markup-label">Image excerpt</h4>
 
     <figure class="w60" style="margin: auto;text-align: center;">
-      <img src="../assets/images/brand-eg.png" alt="" class="top">
+      <img src="../assets/images/brand-eg.png" alt="" class="top kl_popup_image">
       <figcaption>
         <strong>Figure 1.1.6:</strong> Uses the w60 task to set the width to 60%.<br />
         <em>Source: <a href="http://www.unsplash.com/" target="_blank" class="text-brand-midblue underline">http://www.unsplash.com/</a></em>
@@ -126,7 +126,7 @@ import ClipboardButton from '@/components/common/clipboardButton.vue'
 const figureHtml = {
   w80Comment: '<!-- Portrait image HTML usage -->\n',
   w80: '<figure class="w80" style="margin: auto;text-align: center;">\n' +
-    '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/spacex-unsplash.d9507b06.jpg" alt="" class="top">\n' +
+    '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/spacex-unsplash.d9507b06.jpg" alt="" class="top kl_popup_image">\n' +
     '  <figcaption>\n' +
     '    <strong>Figure 1.1.1:</strong> This is one hell of a rocket with its width set to 80%.<br />\n' +
     '    <em><a href="http://www.unsplash.com/" target="_blank" >http://www.unsplash.com/</a></em>\n' +
@@ -134,7 +134,7 @@ const figureHtml = {
     '</figure>',
   w40Comment: '<!-- Landscape image HTML usage -->\n',
   w40: '<figure class="w40" style="margin: auto;text-align: center;">\n' +
-    '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/adam-miller-unsplash.18bc8982.jpg" alt="" class="top">\n' +
+    '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/adam-miller-unsplash.18bc8982.jpg" alt="" class="top kl_popup_image">\n' +
     '  <figcaption>\n' +
     '    <strong>Figure 1.1.2:</strong> Astronaut with its width set to 40%.<br />\n' +
     '    <em><a href="http://www.unsplash.com/" target="_blank" >http://www.unsplash.com/</a></em>\n' +
@@ -144,7 +144,7 @@ const figureHtml = {
   asideLeft: '<div class="bs-row">\n' +
    '  <div class="bs-col-md">\n' +
    '    <figure>\n' +
-   '      <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">\n' +
+   '      <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;" class="kl_popup_image">\n' +
    '        <figcaption>\n' +
    '          <strong>Figure 1.1.3:</strong> Good doggo<br />\n' +
    '          <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
@@ -162,7 +162,7 @@ const figureHtml = {
     '  </div>\n' +
     '  <div class="bs-col-md">\n' +
     '    <figure>\n' +
-    '      <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;">\n' +
+    '      <img src="../assets/images/dog-unsplash.jpg" alt="" style="margin: auto; max-width: 80%;" class="kl_popup_image">\n' +
     '        <figcaption>\n' +
     '          <strong>Figure 1.1.4:</strong> Good doggo<br />\n' +
     '          <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
@@ -173,14 +173,14 @@ const figureHtml = {
   sideComment: '<!-- Side-by-side image gallery HTML usage  -->\n',
   side: '<section class="adx-gallery two-up">\n' +
     '  <figure>\n' +
-    '    <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top">\n' +
+    '    <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top kl_popup_image">\n' +
     '    <figcaption>\n' +
     '      <strong>Figure 1.1.5(a):</strong> Image on the left.<br />\n' +
     '      <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
     '    </figcaption>\n' +
     '  </figure>\n' +
     '  <figure>\n' +
-    '    <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top">\n' +
+    '    <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/persona.987c5b3c.jpg" alt="" class="top kl_popup_image">\n' +
     '    <figcaption>\n' +
     '      <strong>Figure 1.1.5(b):</strong> Image on the right.<br />\n' +
     '      <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
@@ -189,7 +189,7 @@ const figureHtml = {
     '</section>',
   smallComment: '<!-- Small image excerpt HTML usage -->\n',
   small: '<figure class="w60" style="margin: auto;text-align: center;">\n' +
-    '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/brand-eg.9337999c.png" alt="" class="top">\n' +
+    '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/brand-eg.9337999c.png" alt="" class="top kl_popup_image">\n' +
     '  <figcaption>\n' +
     '    <strong>Figure 1.1.6:</strong> Uses the w60 task to set the width to 60%.<br />\n' +
     '    <em>Source: <a href="http://www.unsplash.com/" target="_blank">http://www.unsplash.com/</a></em>\n' +
