@@ -8412,13 +8412,13 @@ section.adx-podcast-wide audio {
 .adx #kl_navigation ul > li {
   border: 1px solid #d5d9dd;
   padding: 1em;
-  border-radius: 0.5ch 0.5ch 0 0;
+  border-radius: 0.5ch;
   overflow: hidden;
   position: relative;
   transition: all ease 0.2s;
-  border-top: 30px solid #d5d9dd;
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
   width: 100%;
+    margin-bottom: 0;
 }
 .adx #kl_navigation ul {
   list-style: none;
