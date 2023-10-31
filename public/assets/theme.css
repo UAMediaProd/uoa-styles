@@ -8718,8 +8718,7 @@ section.adx.video footer a.inline_disabled.no_preview:before {
 
 /* HAPIB modal grid additions - LVP-4377 */
 
-
-.weekbutton {
+.basicbutton {
   /*! background-color: #337BB0; */
   /*! color: white; */
   border: 2px solid #102535;
@@ -8729,13 +8728,27 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   font-size: 1em !important;
 }
 
-.weekbutton:hover {
+.basicbutton:hover {
   background-color: #005A9C;
   border: 2px solid #003F6D;
   color: white
 }
 
-.weekoverviewbutton {
+.redbutton {
+  background-color: #ff8888 !important;
+  color: black;
+  border: 2px solid #ff5555 !important;
+  border-radius: 0.5rem;
+  margin-bottom: 1.4em !important;
+}
+
+.redbutton:hover {
+  background-color: #ff5555 !important;
+  border: 2px solid #940000 !important;
+  color: black;
+}
+
+.pinkbutton {
   background-color: #FDC2C3 !important;
   color: black;
   border: 2px solid #FB8587 !important;
@@ -8743,13 +8756,39 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   margin-bottom: 1.4em !important;
 }
 
-.weekoverviewbutton:hover {
+.pinkbutton:hover {
   background-color: #FB8587 !important;
   border: 2px solid #AF484A !important;
   color: black;
 }
 
-.f2fworkshopbutton {
+.orangebutton {
+  background-color: #FCD5A5 !important;
+  color: black;
+  border: 2px solid #F9AB4B !important;
+  border-radius: 0.5rem;
+}
+
+.orangebutton:hover {
+  background-color: #F9AB4B !important;
+  border: 2px solid #AE6915 !important;
+  color: black;
+}
+
+.yellowbutton {
+  background-color: #FDE9B9 !important;
+  color: black;
+  border: 2px solid #FAD272 !important;
+  border-radius: 0.5rem;
+}
+
+.yellowbutton:hover {
+  background-color: #FAD272 !important;
+  border: 2px solid #AE8B37 !important;
+  color: black;
+}
+
+.greenbutton {
   background-color: #D3E5C5 !important;
   color: black;
   border: 2px solid #a6cb8a !important;
@@ -8758,13 +8797,13 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   margin-bottom: 1.4em !important;
 }
 
-.f2fworkshopbutton:hover {
+.greenbutton:hover {
   background-color: #a6cb8a !important;
   border: 2px solid #65854C !important;
   color: black;
 }
 
-.resourcesbutton {
+.bluebutton {
   background-color: #B7E9F9 !important;
   color: black;
   border: 2px solid #70d4f3 !important;
@@ -8774,41 +8813,40 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   margin-bottom: 1.4em !important;
 }
 
-.resourcesbutton:hover {
+.bluebutton:hover {
   background-color: #70d4f3 !important;
   border: 2px solid #358DA8 !important;
   color: black;
 }
 
-
-.tutorialbutton {
-  background-color: #FDE9B9 !important;
+.purplebutton {
+  background-color: #dec7e1  !important;
   color: black;
-  border: 2px solid #FAD272 !important;
+  border: 2px solid #b793c4 !important;
   border-radius: 0.5rem;
+  margin-bottom: 1.4em !important;
 }
 
 
-.tutorialbutton:hover {
-  background-color: #FAD272 !important;
-  border: 2px solid #AE8B37 !important;
+.purplebutton:hover {
+  background-color: #b793c4 !important;
+  border: 2px solid #8653a2 !important;
   color: black;
 }
 
-
-.labpracbutton {
-  background-color: #FCD5A5 !important;
+.greybutton {
+  background-color: #e3e6e8 !important;
   color: black;
-  border: 2px solid #F9AB4B !important;
+  border: 2px solid #c7cdd1 !important;
   border-radius: 0.5rem;
+  margin-bottom: 1.4em !important;
 }
 
-.labpracbutton:hover {
-  background-color: #F9AB4B !important;
-  border: 2px solid #AE6915 !important;
+.greybutton:hover {
+  background-color: #c7cdd1 !important;
+  border: 2px solid #82868b !important;
   color: black;
 }
-
 
 .modalboxbg {
   border: 2px solid #99BDD7;
