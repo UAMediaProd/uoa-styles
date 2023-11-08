@@ -7257,11 +7257,11 @@ figure.adx img {
 }
 figure.adx figcaption {
   color: #595959;
-  padding: 0.579rem;
   font-size: 1rem;
   text-align: center;
   font-family: "Arial", sans-serif;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 0.5rem !important;
 }
 figure.adx cite a {
   display: inline-block;
@@ -7449,7 +7449,7 @@ figure.adx cite a:hover {
 }
 .adx table.adx caption {
   caption-side: top;
-  padding: 0.833rem;
+  padding: 1rem;
   font-family: "Arial", sans-serif !important;
 }
 .adx table.adx caption > * {
@@ -8854,4 +8854,8 @@ section.adx.video footer a.inline_disabled.no_preview:before {
   width: 99%;
   border-radius: 0.5rem;
   font-family: "Arial", sans-serif;
+}
+
+.extraimgpadding {
+  margin: 1rem 0;
 }
