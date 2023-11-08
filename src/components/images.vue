@@ -124,7 +124,7 @@
 import ClipboardButton from '@/components/common/clipboardButton.vue'
 
 const figureHtml = {
-  w80Comment: '<!-- Portrait image HTML usage -->\n',
+  w80Comment: '<!-- Landscape image HTML usage -->\n',
   w80: '<figure class="w80" style="margin: auto;text-align: center;">\n' +
     '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/spacex-unsplash.d9507b06.jpg" alt="" class="top kl_popup_image">\n' +
     '  <figcaption>\n' +
@@ -132,7 +132,7 @@ const figureHtml = {
     '    <em><a href="http://www.unsplash.com/" target="_blank" >http://www.unsplash.com/</a></em>\n' +
     '  </figcaption>\n' +
     '</figure>',
-  w40Comment: '<!-- Landscape image HTML usage -->\n',
+  w40Comment: '<!-- Portrait image HTML usage -->\n',
   w40: '<figure class="w40" style="margin: auto;text-align: center;">\n' +
     '  <img src="https://mediaproduction.adelaide.edu.au/uoa-styles/assets/adam-miller-unsplash.18bc8982.jpg" alt="" class="top kl_popup_image">\n' +
     '  <figcaption>\n' +
