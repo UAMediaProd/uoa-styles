@@ -8848,3 +8848,7 @@ section.adx.video footer a.inline_disabled.no_preview:before {
 img.mfp-img {
   background: white;
 }
+
+.mfp-title {
+  color: #102535;
+}
