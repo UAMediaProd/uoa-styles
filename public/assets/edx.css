@@ -1,15 +1,19 @@
 @charset "UTF-8";
 @import url("https://pro.fontawesome.com/releases/v5.15.0/css/all.css");
+.adx-brand-darkblue-tint {
+  color: #eceeef !important;
+}
+
 .adx-brand-darkblue-lightest {
-  color: #e7e9eb !important;
+  color: #9fa8ae !important;
 }
 
 .adx-brand-darkblue-lighter {
-  color: #3985be !important;
+  color: #707c86 !important;
 }
 
 .adx-brand-darkblue-light {
-  color: #2e6997 !important;
+  color: #40515d !important;
 }
 
 .adx-brand-darkblue {
@@ -26,10 +30,6 @@
 
 .adx-brand-darkblue-darkest {
   color: #08131b !important;
-}
-
-.adx-brand-darkblue-tint {
-  color: #eceeef !important;
 }
 
 .adx-brand-darkblue-trans-50 {
@@ -103,16 +103,20 @@
   color: #000;
 }
 
+.adx-brand-midblue-tint {
+  color: #ebf2f7 !important;
+}
+
 .adx-brand-midblue-lightest {
-  color: #e6eff5 !important;
+  color: #99bdd7 !important;
 }
 
 .adx-brand-midblue-lighter {
-  color: #50b5ff !important;
+  color: #669cc4 !important;
 }
 
 .adx-brand-midblue-light {
-  color: #1d9fff !important;
+  color: #337bb0 !important;
 }
 
 .adx-brand-midblue {
@@ -129,10 +133,6 @@
 
 .adx-brand-midblue-darkest {
   color: #002d4e !important;
-}
-
-.adx-brand-midblue-tint {
-  color: #ebf2f7 !important;
 }
 
 .adx-brand-midblue-trans-50 {
@@ -309,16 +309,20 @@
   color: #000;
 }
 
+.adx-brand-gold-tint {
+  color: #f9f5eb !important;
+}
+
 .adx-brand-gold-lightest {
-  color: #f7f3e6 !important;
+  color: #e1cf9c !important;
 }
 
 .adx-brand-gold-lighter {
-  color: #f9d875 !important;
+  color: #d1b86b !important;
 }
 
 .adx-brand-gold-light {
-  color: #f7ca44 !important;
+  color: #c2a039 !important;
 }
 
 .adx-brand-gold {
@@ -335,10 +339,6 @@
 
 .adx-brand-gold-darkest {
   color: #5a4404 !important;
-}
-
-.adx-brand-gold-tint {
-  color: #f9f5eb !important;
 }
 
 .adx-brand-gold-trans-50 {
@@ -412,16 +412,20 @@
   color: #000;
 }
 
+.adx-brand-red-tint {
+  color: #fcebeb !important;
+}
+
 .adx-brand-red-lightest {
-  color: #fbe6e6 !important;
+  color: #ee9999 !important;
 }
 
 .adx-brand-red-lighter {
-  color: #ff8888 !important;
+  color: #e56666 !important;
 }
 
 .adx-brand-red-light {
-  color: #ff5555 !important;
+  color: #dd3333 !important;
 }
 
 .adx-brand-red {
@@ -438,10 +442,6 @@
 
 .adx-brand-red-darkest {
   color: #6a0000 !important;
-}
-
-.adx-brand-red-tint {
-  color: #fcebeb !important;
 }
 
 .adx-brand-red-trans-50 {
@@ -586,7 +586,6 @@
 .adx-bg-primary {
   background: #102535 !important;
   color: #fff;
-  color: #fff;
 }
 
 .adx-bg-primary-dark {
@@ -689,7 +688,6 @@
 
 .adx-bg-accent {
   background: #63E33B !important;
-  color: #000;
   color: #000;
 }
 
@@ -794,7 +792,6 @@
 .adx-bg-complimentary {
   background: #7356C5 !important;
   color: #fff;
-  color: #fff;
 }
 
 .adx-bg-complimentary-dark {
@@ -827,16 +824,20 @@
   color: #000;
 }
 
+.adx-neutral-tint {
+  color: #f9fafa !important;
+}
+
 .adx-neutral-lightest {
-  color: #f8f9f9 !important;
+  color: #e3e6e8 !important;
 }
 
 .adx-neutral-lighter {
-  color: white !important;
+  color: #d5d9dd !important;
 }
 
 .adx-neutral-light {
-  color: white !important;
+  color: #c7cdd1 !important;
 }
 
 .adx-neutral {
@@ -853,10 +854,6 @@
 
 .adx-neutral-darkest {
   color: #5d6063 !important;
-}
-
-.adx-neutral-tint {
-  color: #f9fafa !important;
 }
 
 .adx-neutral-trans-50 {
@@ -940,16 +937,20 @@
   color: #fff;
 }
 
+.adx-positive-tint {
+  color: #edf7f1 !important;
+}
+
 .adx-positive-lightest {
-  color: #e9f5ed !important;
+  color: #a7d5b9 !important;
 }
 
 .adx-positive-lighter {
-  color: #87e4ab !important;
+  color: #7ac095 !important;
 }
 
 .adx-positive-light {
-  color: #5dda8e !important;
+  color: #4eab72 !important;
 }
 
 .adx-positive {
@@ -966,10 +967,6 @@
 
 .adx-positive-darkest {
   color: #114b28 !important;
-}
-
-.adx-positive-tint {
-  color: #edf7f1 !important;
 }
 
 .adx-positive-trans-50 {
@@ -1053,16 +1050,20 @@
   color: #fff;
 }
 
+.adx-negative-tint {
+  color: #fcefee !important;
+}
+
 .adx-negative-lightest {
-  color: #fbebea !important;
+  color: #eeadab !important;
 }
 
 .adx-negative-lighter {
-  color: #f2c2c0 !important;
+  color: #e58480 !important;
 }
 
 .adx-negative-light {
-  color: #ea9996 !important;
+  color: #dd5b56 !important;
 }
 
 .adx-negative {
@@ -1079,10 +1080,6 @@
 
 .adx-negative-darkest {
   color: #6a1916 !important;
-}
-
-.adx-negative-tint {
-  color: #fcefee !important;
 }
 
 .adx-negative-trans-50 {
@@ -1166,16 +1163,20 @@
   color: #fff;
 }
 
+.adx-warning-tint {
+  color: #fff8ed !important;
+}
+
 .adx-warning-lightest {
-  color: #fff6e9 !important;
+  color: #ffdba7 !important;
 }
 
 .adx-warning-lighter {
-  color: #ffeed6 !important;
+  color: #ffc87b !important;
 }
 
 .adx-warning-light {
-  color: #ffd9a3 !important;
+  color: #ffb64f !important;
 }
 
 .adx-warning {
@@ -1192,10 +1193,6 @@
 
 .adx-warning-darkest {
   color: #805212 !important;
-}
-
-.adx-warning-tint {
-  color: #fff8ed !important;
 }
 
 .adx-warning-trans-50 {
@@ -1279,16 +1276,20 @@
   color: #fff;
 }
 
+.adx-information-tint {
+  color: #ebeef6 !important;
+}
+
 .adx-information-lightest {
-  color: #e6eaf3 !important;
+  color: #9baad0 !important;
 }
 
 .adx-information-lighter {
-  color: #497af8 !important;
+  color: #697fb9 !important;
 }
 
 .adx-information-light {
-  color: #1856f7 !important;
+  color: #3755a1 !important;
 }
 
 .adx-information {
@@ -1305,10 +1306,6 @@
 
 .adx-information-darkest {
   color: #031545 !important;
-}
-
-.adx-information-tint {
-  color: #ebeef6 !important;
 }
 
 .adx-information-trans-50 {
@@ -1618,16 +1615,20 @@
   color: #fff;
 }
 
-.adx-ld1-lightest {
-  color: #edfafe !important;
-}
-
-.adx-ld1-lighter {
+.adx-ld1-tint {
   color: #f1fbfe !important;
 }
 
+.adx-ld1-lightest {
+  color: #b7e9f9 !important;
+}
+
+.adx-ld1-lighter {
+  color: #94dff6 !important;
+}
+
 .adx-ld1-light {
-  color: #c2ecfa !important;
+  color: #70d4f3 !important;
 }
 
 .adx-ld1 {
@@ -1644,10 +1645,6 @@
 
 .adx-ld1-darkest {
   color: #266578 !important;
-}
-
-.adx-ld1-tint {
-  color: #f1fbfe !important;
 }
 
 .adx-ld1-trans-50 {
@@ -1689,7 +1686,6 @@
 .adx-bg-ld1 {
   background: #4cc9f0 !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ld1-dark {
@@ -1722,16 +1718,20 @@
   color: #000;
 }
 
+.adx-ld2-tint {
+  color: #fff3f3 !important;
+}
+
 .adx-ld2-lightest {
-  color: #fff0f0 !important;
+  color: #fdc2c3 !important;
 }
 
 .adx-ld2-lighter {
-  color: white !important;
+  color: #fca4a5 !important;
 }
 
 .adx-ld2-light {
-  color: #fee2e3 !important;
+  color: #fb8587 !important;
 }
 
 .adx-ld2 {
@@ -1748,10 +1748,6 @@
 
 .adx-ld2-darkest {
   color: #7d3435 !important;
-}
-
-.adx-ld2-tint {
-  color: #fff3f3 !important;
 }
 
 .adx-ld2-trans-50 {
@@ -1793,7 +1789,6 @@
 .adx-bg-ld2 {
   background: #fa6769 !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ld2-dark {
@@ -1826,16 +1821,20 @@
   color: #000;
 }
 
+.adx-ld3-tint {
+  color: #fef7ed !important;
+}
+
 .adx-ld3-lightest {
-  color: #fef5e9 !important;
+  color: #fcd5a5 !important;
 }
 
 .adx-ld3-lighter {
-  color: #fde7cb !important;
+  color: #fbc078 !important;
 }
 
 .adx-ld3-light {
-  color: #fcd09a !important;
+  color: #f9ab4b !important;
 }
 
 .adx-ld3 {
@@ -1852,10 +1851,6 @@
 
 .adx-ld3-darkest {
   color: #7c4b0f !important;
-}
-
-.adx-ld3-tint {
-  color: #fef7ed !important;
 }
 
 .adx-ld3-trans-50 {
@@ -1897,7 +1892,6 @@
 .adx-bg-ld3 {
   background: #f8961e !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ld3-dark {
@@ -1930,16 +1924,20 @@
   color: #000;
 }
 
+.adx-ld4-tint {
+  color: #fffbf1 !important;
+}
+
 .adx-ld4-lightest {
-  color: #fef9ed !important;
+  color: #fde9b9 !important;
 }
 
 .adx-ld4-lighter {
-  color: #fffefc !important;
+  color: #fbdd95 !important;
 }
 
 .adx-ld4-light {
-  color: #fdeeca !important;
+  color: #fad272 !important;
 }
 
 .adx-ld4 {
@@ -1956,10 +1954,6 @@
 
 .adx-ld4-darkest {
   color: #7d6428 !important;
-}
-
-.adx-ld4-tint {
-  color: #fffbf1 !important;
 }
 
 .adx-ld4-trans-50 {
@@ -2001,7 +1995,6 @@
 .adx-bg-ld4 {
   background: #f9c74f !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ld4-dark {
@@ -2034,16 +2027,20 @@
   color: #000;
 }
 
+.adx-ld5-tint {
+  color: #f6faf3 !important;
+}
+
 .adx-ld5-lightest {
-  color: #f4f9f0 !important;
+  color: #d3e5c5 !important;
 }
 
 .adx-ld5-lighter {
-  color: #eef5e9 !important;
+  color: #bcd8a7 !important;
 }
 
 .adx-ld5-light {
-  color: #d3e5c5 !important;
+  color: #a6cb8a !important;
 }
 
 .adx-ld5 {
@@ -2060,10 +2057,6 @@
 
 .adx-ld5-darkest {
   color: #485f37 !important;
-}
-
-.adx-ld5-tint {
-  color: #f6faf3 !important;
 }
 
 .adx-ld5-trans-50 {
@@ -2105,7 +2098,6 @@
 .adx-bg-ld5 {
   background: #90be6d !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ld5-dark {
@@ -2138,16 +2130,20 @@
   color: #000;
 }
 
+.adx-ld6-tint {
+  color: #f0f8f6 !important;
+}
+
 .adx-ld6-lightest {
-  color: #ecf7f3 !important;
+  color: #b4ddd1 !important;
 }
 
 .adx-ld6-lighter {
-  color: #bbe4d8 !important;
+  color: #8eccb9 !important;
 }
 
 .adx-ld6-light {
-  color: #97d6c3 !important;
+  color: #69bba2 !important;
 }
 
 .adx-ld6 {
@@ -2164,10 +2160,6 @@
 
 .adx-ld6-darkest {
   color: #225546 !important;
-}
-
-.adx-ld6-tint {
-  color: #f0f8f6 !important;
 }
 
 .adx-ld6-trans-50 {
@@ -2209,7 +2201,6 @@
 .adx-bg-ld6 {
   background: #43aa8b !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ld6-dark {
@@ -2242,16 +2233,20 @@
   color: #000;
 }
 
+.adx-ld7-tint {
+  color: #f9f4f9 !important;
+}
+
 .adx-ld7-lightest {
-  color: #f9f1fe !important;
+  color: #dec7e1 !important;
 }
 
 .adx-ld7-lighter {
-  color: white !important;
+  color: #ccacd2 !important;
 }
 
 .adx-ld7-light {
-  color: #f7edfe !important;
+  color: #b793c4 !important;
 }
 
 .adx-ld7 {
@@ -2268,10 +2263,6 @@
 
 .adx-ld7-darkest {
   color: #633b7e !important;
-}
-
-.adx-ld7-tint {
-  color: #f9f4f9 !important;
 }
 
 .adx-ld7-trans-50 {
@@ -2312,7 +2303,6 @@
 
 .adx-bg-ld7 {
   background: #a279b5 !important;
-  color: #000;
   color: #000;
 }
 
@@ -2417,7 +2407,6 @@
 .adx-bg-ib {
   background: #fb6f26 !important;
   color: #000;
-  color: #000;
 }
 
 .adx-bg-ib-dark {
@@ -2520,7 +2509,6 @@
 
 .adx-bg-hsm {
   background: #4bcaf1 !important;
-  color: #000;
   color: #000;
 }
 
@@ -7480,7 +7468,6 @@ header.adx-shield .text {
   margin: 4vw;
   border: none;
   background: none;
-  text-align: left;
 }
 header.adx-shield .text h2 {
   font-size: 3rem;
