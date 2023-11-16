@@ -99,6 +99,18 @@ const directions = [
         class: 'adx-direction-write',
         textEnd: 'class to alert students to writing tasks.'
       },
+      {
+        title: 'This is a Listen Direction',
+        textStart: 'Use the',
+        class: 'adx-direction-listen',
+        textEnd: 'class to alert students to audio they need to listen to. This could include a podcast or other audio recording.'
+      },
+      {
+        title: 'This is a University Direction',
+        textStart: 'Use the',
+        class: 'adx-direction-university',
+        textEnd: 'class to define information on the page about University services and engagement tasks.'
+      },
     ]
   },
   {

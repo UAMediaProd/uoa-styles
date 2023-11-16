@@ -78,7 +78,9 @@ code {
 .adx div.adx-direction-positive:before,
 .adx div.adx-direction-warning:before,
 .adx div.adx-direction-question:before,
-.adx div.adx-direction-info:before {
+.adx div.adx-direction-info:before,
+.adx div.adx-direction-listen:before,
+.adx div.adx-direction-university:before {
   height: 100%
 }
 
