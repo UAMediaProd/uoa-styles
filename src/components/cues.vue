@@ -149,7 +149,7 @@ const directionCues = {
   {
       class: 'adx-direction-cue-assessment',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, an Assessment direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-discussion',
@@ -159,42 +159,42 @@ const directionCues = {
     {
       class: 'adx-direction-cue-extra',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, an Extra direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-interactive',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, an Interactive direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-investigate',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, an Investigate direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-practice',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Practice direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-reading',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Reading direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-reflect',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Reflect direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-watch',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Watch direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     },
     {
       class: 'adx-direction-cue-write',
       textStart: 'The',
-      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Discussion direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
+      textEnd: 'cue is used to pair a direction box with a cue box. In this case, a Write direction box. The aim of this is to provide extra content to students to help them complete the task in the direction box.',
     }
   ]
 }
