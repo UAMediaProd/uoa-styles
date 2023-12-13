@@ -70,6 +70,12 @@ const directions = [
         textEnd: 'class to alert students to tasks that ask them to investigate, search and find information. Useful for research tasks like accessing databases, papers or articles.'
       },
       {
+        title: 'This is a Listen Direction',
+        textStart: 'Use the',
+        class: 'adx-direction-listen',
+        textEnd: 'class to alert students to audio they need to listen to. This could include a podcast or other audio recording.'
+      },
+      {
         title: 'This is a Practice Direction',
         textStart: 'Use the',
         class: 'adx-direction-practice',
@@ -98,12 +104,6 @@ const directions = [
         textStart: 'Use the',
         class: 'adx-direction-write',
         textEnd: 'class to alert students to writing tasks.'
-      },
-      {
-        title: 'This is a Listen Direction',
-        textStart: 'Use the',
-        class: 'adx-direction-listen',
-        textEnd: 'class to alert students to audio they need to listen to. This could include a podcast or other audio recording.'
       },
       {
         title: 'This is a University Direction',
