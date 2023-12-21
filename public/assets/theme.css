@@ -17797,3 +17797,7 @@ section.adx.video footer a.inline_disabled.no_preview:before {
 figure, a.kl_popup_single, image.kl_popup_image {
   outline: none !important;
 }
+
+.adx img:focus-visible {
+  outline: none;
+}
