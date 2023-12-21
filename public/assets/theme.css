@@ -17798,6 +17798,6 @@ figure, a.kl_popup_single, image.kl_popup_image {
   outline: none !important;
 }
 
-.adx img:focus-visible {
+.adx img:focus-visible, .adx a:focus-visible {
   outline: none;
 }
