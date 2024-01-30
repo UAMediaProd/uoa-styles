@@ -4499,7 +4499,7 @@ a.external > span img {
 }
 .doe-learning-outcomes li:before {
     font-weight: bold;
-    content: counter(item);
+    content: counter(item) ".";
     color: #117CA7;
     width: 1.2em;
     text-align: center;
