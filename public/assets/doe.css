@@ -15902,6 +15902,7 @@ a.doe-icon {
     font-weight: bold;
     max-width: 250px;
     padding: 0.5em;
+    font-family: "Made Evolve Sans", sans-serif;
 }
 a.doe-icon:before {
     content: " ";
