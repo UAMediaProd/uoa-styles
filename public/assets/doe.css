@@ -11654,13 +11654,13 @@ section.doe.video header.full .icon .icon.ui-blk {
 section.doe.video .v-icon-holder {
     width: initial;
     margin-bottom: 0.694rem;
-    background: #67ABC7;
+    background: #856A9A;
     max-width: 300px;
     padding: 0.6em 0.5em 0.5em 0em;
 
 }
 section.doe.video .v-icon-holder:hover {
-    background: #117CA7;
+    background: #755A8A;
     cursor: pointer;
 }
 section.doe.video footer {
