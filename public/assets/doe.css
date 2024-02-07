@@ -4359,20 +4359,32 @@
 }
 
 .doe h2 {
-    padding: 0.5em 0.5em 0.2em 0.5em;
-    background-color: #102535;
-    color: #fff;
+    padding: 0.5em 0.5em 0.2em 0;
+    background-color: #fff;
+    color: #102535;
     font-size: 3em;
 }
+
+.doe h2:after {
+    content: ""; 
+    display: block; 
+    margin-left: 0; 
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 5px solid #005a9c; 
+}
+
+.doe h3 {
+    color: #005a9c;
+}
+
 
 .doe h3 i {
     margin-right: 1em;
 }
 
 .doe h4:not(.doe-markup-label) {
-    color: #005a9c;
-    font-weight: 700;
-    margin-top: 1em;
+    color: #586670;
 }
 
 .doe li {
@@ -10150,16 +10162,18 @@ aside.doe.keypoints ul li::marker {
     color: #fff;
 }
 .doe-button.brand-midblue {
-    background: #ebf2f7;
-    border-color: #005a9c;
-    color: #003f6d;
+    color: #ffffff;
+    background: #856A9A;
+    border-color: #856A9A; 
+    margin-left: 3px;
+    margin-right: 3px;
 }
 .doe-button.brand-midblue a {
-    color: #003f6d;
+    color: #fff;
 }
 .doe-button.brand-midblue:hover {
-    background: #005a9c;
-    color: #fff;
+    background: #5a4470;
+    color: #fff
 }
 .doe-button.brand-midblue:hover a {
     color: #fff;
