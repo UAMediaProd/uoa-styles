@@ -4385,6 +4385,9 @@
 
 .doe h4:not(.doe-markup-label) {
     color: #586670;
+    border-left: 5px solid;
+    padding-left: 10px;
+    font-weight: 700;
 }
 
 .doe li {
@@ -8882,45 +8885,6 @@ a.external > span img {
 .clearboth {
     clear: both;
 }
-
-@font-face {
-    font-family: "made_evolve_sans_regular";
-    src: url("https://mediaproduction.adelaide.edu.au/uoa-styles/assets/fonts/made_evolve_sans_regular-webfont.woff") format("woff2"), url("https://mediaproduction.adelaide.edu.au/uoa-styles/assets/fonts/made_evolve_sans_regular-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "made_evolve_sans_bold";
-    src: url("https://mediaproduction.adelaide.edu.au/uoa-styles/assets/fonts/made_evolve_sans_bold-webfont.woff2") format("woff2"), url("https://mediaproduction.adelaide.edu.au/uoa-styles/assets/fonts/made_evolve_sans_bold-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: "made_evolve_sans_light";
-    src: url("https://mediaproduction.adelaide.edu.au/uoa-styles/assets/fonts/made_evolve_sans_light-webfont.woff2") format("woff2"), url("https://mediaproduction.adelaide.edu.au/uoa-styles/assets/fonts/made_evolve_sans_light-webfont.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-.doe h4:not(.doe-markup-label) {
-    color: #005a9c;
-    font-weight: 700;
-    margin-top: 1em;
-}
-
-.doe li {
-    margin-bottom: 1em;
-    font-family: "Arial", sans-serif;
-}
-.doe li,
-.doe aside {
-    font-size: 1em;
-    line-height: 1.6;
-    font-family: "Arial", sans-serif;
-    letter-spacing: -0.02rem;
-}
-
 
 a.external > span img {
     display: none;
