@@ -4384,7 +4384,7 @@
 }
 
 .doe h4:not(.doe-markup-label) {
-    color: #586670;
+    color: #00365e;
     border-left: 5px solid;
     padding-left: 10px;
     font-weight: 700;
@@ -4485,7 +4485,7 @@ a.external > span img {
 }
 
 .doe-learning-outcomes {
-    background: #DFEDF4;
+    background: #E8E2EC;
     margin: 1rem auto 2.5rem auto;
     border-radius: 0.2em;
     padding-bottom: 0.5em;
@@ -4493,7 +4493,7 @@ a.external > span img {
 
 .doe-learning-outcomes h5 {
     font-size: 1.2em;
-    background: #67ABC7;
+    background: #856A9A;
     color: white;
     font-weight: bold;
     font-family: 'Made Evolve Sans', sans-serif;
@@ -4515,7 +4515,7 @@ a.external > span img {
 .doe-learning-outcomes li:before {
     font-weight: bold;
     content: counter(item) ".";
-    color: #117CA7;
+    color: #856A9A;
     width: 1.2em;
     text-align: center;
     display: inline-block;
@@ -10126,18 +10126,16 @@ aside.doe.keypoints ul li::marker {
     color: #fff;
 }
 .doe-button.brand-midblue {
-    color: #ffffff;
-    background: #856A9A;
-    border-color: #856A9A; 
-    margin-left: 3px;
-    margin-right: 3px;
+    background: #ebf2f7;
+    border-color: #005a9c;
+    color: #003f6d;
 }
 .doe-button.brand-midblue a {
-    color: #fff;
+    color: #003f6d;
 }
 .doe-button.brand-midblue:hover {
-    background: #5a4470;
-    color: #fff
+    background: #003f6d;
+    color: #fff !important;
 }
 .doe-button.brand-midblue:hover a {
     color: #fff;
@@ -11637,7 +11635,7 @@ section.doe.video header.full .icon .icon {
     padding: 1rem;
 }
 section.doe.video header.full .icon .icon.primary {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23FFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolygon points='10 8 16 12 10 16 10 8'%3E%3C/polygon%3E%3C/svg%3E") center/contain no-repeat;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolygon points='10 8 16 12 10 16 10 8'%3E%3C/polygon%3E%3C/svg%3E") center/contain no-repeat;
 }
 section.doe.video header.full .icon .icon.complimentary {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%237356C5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolygon points='10 8 16 12 10 16 10 8'%3E%3C/polygon%3E%3C/svg%3E") center/contain no-repeat;
@@ -11652,17 +11650,21 @@ section.doe.video header.full .icon .icon.ui-blk {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpolygon points='10 8 16 12 10 16 10 8'%3E%3C/polygon%3E%3C/svg%3E") center/contain no-repeat;
 }
 section.doe.video .v-icon-holder {
-    width: initial;
+    display: grid;
+    grid-template-columns: 2;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    min-height: 3em;
     margin-bottom: 0.694rem;
-    background: #856A9A;
-    max-width: 300px;
-    padding: 0.6em 0.5em 0.5em 0em;
-
 }
 section.doe.video .v-icon-holder:hover {
-    background: #755A8A;
+    color: #4aaa2c;
+    background: #f1f1f1;
     cursor: pointer;
 }
+
 section.doe.video footer {
     display: grid;
     grid-template-columns: 1fr;
@@ -14347,7 +14349,7 @@ aside.doe.keypoints ul li::marker {
 }
 .doe-button.brand-midblue:hover {
     background: #005a9c;
-    color: #fff;
+    color: #fff !important;
 }
 .doe-button.brand-midblue:hover a {
     color: #fff;
@@ -15254,16 +15256,6 @@ figure.doe cite a:hover {
 .doe table.doe caption.caption-bottom {
     caption-side: bottom !important;
 }
-.doe table.doe th {
-    background: #67ABC7;
-    color: #FFF;
-    font-family: "made_evolve_sans_bold", Arial, sans-serif;
-    font-weight: unset;
-
-}
-.doe table.doe th li {
-    font-family: "made_evolve_sans_regular", Arial, sans-serif;
-}
 .doe table.doe tr:first-child th:first-child {
     border-top-left-radius: 3px;
 }
@@ -15874,13 +15866,9 @@ a.doe-button:focus, a.doe-button:focus-visible {
 
 a.doe-icon {
     font-size: 1rem;
-    color: #FFF;
-    text-decoration: none !important;
+    color: #102535;
+    text-decoration: none;
     align-items: center;
-    font-weight: bold;
-    max-width: 250px;
-    padding: 0.5em;
-    font-family: "Made Evolve Sans", sans-serif;
 }
 a.doe-icon:before {
     content: " ";
@@ -15888,11 +15876,12 @@ a.doe-icon:before {
     margin: 0.2ch 1ch;
     top: 0.5ch;
 }
+
 a.doe-icon.download:before {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23FFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5'/%3E%3C/svg%3E");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5'/%3E%3C/svg%3E");
 }
 a.doe-icon.external:before {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23FFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8'/%3E%3C/g%3E%3C/svg%3E");
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 a.download {
@@ -16263,3 +16252,78 @@ section.doe.video footer a.inline_disabled.no_preview:before {
 .doe img:focus-visible, .doe a:focus-visible, .doe a:focus {
     outline: none;
 }
+
+
+/*!*icons*!*/
+/*div.module-item-title span[title="Action research"] {*/
+/*    padding: 10px 32px;*/
+/*    margin-left: 10px;*/
+/*    color: #a03260;*/
+
+/*}*/
+
+/*div.module-item-title span[title="Action research"]:before {*/
+/*    content:'';*/
+/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Action%20Research-01.svg');*/
+/*    background-size: 30px 30px;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*    margin-left: -38px;*/
+/*    position: absolute;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+
+/*div.module-item-title span[title="Practitioner perspectives"] {*/
+/*    padding: 10px 32px;*/
+/*    margin-left: 10px;*/
+/*    color: #ff9e38;*/
+
+/*}*/
+
+/*div.module-item-title span[title="Practitioner perspectives"]:before {*/
+/*    content:'';*/
+/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Practitioner%20Perspectives-01.svg');*/
+/*    background-size: 30px 30px;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*    margin-left: -38px;*/
+/*    position: absolute;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*div.module-item-title span[title="Strategies"] {*/
+/*    padding: 10px 32px;*/
+/*    margin-left: 10px;*/
+/*    color: #4cc9f0;*/
+
+/*}*/
+
+/*div.module-item-title span[title="Strategies"]:before {*/
+/*    content:'';*/
+/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Strategies-01.svg');*/
+/*    background-size: 30px 30px;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*    margin-left: -38px;*/
+/*    position: absolute;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*div.module-item-title span[title="Resource sharing"] {*/
+/*    padding: 10px 32px;*/
+/*    margin-left: 10px;*/
+/*    color: #ff7a6d;*/
+
+/*}*/
+
+/*div.module-item-title span[title="Resource sharing"]:before {*/
+/*    content:'';*/
+/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Resource%20Sharing-01.svg');*/
+/*    background-size: 30px 30px;*/
+/*    height: 30px;*/
+/*    width: 30px;*/
+/*    margin-left: -38px;*/
+/*    position: absolute;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
