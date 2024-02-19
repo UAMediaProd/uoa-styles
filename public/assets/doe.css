@@ -16255,75 +16255,93 @@ section.doe.video footer a.inline_disabled.no_preview:before {
 
 
 /*!*icons*!*/
-/*div.module-item-title span[title="Action research"] {*/
-/*    padding: 10px 32px;*/
-/*    margin-left: 10px;*/
-/*    color: #a03260;*/
+div.module-item-title span[title="Action research"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #a03260;
 
-/*}*/
+}
 
-/*div.module-item-title span[title="Action research"]:before {*/
-/*    content:'';*/
-/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Action%20Research-01.svg');*/
-/*    background-size: 30px 30px;*/
-/*    height: 30px;*/
-/*    width: 30px;*/
-/*    margin-left: -38px;*/
-/*    position: absolute;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+div.module-item-title span[title="Action research"]:before {
+    content:'';
+    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Action%20Research-01.svg');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
 
 
-/*div.module-item-title span[title="Practitioner perspectives"] {*/
-/*    padding: 10px 32px;*/
-/*    margin-left: 10px;*/
-/*    color: #ff9e38;*/
+div.module-item-title span[title="Practitioner perspectives"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #ff9e38;
 
-/*}*/
+}
 
-/*div.module-item-title span[title="Practitioner perspectives"]:before {*/
-/*    content:'';*/
-/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Practitioner%20Perspectives-01.svg');*/
-/*    background-size: 30px 30px;*/
-/*    height: 30px;*/
-/*    width: 30px;*/
-/*    margin-left: -38px;*/
-/*    position: absolute;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+div.module-item-title span[title="Practitioner perspectives"]:before {
+    content:'';
+    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Practitioner%20Perspectives-01.svg');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
 
-/*div.module-item-title span[title="Strategies"] {*/
-/*    padding: 10px 32px;*/
-/*    margin-left: 10px;*/
-/*    color: #4cc9f0;*/
+div.module-item-title span[title="Strategies"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #4cc9f0;
 
-/*}*/
+}
 
-/*div.module-item-title span[title="Strategies"]:before {*/
-/*    content:'';*/
-/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Strategies-01.svg');*/
-/*    background-size: 30px 30px;*/
-/*    height: 30px;*/
-/*    width: 30px;*/
-/*    margin-left: -38px;*/
-/*    position: absolute;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+div.module-item-title span[title="Strategies"]:before {
+    content:'';
+    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Strategies-01.svg');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
 
-/*div.module-item-title span[title="Resource sharing"] {*/
-/*    padding: 10px 32px;*/
-/*    margin-left: 10px;*/
-/*    color: #ff7a6d;*/
+div.module-item-title span[title="Resource sharing"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #ff7a6d;
 
-/*}*/
+}
 
-/*div.module-item-title span[title="Resource sharing"]:before {*/
-/*    content:'';*/
-/*    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Resource%20Sharing-01.svg');*/
-/*    background-size: 30px 30px;*/
-/*    height: 30px;*/
-/*    width: 30px;*/
-/*    margin-left: -38px;*/
-/*    position: absolute;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+div.module-item-title span[title="Resource sharing"]:before {
+    content:'';
+    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Resource%20Sharing-01.svg');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="Module overview"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #522B6F;
+
+}
+
+div.module-item-title span[title="Module overview"]:before {
+    content:'';
+    background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Framing_Overview-01.svg');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
