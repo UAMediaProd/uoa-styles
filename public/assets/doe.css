@@ -16328,14 +16328,14 @@ div.module-item-title span[title="Resource sharing"]:before {
     background-repeat: no-repeat;
 }
 
-div.module-item-title span[title="Module overview"] {
+div.module-item-title span[title="Overview"] {
     padding: 10px 32px;
     margin-left: 10px;
     color: #522B6F;
 
 }
 
-div.module-item-title span[title="Module overview"]:before {
+div.module-item-title span[title="Overview"]:before {
     content:'';
     background-image: url('https://mediaproduction.adelaide.edu.au/public-assets/doe/Framing_Overview-01.svg');
     background-size: 30px 30px;
