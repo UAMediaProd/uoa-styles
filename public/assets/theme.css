@@ -4890,6 +4890,24 @@ a.external > span img {
   padding-top: 1.44rem;
   height: calc(100% - 0.579rem - 1.44rem);
 }
+
+
+/*DP-WRAPPER OVERRIDE*/
+.dp-wrapper.adx div.adx-direction:before, .dp-wrapper.adx div.adx-direction-assess:before, .dp-wrapper.adx div.adx-direction-inform:before, .dp-wrapper.adx div.adx-direction-ib:before, .dp-wrapper.adx div.adx-direction-hsm:before, .dp-wrapper.adx div.adx-direction-write:before, .dp-wrapper.adx div.adx-direction-watch:before, .dp-wrapper.adx div.adx-direction-reflect:before, .dp-wrapper.adx div.adx-direction-reading:before, .dp-wrapper.adx div.adx-direction-practice:before, .dp-wrapper.adx div.adx-direction-investigate:before, .dp-wrapper.adx div.adx-direction-interactive:before, .adx div.adx-direction-extra:before, .dp-wrapper.adx div.adx-direction-discussion:before, .dp-wrapper.adx div.adx-direction-assessment:before, .dp-wrapper.adx div.adx-direction-negative:before, .dp-wrapper.adx div.adx-direction-positive:before, .dp-wrapper.adx div.adx-direction-warning:before, .dp-wrapper.adx div.adx-direction-question:before, .dp-wrapper.adx div.adx-direction-info:before, .dp-wrapper.adx div.adx-direction-listen:before, .dp-wrapper.adx div.adx-direction-university:before {
+  position: absolute;
+  top: 0;
+  margin-left: -1.44rem;
+  margin-right: 1.728rem;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2382868b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3C/svg%3E");
+  background: #82868b;
+  padding: 0.579rem;
+  padding-top: 1.44rem;
+  height: 100%;
+}
+
+/*END OVERRIDE*/
+
+
 .adx div.adx-direction h5, .adx div.adx-direction-assess h5, .adx div.adx-direction-inform h5, .adx div.adx-direction-ib h5, .adx div.adx-direction-hsm h5, .adx div.adx-direction-write h5, .adx div.adx-direction-watch h5, .adx div.adx-direction-reflect h5, .adx div.adx-direction-reading h5, .adx div.adx-direction-practice h5, .adx div.adx-direction-investigate h5, .adx div.adx-direction-interactive h5, .adx div.adx-direction-extra h5, .adx div.adx-direction-discussion h5, .adx div.adx-direction-assessment h5, .adx div.adx-direction-negative h5, .adx div.adx-direction-positive h5, .adx div.adx-direction-warning h5, .adx div.adx-direction-question h5, .adx div.adx-direction-info h5 {
   color: #102535;
   font-weight: 700;
