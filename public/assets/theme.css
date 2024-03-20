@@ -8315,7 +8315,6 @@ section.adx-podcast-wide audio {
 }
 
 
-
 .adx .dp-link-grid ul > li {
   border: 1px solid #d5d9dd;
   padding: 1em;
@@ -8325,11 +8324,13 @@ section.adx-podcast-wide audio {
   margin-bottom: 0;
   max-width: 100%;
   flex-grow: 1;
+  padding: 1em;
 }
 
 .adx .dp-link-grid a {
   color: inherit;
   text-decoration: none;
+  text-align: center;
 }
 .adx .dp-link-grid ul > li:hover {
   background: inherit;
@@ -8344,6 +8345,7 @@ section.adx-podcast-wide audio {
 .adx .dp-link-grid .row:before, .adx .dp-link-grid .row:after {
   display: none;
 }
+
 
 
 
