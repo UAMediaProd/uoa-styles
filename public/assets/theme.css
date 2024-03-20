@@ -8317,14 +8317,13 @@ section.adx-podcast-wide audio {
 
 .adx .dp-link-grid ul > li {
   border: 1px solid #d5d9dd;
-  padding: 1em;
+  padding: 1em !important;
   border-radius: 0.5ch;
   transition: all ease 0.2s;
   font-family: "made_evolve_sans_bold", Arial, sans-serif;
   margin-bottom: 0;
   max-width: 100%;
   flex-grow: 1;
-  padding: 1em;
 }
 
 .adx .dp-link-grid a {
