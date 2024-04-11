@@ -4888,7 +4888,7 @@ a.external > span img {
   background: #82868b;
   padding: 0.579rem;
   padding-top: 1.44rem;
-  height: 100%;
+  height: calc(100% - 0.579rem - 1.44rem);
 }
 
 .adx div.adx-direction h5, .adx div.adx-direction-assess h5, .adx div.adx-direction-inform h5, .adx div.adx-direction-ib h5, .adx div.adx-direction-hsm h5, .adx div.adx-direction-write h5, .adx div.adx-direction-watch h5, .adx div.adx-direction-reflect h5, .adx div.adx-direction-reading h5, .adx div.adx-direction-practice h5, .adx div.adx-direction-investigate h5, .adx div.adx-direction-interactive h5, .adx div.adx-direction-extra h5, .adx div.adx-direction-discussion h5, .adx div.adx-direction-assessment h5, .adx div.adx-direction-negative h5, .adx div.adx-direction-positive h5, .adx div.adx-direction-warning h5, .adx div.adx-direction-question h5, .adx div.adx-direction-info h5 {
