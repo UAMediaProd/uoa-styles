@@ -7398,7 +7398,6 @@ ul.adx-card-images li footer [class^=adx-button], ol.adx-card-images li footer [
 }
 
 .adx pre {
-  border-radius: 0.5ch;
   background: #f9fafa;
   padding: 1rem;
   min-width: 60%;
@@ -7408,6 +7407,9 @@ ul.adx-card-images li footer [class^=adx-button], ol.adx-card-images li footer [
   white-space: pre-wrap !important;
   margin-top: 2em !important;
   margin-bottom: 2em !important;
+  border: none;
+  font-family: 'Courier New', monospaced;
+  font-size: 1em;
 }
 .adx pre code {
   background: none;
