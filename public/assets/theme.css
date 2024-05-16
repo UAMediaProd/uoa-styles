@@ -7401,7 +7401,7 @@ ul.adx-card-images li footer [class^=adx-button], ol.adx-card-images li footer [
   background: #f9fafa;
   padding: 1rem;
   min-width: 60%;
-  max-width: 90%;
+  max-width: 100%;
   margin-left: auto !important;
   margin-right: auto !important;
   white-space: pre-wrap !important;
