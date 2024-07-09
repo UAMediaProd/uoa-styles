@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+:root {
+    /*--- DESIGNPLUS ---*/
+    --dt-color-primary: #140F50;
+    --dt-color-primary-contrast: #FFFFFF;
+    --dt-color-primary-dark-text: #080620;
+    --dt-color-secondary: #1448FF;
+    --dt-color-secondary-contrast: #FFFFFF;
+    --dt-color-secondary-dark-text: #081D66;
+    --dt-color-accent: #836BFF;
+    --dt-color-accent-contrast: #FFFFFF;
+    --dt-color-accent-dark-text: #4F4099;
+    --dt-color-gray: #CCCCCC;
+    --dt-color-gray-contrast: #000000;
+    --dt-color-gray-dark-text: #636363;
+    --dt-color-white: #FFFFFF;
+    --dt-color-white-contrast: #000000;
+    --dt-color-white-dark-text: #707070;
+
+    /*--- AU Theme ---*/
+    /*--- TYPE ---*/
+    --body: 'Lato', sans-serif;
+    --heading: 'Roboto Serif', serif;
+    /*--- COLORS ---*/
+    /* Neutrals */
+    --white: #FFFFFF;
+    --neutral-lighter: #fafafb;
+    --neutral-light: #d4dade;
+    --neutral: #93a2ac;
+    --neutral-dark: #586167;
+    --neutral-darker: #3b4145;
+    --black: #000000;
+    /* Primary (Dark Blue) */
+    --primary-lightest: #F3F3F6;
+    --primary-lighter: rgba(200, 199, 212, 0.64);
+    --primary-light: #433F73;
+    --primary: #140F50;
+    --primary-dark: #0C0930;
+    --primary-darker: #080620;
+    /*  Secondary (Bright Blue)  */
+    --secondary-lightest: #F3F6FF;
+    --secondary-lighter: rgba(199, 209, 245, 0.53);
+    --secondary-light: #436DFF;
+    --secondary: #1448FF;
+    --secondary-dark: #0C2B99;
+    --secondary-darker: #081D66;
+    /* Tertiary (Limestone) */
+    --tertiary-lighter: #f4f4f3;
+    --tertiary-light: #F9F2E6;
+    --tertiary: #F8EFE0;
+    --tertiary-dark: #958F86;
+    --tertiary-darker: #63605A;
+    --tertiary-darkest: #31302e;
+    /* Accent (Jacaranda) */
+    --accent-lighter: #E6E1FF;
+    --accent-light: #9C89FF;
+    --accent: #836BFF;
+    --accent-dark: #6956CC;
+    --accent-darker: #4F4099;
+
+    /* Other Colours */
+    --info-500: #0672d8;
+    --info-50: #dbe9f5;
+    --success-500: #0db009;
+    --success-50: #def5df;
+    --warning-500: #f18a2a;
+    --warning-50: #f3d7bc;
+    --error-500: #cb2461;
+    --error-50: #f4e0e8;
+
+    /* Cue colours */
+    --content-warning: #fff9f1;
+    --content-warning-body: #f18a2a;
+    /*    */
+    --rads: 4px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading);
+    margin-bottom: 1rem;
+}
+
+.show-content, .dp-wrapper {
+    max-width:  1600px !important;
+}
+
+.show-content a:not(.btn), .dp-wrapper a:not(.btn) {
+    color: var(--secondary);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.show-content a:not(.btn):hover, .dp-wrapper a:not(.btn):hover {
+    color: var(--secondary-dark);
+}
+
+h2 {
+    color: var(--primary);
+    font-weight: 400;
+}
+
+h3 {
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+h4 {
+    color: var(--accent);
+}
+
+p {
+    color: var(--primary);
+    font-family: var(--body);
+}
+
+/* DP Navigation */
+.dp-module-list {
+    font-family: var(--heading) !important;
+    font-size: 1.2em;
+    font-weight: 500 !important;
+}
+
+.dp-module-list {
+    margin: 4px;
+}
+
+.dp-module-list nav ul {
+    gap: 4px;
+}
+
+.dp-module-list nav li a {
+    color: var(--primary) !important;
+    background: var(--white);
+    padding: 1em !important;
+    border: none !important;
+    border-radius: var(--rads) !important;
+    transition: all .1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    font-size: 1rem !important;
+}
+
+.dp-module-list nav li a:hover {
+    color: var(--accent) !important;
+    background: var(--white) !important;
+    transform: translateY(-2px);
+
+}
+
+.dp-module-list nav.dp-nav-grid ul li {
+    width: 48%;
+
+}
+
+.dp-module-list nav li a i {
+    margin-bottom: 1.3em !important;
+}
+
+
+/* DP Callout overrides*/
+.dp-callout-type-default {
+    background: var(--primary-lightest) !important;
+    border: none !important;
+    border-radius: var(--rads) !important;
+    margin: 1em;
+    padding: 1em;
+}
+
+.dp-callout-type-default h3 {
+    border: none;
+    font-family: var(--heading) !important;
+    font-weight: 500 !important;
+    font-size: 1em !important;
+    color: var(--primary) !important;
+}
+
+.dp-callout-type-default p {
+    color: var(--primary) !important;
+}
+
+
+.dp-callout-type-info {
+    background: var(--tertiary-lighter) !important;
+    border: none !important;
+    border-radius: var(--rads) !important;
+    margin: 1em;
+    padding: 1em;
+}
+
+.dp-callout-type-info h3 {
+    border: none;
+    font-family: var(--heading) !important;
+    font-weight: 500 !important;
+    font-size: 1em !important;
+    color: var(--tertiary-darkest) !important;
+}
+
+.dp-callout-type-info p {
+    color: var(--tertiary-darker) !important;
+}
+
+.dp-callout-side-emphasis {
+    background:none !important;
+    border: none !important;
+    color: var(--tertiary-darkest) !important;
+    justify-content: start !important;
+    margin-top: 12px;
+}
+
+.dp-callout-type-info.dp-content-warning {
+    background: var(--content-warning) !important;
+    border: 1px solid !important;
+    border-color:  var(--warning-500) !important;
+}
+
+.dp-callout-type-info.dp-content-warning p {
+    color: var(--content-warning-body) !important;
+}
+
+.dp-callout-type-info.dp-content-warning h3 {
+    color: var(--warning-500) !important;
+}
+
+.dp-content-warning .dp-callout-side-emphasis {
+    background:none !important;
+    border: none !important;
+    color: var(--warning-500) !important;
+}
+
+/* Blockquotes */
+blockquote {
+    border-top: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    border-left: none !important;
+    padding: 1em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote p {
+    font-weight: 700;
+    line-height: 1.8;
+    font-family: var(--heading) !important;
+    color: var(--accent);
+    margin-bottom: 1em;
+}
+
+blockquote cite {
+    font-weight: 400;
+    font-size: 0.8em;
+    font-family: var(--heading);
+    color: var(--primary);
+}
+
+/* Lists */
+ul.fancy-ul li{
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #B9C0C6;
+    margin-left: 1rem;
+}
+
+ol.fancy-ol {
+    list-style-type: none !important;
+    background: var(--tertiary-lighter);
+    border-radius: var(--rads);
+    font-size: 1rem;
+    max-width: 90ch;
+    margin: 1rem auto !important; /* override for CIDIlabs */
+}
+ol.fancy-ol.inside {
+    background: none !important;
+}
+ol.fancy-ol.broken-list:first-of-type {
+    counter-reset: mycounter;
+}
+ol.fancy-ol.broken-list li::before {
+    counter-increment: mycounter;
+    content: counter(mycounter) " ";
+}
+ol.fancy-ol li {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #dddddd;
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+    counter-increment: step-counter;
+    text-indent: -4em;
+    padding-left: 4em;
+}
+ol.fancy-ol li:last-child {
+    border-bottom: none;
+}
+ol.fancy-ol li::before {
+    content: " " counter(step-counter);
+    font-family: var(--heading);
+    font-weight: 500;
+    background: var(--primary);
+    padding: 0.5rem 0.7rem;
+    color: #fff;
+    border-radius: var(--rads);
+    margin-right: 2em;
+}
+ol.fancy-ol li::before p {
+    margin-left: 1rem;
+}
+
+ol.fancy-ol li p {
+    margin-top: 1rem;
+}
+
+.step-list {
+    list-style-type: none !important;
+    margin: 0 auto;
+    max-width: 90ch;
+    background: var(--tertiary-lighter);
+    border-radius: var(--rads);
+    font-size: 1rem;
+}
+.step-list > li {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #dddddd;
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
+    counter-increment: step-counter;
+    text-indent: -5.5em;
+    padding-left: 5.5em;
+}
+
+.step-list > li:last-child {
+    border-bottom: none;
+}
+
+.step-list > li:before {
+    content: "Step " counter(step-counter);
+    font-family: var(--heading);
+    font-weight: 500;
+    font-size: 0.8rem;
+    background: var(--accent);
+    border-radius: var(--rads);
+    color: #fff;
+    padding: 0.7rem;
+    margin-right: 2em;
+}
+
+.step-list > li > ul, .step-list > li > ol {
+    text-indent: 0;
+}
+
+
+/* Tables */
+
+table.aux {
+    font-size: 0.9rem;
+    min-width: 80%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--neutral-light) !important;
+    background: #FFF;
+}
+
+table.aux tr {
+    background: var(--white);
+    transition: background 0.1s linear;
+}
+
+table.aux td {
+    padding: 0.8em 0.5em !important;
+    border-left: 1px solid var(--neutral-light);
+    border-right: 1px solid var(--neutral-light)
+}
+
+table.aux tr:nth-child(even) {
+    background: var(--neutral-lighter);
+}
+
+table.aux tr:hover {
+    background: var(--neutral-lighter);
+}
+
+table.aux thead tr {
+    background: var(--primary) !important;
+    color: var(--white);
+    font-family: var(--heading);
+    font-weight: 400;
+}
+
+table.aux thead tr td {
+    border: none;
+}
+
+/* Buttons */
+
+.show-content .btn {
+    padding: 0.8em 1.5em !important;
+    border-radius: var(--rads) !important;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-weight: 700 !important;
+}
+
+.show-content .btn.btn-primary {
+    background: var(--secondary);
+    color: var(--white);
+
+}
+
+.show-content .btn.btn-primary:hover {
+    background: var(--secondary-dark);
+}
+
+.show-content .btn.btn-secondary {
+    color: var(--secondary);
+    background: var(--white);
+    border: 2px solid var(--secondary);
+
+}
+
+.show-content .btn.btn-secondary:hover {
+    color: var(--secondary-dark);
+    background: var(--secondary-lightest);
+    border: 2px solid var(--secondary-dark);
+}
+
+.show-content .btn.btn-tertiary {
+    background:none;
+    color: var(--secondary);
+}
+
+.show-content .btn.btn-tertiary:hover {
+    background: var(--secondary-lightest);
+    color: var(--secondary-dark);
+
+}
+
+/* Videos and Multimedia */
+
+.aux-video {
+    margin: 1em auto;
+    max-width: 100%;
+    border-radius: var(--rads);
+    background: var(--white);
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.aux-vid-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.aux-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+.vid-footer {
+    display: flex;
+    background: var(--neutral-lighter);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.vid-footer div {
+    width: 50%;
+    font-family: var(--heading);
+    font-weight: 500;
+    border-top: 1px solid var(--primary-lighter)
+}
+
+.vid-footer div a {
+    padding: 1em 1.8em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary) !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+}
+
+.vid-footer div a:hover {
+    background: var(--primary-lighter);
+}
+
+.vid-footer div:first-child {
+    border-right: 1px solid var(--primary-lighter)
+}
+
+/*adds a key icon to any module titled "Key concepts", "Key concept", "key concepts" or "key concept"*/
+
+div.module-item-title span[title="Key concepts"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="Key concepts"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5418/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="Key concept"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="Key concept"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5418/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="key concepts"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="key concepts"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5418/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="key concept"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="key concept"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5418/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+/*adds a calendar icon to any module titled "Key events", "key events", "Key event" or "key event"*/
+
+div.module-item-title span[title="Key events"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="Key events"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5417/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="Key event"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="Key event"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5417/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="key events"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="key events"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5417/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+div.module-item-title span[title="key event"] {
+    padding: 10px 32px;
+    margin-left: 10px;
+    color: #140F50;
+}
+
+div.module-item-title span[title="key event"]:before {
+    content:'';
+    background-image: url('https://learn.adelaide.edu.au/files/5417/download?download_frd=1');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+/* Pofile Card */
+
+.aux-profile {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 200px 2fr;
+    border: 1px solid #d5d9dd;
+    border-radius: 0.5ch;
+    padding: 0.833rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background: #F3F3F6;
+    max-width: 75ch;
+}
+
+.aux-profile img {
+    grid-column: 1;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.aux-profile section {
+    grid-column: 2;
+    padding: 0.694rem;
+}
+
+.aux-profile section > * {
+    color: #080620;
+    margin: 0.579rem;
+}
+
+.aux-profile section .name {
+    background: none;
+    padding: 0;
+}
+
+.aux-profile section .title {
+    text-transform: uppercase;
+    color: #82868b;
+    font-weight: bold;
+}
+
+.aux-profile section .location::before {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2382868b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M17.7,10.8L12,22.9L6.3,10.8c-1.9-4.1,0.7-9,5.2-9.4c0.2,0,0.4,0,0.6,0s0.4,0,0.6,0C17.1,1.8,19.7,6.7,17.7,10.8z'/%3E%3Ccircle class='st0' cx='12' cy='7.8' r='2.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    vertical-align: text-top;
+    margin-right: 0.5ch;
+}
+
+.aux-profile section .contact::before {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2382868b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='4'%3E%3C/circle%3E%3Cpath d='M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    vertical-align: text-top;
+    margin-right: 0.5ch;
+}
+
+.aux-profile section .availability {
+    border-bottom: 1px solid #d5d9dd;
+    padding-bottom: 0.833rem;
+    margin-bottom: 1rem;
+}
+
+.aux-profile section .availability::before {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2382868b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    vertical-align: text-top;
+    margin-right: 0.5ch;
+}
