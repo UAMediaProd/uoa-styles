@@ -16345,3 +16345,7 @@ div.module-item-title span[title="Overview"]:before {
     position: absolute;
     background-repeat: no-repeat;
 }
+
+.adx-profile {
+    max-width: 100% !important;
+}
