@@ -5891,6 +5891,10 @@ code {
   width: 100%;
 }
 
+.kl_checkbox_input label {
+  color: black !important;
+}
+
 .adx label {
   font-size: 0.7em;
   color: #a7adb2;
