@@ -9159,7 +9159,6 @@ code {
     width: 100%;
 }
 .doe blockquote > * {
-    max-width: 75ch;
     font-family: "Arial", sans-serif;
 }
 .doe blockquote cite {
