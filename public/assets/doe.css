@@ -16802,3 +16802,7 @@ h5.informationWrite:before {
 .kl_panel_heading.informationWrite.ui-accordion-header-active::before {
     filter: invert(1);
 }
+
+.kl_tooltip_trigger {
+    white-space: nowrap !important;
+}
