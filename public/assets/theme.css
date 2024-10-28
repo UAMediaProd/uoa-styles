@@ -9159,6 +9159,6 @@ li.nav-item {
   transform: scale(1.025);
 }
 
-/*.adx .inline_disabled.external {*/
-/*  white-space: nowrap;*/
-/*}*/
+.adx .external_link_icon {
+  display: none !important;
+}
