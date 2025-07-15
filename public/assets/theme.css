@@ -7415,6 +7415,11 @@ ul.adx-card-images li footer [class^=adx-button], ol.adx-card-images li footer [
   font-family: 'Courier New', monospaced;
   font-size: 1em;
 }
+
+.adx pre.kl_code_highlight {
+  line-height: 1em !important;
+}
+
 .adx pre code {
   background: none;
   border: none;
